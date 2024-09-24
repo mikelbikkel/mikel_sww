@@ -1,0 +1,242 @@
+
+# Extracted from http://en.wikipedia.org/wiki/Rome_Metro and subsequent pages
+
+#City
+CITY
+CITYNAME
+ROME
+CITYNAME_END
+CITYCODE
+ROM
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Linea A
+# =============================================================
+SEGMENT
+FORWARD
+"Linea A towards Anagnina" 
+FORWARDEND
+BACKWARD
+"Linea A towards Battistini"
+BACKWARDEND
+STATIONS
+"Battistini"
+"Cornelia"
+"Baldo degli Ubaldi"
+"Valle Aurelia"
+"Cipro"
+"Ottaviano-San Pietro-Musei Vaticani"
+"Lepanto"
+"Flaminio"
+"Spagna"
+"Barberini"
+"Repubblica"
+"Termini"
+"Vittorio Emanuele"
+"Manzoni"
+"San Giovanni"
+"Re di Roma"
+"Ponte Lungo"
+"Furio Camillo"
+"Colli Albani"
+"Arco di Travertino"
+"Porta Furba-Quadraro"
+"Numidio Quadrato"
+"Lucio Sestio"
+"Giulio Agricola"
+"Subaugusta"
+"Cinecittà"
+"Anagnina"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea B
+# =============================================================
+SEGMENT
+FORWARD
+"Linea B towards Laurentina" 
+FORWARDEND
+BACKWARD
+"Linea B towards Rebibbia"
+BACKWARDEND
+STATIONS
+"Rebibbia"
+"Ponte Mammolo"
+"Santa Maria del Soccorso"
+"Pietralata"
+"Monti Tiburtini"
+"Quintiliani"
+"Tiburtina"
+"Bologna"
+"Policlinico"
+"Castro Pretorio"
+"Termini"
+"Cavour"
+"Colosseo"
+"Circo Massimo"
+"Piramide"
+"Garbatella"
+"Basilica San Paolo"
+"Marconi"
+"EUR Magliana"
+"EUR Palasport"
+"EUR Fermi"
+"Laurentina"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#    Linea B1
+# =============================================================
+SEGMENT
+FORWARD
+"Linea B1 towards Laurentina" 
+FORWARDEND
+BACKWARD
+"Linea B1 towards Jonio"
+BACKWARDEND
+STATIONS
+"Jonio"
+"Conca d\'Oro"
+"Libia/Gondar"
+"S.Agnese-Annibaliano"
+"Bologna"
+"Policlinico"
+"Castro Pretorio"
+"Termini"
+"Cavour"
+"Colosseo"
+"Circo Massimo"
+"Piramide"
+"Garbatella"
+"Basilica San Paolo"
+"Marconi"
+"EUR Magliana"
+"EUR Palasport"
+"EUR Fermi"
+"Laurentina"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Ferrovia Roma-Lido
+# =============================================================
+SEGMENT
+FORWARD
+"Ferrovia Roma-Lido, towards Ostia - C. Colombo" 
+FORWARDEND
+BACKWARD
+"Ferrovia Roma-Lido, towards Porta San Paolo"
+BACKWARDEND
+STATIONS
+"Porta San Paolo"
+"Basilica San Paolo"
+"EUR Magliana"
+"Tor di Valle"
+"Vitinia"
+"Casal Bernocchi-Centro Giano"
+"Acilia"
+"Ostia Antica"
+"Ostia Lido Nord"
+"Lido Centro"
+"Stella Polare"
+"Castel Fusano"
+"Cristoforo Colombo"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Ferrovia Roma-Giardinetti
+# =============================================================
+SEGMENT
+FORWARD
+"Ferrovia Roma-Giardinetti, towards Giardinetti" 
+FORWARDEND
+BACKWARD
+"Ferrovia Roma-Giardinetti, towards Termini - Laziali"
+BACKWARDEND
+STATIONS
+"Termini - Laziali"
+"Santa Bibiana"
+"Porta Maggiore"
+"Ponte Casilino"
+"Sant\'Elena"
+"Villini"
+"Alessi"
+"Filarete"
+"Tor Pignattara"
+"Berardi"
+"Balzani"
+"Parco di Centocelle"
+"Togliatti"
+"Grano"
+"Alessandrino"
+"Torre Spaccata"
+"Torre Maura"
+"Tobagi"
+"Giardinetti"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Linea C 02/2017
+# =============================================================
+SEGMENT
+FORWARD
+"Linea C towards Monte Compatri-Pantano" 
+FORWARDEND
+BACKWARD
+"Linea C towards Lodi"
+BACKWARDEND
+STATIONS
+"Lodi"
+"Pigneto"
+"Malatesta"
+"Teano"
+"Gardenie"
+"Mirti"
+"Parco di Centocelle"
+"Alessandrino"
+"Torre Spaccata"
+"Torre Maura"
+"Giardinetti"
+"Torrenova"
+"Torre Angela"
+"Torre Gaia"
+"Grotte Celoni"
+"Due Leoni-Fontana Candida"
+"Borghesiana"
+"Bolognetta"
+"Finocchio"
+"Graniti"
+"Monte Compatri-Pantano"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     MNNs
+# =============================================================
+MULTI_NAMED_NODE
+"Piramide"
+"Porta San Paolo"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Termini"
+"Termini - Laziali"
+MULTI_NAMED_NODE_END
+
+

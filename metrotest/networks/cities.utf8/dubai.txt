@@ -1,0 +1,86 @@
+
+# City
+# Latitude: 25.25
+# Longitude: 55.3
+CITY
+CITYNAME
+Dubai
+CITYNAME_END
+CITYCODE
+DUB
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Red line, towards Jebel Ali"
+FORWARDEND
+BACKWARD
+"Red line, towards Rashidiya"
+BACKWARDEND
+STATIONS
+"Rashidiya"
+"Emirates Airlines"
+"Airport Terminal 3"
+"Airport Terminal 1"
+"Al Garhoud"
+"Deira City Centre"
+"Al Rigga"
+"Union"
+"Khalid Bin Al Waleed"
+"Al Karama"
+"Al Jafiliya"
+"World Trade Centre"
+"Emirates Towers"
+"Financial Centre"
+"Burj Khalifa / Dubai Mall"
+"Business Bay"
+"Noor Islamic Bank"
+"First Gulf Bank"
+"Mall of the Emirates"
+"Sharaf DG"
+"Dubai Internet City"
+"Nakheel"
+"Dubai Marina"
+"Jumeirah Lake Towers"
+"Nakheel Harbor and Towers"
+"Ibn Battuta"
+# "Energy"
+"Danube / Jebel Ali Industrial"
+"Jebel Ali / Jafza"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Green line, towards Health Care City"
+FORWARDEND
+BACKWARD
+"Green line, towards Etisalat"
+BACKWARDEND
+STATIONS
+"Etisalat"
+"Al Qusais 1"
+"Dubai Airport Free Zone"
+"Al Nahda"
+"Stadium"
+"Al Quiadah"
+"Abu Hail"
+"Abu Baker Al Siddique"
+"Salah Al Din"
+"Union"
+"Baniyas Square"
+"Palm Deira"
+"Al Ras"
+"Al Ghubaiba"
+"Saeediya"
+"Khalid Bin Al Waleed"
+"Oud Metha"
+"Health Care City"
+# "Al Jedaf 1"
+# "Creek"
+STATIONSEND
+SEGMENTEND

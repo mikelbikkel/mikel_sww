@@ -1,0 +1,56 @@
+CITY
+CITYNAME
+Tbilisi
+CITYNAME_END
+CITYCODE
+TBL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Akhmeteli–Varketili Line, towards Varketili"
+FORWARDEND
+BACKWARD
+"Akhmeteli–Varketili Line, towards Akhmetelis Teatri"
+BACKWARDEND
+STATIONS
+"Akhmetelis Teatri"
+"Sarajishvili"
+"Guramishvili"
+"Ghrmaghele"
+"Didube"
+"Gotsiridze"
+"Nadzaladevi"
+"Sadguris Moedani"
+"Marjanishvili"
+"Rustaveli"
+"Tavisuplebis Moedani"
+"Avlabari"
+"Samasi Aragveli"
+"Isani"
+"Samgori"
+"Varketili"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Saburtalo Line, towards Vazha-Pshavela"
+FORWARDEND
+BACKWARD
+"Saburtalo Line, towards Sadguris Moedani"
+BACKWARDEND
+STATIONS
+"Sadguris Moedani"
+"Tsereteli"
+"Teknikuri Universiteti"
+"Sameditsino Universiteti"
+"Delisi"
+"Vazha-Pshavela"
+# "Sakhelmtsipo Universiteti" under construction
+STATIONSEND
+SEGMENTEND

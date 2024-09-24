@@ -1,0 +1,278 @@
+# Data extracted from http://tehranmetro.com (pdf format)
+# http://metro.tehran.ir/
+
+# City
+CITY
+CITYNAME
+"Tehran"
+CITYNAME_END
+CITYCODE
+THR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#    Line 1  
+# =============================================================
+LINE
+LINE_NAME
+"Line 1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 1 towards Kahrizak"
+FORWARDEND
+BACKWARD
+"Line 1 towards Tajrish"
+BACKWARDEND
+STATIONS
+"Tajrish"
+"Gheytarieh"
+"Shahid Sadr"
+"Gholhak"
+"Doctor Shariati"
+"Mirdamad"
+"Shahid Haghani"
+"Shahid Hemmat"
+"Mosalla"
+"Shahid Beheshti"
+"Shahid Mofateh"
+"Haft-e-Tir"
+"Taleghani"
+"Darvazeh Dowlat"
+"Sa\'adi"
+"Emam Khomeini"
+"Panzdah-e-Khordad"
+"Khayyam"
+"Molavi"
+"Shoosh"
+"Terminal-e Jonoob"
+"Khzaneh"
+"Ali Abad"
+"Javanmard-e Ghassab"
+"Shahr-e-Rey"
+"Bagher Shahr"
+"Shahed"
+"Haram-e-Motahar"
+"Kahrizak"  
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Line 2  
+# =============================================================
+LINE
+LINE_NAME
+"Line 2"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 2 towards Sadeghiyeh"
+FORWARDEND
+BACKWARD
+"Line 2 towards Farhangsara"
+BACKWARDEND
+STATIONS
+"Farhangsara"
+"Tehranpars"
+"Shahid Bagheri"
+"Daneshgah-e Elm-o-San\'at"
+"Sarsabz"
+"Golbarg"
+"Fadak"
+"Sabalan"
+"Shahid Madani"
+"Emam Hossein"
+"Darvazeh Shemiran"
+"Baharestan"
+"Mellat"
+"Emam Khomeini"
+"Hasan Abad"
+"Daneshgah-e Emam Ali"
+"Meydan-e Horr"
+"Shahid Navvab-e Safavi"
+"Azadi"
+"Daneshgah-e Sharif"
+"Tarasht"
+"Sadeghiyeh"  
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#   Line 3 update sept 2015 - still stations to be opened
+#	http://metro.tehran.ir/Default.aspx?tabid=235
+# =============================================================
+LINE
+LINE_NAME
+"Line 3"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 3 towards Azadegan"
+FORWARDEND
+BACKWARD
+"Line 3 towards Ghaem"
+BACKWARDEND
+STATIONS
+"Ghaem"
+#"Shahid Mahallati"
+#"Aghdasiyeh"
+"Nobonyad"
+#"Hossein Abad"
+#"Heravi"
+"Shahid Zeyn-e-ddin"
+#"Khajeh Abdollah-e Ansari"
+#"Shahid Sayyad-e Shirazi"
+#"Shahid Ghoddoosi"
+#"Sohrevardi"
+"Shahid Beheshti"
+"Mirza-ye Shirazi"
+"Shahid Doctor Fatemi"
+"Meydan-e Vali Asr"
+"Vali-e Asr"
+"Daneshgah-e Emam Ali (University)"
+"Moniriyeh"
+#"Razi"
+"Rahahan"
+"Javadiyeh"
+"Ghal\'eh Morghi"
+"Shahrak-e Shari\'ati"
+"Abdol Abad"
+"Ne\'mat Abad"
+"Azadegan"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#    Line 4  
+# =============================================================
+LINE
+LINE_NAME
+"Line 4"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 4 towards Ekbatan (Eram-e-Sabz)"
+FORWARDEND
+BACKWARD
+"Line 4 towards Shahid Kolahdooz"
+BACKWARDEND
+STATIONS
+"Shahid Kolahdooz"
+"Niro Havaei"
+"Nabard"
+"Piroozi"
+"Sheykh-o-raeis"
+"Meydan-e Shohada"
+"Darvazeh Shemiran"
+"Darvazeh Dowlat"
+"Meydan-e Ferdowsi"
+"Vali-e Asr"
+"Meydan-e Enghelab-e Eslam"
+"Towhid"
+"Azadi"
+"Doctor Habib-o-llah"
+"Ostad Moein"
+"Meydan-e Azadi"
+"Bimeh"
+"Shahrak-e Ekbatan"
+"Ekbatan (Eram-e-Sabz)"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#    Line 4 airport branche (3/2016)  
+# =============================================================
+LINE
+LINE_NAME
+"Line 4 airport shuttle"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 4 airport shuttle towards Mehrabad Airport"
+FORWARDEND
+BACKWARD
+"Line 4 airport shuttle towards Bimeh"
+BACKWARDEND
+STATIONS
+"Bimeh"
+"Terminal T1&2"
+"Terminal T4&6"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+# =============================================================
+#    Line 5 
+# =============================================================
+LINE
+LINE_NAME
+"Line 5"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 5 towards Sadeghiyeh"
+FORWARDEND
+BACKWARD
+"Line 5 towards Golshahr"
+BACKWARDEND
+STATIONS
+"Sadeghiyeh"
+"Ekbatan (Eram-e-Sabz)"
+"Azadi Stadium"
+"Chitgar"
+"Iran Khodro"
+"Vardavard"
+"Garmdarreh"
+"Atomosfer"
+"Karaj"
+"Mohammad Shahr / Mahdasht"
+"Golshahr"  
+STATIONSEND
+SEGMENTEND
+
+

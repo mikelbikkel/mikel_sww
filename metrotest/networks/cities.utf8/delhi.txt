@@ -1,0 +1,278 @@
+#
+# latitude: 28.666667
+# longitude: 77.216667
+CITY
+CITYNAME
+Delhi
+CITYNAME_END
+CITYCODE
+DEL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Red line, towards Rithala"
+FORWARDEND
+BACKWARD
+"Red line, towards Dilshad Garden"
+BACKWARDEND
+STATIONS
+"Dilshad Garden"
+"Jhilmil"
+"Mansarovar Park"
+"Shahdara"
+"Welcome"
+"Seelampur"
+"Shastri Park"
+"Kashmere Gate"
+"Tis Hazari"
+"Pul Bangash"
+"Pratap Nagar"
+"Shastri Nagar"
+"Inderlok"
+"Kanhiya Nagar"
+"Keshav Puram"
+"Netaji Subhash Place"
+"Kohat Enclave"
+"Pitam Pura"
+"Rohini East"
+"Rohini West"
+"Rithala"
+STATIONSEND
+SEGMENTEND
+
+# Added 3 stations Samaypur Badli, Rohini Sector 18, Haiderpur 18-11-2015 
+SEGMENT
+FORWARD
+"Yellow line, towards HUDA City Centre"
+FORWARDEND
+BACKWARD
+"Yellow line, towards Samaypur Badli"
+BACKWARDEND
+STATIONS
+"Samaypur Badli"
+"Rohini Sector 18"
+"Haiderpur"
+"Jahangirpuri"
+"Adarsh Nagar"
+"Azadpur"
+"Model Town"
+"GTB Nagar"
+"Vishwa Vidyalaya"
+"Vidhan Sabha"
+"Civil Lines"
+"Kashmere Gate"
+"Chandni Chowk"
+"Chawri Bazar"
+"New Delhi"
+"Rajiv Chowk"
+"Patel Chowk"
+"Central Secretariat"
+"Udyog Bhawan"
+"Race Course"
+"Jor Bagh"
+"INA"
+"AIIMS"
+"Green Park"
+"Hauz Khas"
+"Malviya Nagar"
+"Saket"
+"Qutub Minar"
+"Chhatarpur"
+"Sultanpur"
+"Ghitorni"
+"Arjan Garh"
+"Guru Dronacharya"
+"Sikandarpur"
+"MG Road"
+"IFFCO Chowk"
+"HUDA City Centre"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line, towards Dwarka Sector 21"
+FORWARDEND
+BACKWARD
+"Blue line, towards Noida City Centre"
+BACKWARDEND
+STATIONS
+"Noida City Centre"
+"Noida Golf Course"
+"Botanical Garden"
+"Noida Sector 18"
+"Noida Sector 16"
+"Noida Sector 15"
+"New Ashok Nagar"
+"Mayur Vihar Extension"
+"Mayur Vihar I"
+"Akshardham"
+"Yamuna Bank"
+"Indraprastha"
+"Pragati Maidan"
+"Mandi House"
+"Barakhambha Road"
+"Rajiv Chowk"
+"Ramakrishna Ashram Marg"
+"Jhandewalan"
+"Karol Bagh"
+"Rajendra Place"
+"Patel Nagar"
+"Shadipur"
+"Kirti Nagar"
+"Moti Nagar"
+"Ramesh Nagar"
+"Rajouri Garden"
+"Tagore Garden"
+"Subhash Nagar"
+"Tilak Nagar"
+"Janakpuri East"
+"Janakpuri West"
+"Uttam Nagar East"
+"Uttam Nagar West"
+"Nawada"
+"Dwarka Morh"
+"Dwarka"
+"Dwarka Sector 14"
+"Dwarka Sector 13"
+"Dwarka Sector 12"
+"Dwarka Sector 11"
+"Dwarka Sector 10"
+"Dwarka Sector 9"
+"Dwarka Sector 8"
+"Dwarka Sector 21"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line, towards Vaishali"
+FORWARDEND
+BACKWARD
+"Blue line, towards Yamuna Bank"
+BACKWARDEND
+STATIONS
+"Yamuna Bank"
+"Laxmi Nagar"
+"Nirman Vihar"
+"Preet Vihar"
+"Karkarduma"
+"Anand Vihar"
+"Kaushambi"
+"Vaishali"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Green line, towards Mundka"
+FORWARDEND
+BACKWARD
+"Green line, towards Inderlok"
+BACKWARDEND
+STATIONS
+"Inderlok"
+"Ashok Park Main"
+"Punjabi Bagh East"
+"Shivaji Park"
+"Madipur"
+"Paschim Vihar East"
+"Paschim Vihar West"
+"Peera Garhi"
+"Udyog Nagar"
+"Surajmal Stadium"
+"Nangloi"
+"Nangloi Railway station"
+"Rajdhani Park"
+"Mundka"
+STATIONSEND
+SEGMENTEND
+
+# branch Ashol Park Main - Kirti Nagar
+SEGMENT
+FORWARD
+"Green line, towards Mundka"
+FORWARDEND
+BACKWARD
+"Green line, towards Kirti Nagar"
+BACKWARDEND
+STATIONS
+"Kirti Nagar"
+"Satguru Ramsingh Marg"
+"Ashok Park Main"
+"Punjabi Bagh East"
+"Shivaji Park"
+"Madipur"
+"Paschim Vihar East"
+"Paschim Vihar West"
+"Peera Garhi"
+"Udyog Nagar"
+"Surajmal Stadium"
+"Nangloi"
+"Nangloi Railway station"
+"Rajdhani Park"
+"Mundka"
+STATIONSEND
+SEGMENTEND
+
+# extended june and september 2015 
+SEGMENT
+FORWARD
+"Violet line, towards Escorts Mujesar"
+FORWARDEND
+BACKWARD
+"Violet line, towards ITO"
+BACKWARDEND
+STATIONS
+"ITO"
+"Mandi House"
+"Janpath"
+"Central Secretariat"
+"Khan Market"
+"Jawaharlal Nehru Stadium"
+"Jangpura"
+"Lajpat Nagar"
+"Moolchand"
+"Kailash Colony"
+"Nehru Place"
+"Kalkaji Mandir"
+"Govind Puri"
+"Okhla"
+"Jasola Apollo"
+"Sarita Vihar"
+"Mohan Estate"
+"Tughlakabad"
+"Badarpur"
+"Sarai"
+"NHPC Chowk"
+"Mewla Maharajpur"
+"Sector 28"
+"Badkhal Mor"
+"Faridabad Old"
+"Neelam Chowk Ajronda"
+"Bata Chowk"
+"Escorts Mujesar"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Orange line (Airport express), towards Dwarka Sector 21"
+FORWARDEND
+BACKWARD
+"Orange line (Airport express), towards New Delhi station"
+BACKWARDEND
+STATIONS
+"New Delhi station"
+"Shivaji Stadium"
+"Dhaula Kuan"
+"Delhi Aerocity"
+"Airport"
+"Dwarka Sector 21"
+STATIONSEND
+SEGMENTEND

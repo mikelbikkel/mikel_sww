@@ -1,0 +1,273 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Stockholm_Metro and subsequent pages
+
+# Suggestion for future improvement: 
+# - there is a vast network of commuter trains...
+# - in weekends there is a 24 hours service but exact data was not found.
+
+# City
+CITY
+CITYNAME
+Stockholm
+CITYNAME_END
+CITYCODE
+STK
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     T10
+# =============================================================
+SEGMENT
+FORWARD
+"Line 10 towards Kungstrådgården" 
+FORWARDEND
+BACKWARD
+"Line 10 towards Hjulsta"
+BACKWARDEND
+STATIONS
+"Hjulsta"
+"Tensta"
+"Rinkeby"
+"Rissne"
+"Duvbo"
+"Sundbybergs centrum"
+"Vreten"
+"Huvudsta"
+"Våstra skogen"
+"Stadshagen"
+"Fridhemsplan"
+"Rådhuset"
+"T-Centralen"
+"Kungstrådgården"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     T11
+# =============================================================
+SEGMENT
+FORWARD
+"Line 11 towards Kungstrådgården" 
+FORWARDEND
+BACKWARD
+"Line 11 towards Akalla"
+BACKWARDEND
+STATIONS
+"Akalla"
+"Husby"
+"Kista"
+"Kymlinge / Silverpilen Ghost Station - *No Stop"
+"Hallonbergen"
+"Nåckrosen"
+"Solna centrum"
+"Våstra skogen"
+"Stadshagen"
+"Fridhemsplan"
+"Rådhuset"
+"T-Centralen"
+"Kungstrådgården"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     T13
+# =============================================================
+SEGMENT
+FORWARD
+"Line 13 towards Norsborg" 
+FORWARDEND
+BACKWARD
+"Line 13 towards Ropsten"
+BACKWARDEND
+STATIONS
+"Ropsten"
+"Gårdet"
+"Karlaplan"
+"Östermalmstorg"
+"T-Centralen"
+"Gamla stan"
+"Slussen"
+"Mariatorget"
+"Zinkensdamm"
+"Hornstull"
+"Liljeholmen"
+"Aspudden"
+"Örnsberg"
+"Axelsberg"
+"Målarhåjden"
+"Bredång"
+"Såtra"
+"Skårholmen"
+"Vårberg"
+"Vårby gård"
+"Masmo"
+"Fittja"
+"Alby"
+"Hallunda"
+"Norsborg"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     T14
+# =============================================================
+SEGMENT
+FORWARD
+"Line 14 towards Fruången" 
+FORWARDEND
+BACKWARD
+"Line 14 towards Mårby centrum"
+BACKWARDEND
+STATIONS
+"Mårby centrum"
+"Danderyds sjukhus"
+"Bergshamra"
+"Universitetet"
+"Tekniska hågskolan"
+"Stadion"
+"Östermalmstorg"
+"T-Centralen"
+"Gamla stan"
+"Slussen"
+"Mariatorget"
+"Zinkensdamm"
+"Hornstull"
+"Liljeholmen"
+"Midsommarkransen"
+"Telefonplan"
+"Hågerstensåsen"
+"Våstertorp"
+"Fruången"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     T17
+# =============================================================
+SEGMENT
+FORWARD
+"Line 17 towards Skarpnåck" 
+FORWARDEND
+BACKWARD
+"Line 17 towards åkeshov"
+BACKWARDEND
+STATIONS
+"åkeshov"
+"Brommaplan"
+"Abrahamsberg"
+"Stora Mossen"
+"Alvik"
+"Kristineberg"
+"Thorildsplan"
+"Fridhemsplan"
+"St. Eriksplan"
+"Odenplan"
+"Rådmansgatan"
+"Håtorget"
+"T-Centralen"
+"Gamla stan"
+"Slussen"
+"Medborgarplatsen"
+"Skanstull"
+"Gullmarsplan"
+"Skårmarbrink"
+"Hammarbyhåjden"
+"Bjårkhagen"
+"Kårrtorp"
+"Bagarmossen"
+"Skarpnåck"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     T18
+# =============================================================
+SEGMENT
+FORWARD
+"Line 18 towards Farsta strand" 
+FORWARDEND
+BACKWARD
+"Line 18 towards Alvik"
+BACKWARDEND
+STATIONS
+"Alvik"
+"Kristineberg"
+"Thorildsplan"
+"Fridhemsplan"
+"St. Eriksplan"
+"Odenplan"
+"Rådmansgatan"
+"Håtorget"
+"T-Centralen"
+"Gamla stan"
+"Slussen"
+"Medborgarplatsen"
+"Skanstull"
+"Gullmarsplan"
+"Skårmarbrink"
+"Blåsut"
+"Sandsborg"
+"Skogskyrkogården"
+"Tallkrogen"
+"Gubbången"
+"Håkarången"
+"Farsta"
+"Farsta strand"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     T19
+# =============================================================
+SEGMENT
+FORWARD
+"Line 19 towards Hagsåtra" 
+FORWARDEND
+BACKWARD
+"Line 19 towards Håsselby Strand"
+BACKWARDEND
+STATIONS
+"Håsselby Strand"
+"Håsselby Gård"
+"Johannelund"
+"Vållingby"
+"Råcksta"
+"Blackeberg"
+"Islandstorget"
+"ångbyplan"
+"åkeshov"
+"Brommaplan"
+"Abrahamsberg"
+"Stora Mossen"
+"Alvik"
+"Kristineberg"
+"Thorildsplan"
+"Fridhemsplan"
+"St. Eriksplan"
+"Odenplan"
+"Rådmansgatan"
+"Håtorget"
+"T-Centralen"
+"Gamla stan"
+"Slussen"
+"Medborgarplatsen"
+"Skanstull"
+"Gullmarsplan"
+"Globen"
+"Enskede gård"
+"Sockenplan"
+"Svedmyra"
+"Stureby"
+"Bandhagen"
+"Hågdalen"
+"Rågsved"
+"Hagsåtra"
+STATIONSEND
+SEGMENTEND
+
+

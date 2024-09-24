@@ -1,0 +1,171 @@
+# City
+CITY
+CITYNAME
+Vienna
+CITYNAME_END
+CITYCODE
+VIE
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"U-1 towards Reumannplatz"
+FORWARDEND
+BACKWARD
+"U-1 towards Leopoldau"
+BACKWARDEND
+STATIONS
+Leopoldau
+"Großfeldsiedlung"
+"Aderklaaer Straße"
+Rennbahnweg
+"Kagraner Platz"
+Kagran
+"Alte Donau"
+"Kaisermühlen"
+Donauinsel
+"Vorgartenstraße"
+Praterstern
+Nestroyplatz
+Schwedenplatz
+Stephansplatz
+Karlsplatz
+Taubstummengasse
+"Südtiroler Platz"
+Keplerplatz
+Reumannplatz
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U-2 towards Karlsplatz"
+FORWARDEND
+BACKWARD
+"U-2 towards Seestadt"
+BACKWARDEND
+STATIONS
+"Seestadt"
+"Aspern Nord" 
+"Hausfeldstraße"
+"Aspernstraße"
+Donauspitel
+Hardeggasse
+"Stadlau"
+"Donaustadtbrücke"
+Donaumarina
+Stadion
+Krieau
+"Messe Prater"
+Praterstern
+"Taborstraße"
+Schottenring
+Schottentor
+Rathaus
+Volkstheater
+Museumsquartier
+Karlsplatz
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U-3 towards Simmering"
+FORWARDEND
+BACKWARD
+"U-3 towards Ottakring"
+BACKWARDEND
+STATIONS
+Ottakring
+"Kendlerstraße"
+"Hütteldorfer Straße"
+"Johnstraße"
+"Schweglerstraße"
+Westbahnhof
+Zieglergasse
+Neubaugasse
+Volkstheater
+Herrengasse
+Stephansplatz
+Stubentor
+"Landstraße"
+Rochusgasse
+"Kardinal Nagl Platz"
+Schlachthausgasse
+Erdberg
+Gasometer
+"Zippererstraße"
+Enkplatz
+Simmering
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U-4 towards Hütteldorf"
+FORWARDEND
+BACKWARD
+"U-4 towards Heiligenstadt"
+BACKWARDEND
+STATIONS
+Heiligenstadt
+Spittelau
+"Friedensbrücke"
+"Roßauer Lände"
+Schottenring
+Schwedenplatz
+"Landstraße"
+Stadtpark
+Karlsplatz
+"Kettenbrückengasse"
+Pilgramgasse
+"Margaretengürtel"
+"Längenfeldgasse"
+"Meidling Hauptstraße"
+"Schönbrunn"
+Hietzing
+Braunschweiggasse
+"Unter St. Veit"
+"Ober St. Veit"
+"Hütteldorf"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U-6 towards Siebenhirten"
+FORWARDEND
+BACKWARD
+"U-6 towards Floridsdorf"
+BACKWARDEND
+STATIONS
+Floridsdorf
+"Neue Donau"
+Handelskai
+"Dresdner Straße"
+"Jägerstraße"
+Spittelau
+"Nußdorfer Straße"
+"Währinger Straße"
+"Michelbeuern"
+"Alser Straße"
+"Josefstädter Straße"
+"Thaliastraße"
+"Burggasse"
+Westbahnhof
+"Gumpendorfer Straße"
+"Längenfeldgasse"
+"Niederhofstraße"
+"Philadelphiabrücke"
+Tscherttegasse
+"Am Schöpfwerk"
+Alterlaa
+"Erlaaer Straße"
+"Perfektastraße"
+Siebenhirten
+STATIONSEND
+SEGMENTEND

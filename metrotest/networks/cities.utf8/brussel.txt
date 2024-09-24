@@ -1,0 +1,232 @@
+
+# herbeoordelen Brussel ivm met wijzigingen in lijnen
+
+# City
+CITY
+CITYNAME
+Brussels
+CITYNAME_END
+CITYCODE
+BRS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Metro 1, towards Stokkel - Stockel"
+FORWARDEND
+BACKWARD
+"Metro 1, towards Weststation - Gare de l\'Ouest"
+BACKWARDEND
+STATIONS
+"Weststation - Gare de l\'Ouest" 
+"Beekkant" 
+"Zwarte Vijvers - Etangs Noirs" 
+"Graaf van Vlaanderen - Comte de Flandre" 
+"Sint-Katelijne - Sainte-Catherine" 
+"De Brouckère" 
+"Centraal Station - Gare Central" 
+"Park - Parc" 
+"Kunst-Wet - Arts-Loi" 
+"Maalbeek" 
+"Schuman" 
+"Merode" 
+"Montgomery" 
+"Joséphine-Charlotte" 
+"Gribaumont" 
+"Tomberg" 
+"Roodebeek" 
+"Vandervelde" 
+"Alma" 
+"Kraainem - Crainhem" 
+"Stokkel - Stockel"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Metro 2, towards Simonis (Leopold II)"
+FORWARDEND
+BACKWARD
+"Metro 2, towards Simonis (Elisabeth)"
+BACKWARDEND
+STATIONS
+"Simonis / Elisabeth"
+"Ribaucourt"
+"Ijzer - Yser"
+"Rogier"
+"Kruidtuin - Botanique"
+"Madou"
+"Kunst-Wet - Arts-Loi"
+"Troon - Trône"
+"Naamsepoort - Porte de Namur"
+"Louise - Louiza"
+"Munthof - Hôtel de Monnaies"
+"Hallepoort - Porte de Hal"
+"Zuidstation - Gare du Midi"
+"Clemenceau"
+"Delacroix"
+"Weststation - Gare de l\'Ouest" 
+"Beekkant"
+"Ossegem - Osseghem"
+"Simonis / Leopold II"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Metro 5, towards Herrmann-Debroux"
+FORWARDEND
+BACKWARD
+"Metro 5, towards Erasmus - Erasme"
+BACKWARDEND
+STATIONS
+"Erasmus - Erasme"
+"Eddy Merckx"
+"COOVI - CERIA"
+"Het Rad - La Roue"
+"Bizet"
+"Veeweide - Veeweyde"
+"Sint Guido - Saint Guidon"
+"Aumale"
+"Jacques Brel"
+"Weststation - Gare de l\'Ouest" 
+"Beekkant" 
+"Zwarte Vijvers - Etangs Noirs" 
+"Graaf van Vlaanderen - Comte de Flandre" 
+"Sint-Katelijne - Sainte-Catherine" 
+"De Brouckère" 
+"Centraal Station - Gare Central" 
+"Park - Parc" 
+"Kunst-Wet - Arts-Loi" 
+"Maalbeek"
+"Schuman"
+"Merode"
+"Thieffry"
+"Pétillon"
+"Hankar"
+"Delta"
+"Beaulieu"
+"Demey"
+"Herrmann-Debroux"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Metro 6, towards Koning Boudewijn / Roi Baudouin"
+FORWARDEND
+BACKWARD
+"Metro 6, towards Simonis"
+BACKWARDEND
+STATIONS
+"Simonis / Elisabeth"
+"Ribaucourt"
+"Ijzer - Yser"
+"Rogier"
+"Kruidtuin - Botanique"
+"Madou"
+"Kunst-Wet - Arts-Loi"
+"Troon - Trône"
+"Naamsepoort - Porte de Namur"
+"Louise - Louiza"
+"Munthof - Hôtel de Monnaies"
+"Hallepoort - Porte de Hal"
+"Zuidstation - Gare du Midi"
+"Clemenceau"
+"Delacroix"
+"Weststation - Gare de l\'Ouest" 
+"Beekkant"
+"Ossegem - Osseghem"
+"Simonis / Leopold II"
+"Belgica"
+"Pannenhuis"
+"Bockstael"
+"Stuyvenbergh"
+"Houba-Brugmann"
+"Heizel - Heysel"
+"Koning Boudewijn - Roi Baudouin" 
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Premetro 3, towards Churchill"
+FORWARDEND
+BACKWARD
+"Premetro 3, towards Esplanade"
+BACKWARDEND
+STATIONS
+"Esplanade"
+"Meise - Meysse"
+"De Wand"
+"Araucaria"
+"Braambosjes - Buissonnets"
+"Heembeek"
+"Van Praet"
+"Werkhuizenkaai - Quai des Usines"
+"Mabru"
+"Jules De Trooz"
+"Masui" 
+"Thomas" 
+"Noordstation - Gare du Nord" 
+"Rogier" 
+"De Brouckère" 
+"Beurs - Bourse" 
+"Anneessens" 
+"Lemonnier" 
+"Zuidstation - Gare du Midi"
+"Hallepoort - Porte de Hal" 
+"Sint-Gillisvoorplein - Parvis de Saint-Gilles" 
+"Horta" 
+"Albert"
+"Berkendaal"
+"Vanderkindere"
+"Churchill" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Premetro 4, towards Stalle"
+FORWARDEND
+BACKWARD
+"Premetro 4, towards Noordstation / Gare du Nord"
+BACKWARDEND
+STATIONS
+"Noordstation - Gare du Nord" 
+"Rogier" 
+"De Brouckère" 
+"Beurs - Bourse" 
+"Anneessens" 
+"Lemonnier" 
+"Zuidstation - Gare du Midi"
+"Hallepoort - Porte de Hal" 
+"Sint-Gillisvoorplein - Parvis de Saint-Gilles" 
+"Horta" 
+"Albert"
+"Berkendaal"
+"Vanderkindere"
+"Messidor"
+"Boetendael"
+"Helden - Héros"
+"Globe"
+"Wagen - Wagon"
+"Egide Van Ophem"
+"Kruispunt Stalle - Carrefour Stalle"
+"Stalle"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     MNN
+# =============================================================
+MULTI_NAMED_NODE
+"Simonis / Leopold II"
+"Simonis / Elisabeth"
+MULTI_NAMED_NODE_END

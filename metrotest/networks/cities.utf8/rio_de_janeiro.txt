@@ -1,0 +1,81 @@
+# City
+CITY
+CITYNAME
+"Rio de Janeiro"
+CITYNAME_END
+CITYCODE
+RDJ
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1 (Laranja), towards Uruguai"
+FORWARDEND
+BACKWARD
+"Line 1 (Laranja), towards Ipanema/General Osório"
+BACKWARDEND
+STATIONS
+"Ipanema/General Osório"
+"Cantagalo"
+"Siqueira Campos"
+"Cardeal Arcoverde"
+"Botafogo"
+"Flamengo"
+"Largo do Machado"
+"Catete"
+"Glória"
+"Cinelândia"
+"Carioca"
+"Uruguaiana"
+"Presidente Vargas"
+"Central"
+"Praça Onze"
+"Estácio"
+"Afonso Pena"
+"São Francisco Xavier"
+"Saens Peña"
+"Uruguai"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2 (Verde), towards Pavuna"
+FORWARDEND
+BACKWARD
+"Line 2 (Verde), towards Botafogo"
+BACKWARDEND
+STATIONS
+"Botafogo"
+"Flamengo"
+"Largo do Machado"
+"Catete"
+"Glória"
+"Cinelândia"
+"Carioca"
+"Uruguaiana"
+"Presidente Vargas"
+"Central"
+"Cidade Nova"
+"São Cristóvão"
+"Maracanã"
+"Triagem"
+"Maria da Graça"
+"Nova América/Del Castilho"
+"Inhaúma"
+"Engenho da Rainha"
+"Thomaz Coelho"
+"Vicente de Carvalho"
+"Irajá"
+"Colégio"
+"Coelho Neto"
+"Acari/Fazenda Botafogo"
+"Engenheiro Rubens Paiva"
+"Pavuna"
+STATIONSEND
+SEGMENTEND
+

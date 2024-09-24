@@ -1,0 +1,37 @@
+# City
+CITY
+CITYNAME
+Adana
+CITYNAME_END
+CITYCODE
+ADA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards Hastane"
+FORWARDEND
+BACKWARD
+"Main line, towards Akincilar"
+BACKWARDEND
+STATIONS
+Hastane
+"Anadolu Lisesi"
+Huzurevi
+"Mavi Bulvar"
+Yurt
+Yesilyurt
+Fatih
+Vilayet
+Istiklal
+Kocavezir
+Hurriyet
+Cumhuriyet
+Akincilar
+STATIONSEND
+SEGMENTEND
+

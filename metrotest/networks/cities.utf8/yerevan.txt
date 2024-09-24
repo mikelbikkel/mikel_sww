@@ -1,0 +1,49 @@
+
+# Yerevan information is extracted from http://www.urbanrail.net/as/yere/yerevan.htm
+
+# City
+CITY
+CITYNAME
+Yerevan
+CITYNAME_END
+CITYCODE
+YER
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line towards Garegin Njdehi Hraparak"
+FORWARDEND
+BACKWARD
+"Main line towards Barekamutyun"
+BACKWARDEND
+STATIONS
+"Barekamutyun"
+"Marshal Baghramyan"
+"Yeritasardakan"
+"Hanrapetutyan Hraparak"
+"Zoravar Andranik"
+"Sasuntsi Davit"
+"Gortsaranain"
+"Shengavit"
+"Garegin Njdehi Hraparak"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Shuttle towards Charbakh"
+FORWARDEND
+BACKWARD
+"Shuttle towards Shengavit"
+BACKWARDEND
+STATIONS
+"Shengavit"
+"Charbakh"
+STATIONSEND
+SEGMENTEND
+

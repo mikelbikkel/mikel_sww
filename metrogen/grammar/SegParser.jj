@@ -1,0 +1,364 @@
+/*
+ * SubWayWorld grammar for metro segments.
+ */
+
+/*
+ * Section 1: Options
+ */
+options {
+    IGNORE_CASE=false ;
+    UNICODE_INPUT=true ;
+    STATIC=false;
+}
+
+/*
+ * Section 2: Parser
+ */
+PARSER_BEGIN(SegParser)
+
+package org.subwayworld.metrogen.segparser;
+
+import java.util.List;
+import java.util.ArrayList;
+import org.subwayworld.metrogen.IMetroHandler;
+import org.subwayworld.metrogen.MetroException;
+
+public class SegParser {
+
+  private IMetroHandler m_handler;
+
+  public void setHandler(IMetroHandler mh) {
+    m_handler = mh;
+  }
+
+  public String stripQuotes(String t) {
+    String tmp = t.replace("\"", " ");
+    return tmp.trim();
+  }
+}
+
+PARSER_END(SegParser)
+
+/*
+ * Section 3: Parser specification
+ */
+
+void CompilationUnit() throws MetroException : 
+{}
+{
+  CityDeclaration() 
+  ( SegmentDeclaration()
+    |
+    OverrideSegmentDeclaration()
+    |
+    LineDeclaration()
+    |
+    MetroTransformDeclaration()
+    |
+    MultiNamedNodeDeclaration()
+  )*
+  <EOF>
+}
+
+void LineDeclaration() throws MetroException :
+{
+  Token tknName;
+  String svtype = null;
+  String remark = null;
+  String einfo = null;
+}
+{
+  <K_LINE>
+  <K_LINE_NAME>
+  tknName = <Id>
+  <K_LINE_NAME_END>
+  [ svtype = ServiceType() ]
+  [ remark = LineRemark() ]
+  [ einfo = LineEdit() ]
+  <K_LINE_END>
+  {
+    m_handler.addLine(stripQuotes(tknName.image), svtype, remark, einfo);
+  }
+}
+
+void SegmentDeclaration() throws MetroException :
+{
+  String fwd = null;
+  String bck = null;
+  List<String> stats = null;
+}
+{
+  <K_SEGMENT>
+  fwd = ForwardDirections()
+  [ bck = BackwardDirections() ]
+  stats = Stations()
+  <K_SEGMENTEND>
+  {
+    m_handler.addSegment(fwd, bck, stats);
+  }
+}
+
+void OverrideSegmentDeclaration() throws MetroException :
+{
+  Token t = null;
+}
+{
+  <K_OVERRIDE_SEGMENT>
+  <K_FORWARD>
+  t = <Id>
+  <K_FORWARDEND>
+  {
+    m_handler.startOverride(stripQuotes(t.image));
+  }
+  ( OverrideSection() )+
+  <K_OVERRIDE_SEGMENT_END>
+  {
+    m_handler.endOverride();
+  }
+}
+
+void OverrideSection() throws MetroException :
+{
+  Token t = null;
+  List<String> s = null;
+}
+{
+  <K_OVERRIDE_SECTION>
+  t = <Id>
+  <K_OVERRIDE_STATIONS>
+  s = StationList()
+  <K_OVERRIDE_SECTION_END>
+  {
+    m_handler.addOverrideSection(stripQuotes(t.image), s);
+  }
+}
+
+String ServiceType() :
+{
+  Token t;
+}
+{
+  <K_SERVICE_TYPE> 
+  t = <Id>
+  <K_SERVICE_TYPE_END> 
+  {
+    return stripQuotes(t.image);
+  }
+}
+
+String LineRemark() :
+{
+  Token t;
+}
+{
+  <K_LINE_REMARK> 
+  t = <Id>
+  <K_LINE_REMARK_END> 
+  {
+    return stripQuotes(t.image);
+  }
+}
+
+String LineEdit() : 
+{
+  Token t;
+}
+{
+  <K_LINE_EDIT> 
+  t = <Id>
+  <K_LINE_EDIT_END> 
+  {
+    return stripQuotes(t.image);
+  }
+}
+
+void MultiNamedNodeDeclaration() throws MetroException :
+{
+  List<String> r;
+}
+{
+  <K_MULTI_NAMED_NODE> 
+  r = StationList()
+  <K_MULTI_NAMED_NODE_END> 
+  {
+    m_handler.addMultiNamedNode(r);
+  }
+}
+
+void MetroTransformDeclaration() throws MetroException :
+{
+  Token tknStation;
+  Token tknBefore;
+  Token tknAfter;
+}
+{
+  <K_METRO_TRANSFORM>
+  <K_TRANSFORM_POINT>
+  tknStation = <Id>
+  <K_TRANSFORM_POINT_END>
+  <K_BEFORE>
+  tknBefore = <Id>
+  <K_BEFORE_END>
+  <K_AFTER>
+  tknAfter = <Id>
+  <K_AFTER_END>
+  <K_METRO_TRANSFORM_END>
+  {
+     m_handler.addMetroTransformation(stripQuotes(tknStation.image)
+    , stripQuotes(tknBefore.image), stripQuotes(tknAfter.image));
+  }
+}
+
+
+void CityDeclaration() throws MetroException :
+{
+  Token t;
+  Token t2;
+  Token t3;
+}
+{
+  <K_CITY> 
+  <K_CITYNAME> 
+  t = <Id>
+  <K_CITYNAME_END> 
+  <K_CITYCODE> 
+  t2 = <Id>
+  <K_CITYCODE_END> 
+  <K_LINETYPE> 
+  t3 = <Id>
+  <K_LINETYPE_END> 
+  { m_handler.setCity(stripQuotes(t.image), stripQuotes(t2.image),
+                      stripQuotes(t3.image)); }
+  <K_CITYEND> 
+}
+
+List<String> Stations() :
+{
+  List<String> r;
+}
+{
+  <K_STATIONS> 
+  r = StationList()
+  <K_STATIONSEND> 
+  {
+    return r;
+  }
+}
+
+String ForwardDirections() :
+{
+  Token t;
+}
+{
+  <K_FORWARD>
+  t = <Id>
+  <K_FORWARDEND>
+  {
+    return stripQuotes(t.image);
+  }
+}
+
+String BackwardDirections() :
+{
+  Token t;
+}
+{
+  <K_BACKWARD> 
+  t = <Id>
+  <K_BACKWARDEND>
+  {
+    return stripQuotes(t.image);
+  }
+}
+
+List<String> StationList() :
+{
+  List<String> lst = new ArrayList<String>();
+  Token t;
+}
+{
+  ( t = <Id> { lst.add(stripQuotes(t.image)); } )+
+  {
+    return lst;
+  }
+}
+
+/*
+ * Section 4: Lexical specification.
+ *
+ * Order of tokens is important. First match is taken.
+ */
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+}
+
+SPECIAL_TOKEN : /* COMMENTS */
+{
+  <SINGLE_LINE_COMMENT: "#" (~["\n","\r"])* ("\n"|"\r"|"\r\n")>
+}
+
+
+TOKEN: /* Reserved words. */
+{
+  <K_SEGMENT: "SEGMENT">
+| <K_FORWARD: "FORWARD">
+| <K_FORWARDEND: "FORWARDEND">
+| <K_BACKWARD: "BACKWARD">
+| <K_BACKWARDEND: "BACKWARDEND">
+| <K_STATIONS: "STATIONS">
+| <K_STATIONSEND: "STATIONSEND">
+| <K_SEGMENTEND: "SEGMENTEND">
+| <K_CITY: "CITY">
+| <K_CITYEND: "CITYEND">
+| <K_CITYCODE: "CITYCODE">
+| <K_CITYCODE_END: "CITYCODE_END">
+| <K_CITYNAME: "CITYNAME">
+| <K_CITYNAME_END: "CITYNAME_END">
+| <K_LINETYPE: "LINETYPE">
+| <K_LINETYPE_END: "LINETYPE_END">
+| <K_MULTI_NAMED_NODE: "MULTI_NAMED_NODE">
+| <K_MULTI_NAMED_NODE_END: "MULTI_NAMED_NODE_END">
+| <K_SERVICE_TYPE: "SERVICETYPE">
+| <K_SERVICE_TYPE_END: "SERVICETYPEEND">
+| <K_METRO_TRANSFORM: "METRO_TRANSFORM">
+| <K_METRO_TRANSFORM_END: "METRO_TRANSFORM_END">
+| <K_TRANSFORM_POINT: "TRANSFORM_POINT">
+| <K_TRANSFORM_POINT_END: "TRANSFORM_POINT_END">
+| <K_BEFORE: "BEFORE">
+| <K_BEFORE_END: "BEFORE_END">
+| <K_AFTER: "AFTER">
+| <K_AFTER_END: "AFTER_END">
+| <K_LINE_REMARK: "LINE_REMARK">
+| <K_LINE_REMARK_END: "LINE_REMARK_END">
+| <K_LINE_EDIT: "LINE_EDIT">
+| <K_LINE_EDIT_END: "LINE_EDIT_END">
+| <K_LINE: "LINE">
+| <K_LINE_END: "LINE_END">
+| <K_LINE_NAME: "LINE_NAME">
+| <K_LINE_NAME_END: "LINE_NAME_END">
+| <K_NAME: "NAME">
+| <K_NAME_END: "NAME_END">
+| <K_OVERRIDE_SEGMENT: "OVERRIDE_SEGMENT">
+| <K_OVERRIDE_SEGMENT_END: "OVERRIDE_SEGMENT_END">
+| <K_OVERRIDE_SECTION: "OVERRIDE_SECTION">
+| <K_OVERRIDE_STATIONS: "OVERRIDE_STATIONS">
+| <K_OVERRIDE_SECTION_END: "OVERRIDE_SECTION_END">
+}
+
+TOKEN : /* Identifier (single word or quoted string) */
+{
+  < Id:
+      "\"" (~["\""])* "\"" 
+    | (["a"-"z","A"-"Z","_","0"-"9"])+
+  >
+}
+
+/*
+ * End of file.
+ */
+

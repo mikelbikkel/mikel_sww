@@ -1,0 +1,511 @@
+CITY
+CITYNAME
+Nuremberg
+CITYNAME_END
+CITYCODE
+NUR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# ---------------------------------------------------------
+# U1
+# ---------------------------------------------------------
+SEGMENT
+FORWARD
+"U1, towards Fürth Hardhöhe"
+FORWARDEND
+BACKWARD
+"U1, towards Langwasser Süd"
+BACKWARDEND
+STATIONS
+"Langwasser Süd"
+"Gemeinschaftshaus"
+"Langwasser Mitte"
+"Scharfreiterring"
+"Langwasser Nord"
+"Messe"
+"Bauernfeindstraße"
+"Hasenbuck"
+"Frankenstraße"
+"Maffeiplatz"
+"Aufseßplatz"
+"Hauptbahnhof"
+"Lorenzkirche"
+"Weißer Turm"
+"Plärrer"
+"Gostenhof"
+"Bärenschanze"
+"Maximilianstraße"
+"Eberhardshof"
+"Muggenhof"
+"Stadtgrenze"
+"Jakobinenstraße"
+"Fürth Hauptbahnhof"
+"Rathaus / Fürth"
+"Stadthalle / Fürth"
+"Klinikum / Fürth"
+"Hardhöhe / Fürth"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# U11 
+# ---------------------------------------------------------
+LINE
+LINE_NAME
+"U11"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays peak hours only."
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 30-10-2012"
+LINE_EDIT_END
+LINE_END
+
+# technically needs not be a partial since it runs a route which is always covered by the regular service
+SEGMENT
+FORWARD
+"U11, towards Eberhardshof"
+FORWARDEND
+BACKWARD
+"U11, towards Messe"
+BACKWARDEND
+STATIONS
+"Messe"
+"Bauernfeindstraße"
+"Hasenbuck"
+"Frankenstraße"
+"Maffeiplatz"
+"Aufseßplatz"
+"Hauptbahnhof"
+"Lorenzkirche"
+"Weißer Turm"
+"Plärrer"
+"Gostenhof"
+"Bärenschanze"
+"Maximilianstraße"
+"Eberhardshof"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# U2
+# ---------------------------------------------------------
+SEGMENT
+FORWARD
+"U2, towards Flughafen"
+FORWARDEND
+BACKWARD
+"U2, towards Röthenbach"
+BACKWARDEND
+STATIONS
+"Röthenbach"
+"Hohe Marter"
+"Schweinau"
+"Sankt Leonhard"
+"Rothenburger Straße"
+"Plärrer"
+"Opernhaus"
+"Hauptbahnhof"
+"Wöhrder Wiese"
+"Rathenauplatz"
+"Rennweg"
+"Schoppershof"
+"Nordostbahnhof"
+"Herrnhütte"
+"Ziegelstein"
+"Flughafen"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# U21
+# ---------------------------------------------------------
+# NOTE This train only goes one direction, when it goes back 
+# it's just a U2! http://en.wikipedia.org/wiki/Nuremberg_U-Bahn#U21
+
+LINE
+LINE_NAME
+"U21"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays peak hours only."
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 30-10-2012"
+LINE_EDIT_END
+LINE_END
+
+# technically needs not be a partial since it runs a route which is always covered by the regular service
+SEGMENT
+FORWARD
+"U21, towards Ziegelstein"
+FORWARDEND
+STATIONS
+"Röthenbach"
+"Hohe Marter"
+"Schweinau"
+"Sankt Leonhard"
+"Rothenburger Straße"
+"Plärrer"
+"Opernhaus"
+"Hauptbahnhof"
+"Wöhrder Wiese"
+"Rathenauplatz"
+"Rennweg"
+"Schoppershof"
+"Nordostbahnhof"
+"Herrnhütte"
+"Ziegelstein"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# U3
+# ---------------------------------------------------------
+SEGMENT
+FORWARD
+"U3, towards Friedrich-Ebert-Platz"
+FORWARDEND
+BACKWARD
+"U3, towards Gustav-Adolf-Straße"
+BACKWARDEND
+STATIONS
+"Gustav-Adolf-Straße"
+"Sündersbühl"
+"Rothenburger Straße"
+"Plärrer"
+"Opernhaus"
+"Hauptbahnhof"
+"Wöhrder Wiese"
+"Rathenauplatz"
+"Maxfeld"
+"Kaulbachplatz"
+"Friedrich-Ebert-Platz"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------
+# S1
+# ---------------------------------------------------------
+SEGMENT
+FORWARD
+"S1, towards Lauf"
+FORWARDEND
+BACKWARD
+"S1, towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Dürrenhof"
+"Ostring"
+"Mögeldorf"
+"Rehhof"
+"Laufamholz"
+"Schwaig"
+"Röthenbach (Pegnitz)"
+"Steinberg"
+"Seespitze"
+"Lauf West"
+"Lauf (links Pegnitz)"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S1, towards Hersbruck"
+FORWARDEND
+BACKWARD
+"S1, towards Forchheim"
+BACKWARDEND
+STATIONS
+"Forchheim"
+"Kersbach"
+"Baiersdorf"
+"Bubenreuth"
+"Erlangen"
+"Erlangen-Bruck"
+"Eltersdorf"
+"Vach"
+"Fürth-Unterfarrnbach"
+"Fürth Hauptbahnhof"
+"Rothenburger Straße"
+"Hauptbahnhof"
+"Dürrenhof"
+"Ostring"
+"Mögeldorf"
+"Rehhof"
+"Laufamholz"
+"Schwaig"
+"Röthenbach (Pegnitz)"
+"Steinberg"
+"Seespitze"
+"Lauf West"
+"Lauf (links Pegnitz)"
+"Ottensoos"
+"Henfenfeld"
+"Hersbruck (links Pegnitz)"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S1, towards Hartmannshof"
+FORWARDEND
+BACKWARD
+"S1, towards Bamberg"
+BACKWARDEND
+STATIONS
+"Bamberg"
+"Strullendorf"
+"Hirschaid"
+"Buttenheim"
+"Eggolsheim"
+"Forchheim"
+"Kersbach"
+"Baiersdorf"
+"Bubenreuth"
+"Erlangen"
+"Erlangen-Bruck"
+"Eltersdorf"
+"Vach"
+"Fürth-Unterfarrnbach"
+"Fürth Hauptbahnhof"
+"Rothenburger Straße"
+"Hauptbahnhof"
+"Dürrenhof"
+"Ostring"
+"Mögeldorf"
+"Rehhof"
+"Laufamholz"
+"Schwaig"
+"Röthenbach (Pegnitz)"
+"Steinberg"
+"Seespitze"
+"Lauf West"
+"Lauf (links Pegnitz)"
+"Ottensoos"
+"Henfenfeld"
+"Hersbruck (links Pegnitz)"
+"Happurg"
+"Pommelsbrunn"
+"Hartmannshof"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# S2
+# ---------------------------------------------------------
+LINE
+LINE_NAME
+"S2"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Daytime service only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 30-10-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S2, towards Feucht"
+FORWARDEND
+BACKWARD
+"S2, towards Schwabach"
+BACKWARDEND
+STATIONS
+"Schwabach"
+"Limbach"
+"Katzwang"
+"Reichelsdorf Keller"
+"Reichelsdorf"
+"Eibach"
+"Sandreuth"
+"Steinbühl"
+"Hauptbahnhof"
+"Dürrenhof"
+"Gleißhammer"
+"Dutzendteich"
+"Frankenstadion"
+"Fischbach"
+"Feucht"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S2, towards Altdorf"
+FORWARDEND
+BACKWARD
+"S2, towards Roth"
+BACKWARDEND
+STATIONS
+"Roth"
+"Büchenbach"
+"Rednitzhembach"
+"Schwabach"
+"Limbach"
+"Katzwang"
+"Reichelsdorf Keller"
+"Reichelsdorf"
+"Eibach"
+"Sandreuth"
+"Steinbühl"
+"Hauptbahnhof"
+"Dürrenhof"
+"Gleißhammer"
+"Dutzendteich"
+"Frankenstadion"
+"Fischbach"
+"Feucht"
+"Moosbach"
+"Winkelhaid"
+"Ludersheim"
+"Altdorf West"
+"Altdorf"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# S2 Abends und Wochenende
+# ---------------------------------------------------------
+LINE
+LINE_NAME
+"S2 (evening/weekend)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Evening and weekend service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 30-10-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S2 (evening/weekend), towards Hauptbahnhof"
+FORWARDEND
+BACKWARD
+"S2 (evening/weekend), towards Roth"
+BACKWARDEND
+STATIONS
+"Roth"
+"Büchenbach"
+"Rednitzhembach"
+"Schwabach"
+"Limbach"
+"Katzwang"
+"Reichelsdorf Keller"
+"Reichelsdorf"
+"Eibach"
+"Sandreuth"
+"Steinbühl"
+"Hauptbahnhof"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S2 (evening/weekend), towards Altdorf"
+FORWARDEND
+BACKWARD
+"S2 (evening/weekend), towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Dürrenhof"
+"Gleißhammer"
+"Dutzendteich"
+"Frankenstadion"
+"Fischbach"
+"Feucht"
+"Moosbach"
+"Winkelhaid"
+"Ludersheim"
+"Altdorf West"
+"Altdorf"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------
+# S3
+# ---------------------------------------------------------
+SEGMENT
+FORWARD
+"S3, towards Neumarkt"
+FORWARDEND
+BACKWARD
+"S3, towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Feucht"
+"Feucht Ost"
+"Ochenbruck"
+"Mimberg"
+"Burgthann"
+"Oberferrieden"
+"Postbauer-Heng"
+"Pölling"
+"Neumarkt"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------
+# S4
+# ---------------------------------------------------------
+SEGMENT
+FORWARD
+"S4, towards Ansbach"
+FORWARDEND
+BACKWARD
+"S4, towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Schweinau"
+"Stein"
+"Unterasbach"
+"Oberasbach"
+"Anwanden"
+"Roßtal"
+"Roßtal-Wegbrücke"
+"Raitersaich"
+"Heilsbronn"
+"Petersaurach Nord" # added 11/2014
+"Wicklesgreuth"
+"Sachsen"
+"Ansbach"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------
+# MNNs
+# ---------------------------------------------------------
+MULTI_NAMED_NODE
+"Klinikum / Fürth"
+"Fürth-Unterfarrnbach"
+MULTI_NAMED_NODE_END
+
+

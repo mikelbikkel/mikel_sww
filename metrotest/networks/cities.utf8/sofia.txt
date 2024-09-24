@@ -1,0 +1,71 @@
+CITY
+CITYNAME
+Sofia
+CITYNAME_END
+CITYCODE
+SOF
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"M1 Red line, towards Sofia Airport"
+FORWARDEND
+BACKWARD
+"M1 Red line, towards Obelya"
+BACKWARDEND
+STATIONS
+"Obelya"
+"Slivnitsa"
+"Lyulin"
+"Zapaden Park"
+"Vardar"
+"Konstantin Velichkov"
+"Opalchenska"
+"Serdika"
+"Kliment Ohridski"
+"Vasil Levski Stadium"
+"Joliot Curie"
+"G.M. Dimitrov"
+"Musagenitsa"
+"Mladost 1"
+"Mladost 3"
+"Tsarigradsko shose"
+"Druzhba"
+"Iskarsko shose"
+"Sofiyska Sveta gora"
+"Airport / Letishte"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"M2 Blue line, towards James Bourchier"
+FORWARDEND
+BACKWARD
+"M2 Blue line, towards Obelya"
+BACKWARDEND
+STATIONS
+"Obelya"
+"Lomsko shose"
+"Beli Dunav"
+"Nadezhda"
+"Han Kubrat"
+"Knyaginya Mariya Luiza" 
+"Tsentralna Gara / Central Station"
+"Lavov Most"
+"Serdika II"
+"NDK"
+"Evropeyski Sayuz / European Union" 
+"James Bourchier"
+STATIONSEND
+SEGMENTEND
+
+MULTI_NAMED_NODE
+"Serdika"
+"Serdika II"
+MULTI_NAMED_NODE_END
+

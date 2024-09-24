@@ -1,0 +1,43 @@
+
+# Data extracted from http://fr.wikipedia.org/wiki/M%C3%A9tro_d%27Alger
+
+# City
+CITY
+CITYNAME
+Algiers
+CITYNAME_END
+CITYCODE
+ALG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards El Harrach Centre"
+FORWARDEND
+BACKWARD
+"Line 1, towards Tafourah"
+BACKWARDEND
+STATIONS
+"Tafourah" 	
+"Khelifa Boukhalfa" 	
+"1er Mai" 	
+"Aïssat Idir" 	
+"Hamma" 	
+"Jardin d\'essai" 	
+"Les Fusillés" 	
+"Cité Amirouche" 	
+"Cité Mer et Soleil" 	
+"Haï El Badr"
+"Bachdjarah-Tennis"
+"Bachdjarah"
+"El Harrach Gare"
+"El Harrach Centre"
+STATIONSEND
+SEGMENTEND

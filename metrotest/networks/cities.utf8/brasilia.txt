@@ -1,0 +1,87 @@
+
+# Data extracted from 	http://upload.wikimedia.org/wikipedia/commons/1/12/Brasilia_metro_map-2010.PNG
+# http://www.urbanrail.net/am/bras/brasilia.htm
+
+# City
+CITY
+CITYNAME
+Brasilia
+CITYNAME_END
+CITYCODE
+BRA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Green Line
+#     East to West
+# =============================================================
+SEGMENT
+FORWARD
+"Green line, towards Terminal Ceilandia"
+FORWARDEND
+BACKWARD
+"Green line, towards Central"
+BACKWARDEND
+STATIONS
+"Central"
+"Galeria"
+"102 Sul"
+"108 Sul" 
+"110 Sul"
+"112 Sul" 
+"114 Sul" 
+"Asa Sul"
+"Shopping" 
+"Feira Do Guara"
+"Guara"
+"Arniqueirias"
+"Aguas Claras"
+"Concessionarias"
+"Estrada Parque"
+"Praca do Relogio"
+"Onoyama"
+"Centro Metropolitano"
+"Ceilandia Sul"
+"Guariroba"
+"Ceilandia Centra"
+"Ceilandia Norte"
+"Terminal Ceilandia"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Orange Line
+#     East to South
+# =============================================================
+SEGMENT
+FORWARD
+"Orange line, towards Terminal Samambaia"
+FORWARDEND
+BACKWARD
+"Orange line, towards Central"
+BACKWARDEND
+STATIONS
+"Central"
+"Galeria"
+"102 Sul"
+"108 Sul"
+"110 Sul" 
+"112 Sul" 
+"114 Sul" 
+"Asa Sul"
+"Shopping" 
+"Feira Do Guara"
+"Guara"
+"Arniqueirias"
+"Aguas Claras"
+"Taguatinga Sul"
+"Furnas"
+"Samambaia Sul"
+"Terminal Samambaia"
+STATIONSEND
+SEGMENTEND
+

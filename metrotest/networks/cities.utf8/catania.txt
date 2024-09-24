@@ -1,0 +1,49 @@
+# Metropolitana di Catania 
+# Circumetnea
+CITY
+CITYNAME
+Catania
+CITYNAME_END
+CITYCODE
+CAT
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards Porto"
+FORWARDEND
+BACKWARD
+"Main line, towards Borgo"
+BACKWARDEND
+STATIONS
+"Borgo"
+"Giuffrida"
+"Italia"
+"Galatea"
+"F.S. Stazione Centrale"
+"Porto"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Circumetnea, towards Riposto"
+FORWARDEND
+BACKWARD
+"Circumetnea, towards Borgo"
+BACKWARDEND
+STATIONS
+"Borgo"
+"Paterno"
+"Adrano"
+"Bronte"
+"Randazzo"
+"Giarre"
+"Riposto"
+STATIONSEND
+SEGMENTEND
+

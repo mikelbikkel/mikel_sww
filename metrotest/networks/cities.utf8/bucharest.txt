@@ -1,0 +1,141 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Bucharest_Metro
+
+#City
+CITY
+CITYNAME
+Bucharest
+CITYNAME_END
+CITYCODE
+BUC
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Linia 1
+# =============================================================
+SEGMENT
+FORWARD
+"Linia 1 (M1), towards Pantelimon"
+FORWARDEND
+BACKWARD
+"Linia 1 (M1), towards Dristor 2"
+BACKWARDEND
+STATIONS
+"Dristor 2"
+"Piata Muncii"
+"Iancului"
+"Obor"
+"Stefan cel Mare"
+"Piata Victoriei"
+"Gara de Nord"
+"Basarab"
+"Crângasi"
+"Petrache Poenaru"
+"Grozavesti"
+"Eroilor"
+"Izvor"
+"Piata Unirii"
+"Timpuri Noi"
+"Mihai Bravu"
+"Dristor 1"
+"Nicolae Grigorescu" 
+"Titan"
+"Costin Georgian"
+"Republica"
+"Pantelimon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linia 2
+# =============================================================
+SEGMENT
+FORWARD
+"Linia 2 (M2), towards Berceni"
+FORWARDEND
+BACKWARD
+"Linia 2 (M2), towards Pipera"
+BACKWARDEND
+STATIONS
+"Pipera"
+"Aurel Vlaicu"
+"Aviatorilor"
+"Piata Victoriei"
+"Piata Romana"
+"Universitate"
+"Piata Unirii"
+"Tineretului"
+"Eroii Revolutiei"
+"Constantin Brâncoveanu"
+"Piata Sudului"
+"Aparatorii Patriei"
+"Dimitrie Leonida"
+"Berceni"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linia 3
+# =============================================================
+SEGMENT
+FORWARD
+"Linia 3 (M3), towards Anghel Saligny"
+FORWARDEND
+BACKWARD
+"Linia 3 (M3), towards Preciziei"
+BACKWARDEND
+STATIONS
+"Preciziei"
+"Pacii"
+"Gorjului"
+"Lujerului"
+"Politehnica"
+"Eroilor"
+"Izvor"
+"Piata Unirii"
+"Timpuri Noi"
+"Mihai Bravu"
+"Dristor 1"
+"Nicolae Grigorescu"
+"1 Decembrie 1918"
+"Nicolae Teclu"
+"Anghel Saligny"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linia 4
+# =============================================================
+SEGMENT
+FORWARD
+"Linia 4 (M4), towards Gara de Nord"
+FORWARDEND
+BACKWARD
+"Linia 4 (M4), towards Parc Bazilescu"
+BACKWARDEND
+STATIONS
+"Parc Bazilescu"
+"Jiului"
+"1 Mai"
+"Grivita"
+"Basarab"
+"Gara de Nord"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     MNN's
+# =============================================================
+MULTI_NAMED_NODE
+"Dristor 1"
+"Dristor 2"
+MULTI_NAMED_NODE_END
+
+

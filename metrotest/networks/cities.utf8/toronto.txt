@@ -1,0 +1,133 @@
+
+# Extracted from http://pt.wikipedia.org/wiki/Metr%C3%B4_de_Toronto and subsequent pages
+
+# City
+CITY
+CITYNAME
+Toronto
+CITYNAME_END
+CITYCODE
+TOR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Yonge-University-Spadina line, towards Downsview"
+FORWARDEND
+BACKWARD
+"Yonge-University-Spadina line, towards Finch"
+BACKWARDEND
+STATIONS
+"Finch"
+"North York Centre"
+"Sheppard-Yonge"
+"York Mills"
+"Lawrence"
+"Eglinton"
+"Davisville"
+"St. Clair"
+"Summerhill"
+"Rosedale"
+"Bloor-Yonge"
+"Wellesley"
+"College"
+"Dundas"
+"Queen"
+"King"
+"Union"
+"St. Andrew"
+"Osgoode"
+"St. Patrick"
+"Queen\'s Park"
+"Museum"
+"St. George"
+"Spadina"
+"Dupont"
+"St. Clair West"
+"Eglinton West"
+"Glencairn"
+"Lawrence West"
+"Yorkdale"
+"Wilson"
+"Downsview"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Bloor-Danforth line, towards Kennedy"
+FORWARDEND
+BACKWARD
+"Bloor-Danforth line, towards Kipling"
+BACKWARDEND
+STATIONS
+"Kipling"
+"Islington"
+"Royal York"
+"Old Mill"
+"Jane"
+"Runnymede"
+"High Park"
+"Keele"
+"Dundas West"
+"Lansdowne"
+"Dufferin"
+"Ossington"
+"Christie"
+"Bathurst"
+"Spadina"
+"St. George"
+"Bay"
+"Bloor-Yonge"
+"Sherbourne"
+"Castle Frank"
+"Broadview"
+"Chester"
+"Pape"
+"Donlands"
+"Greenwood"
+"Coxwell"
+"Woodbine"
+"Main Street"
+"Victoria Park"
+"Warden"
+"Kennedy"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Scarborough RT line, towards McCowan"
+FORWARDEND
+BACKWARD
+"Scarborough RT line, towards Kennedy"
+BACKWARDEND
+STATIONS
+"Kennedy"
+"Lawrence East"
+"Ellesmere"
+"Midland"
+"Scarborough Centre"
+"McCowan"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Sheppard line, towards Sheppard-Yonge"
+FORWARDEND
+BACKWARD
+"Sheppard line, towards Don Mills"
+BACKWARDEND
+STATIONS
+"Sheppard-Yonge"
+"Bayview"
+"Bessarion"
+"Leslie"
+"Don Mills"
+STATIONSEND
+SEGMENTEND

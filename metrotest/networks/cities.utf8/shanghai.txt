@@ -1,0 +1,962 @@
+
+# Shanghai
+# http://www.shmetro.com/
+
+# NOTE: though certain station names may look very similar, be careful not
+# to change them. This data has already been de-duped.
+
+# City
+CITY
+CITYNAME
+Shanghai
+CITYNAME_END
+CITYCODE
+SHA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Fujin Road"
+FORWARDEND
+BACKWARD
+"Line 1, towards Xinzhuang"
+BACKWARDEND
+STATIONS
+"Xinzhuang"
+"Waihuanlu"
+"Lianhua Road"
+"Jingjiang Park"
+"South Shanghai Railway Station"
+"Caobao Road"
+"Shanghai Indoor Stadium"
+"Xujiahui"
+"Hengshan Road"
+"Changshu Road"
+"South Shaanxi Road"
+"South Huangpi Road"
+"People\'s Square"
+"Xinzha Road"
+"Hanzhong Road"
+"Shanghai Railway Station"
+"North Zhongshan Road"
+"Yanchang Road"
+"Shanghai Circus World"
+"Wenshui Road"
+"Pengpu Xincun"
+"Gongkang Road"
+"Tonghe Xincun"
+"Hulan Road"
+"Gongfu Xincun"
+"Bao\'an Highway"
+"West Youyi Road"
+"Fujin Road"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 1, towards South Shanghai Railway Station"
+FORWARDEND
+BACKWARD
+"Line 1, towards Xinzhuang"
+BACKWARDEND
+STATIONS
+"Xinzhuang"
+"Waihuanlu"
+"Lianhua Road"
+"Jingjiang Park"
+"South Shanghai Railway Station"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 1, towards Fujin Road"
+FORWARDEND
+BACKWARD
+"Line 1, towards South Shanghai Railway Station"
+BACKWARDEND
+STATIONS
+"South Shanghai Railway Station"
+"Caobao Road"
+"Shanghai Indoor Stadium"
+"Xujiahui"
+"Hengshan Road"
+"Changshu Road"
+"South Shaanxi Road"
+"South Huangpi Road"
+"People\'s Square"
+"Xinzha Road"
+"Hanzhong Road"
+"Shanghai Railway Station"
+"North Zhongshan Road"
+"Yanchang Road"
+"Shanghai Circus World"
+"Wenshui Road"
+"Pengpu Xincun"
+"Gongkang Road"
+"Tonghe Xincun"
+"Hulan Road"
+"Gongfu Xincun"
+"Bao\'an Highway"
+"West Youyi Road"
+"Fujin Road"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 2
+#     line split in two, transfer at Guanglan Road
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Guanglan Road"
+FORWARDEND
+BACKWARD
+"Line 2, towards East Xujing"
+BACKWARDEND
+STATIONS
+"East Xujing"
+"Hongqiao Railway Station"
+"Hongqiao Airport Terminal 2"
+"Songhong Road"
+"Beixinjing"
+"Weining Road"
+"Loushanguan Road"
+"Zhongshan Park"
+"Jiangsu Road"
+"Jing\'an Temple"
+"West Nanjing Road"
+"People\'s Square"
+"East Nanjing Road"
+"Lujiazui"
+"Dongchang Road"
+"Century Avenue"
+"Shanghai Sci & Tech Museum"
+"Century Park"
+"Longyang Road"
+"Zhangjiang High Tech Park"
+"Jinke Road"
+"Guanglan Road"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2, towards Pudong International Airport"
+FORWARDEND
+BACKWARD
+"Line 2, towards Guanglan Road"
+BACKWARDEND
+STATIONS
+"Guanglan Road"
+"Tangzhen"
+"Middle Chuangxin Road"
+"East Huaxia Road"
+"Chuansha"
+"Lingkong Road"
+"Yuandong Avenue"
+"Haitiansan Road"
+"Pudong International Airport"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 3
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3, towards North Jiangyang Road"
+FORWARDEND
+BACKWARD
+"Line 3, towards South Shanghai Railway Station"
+BACKWARDEND
+STATIONS
+"South Shanghai Railway Station"
+"Shilong Road"
+"Longcao Road"
+"Caoxi Road"
+"Yishan Road"
+"Hongqiao Road"
+"West Yan\'an Road"
+"Zhongshan Park"
+"Jinshajiang Road"
+"Caoyang Road"
+"Zhenping Road"
+"Zhongtan Road"
+"Shanghai Railway Station"
+"Baoshan Road"
+"Dongbaoxing Road"
+"Hongkou Football Stadium"
+"Chifeng Road"
+"Dabaishu"
+"Jiangwan Town"
+"West Yingao Road"
+"South Changjiang Road"
+"Songfa Road"
+"Zhanghuabang"
+"Songbin Road"
+"Shuichan Road"
+"Baoyang Road"
+"Youyi Road"
+"Tieli Road"
+"North Jiangyang Road"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3, towards South Changjiang Road"
+FORWARDEND
+BACKWARD
+"Line 3, towards South Shanghai Railway Station"
+BACKWARDEND
+STATIONS
+"South Shanghai Railway Station"
+"Shilong Road"
+"Longcao Road"
+"Caoxi Road"
+"Yishan Road"
+"Hongqiao Road"
+"West Yan\'an Road"
+"Zhongshan Park"
+"Jinshajiang Road"
+"Caoyang Road"
+"Zhenping Road"
+"Zhongtan Road"
+"Shanghai Railway Station"
+"Baoshan Road"
+"Dongbaoxing Road"
+"Hongkou Football Stadium"
+"Chifeng Road"
+"Dabaishu"
+"Jiangwan Town"
+"West Yingao Road"
+"South Changjiang Road"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 4 (bidirectional circle line)
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4, outer loop"
+FORWARDEND
+BACKWARD
+"Line 4, inner loop"
+BACKWARDEND
+STATIONS
+"Yishan Road"
+"Shanghai Indoor Stadium"
+"Shanghai Stadium"
+"Dong\'an Road"
+"Damuqiao Road"
+"Luban Road"
+"South Xizang Road"
+"Nanpu Bridge"
+"Tangqiao"
+"Lancun Road"
+"Pudian Road / Fushan Road"
+"Century Avenue"
+"Pudong Avenue"
+"Yangshupu Road"
+"Dalian Road"
+"Linping Road"
+"Hailun Road"
+"Baoshan Road"
+"Shanghai Railway Station"
+"Zhongtan Road"
+"Zhenping Road"
+"Caoyang Road"
+"Jinshajiang Road"
+"Zhongshan Park"
+"West Yan\'an Road"
+"Hongqiao Road"
+"Yishan Road"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 5
+# =============================================================
+SEGMENT
+FORWARD
+"Line 5, towards Minhang Development Zone"
+FORWARDEND
+BACKWARD
+"Line 5, towards Xinzhuang"
+BACKWARDEND
+STATIONS
+"Xinzhuang"
+"Chunshen Road"
+"Yindu Road"
+"Zhuanqiao"
+"Beiqiao"
+"Jianchuan Road"
+"Dongchuan Road"
+"Jinping Road"
+"Huaning Road"
+"Wenjing Road"
+"Minhang Development Zone"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 6
+# =============================================================
+SEGMENT
+FORWARD
+"Line 6, towards Oriental Sports Center"
+FORWARDEND
+BACKWARD
+"Line 6, towards Gangcheng Road"
+BACKWARDEND
+STATIONS
+"Gangcheng Road"
+"North Waigaoqiao Free Trade Zone"
+"Hangjin Road"
+"South Waigaoqiao Free Trade Zone"
+"Zhouhai Road"
+"Wuzhou Avenue"
+"Dongjing Road"
+"Jufeng Road"
+"Wulian Road"
+"Boxing Road"
+"Jinqiao Road"
+"Yunshan Road"
+"Deping Road"
+"Beiyangjing Road"
+"Minsheng Road"
+"Yuanshen Stadium"
+"Century Avenue"
+"Pudian Road / Dongfang Road"
+"Lancun Road"
+"Shanghai Children\'s Medical Center"
+"Linyi Xincun"
+"West Gaoke Road"
+"Dongming Road"
+"Gaoqing Road"
+"West Huaxia Road"
+"Shangnan Road"
+"South Linyan Road"
+"Oriental Sports Center"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 7
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7, towards Huamu Road"
+FORWARDEND
+BACKWARD
+"Line 7, towards Meilan Lake"
+BACKWARDEND
+STATIONS
+"Meilan Lake"
+"Luonan Xincun"
+"Panguang Road"
+"Liuhang"
+"Gucun Park"
+"Qihua Road"
+"Shanghai University"
+"Nanchen Road"
+"Shangda Road"
+"Changzhong Road"
+"Dachang Town"
+"Xingzhi Road"
+"Dahuasan Road"
+"Xincun Road"
+"Langao Road"
+"Zhenping Road"
+"Changshou Road"
+"Changping Road"
+"Jing\'an Temple"
+"Changshu Road"
+"Zhaojiabang Road"
+"Dong\'an Road"
+"Chuanchang Road"
+"Houtan"
+"Changqing Road"
+"Yaohua Road"
+"Yuntai Road"
+"West Gaoke Road"
+"South Yanggao Road"
+"Jinxiu Road"
+"Fanghua Road"
+"Longyang Road"
+"Huamu Road"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 7, towards Huamu Road"
+FORWARDEND
+BACKWARD
+"Line 7, towards Qihua Road"
+BACKWARDEND
+STATIONS
+"Qihua Road"
+"Shanghai University"
+"Nanchen Road"
+"Shangda Road"
+"Changzhong Road"
+"Dachang Town"
+"Xingzhi Road"
+"Dahuasan Road"
+"Xincun Road"
+"Langao Road"
+"Zhenping Road"
+"Changshou Road"
+"Changping Road"
+"Jing\'an Temple"
+"Changshu Road"
+"Zhaojiabang Road"
+"Dong\'an Road"
+"Chuanchang Road"
+"Houtan"
+"Changqing Road"
+"Yaohua Road"
+"Yuntai Road"
+"West Gaoke Road"
+"South Yanggao Road"
+"Jinxiu Road"
+"Fanghua Road"
+"Longyang Road"
+"Huamu Road"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 8
+# =============================================================
+SEGMENT
+FORWARD
+"Line 8, towards Shiguang Road"
+FORWARDEND
+BACKWARD
+"Line 8, towards Shendu Highway"
+BACKWARDEND
+STATIONS
+"Shendu Highway"
+"Lianhang Road"
+"Jiangyue Road"
+"Pujiang Town"
+"Luheng Road"
+"Lingzhao Xincun"
+"Oriental Sports Center"
+"Yangsi"
+"Chengshan Road"
+"Yaohua Road"
+"China Art Museum"
+"South Xizang Road"
+"Lujiabang Road"
+"Laoximen"
+"Dashijie"
+"Peope\'s Square"
+"Qufu Road"
+"Zhongxing Road"
+"North Xizang Road"
+"Hongkou Football Stadium"
+"Quyang Road"
+"Siping Road"
+"Anshan Xincun"
+"Jiangpu Road"
+"Huangxing Road"
+"Middle Yanji Road"
+"Huangxing Park"
+"Xiangyin Road"
+"Nenjiang Road"
+"Shiguang Road"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 9
+# =============================================================
+SEGMENT
+FORWARD
+"Line 9, towards Songjiang South Railway Station"
+FORWARDEND
+BACKWARD
+"Line 9, towards Middle Yanggao Road"
+BACKWARDEND
+STATIONS
+"Middle Yanggao Road"
+"Century Avenue"
+"Shangcheng Road"
+"Xiaonanmen"
+"Lujiabang Road"
+"Madang Road"
+"Dapuqiao"
+"Jiashan Road"
+"Zhaojiabang Road"
+"Xujiahui"
+"Yishan Road"
+"Guilin Road"
+"Caohejing Hi-Tech Park"
+"Hechuan Road"
+"Xingzhong Road"
+"Qibao"
+"Zhongchun Road"
+"Jiuting"
+"Sijing"
+"Sheshan"
+"Dongjing"
+"Songjiang University Town"
+"Songjiang Xincheng"
+"Songjiang Sports Center"
+"Zuibaichi Park"
+"Songjiang South Railway Station"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 10
+# =============================================================
+SEGMENT
+FORWARD
+"Line 10, towards Hangzhong Road"
+FORWARDEND
+BACKWARD
+"Line 10, towards Xinjiangwancheng"
+BACKWARDEND
+STATIONS
+"Xinjiangwancheng"
+"East Yingao Road"
+"Sanmen Road"
+"Jiangwan Stadium"
+"Wujiaochang"
+"Guoquan Road"
+"Tongji University"
+"Siping Road"
+"Youdian Xincun"
+"Hailun Road"
+"North Sichuan Road"
+"Tiantong Road"
+"East Nanjing Road"
+"Yuyuan Garden"
+"Laoximen"
+"Xintiandi"
+"South Shaanxi Road"
+"Shanghai Library"
+"Jiaotong University"
+"Hongqiao Road"
+"Songyuan Road"
+"Yili Road"
+"Shuicheng Road"
+"Longxi Road"
+"Longbai Xincun"
+"Ziteng Road"
+"Hangzhong Road"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 10, towards Hongqiao Railway Station"
+FORWARDEND
+BACKWARD
+"Line 10, towards Xinjiangwancheng"
+BACKWARDEND
+STATIONS
+"Xinjiangwancheng"
+"East Yingao Road"
+"Sanmen Road"
+"Jiangwan Stadium"
+"Wujiaochang"
+"Guoquan Road"
+"Tongji University"
+"Siping Road"
+"Youdian Xincun"
+"Hailun Road"
+"North Sichuan Road"
+"Tiantong Road"
+"East Nanjing Road"
+"Yuyuan Garden"
+"Laoximen"
+"Xintiandi"
+"South Shaanxi Road"
+"Shanghai Library"
+"Jiaotong University"
+"Hongqiao Road"
+"Songyuan Road"
+"Yili Road"
+"Shuicheng Road"
+"Longxi Road"
+"Shanghai Zoo"
+"Hongqiao Airport Terminal 1"
+"Hongqiao Airport Terminal 2"
+"Hongqiao Railway Station"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 11
+# =============================================================
+SEGMENT
+FORWARD
+"Line 11 A, towards North Jiading"
+FORWARDEND
+BACKWARD
+"Line 11 A, towards Kangxin Highway"
+BACKWARDEND
+STATIONS
+"Kangxin Highway"
+"Xiuyan Road"
+"Luoshan Road"
+"Yuqiao" 	
+# "Yanyu Road" 	
+"Pusan Road" 	
+"East Sanlin" 	
+"Sanlin" 	
+"Oriental Sports Center"
+"Longyao Road"
+"Yunjin Road" 	
+"Longhua" 	
+"Shanghai Swimming Center" 	
+"Xujiahui"
+"Jiaotong University"
+"Jiangsu Road"
+"Longde Road"
+"Caoyang Road"
+"Fengqiao Road"
+"Zhenru"
+"West Shanghai Railway Station"
+"Liziyuan"
+"Qilianshan Road"
+"Wuwei Road"
+"Taopu Xincun"
+"Nanxiang"
+"Malu"
+"Jiading Xincheng"
+"Baiyin Road"
+"West Jiading"
+"North Jiading"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 11 B, towards Huaqiao"
+FORWARDEND
+BACKWARD
+"Line 11 B, towards Sanlin"
+BACKWARDEND
+STATIONS
+"Sanlin" 	
+"Oriental Sports Center"
+"Longyao Road"
+"Yunjin Road" 	
+"Longhua" 	
+"Shanghai Swimming Center" 	
+"Xujiahui"
+"Jiaotong University"
+"Jiangsu Road"
+"Longde Road"
+"Caoyang Road"
+"Fengqiao Road"
+"Zhenru"
+"West Shanghai Railway Station"
+"Liziyuan"
+"Qilianshan Road"
+"Wuwei Road"
+"Taopu Xincun"
+"Nanxiang"
+"Malu"
+"Jiading Xincheng"
+"Shanghai Circuit"
+"East Changji Road"
+"Shanghai Automobile City"
+"Anting"
+"Zhaofeng Road"
+"Guangming Road"
+"Huaqiao"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 12
+# =============================================================
+SEGMENT
+FORWARD
+"Line 12, towards Jinhai Road"
+FORWARDEND
+BACKWARD
+"Line 12, towards Qixin Road"
+BACKWARDEND
+STATIONS
+"Qixin Road"
+"Hongxin Road" 	
+"Gudai Road"
+"Donglan Road" 	
+"Hongmei Road" 	
+"Hongcao Road"
+"Guilin Park" 	
+"Caobao Road" 
+"Longcao Road" 
+"Longhua" 
+"Middle Longhua Road" 
+"Damuqiao Road" 
+"Jiashan Road" 
+"South Shaanxi Road"
+"West Nanjing Road"
+"Hanzhong Road"
+"Qufu Road"
+"Tiantong Road"
+"International Cruise Terminal"
+"Tilanqiao"
+"Dalian Road"
+"Jiangpu Park"
+"Ningguo Road" 	
+"Longchang Road" 	
+"Aiguo Road" 	
+"Fuxing Island" 	
+"Donglu Road"
+"Jufeng Road"
+"North Yanggao Road" 	
+"Jinjing Road" 	
+"Shenjiang Road"
+"Jinhai Road"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 12, towards Jufeng Road"
+FORWARDEND
+BACKWARD
+"Line 12, towards Hongmei Road"
+BACKWARDEND
+STATIONS
+"Hongmei Road" 	
+"Hongcao Road"
+"Guilin Park" 	
+"Caobao Road" 
+"Longcao Road" 
+"Longhua" 
+"Middle Longhua Road" 
+"Damuqiao Road" 
+"Jiashan Road" 
+"South Shaanxi Road"
+"West Nanjing Road"
+"Hanzhong Road"
+"Qufu Road"
+"Tiantong Road"
+"International Cruise Terminal"
+"Tilanqiao"
+"Dalian Road"
+"Jiangpu Park"
+"Ningguo Road" 	
+"Longchang Road" 	
+"Aiguo Road" 	
+"Fuxing Island" 	
+"Donglu Road"
+"Jufeng Road"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#   Line 13
+#	Former expo line, re-opened december 2012
+# =============================================================
+SEGMENT
+FORWARD
+"Line 13, towards Shibo Avenue"
+FORWARDEND
+BACKWARD
+"Line 13, towards Jinyun Road"
+BACKWARDEND
+STATIONS
+"Jinyun Road" 	
+"West Jinshajiang Road" 	
+"Fengzhuang"
+"Zhenbei Road" 	
+"Jinshajiang Road"
+"Longde Road"
+"Wuning Road"
+"Changshou Road"
+"Jiangning Road" 	
+"Hanzhong Road"
+"Shanghai Natural History Museum" 	
+"West Nanjing Road" 
+"Middle Huaihai Road"
+"Xintiandi" 
+"Madang Road" 
+"World Expo Museum" 	
+"Shibo Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 16
+# =============================================================
+SEGMENT
+FORWARD
+"Line 16, towards Dishui Lake"
+FORWARDEND
+BACKWARD
+"Line 16, towards Longyang Road"
+BACKWARDEND
+STATIONS
+"Longyang Road"
+"Huaxia Zhong Road"
+"Luoshan Road"
+"East Zhoupu" 	
+"Heshahangcheng" 	
+"Hangtou" 	
+"Xinchang" 	
+"Wild Animal Park" 	
+"Huinan" 	
+"East Huinan" 	
+"Shuyuan"
+"Lingang Avenue" 	
+"Dishui Lake"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 16 Express, towards Dishui Lake"
+FORWARDEND
+BACKWARD
+"Line 16 Express, towards Longyang Road"
+BACKWARDEND
+STATIONS
+"Longyang Road"
+"Luoshan Road"
+"Xinchang" 	
+"Huinan" 	
+"Dishui Lake"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Maglev
+# =============================================================
+SEGMENT
+FORWARD
+"Maglev, towards Pudong International Airport"
+FORWARDEND
+BACKWARD
+"Maglev, towards Longyang Road"
+BACKWARDEND
+STATIONS
+"Longyang Road"
+"Pudong International Airport"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Jinshan Railway (was Line 22)
+# =============================================================
+LINE
+LINE_NAME
+"Jinshan Railway"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"high speed commuter service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 15-07-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Jinshan Railway, towards Jinshanwei"
+FORWARDEND
+BACKWARD
+"Jinshan Railway, towards Shanghainan"
+BACKWARDEND
+STATIONS
+"Shanghainan"
+# "Xinzhuang"
+"Chunshen"
+"Xinqiao" 	
+"Chedun" 	
+"Yexie" 	
+"Tinglin"
+"Jinshan Industrial Park" 	
+"Jinshanwei"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Jinshan Railway (Express)"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"high speed commuter service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 15-07-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Jinshan Railway (Express), towards Jinshanwei"
+FORWARDEND
+BACKWARD
+"Jinshan Railway (Express), towards Shanghainan"
+BACKWARDEND
+STATIONS
+"Shanghainan"
+"Jinshanwei"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     MNN
+# =============================================================
+
+MULTI_NAMED_NODE
+"Shanghainan"
+"South Shanghai Railway Station"
+MULTI_NAMED_NODE_END
+

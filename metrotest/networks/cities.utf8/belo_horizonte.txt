@@ -1,0 +1,42 @@
+CITY
+CITYNAME
+"Belo Horizonte"
+CITYNAME_END
+CITYCODE
+BEL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1 (Azul), towards Vilarinho"
+FORWARDEND
+BACKWARD
+"Line 1 (Azul), towards Eldorado"
+BACKWARDEND
+STATIONS
+"Eldorado"
+"Cidade Industrial"
+"Vila Oeste"
+"Gameleira"
+"Calafate"
+"Carlos Prates"
+"Lagoinha"
+"Central"
+"Santa Efigênia"
+"Santa Tereza"
+"Horto Florestal"
+"Santa Inês"
+"José Candido da Silveira"
+"Minas Shopping"
+"São Gabriel"
+"Primeiro de Maio"
+"Waldomiro Lobo"
+"Floramar"
+"Vilarinho"
+STATIONSEND
+SEGMENTEND
+

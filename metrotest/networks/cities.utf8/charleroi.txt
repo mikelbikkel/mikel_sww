@@ -1,0 +1,276 @@
+CITY
+CITYNAME
+Charleroi
+CITYNAME_END
+CITYCODE
+CRL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#  Ligne 1
+# =============================================================
+SEGMENT
+FORWARD
+"Ligne 1, towards Charleroi-Sud"
+FORWARDEND
+STATIONS
+"Monument"
+"Rue de la station"
+"Jonction"
+"Route de Thuin"
+"Surchiste"
+"Coron du Berger"
+"Pétria"
+"Fontaine"
+"Paradis"
+"Leernes"
+"Morgnies"
+"Moulin"
+"De Cartier"
+"Providence"
+"Dampremy"
+"Piges"
+"Ouest"
+"Villette"
+"Charleroi-Sud"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ligne 1, towards Anderlues (Monument)"
+FORWARDEND
+STATIONS
+"Charleroi-Sud"
+"Tirou"
+"Parc"
+"Janson"
+"Waterloo"
+"Beaux-Arts"
+"Piges"
+"Dampremy"
+"Providence"
+"De Cartier"
+"Moulin"
+"Morgnies"
+"Leernes"
+"Paradis"
+"Fontaine"
+"Pétria"
+"Coron du Berger"
+"Surchiste"
+"Route de Thuin"
+"Jonction"
+"Rue de la station"
+"Monument"
+STATIONSEND
+SEGMENTEND
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Charleroi-Sud"
+TRANSFORM_POINT_END
+BEFORE
+"Ligne 1, towards Charleroi-Sud"
+BEFORE_END
+AFTER
+"Ligne 1, towards Anderlues (Monument)"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+
+# =============================================================
+#  Ligne 2
+# =============================================================
+SEGMENT
+FORWARD
+"Ligne 2, towards Charleroi-Sud"
+FORWARDEND
+STATIONS
+"Pétria"
+"Fontaine"
+"Paradis"
+"Leernes"
+"Morgnies"
+"Moulin"
+"De Cartier"
+"Providence"
+"Dampremy"
+"Piges"
+"Beaux-Arts"
+"Waterloo"
+"Janson"
+"Parc"
+"Tirou"
+"Charleroi-Sud"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ligne 2, towards Pétria"
+FORWARDEND
+STATIONS
+"Charleroi-Sud"
+"Villette"
+"Ouest"
+"Beaux-Arts"
+"Piges"
+"Dampremy"
+"Providence"
+"De Cartier"
+"Moulin"
+"Morgnies"
+"Leernes"
+"Paradis"
+"Fontaine"
+"Pétria"
+STATIONSEND
+SEGMENTEND
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Charleroi-Sud"
+TRANSFORM_POINT_END
+BEFORE
+"Ligne 2, towards Charleroi-Sud"
+BEFORE_END
+AFTER
+"Ligne 2, towards Pétria"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+
+# =============================================================
+#  Ligne 4
+# =============================================================
+SEGMENT
+FORWARD
+"Ligne 4, towards Charleroi-Sud"
+FORWARDEND
+STATIONS
+"Soleilmont"
+"Sart-Culpart"
+"Marabout"
+"Gilly"
+"Gazomètre"
+"Samaritaine"
+"Waterloo"
+"Beaux-Arts"
+"Ouest"
+"Villette"
+"Charleroi-Sud"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ligne 4, towards Gilly (Soleilmont)"
+FORWARDEND
+STATIONS
+"Charleroi-Sud"
+"Tirou"
+"Parc"
+"Janson"
+"Waterloo"
+"Samaritaine"
+"Gazomètre"
+"Gilly"
+"Marabout"
+"Sart-Culpart"
+"Soleilmont"
+STATIONSEND
+SEGMENTEND
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Charleroi-Sud"
+TRANSFORM_POINT_END
+BEFORE
+"Ligne 4, towards Charleroi-Sud"
+BEFORE_END
+AFTER
+"Ligne 4, towards Gilly (Soleilmont)"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+
+
+# =============================================================
+#  Ligne 3
+# =============================================================
+SEGMENT
+FORWARD
+"Ligne 3, towards Charleroi-Sud"
+FORWARDEND
+STATIONS
+"Faubourg de Bruxelles (Gosselies)"
+"Rue du Chemin de Fer"
+"Émailleries"
+"City Nord"
+"Chaussée de Fleurus"
+"Carrosse"
+"Madeleine"
+"Berteaux"
+"Chaussée de Gilly"
+"Puissant"
+"Saint-Antoine"
+"Marie Curie"
+"Dechassis"
+"La Planche"
+"Sacré Madame"
+"Piges"
+"Beaux-Arts"
+"Waterloo"
+"Janson"
+"Parc"
+"Tirou"
+"Charleroi-Sud"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ligne 3, towards Gosselies (Faubourg de Bruxelles)"
+FORWARDEND
+STATIONS
+"Charleroi-Sud"
+"Villette"
+"Ouest"
+"Beaux-Arts"
+"Piges"
+"Sacré Madame"
+"La Planche"
+"Dechassis"
+"Marie Curie"
+"Saint-Antoine"
+"Puissant"
+"Chaussée de Gilly"
+"Berteaux"
+"Madeleine"
+"Carrosse"
+"Léopold"
+"Calvaire"
+"Bruyère"
+"Faubourg de Bruxelles (Gosselies)"
+STATIONSEND
+SEGMENTEND
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Charleroi-Sud"
+TRANSFORM_POINT_END
+BEFORE
+"Ligne 3, towards Charleroi-Sud"
+BEFORE_END
+AFTER
+"Ligne 3, towards Gosselies (Faubourg de Bruxelles)"
+AFTER_END
+METRO_TRANSFORM_END

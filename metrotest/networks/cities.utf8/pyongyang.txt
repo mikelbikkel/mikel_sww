@@ -1,0 +1,67 @@
+# Data extracted from http://en.wikipedia.org/wiki/Pyongyang_Metro
+# See http://www.pyongyang-metro.com/
+
+# City
+CITY
+CITYNAME
+"Pyongyang"
+CITYNAME_END
+CITYCODE
+PYY
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"1 Chollima Line, towards Puhung"
+FORWARDEND
+BACKWARD
+"1 Chollima Line, towards Pulgunbyol"
+BACKWARDEND
+STATIONS
+"Pulgunbyol"
+"Chonu"
+"Kaeson"
+"Tongil" 	
+"Sungni"
+"Ponghwa"
+"Yonggwang"
+"Puhung"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 2
+# =============================================================
+SEGMENT
+FORWARD
+"2 Hyoksin Line, towards Ragwon"
+FORWARDEND
+BACKWARD
+"2 Hyoksin Line, towards Kwangbok"
+BACKWARDEND
+STATIONS
+"Kwangbok"
+"Konguk" 	
+"Hwanggumbol"
+"Konsol"	
+"Hyoksin"
+"Chonsung"
+"Samhung"
+"Kwangmyong" 	
+"Ragwon"
+STATIONSEND
+SEGMENTEND
+
+
+MULTI_NAMED_NODE
+"Chonu"
+"Chonsung"
+MULTI_NAMED_NODE_END

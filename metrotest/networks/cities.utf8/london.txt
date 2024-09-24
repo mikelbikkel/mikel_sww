@@ -1,0 +1,2420 @@
+# source Wikipedia Engels, m.o.v. CUGL ( www.davros.org/rail/culg/central.html)
+# http://journeyplanner.tfl.gov.uk/ (Also Overground etc.)
+
+
+# City
+CITY
+CITYNAME
+London
+CITYNAME_END
+CITYCODE
+LND
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# ===============================================================================
+#	Bakerloo Line (Brown)
+#	Elephant & Castle - Harrow & Wealdstone
+# ===============================================================================
+SEGMENT
+FORWARD
+"Bakerloo Line towards Elephant & Castle" 
+FORWARDEND
+BACKWARD
+"Bakerloo Line towards Harrow & Wealdstone"
+BACKWARDEND
+STATIONS
+"Harrow & Wealdstone"
+"Kenton"
+"South Kenton"
+"North Wembley"
+"Wembley Central"
+"Stonebridge Park"
+"Harlesden"
+"Willesden Junction"
+"Kensal Green"
+"Queen\'s Park"
+"Kilburn Park"
+"Maida Vale"
+"Warwick Avenue"
+"Paddington"
+"Edgware Road"
+"Marylebone"
+"Baker Street"
+"Regent\'s Park"
+"Oxford Circus"
+"Piccadilly Circus"
+"Charing Cross"
+"Embankment"
+"Waterloo"
+"Lambeth North"
+"Elephant & Castle"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Central Line (RED)
+#	West Ruislip - Epping
+# ===============================================================================
+SEGMENT
+FORWARD
+"Central Line towards Epping" 
+FORWARDEND
+BACKWARD
+"Central Line towards West Ruislip"
+BACKWARDEND
+STATIONS
+"West Ruislip"
+"Ruislip Gardens"
+"South Ruislip"
+"Northolt"
+"Greenford"
+"Perivale"
+"Hanger Lane"
+"North Acton"
+"East Acton"
+"White City"
+"Shepherd\'s Bush"
+"Holland Park"
+"Notting Hill Gate"
+"Queensway"
+"Lancaster Gate"
+"Marble Arch"
+"Bond Street"
+"Oxford Circus"
+"Tottenham Court Road"
+"Holborn"
+"Chancery Lane"
+"St. Paul\'s"
+"Bank"
+"Liverpool Street"
+"Bethnal Green"
+"Mile End"
+"Stratford"
+"Leyton"
+"Leytonstone"
+"Snaresbrook"
+"South Woodford"
+"Woodford"
+"Buckhurst Hill"
+"Loughton"
+"Debden"
+"Theydon Bois"
+"Epping"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Central Line (RED)
+#	West Ruislip - Debden
+#   http://www.davros.org/rail/culg/central.html#services
+# ===============================================================================
+SEGMENT
+FORWARD
+"Central Line towards Debden" 
+FORWARDEND
+BACKWARD
+"Central Line towards West Ruislip"
+BACKWARDEND
+STATIONS
+"West Ruislip"
+"Ruislip Gardens"
+"South Ruislip"
+"Northolt"
+"Greenford"
+"Perivale"
+"Hanger Lane"
+"North Acton"
+"East Acton"
+"White City"
+"Shepherd\'s Bush"
+"Holland Park"
+"Notting Hill Gate"
+"Queensway"
+"Lancaster Gate"
+"Marble Arch"
+"Bond Street"
+"Oxford Circus"
+"Tottenham Court Road"
+"Holborn"
+"Chancery Lane"
+"St. Paul\'s"
+"Bank"
+"Liverpool Street"
+"Bethnal Green"
+"Mile End"
+"Stratford"
+"Leyton"
+"Leytonstone"
+"Snaresbrook"
+"South Woodford"
+"Woodford"
+"Buckhurst Hill"
+"Loughton"
+"Debden"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Central Line (RED)
+#	West Ruislip - Loughton
+#   http://www.davros.org/rail/culg/central.html#services
+# ===============================================================================
+SEGMENT
+FORWARD
+"Central Line towards Loughton" 
+FORWARDEND
+BACKWARD
+"Central Line towards West Ruislip"
+BACKWARDEND
+STATIONS
+"West Ruislip"
+"Ruislip Gardens"
+"South Ruislip"
+"Northolt"
+"Greenford"
+"Perivale"
+"Hanger Lane"
+"North Acton"
+"East Acton"
+"White City"
+"Shepherd\'s Bush"
+"Holland Park"
+"Notting Hill Gate"
+"Queensway"
+"Lancaster Gate"
+"Marble Arch"
+"Bond Street"
+"Oxford Circus"
+"Tottenham Court Road"
+"Holborn"
+"Chancery Lane"
+"St. Paul\'s"
+"Bank"
+"Liverpool Street"
+"Bethnal Green"
+"Mile End"
+"Stratford"
+"Leyton"
+"Leytonstone"
+"Snaresbrook"
+"South Woodford"
+"Woodford"
+"Buckhurst Hill"
+"Loughton"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Central Line (RED)
+#	Ealing Broadway -  Hainault
+#   http://www.davros.org/rail/culg/central.html#services
+# ===============================================================================
+SEGMENT
+FORWARD
+"Central Line towards Hainault" 
+FORWARDEND
+BACKWARD
+"Central Line towards Ealing Broadway"
+BACKWARDEND
+STATIONS
+"Ealing Broadway"
+"West Acton"
+"North Acton"
+"East Acton"
+"White City"
+"Shepherd\'s Bush"
+"Holland Park"
+"Notting Hill Gate"
+"Queensway"
+"Lancaster Gate"
+"Marble Arch"
+"Bond Street"
+"Oxford Circus"
+"Tottenham Court Road"
+"Holborn"
+"Chancery Lane"
+"St. Paul\'s"
+"Bank"
+"Liverpool Street"
+"Bethnal Green"
+"Mile End"
+"Stratford"
+"Leyton"
+"Leytonstone"
+"Wanstead"
+"Redbridge"
+"Gants Hill"
+"Newbury Park"
+"Barkingside"
+"Fairlop"
+"Hainault"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Central Line (RED)
+#	Ealing Broadway -  Woodford
+#   http://www.davros.org/rail/culg/central.html#services
+# ===============================================================================
+SEGMENT
+FORWARD
+"Central Line towards Woodford" 
+FORWARDEND
+BACKWARD
+"Central Line towards Ealing Broadway"
+BACKWARDEND
+STATIONS
+"Ealing Broadway"
+"West Acton"
+"North Acton"
+"East Acton"
+"White City"
+"Shepherd\'s Bush"
+"Holland Park"
+"Notting Hill Gate"
+"Queensway"
+"Lancaster Gate"
+"Marble Arch"
+"Bond Street"
+"Oxford Circus"
+"Tottenham Court Road"
+"Holborn"
+"Chancery Lane"
+"St. Paul\'s"
+"Bank"
+"Liverpool Street"
+"Bethnal Green"
+"Mile End"
+"Stratford"
+"Leyton"
+"Leytonstone"
+"Wanstead"
+"Redbridge"
+"Gants Hill"
+"Newbury Park"
+"Barkingside"
+"Fairlop"
+"Hainault"
+"Grange Hill"
+"Chigwell"
+"Roding Valley"
+"Woodford"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Central Line (RED)
+#	White City - Newbury Park
+#   http://www.davros.org/rail/culg/central.html#services
+# ===============================================================================
+SEGMENT
+FORWARD
+"Central Line towards Newbury Park" 
+FORWARDEND
+BACKWARD
+"Central Line towards White City"
+BACKWARDEND
+STATIONS
+"White City"
+"Shepherd\'s Bush"
+"Holland Park"
+"Notting Hill Gate"
+"Queensway"
+"Lancaster Gate"
+"Marble Arch"
+"Bond Street"
+"Oxford Circus"
+"Tottenham Court Road"
+"Holborn"
+"Chancery Lane"
+"St. Paul\'s"
+"Bank"
+"Liverpool Street"
+"Bethnal Green"
+"Mile End"
+"Stratford"
+"Leyton"
+"Leytonstone"
+"Wanstead"
+"Redbridge"
+"Gants Hill"
+"Newbury Park"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Circle Line (YELLOW)
+#	Hammersmith - Edgware Road Clockwise
+# ===============================================================================
+SEGMENT
+FORWARD
+"Circle Line towards Edgeware Road" 
+FORWARDEND
+BACKWARD
+"Circle Line towards Hammersmith"
+BACKWARDEND
+STATIONS
+"Hammersmith"
+"Goldhawk Road"
+"Shepherd\'s Bush Market"
+"Wood Lane"
+"Latimer Road"
+"Ladbroke Grove"
+"Westbourne Park"
+"Royal Oak"
+"Paddington"
+"Edgware Road"
+"Baker Street"
+"Great Portland Street"
+"Euston Square"
+"King\'s Cross St. Pancras"
+"Farringdon"
+"Barbican"
+"Moorgate"
+"Liverpool Street"
+"Aldgate"
+"Tower Hill"
+"Monument"
+"Cannon Street"
+"Mansion House"
+"Blackfriars"
+"Temple"
+"Embankment"
+"Westminster"
+"St. James\'s Park"
+"Victoria"
+"Sloane Square"
+"South Kensington"
+"Gloucester Road"
+"High Street Kensington"
+"Notting Hill Gate"
+"Bayswater"
+"Paddington"
+"Edgware Road"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	District Line (GREEN)
+# 	Tower Hill - Ealing Broadway
+# ===============================================================================
+SEGMENT
+FORWARD
+"District Line towards Tower Hill" 
+FORWARDEND
+BACKWARD
+"District Line towards Ealing Broadway"
+BACKWARDEND
+STATIONS
+"Ealing Broadway"
+"Ealing Common"
+"Acton Town"
+"Chiswick Park"
+"Turnham Green"
+"Stamford Brook"
+"Ravenscourt Park"
+"Hammersmith"
+"Barons Court"
+"West Kensington"
+"Earl\'s Court"
+"Gloucester Road"
+"South Kensington"
+"Sloane Square"
+"Victoria"
+"St. James\'s Park"
+"Westminster"
+"Embankment"
+"Temple"
+"Blackfriars"
+"Mansion House"
+"Cannon Street"
+"Monument"
+"Tower Hill"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	District Line (GREEN)
+# 	Richmond - Upminster
+# ===============================================================================
+SEGMENT
+FORWARD
+"District Line towards Upminster" 
+FORWARDEND
+BACKWARD
+"District Line towards Richmond"
+BACKWARDEND
+STATIONS
+"Richmond"
+"Kew Gardens"
+"Gunnersbury"
+"Turnham Green"
+"Stamford Brook"
+"Ravenscourt Park"
+"Hammersmith"
+"Barons Court"
+"West Kensington"
+"Earl\'s Court"
+"Gloucester Road"
+"South Kensington"
+"Sloane Square"
+"Victoria"
+"St. James\'s Park"
+"Westminster"
+"Embankment"
+"Temple"
+"Blackfriars"
+"Mansion House"
+"Cannon Street"
+"Monument"
+"Tower Hill"
+"Aldgate East"
+"Whitechapel"
+"Stepney Green"
+"Mile End"
+"Bow Road"
+"Bromley-by-Bow"
+"West Ham"
+"Plaistow"
+"Upton Park"
+"East Ham"
+"Barking"
+"Upney"
+"Becontree"
+"Dagenham Heathway"
+"Dagenham East"
+"Elm Park"
+"Hornchurch"
+"Upminster Bridge"
+"Upminster"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	District Line (GREEN)
+# 	Wimbledon - Upminster
+# ===============================================================================
+SEGMENT
+FORWARD
+"District Line towards Upminster" 
+FORWARDEND
+BACKWARD
+"District Line towards Wimbledon"
+BACKWARDEND
+STATIONS
+"Wimbledon"
+"Wimbledon Park"
+"Southfields"
+"East Putney"
+"Putney Bridge"
+"Parsons Green"
+"Fulham Broadway"
+"West Brompton"
+"Earl\'s Court"
+"Gloucester Road"
+"South Kensington"
+"Sloane Square"
+"Victoria"
+"St. James\'s Park"
+"Westminster"
+"Embankment"
+"Temple"
+"Blackfriars"
+"Mansion House"
+"Cannon Street"
+"Monument"
+"Tower Hill"
+"Aldgate East"
+"Whitechapel"
+"Stepney Green"
+"Mile End"
+"Bow Road"
+"Bromley-by-Bow"
+"West Ham"
+"Plaistow"
+"Upton Park"
+"East Ham"
+"Barking"
+"Upney"
+"Becontree"
+"Dagenham Heathway"
+"Dagenham East"
+"Elm Park"
+"Hornchurch"
+"Upminster Bridge"
+"Upminster"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	District Line (Green)
+# 	Wimbledon - Edgeware Road
+# ===============================================================================
+SEGMENT
+FORWARD
+"District Line towards Edgware Road" 
+FORWARDEND
+BACKWARD
+"District Line towards Wimbledon"
+BACKWARDEND
+STATIONS
+"Wimbledon"
+"Wimbledon Park"
+"Southfields"
+"East Putney"
+"Putney Bridge"
+"Parsons Green"
+"Fulham Broadway"
+"West Brompton"
+"Earl\'s Court"
+"High Street Kensington"
+"Notting Hill Gate"
+"Bayswater"
+"Paddington"
+"Edgware Road"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	District Line (GREEN)
+# 	Kensington(Olympia) - High Street Kensington
+# ===============================================================================
+SEGMENT
+FORWARD
+"District Line towards High Street Kensington" 
+FORWARDEND
+BACKWARD
+"District Line towards Kensington (Olympia)"
+BACKWARDEND
+STATIONS
+"Kensington (Olympia)"
+"Earl\'s Court"
+"High Street Kensington"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Hammermith & City Line (PINK)
+#	Hammersmith - Barking
+#	Peak hours only
+# ===============================================================================
+LINE
+LINE_NAME
+"Hammermith & City Line peak service"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Peak hours only"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Hammermith & City Line peak service towards Barking" 
+FORWARDEND
+BACKWARD
+"Hammermith & City Line peak service towards Hammersmith"
+BACKWARDEND
+STATIONS
+"Hammersmith"
+"Goldhawk Road"
+"Shepherd\'s Bush Market"
+"Wood Lane"
+"Latimer Road"
+"Ladbroke Grove"
+"Westbourne Park"
+"Royal Oak"
+"Paddington"
+"Edgware Road"
+"Baker Street"
+"Great Portland Street"
+"Euston Square"
+"King\'s Cross St. Pancras"
+"Farringdon"
+"Barbican"
+"Moorgate"
+"Liverpool Street"
+"Aldgate East"
+"Whitechapel"
+"Stepney Green"
+"Mile End"
+"Bow Road"
+"Bromley-by-Bow"
+"West Ham"
+"Plaistow"
+"Upton Park"
+"East Ham"
+"Barking"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Hammermith & City Line (PINK)
+#	Hammersmith - Plaistow/Barking
+#	Off peak schedule
+# ===============================================================================
+LINE
+LINE_NAME
+"Hammermith & City Line off-peak service"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Alternately to Plaistow or Barking"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Hammermith & City Line off-peak service towards Plaistow" 
+FORWARDEND
+BACKWARD
+"Hammermith & City Line off-peak service towards Hammersmith"
+BACKWARDEND
+STATIONS
+"Hammersmith"
+"Goldhawk Road"
+"Shepherd\'s Bush Market"
+"Wood Lane"
+"Latimer Road"
+"Ladbroke Grove"
+"Westbourne Park"
+"Royal Oak"
+"Paddington"
+"Edgware Road"
+"Baker Street"
+"Great Portland Street"
+"Euston Square"
+"King\'s Cross St. Pancras"
+"Farringdon"
+"Barbican"
+"Moorgate"
+"Liverpool Street"
+"Aldgate East"
+"Whitechapel"
+"Stepney Green"
+"Mile End"
+"Bow Road"
+"Bromley-by-Bow"
+"West Ham"
+"Plaistow"
+"Upton Park"
+"East Ham"
+"Barking"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	JUBILEE LINE
+#	Stratford - Stanmore
+# ===============================================================================
+SEGMENT
+FORWARD
+"Jubilee Line towards Stratford"
+FORWARDEND
+BACKWARD
+"Jubilee Line towards Stanmore"
+BACKWARDEND
+STATIONS
+"Stanmore"
+"Canons Park"
+"Queensbury"
+"Kingsbury"
+"Wembley Park"
+"Neasden"
+"Dollis Hill"
+"Willesden Green"
+"Kilburn"
+"West Hampstead"
+"Finchley Road"
+"Swiss Cottage"
+"St. John\'s Wood"
+"Baker Street"
+"Bond Street"
+"Green Park"
+"Westminster"
+"Waterloo"
+"Southwark"
+"London Bridge"
+"Bermondsey"
+"Canada Water"
+"Canary Wharf"
+"North Greenwich"
+"Canning Town"
+"West Ham"
+"Stratford"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	JUBILEE LINE
+#	Stratford - Willesden Green
+# ===============================================================================
+SEGMENT
+FORWARD
+"Jubilee Line towards Stratford"
+FORWARDEND
+BACKWARD
+"Jubilee Line towards Willesden Green"
+BACKWARDEND
+STATIONS
+"Willesden Green"
+"Kilburn"
+"West Hampstead"
+"Finchley Road"
+"Swiss Cottage"
+"St. John\'s Wood"
+"Baker Street"
+"Bond Street"
+"Green Park"
+"Westminster"
+"Waterloo"
+"Southwark"
+"London Bridge"
+"Bermondsey"
+"Canada Water"
+"Canary Wharf"
+"North Greenwich"
+"Canning Town"
+"West Ham"
+"Stratford"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	JUBILEE LINE
+#	Stratford - Wembley Park
+# ===============================================================================
+SEGMENT
+FORWARD
+"Jubilee Line towards Stratford"
+FORWARDEND
+BACKWARD
+"Jubilee Line towards Wembley Park"
+BACKWARDEND
+STATIONS
+"Wembley Park"
+"Neasden"
+"Dollis Hill"
+"Willesden Green"
+"Kilburn"
+"West Hampstead"
+"Finchley Road"
+"Swiss Cottage"
+"St. John\'s Wood"
+"Baker Street"
+"Bond Street"
+"Green Park"
+"Westminster"
+"Waterloo"
+"Southwark"
+"London Bridge"
+"Bermondsey"
+"Canada Water"
+"Canary Wharf"
+"North Greenwich"
+"Canning Town"
+"West Ham"
+"Stratford"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	METROPOLITAN LINE (Dark Magenta)
+#	Uxbridge - Aldgate
+# ===============================================================================
+SEGMENT
+FORWARD
+"Metropolitan Line towards Uxbridge"
+FORWARDEND
+BACKWARD
+"Metropolitan Line towards Aldgate"
+BACKWARDEND
+STATIONS
+"Aldgate"
+"Liverpool Street"
+"Moorgate"
+"Barbican"
+"Farringdon"
+"King\'s Cross St. Pancras"
+"Euston Square"
+"Great Portland Street"
+"Baker Street"
+"Finchley Road"
+"Wembley Park"
+"Preston Road"
+"Northwick Park"
+"Harrow-on-the-Hill"
+"West Harrow"
+"Rayners Lane"
+"Eastcote"
+"Ruislip Manor"
+"Ruislip"
+"Ickenham"
+"Hillingdon"
+"Uxbridge"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Metropolitan Line
+#	Watford - Bakerstreet
+#	(semi-fast service)(peak hours only)
+# ===============================================================================
+LINE
+LINE_NAME
+"Metropolitan Line peak service"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Peak hours only / fast services"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metropolitan Line peak service towards Watford"
+FORWARDEND
+BACKWARD
+"Metropolitan Line peak service towards Bakerstreet"
+BACKWARDEND
+STATIONS
+"Baker Street"
+"Finchley Road"
+"Harrow-on-the-Hill"
+"North Harrow"
+"Pinner"
+"Northwood Hills"
+"Northwood"
+"Moor Park"
+"Croxley"
+"Watford"
+STATIONSEND
+SEGMENTEND
+
+# ===============================================================================
+#	Metropolitan Line (Dark Magenta)
+#	Amersham - Bakerstreet
+#	Fast service - peak hours only
+# ===============================================================================
+SEGMENT
+FORWARD
+"Metropolitan Line peak service towards Amersham"
+FORWARDEND
+BACKWARD
+"Metropolitan Line peak service towards Bakerstreet"
+BACKWARDEND
+STATIONS
+"Baker Street"
+"Finchley Road"
+"Harrow-on-the-Hill"
+"North Harrow"
+"Pinner"
+"Northwood Hills"
+"Northwood"
+"Moor Park"
+"Rickmansworth"
+"Chorleywood"
+"Chalfont & Latimer"
+"Amersham"
+STATIONSEND
+SEGMENTEND
+
+# ===============================================================================
+#	Metropolitan Line (Dark Magenta)
+#	Chesham - Chalfont & Latimer
+#	shuttleservice 2 tph
+# ===============================================================================
+LINE
+LINE_NAME
+"Metropolitan Line shuttle service"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"shuttleservice 2 tph"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metropolitan Line shuttle service towards Amersham"
+FORWARDEND
+BACKWARD
+"Metropolitan Line shuttle service towards Chalfont & Latimer"
+BACKWARDEND
+STATIONS
+"Chalfont & Latimer"
+"Chesham"
+STATIONSEND
+SEGMENTEND
+
+# ===============================================================================
+#	Metropolitan Line (Dark Magenta)
+#	Amersham/Watford - Bakerstreet
+#	Fast service
+# ===============================================================================
+LINE
+LINE_NAME
+"Metropolitan Line off-peak service"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Fast service/ off peak hours only"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metropolitan Line off-peak service towards Amersham"
+FORWARDEND
+BACKWARD
+"Metropolitan Line off-peak service towards Bakerstreet"
+BACKWARDEND
+STATIONS
+"Baker Street"
+"Finchley Road"
+"Wembley Park"
+"Harrow-on-the-Hill"
+"North Harrow"
+"Pinner"
+"Northwood Hills"
+"Northwood"
+"Moor Park"
+"Rickmansworth"
+"Chorleywood"
+"Chalfont & Latimer"
+"Amersham"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Metropolitan Line off-peak service towards Watford"
+FORWARDEND
+BACKWARD
+"Metropolitan Line off-peak service towards Bakerstreet"
+BACKWARDEND
+STATIONS
+"Baker Street"
+"Finchley Road"
+"Wembley Park"
+"Harrow-on-the-Hill"
+"North Harrow"
+"Pinner"
+"Northwood Hills"
+"Northwood"
+"Moor Park"
+"Croxley"
+"Watford"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# ===============================================================================
+#	Northern Line (Black)
+#	High Barnet - Morden (through Bank)
+# ===============================================================================	
+SEGMENT
+FORWARD
+"Northern Line towards Morden (via Bank)"
+FORWARDEND
+BACKWARD
+"Northern Line towards High Barnet (via Bank)"
+BACKWARDEND
+STATIONS
+"High Barnet"
+"Totteridge and Whetstone"
+"Woodside Park"
+"West Finchley"
+"Finchley Central"
+"East Finchley"
+"Highgate"
+"Archway"
+"Tufnell Park"
+"Kentish Town"
+"Camden Town"
+"Mornington Crescent"
+"Euston"
+"King\'s Cross St. Pancras"
+"Angel"
+"Old Street"
+"Moorgate"
+"Bank"
+"London Bridge"
+"Borough"
+"Elephant & Castle"
+"Kennington"
+"Oval"
+"Stockwell"
+"Clapham North"
+"Clapham Common"
+"Clapham South"
+"Balham"
+"Tooting Bec"
+"Tooting Broadway"
+"Colliers Wood"
+"South Wimbledon"
+"Morden"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Northern Line (Black)
+#	High Barnet - Morden 
+# ===============================================================================
+SEGMENT
+FORWARD
+"Northern Line towards Morden (via Charing Cross)"
+FORWARDEND
+BACKWARD
+"Northern Line towards High Barnet (via Charing Cross)"
+BACKWARDEND
+STATIONS
+"High Barnet"
+"Totteridge and Whetstone"
+"Woodside Park"
+"West Finchley"
+"Finchley Central"
+"East Finchley"
+"Highgate"
+"Archway"
+"Tufnell Park"
+"Kentish Town"
+"Camden Town"
+"Mornington Crescent"
+"Euston"
+"Warren Street"
+"Goodge Street"
+"Tottenham Court Road"
+"Leicester Square"
+"Charing Cross"
+"Embankment"
+"Waterloo"
+"Kennington"
+"Oval"
+"Stockwell"
+"Clapham North"
+"Clapham Common"
+"Clapham South"
+"Balham"
+"Tooting Bec"
+"Tooting Broadway"
+"Colliers Wood"
+"South Wimbledon"
+"Morden"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Northern Line (BLACK)
+#	Edgware - Morden 
+# ===============================================================================
+SEGMENT
+FORWARD
+"Northern Line towards Morden (via Bank)"
+FORWARDEND
+BACKWARD
+"Northern Line towards Edgware(via Bank)"
+BACKWARDEND
+STATIONS
+"Edgware"
+"Burnt Oak"
+"Colindale"
+"Hendon Central"
+"Brent Cross"
+"Golders Green"
+"Hampstead"
+"Belsize Park"
+"Chalk Farm"
+"Camden Town"
+"Mornington Crescent"
+"Euston"
+"King\'s Cross St. Pancras"
+"Angel"
+"Old Street"
+"Moorgate"
+"Bank"
+"London Bridge"
+"Borough"
+"Elephant & Castle"
+"Kennington"
+"Oval"
+"Stockwell"
+"Clapham North"
+"Clapham Common"
+"Clapham South"
+"Balham"
+"Tooting Bec"
+"Tooting Broadway"
+"Colliers Wood"
+"South Wimbledon"
+"Morden"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Northern Line (BLACK)
+#	Edgware - Morden 
+# ===============================================================================
+SEGMENT
+FORWARD
+"Northern Line towards Morden (via Charing Cross)"
+FORWARDEND
+BACKWARD
+"Northern Line towards Edgware (via Charing Cross)"
+BACKWARDEND
+STATIONS
+"Edgware"
+"Burnt Oak"
+"Colindale"
+"Hendon Central"
+"Brent Cross"
+"Golders Green"
+"Hampstead"
+"Belsize Park"
+"Chalk Farm"
+"Camden Town"
+"Mornington Crescent"
+"Euston"
+"Warren Street"
+"Goodge Street"
+"Tottenham Court Road"
+"Leicester Square"
+"Charing Cross"
+"Embankment"
+"Waterloo"
+"Kennington"
+"Oval"
+"Stockwell"
+"Clapham North"
+"Clapham Common"
+"Clapham South"
+"Balham"
+"Tooting Bec"
+"Tooting Broadway"
+"Colliers Wood"
+"South Wimbledon"
+"Morden"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Northern Line, (BLACK)
+#	Mill Hill East - Morden (through Charing Cross)
+# ===============================================================================
+SEGMENT
+FORWARD
+"Northern Line towards Morden (via Charing Cross)"
+FORWARDEND
+BACKWARD
+"Northern Line towards Mill Hill East (via Charing Cross)"
+BACKWARDEND
+STATIONS
+"Mill Hill East"
+"Finchley Central"
+"East Finchley"
+"Highgate"
+"Archway"
+"Tufnell Park"
+"Kentish Town"
+"Camden Town"
+"Mornington Crescent"
+"Euston"
+"Warren Street"
+"Goodge Street"
+"Tottenham Court Road"
+"Leicester Square"
+"Charing Cross"
+"Embankment"
+"Waterloo"
+"Kennington"
+"Oval"
+"Stockwell"
+"Clapham North"
+"Clapham Common"
+"Clapham South"
+"Balham"
+"Tooting Bec"
+"Tooting Broadway"
+"Colliers Wood"
+"South Wimbledon"
+"Morden"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Northern Line (BLACK)
+#	Mill Hill East - Morden 
+# ===============================================================================
+SEGMENT
+FORWARD
+"Northern Line towards Morden (via Bank)"
+FORWARDEND
+BACKWARD
+"Northern Line towards Mill Hill East (via Bank)"
+BACKWARDEND
+STATIONS
+"Mill Hill East"
+"Finchley Central"
+"East Finchley"
+"Highgate"
+"Archway"
+"Tufnell Park"
+"Kentish Town"
+"Camden Town"
+"Mornington Crescent"
+"Euston"
+"King\'s Cross St. Pancras"
+"Angel"
+"Old Street"
+"Moorgate"
+"Bank"
+"London Bridge"
+"Borough"
+"Elephant & Castle"
+"Kennington"
+"Oval"
+"Stockwell"
+"Clapham North"
+"Clapham Common"
+"Clapham South"
+"Balham"
+"Tooting Bec"
+"Tooting Broadway"
+"Colliers Wood"
+"South Wimbledon"
+"Morden"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Northern Line shuttle (black)
+#	Mill Hill East - Finchley Central
+#	Shuttle
+# ===============================================================================
+SEGMENT
+FORWARD
+"Northern Line towards Finchley Central"
+FORWARDEND
+BACKWARD
+"Northern Line towards Mill Hill East"
+BACKWARDEND
+STATIONS
+"Mill Hill East"
+"Finchley Central"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Piccadilly Line (dark blue)
+#	Cockfosters - Heathrow 5
+# ===============================================================================
+LINE
+LINE_NAME
+"Piccadilly Line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Turnham Green only with the earliest and latest trains"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Piccadilly Line towards Heathrow terminal 5"
+FORWARDEND
+BACKWARD
+"Piccadilly Line towards Cockfosters"
+BACKWARDEND
+STATIONS
+"Cockfosters"
+"Oakwood"
+"Southgate"
+"Arnos Grove"
+"Bounds Green"
+"Wood Green"
+"Turnpike Lane"
+"Manor House"
+"Finsbury Park"
+"Arsenal"
+"Holloway Road"
+"Caledonian Road"
+"King\'s Cross St. Pancras"
+"Russell Square"
+"Holborn"
+"Covent Garden"
+"Leicester Square"
+"Piccadilly Circus"
+"Green Park"
+"Hyde Park Corner"
+"Knightsbridge"
+"South Kensington"
+"Gloucester Road"
+"Earl\'s Court"
+"Barons Court"
+"Hammersmith"
+"Acton Town"
+"South Ealing"
+"Northfields"
+"Boston Manor"
+"Osterley"
+"Hounslow East"
+"Hounslow Central"
+"Hounslow West"
+"Hatton Cross"
+"Heathrow Terminals 1, 2, 3"
+"Heathrow Terminal 5"
+STATIONSEND
+SEGMENTEND
+
+# ===============================================================================
+#	Piccadilly Line (dark blue)
+#	Cockfosters - Heathrow 4
+#	pan shaped loop
+# ===============================================================================
+SEGMENT
+FORWARD
+"Piccadilly Line towards Heathrow terminal 4"
+FORWARDEND
+STATIONS
+"Cockfosters"
+"Oakwood"
+"Southgate"
+"Arnos Grove"
+"Bounds Green"
+"Wood Green"
+"Turnpike Lane"
+"Manor House"
+"Finsbury Park"
+"Arsenal"
+"Holloway Road"
+"Caledonian Road"
+"King\'s Cross St. Pancras"
+"Russell Square"
+"Holborn"
+"Covent Garden"
+"Leicester Square"
+"Piccadilly Circus"
+"Green Park"
+"Hyde Park Corner"
+"Knightsbridge"
+"South Kensington"
+"Gloucester Road"
+"Earl\'s Court"
+"Barons Court"
+"Hammersmith"
+"Acton Town"
+"South Ealing"
+"Northfields"
+"Boston Manor"
+"Osterley"
+"Hounslow East"
+"Hounslow Central"
+"Hounslow West"
+"Hatton Cross"
+"Heathrow Terminal 4"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Piccadilly Line (dark blue)
+#	Heathrow 4 - Cockfosters 
+#	pan shaped loop
+# ===============================================================================
+SEGMENT
+FORWARD
+"Piccadilly Line towards Cockfosters"
+FORWARDEND
+STATIONS
+"Heathrow Terminal 4"
+"Heathrow Terminals 1, 2, 3"
+"Hatton Cross"
+"Hounslow West"
+"Hounslow Central"
+"Hounslow East"
+"Osterley"
+"Boston Manor"
+"Northfields"
+"South Ealing"
+"Acton Town"
+"Hammersmith"
+"Barons Court"
+"Earl\'s Court"
+"Gloucester Road"
+"South Kensington"
+"Knightsbridge"
+"Hyde Park Corner"
+"Green Park"
+"Piccadilly Circus"
+"Leicester Square"
+"Covent Garden"
+"Holborn"
+"Russell Square"
+"King\'s Cross St. Pancras"
+"Caledonian Road"
+"Holloway Road"
+"Arsenal"
+"Finsbury Park"
+"Manor House"
+"Turnpike Lane"
+"Wood Green"
+"Bounds Green"
+"Arnos Grove"
+"Southgate"
+"Oakwood"
+"Cockfosters"
+STATIONSEND
+SEGMENTEND
+
+# ===============================================================================
+#	Piccadilly Line (dark blue)
+#	Cockfosters - Uxbridge
+# ===============================================================================
+SEGMENT
+FORWARD
+"Piccadilly Line towards Uxbridge"
+FORWARDEND
+BACKWARD
+"Piccadilly Line towards Cockfosters"
+BACKWARDEND
+STATIONS
+"Cockfosters"
+"Oakwood"
+"Southgate"
+"Arnos Grove"
+"Bounds Green"
+"Wood Green"
+"Turnpike Lane"
+"Manor House"
+"Finsbury Park"
+"Arsenal"
+"Holloway Road"
+"Caledonian Road"
+"King\'s Cross St. Pancras"
+"Russell Square"
+"Holborn"
+"Covent Garden"
+"Leicester Square"
+"Piccadilly Circus"
+"Green Park"
+"Hyde Park Corner"
+"Knightsbridge"
+"South Kensington"
+"Gloucester Road"
+"Earl\'s Court"
+"Barons Court"
+"Hammersmith"
+"Acton Town"
+"Ealing Common"
+"North Ealing"
+"Park Royal"
+"Alperton"
+"Sudbury Town"
+"Sudbury Hill"
+"South Harrow"
+"Rayners Lane"
+"Eastcote"
+"Ruislip Manor"
+"Ruislip"
+"Ickenham"
+"Hillingdon"
+"Uxbridge"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Piccadilly Line (dark blue)
+#	Cockfosters - Rayners Lane
+# ===============================================================================
+SEGMENT
+FORWARD
+"Piccadilly Line towards Rayners Lane"
+FORWARDEND
+BACKWARD
+"Piccadilly Line towards Cockfosters"
+BACKWARDEND
+STATIONS
+"Cockfosters"
+"Oakwood"
+"Southgate"
+"Arnos Grove"
+"Bounds Green"
+"Wood Green"
+"Turnpike Lane"
+"Manor House"
+"Finsbury Park"
+"Arsenal"
+"Holloway Road"
+"Caledonian Road"
+"King\'s Cross St. Pancras"
+"Russell Square"
+"Holborn"
+"Covent Garden"
+"Leicester Square"
+"Piccadilly Circus"
+"Green Park"
+"Hyde Park Corner"
+"Knightsbridge"
+"South Kensington"
+"Gloucester Road"
+"Earl\'s Court"
+"Barons Court"
+"Hammersmith"
+"Acton Town"
+"Ealing Common"
+"North Ealing"
+"Park Royal"
+"Alperton"
+"Sudbury Town"
+"Sudbury Hill"
+"South Harrow"
+"Rayners Lane"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Piccadilly Line (dark blue)
+#	Arnos Grove - Northfields
+# ===============================================================================
+SEGMENT
+FORWARD
+"Piccadilly Line towards Northfields"
+FORWARDEND
+BACKWARD
+"Piccadilly Line towards Arnos Grove"
+BACKWARDEND
+STATIONS
+"Arnos Grove"
+"Bounds Green"
+"Wood Green"
+"Turnpike Lane"
+"Manor House"
+"Finsbury Park"
+"Arsenal"
+"Holloway Road"
+"Caledonian Road"
+"King\'s Cross St. Pancras"
+"Russell Square"
+"Holborn"
+"Covent Garden"
+"Leicester Square"
+"Piccadilly Circus"
+"Green Park"
+"Hyde Park Corner"
+"Knightsbridge"
+"South Kensington"
+"Gloucester Road"
+"Earl\'s Court"
+"Barons Court"
+"Hammersmith"
+"Acton Town"
+"South Ealing"
+"Northfields"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===============================================================================
+#	Victoria Line (light blue)
+#	Brixton - Walthamstow Central
+# ===============================================================================
+SEGMENT
+FORWARD
+"Victoria Line towards Brixton"
+FORWARDEND
+BACKWARD
+"Victoria Line towards Walthamstow Central"
+BACKWARDEND
+STATIONS
+"Walthamstow Central"
+"Blackhorse Road"
+"Tottenham Hale"
+"Seven Sisters"
+"Finsbury Park"
+"Highbury & Islington"
+"King\'s Cross St. Pancras"
+"Euston"
+"Warren Street"
+"Oxford Circus"
+"Green Park"
+"Victoria"
+"Pimlico"
+"Vauxhall"
+"Stockwell"
+"Brixton"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Victoria Line (light blue)
+#	Brixton - Seven Sisters
+# ===============================================================================
+SEGMENT
+FORWARD
+"Victoria Line towards Brixton"
+FORWARDEND
+BACKWARD
+"Victoria Line towards Seven Sisters"
+BACKWARDEND
+STATIONS
+"Seven Sisters"
+"Finsbury Park"
+"Highbury & Islington"
+"King\'s Cross St. Pancras"
+"Euston"
+"Warren Street"
+"Oxford Circus"
+"Green Park"
+"Victoria"
+"Pimlico"
+"Vauxhall"
+"Stockwell"
+"Brixton"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+#	Waterloo & City Line (Turquoise)
+#	Bank - Waterloo
+#	Shuttle service (does not operate saturday evenings and sundays
+# ===============================================================================
+LINE
+LINE_NAME
+"Waterloo & City Line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"No service on saturday evenings and sundays"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Waterloo & City Line towards Bank" 
+FORWARDEND
+BACKWARD
+"Waterloo & City Line towards Waterloo" 
+BACKWARDEND
+STATIONS
+"Waterloo"
+"Bank"
+STATIONSEND
+SEGMENTEND
+
+
+# ===============================================================================
+# TRANSFORM 
+# Hainault line sometimes extends towards Woodford
+# Central Line Woodford via Hainault
+# ===============================================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Hainault"
+TRANSFORM_POINT_END
+BEFORE
+"Central Line towards Hainault"
+BEFORE_END
+AFTER
+"Central Line towards Woodford"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# ===============================================================================
+# TRANSFORM Piccadilly Line towards Cockfosters
+# ===============================================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Heathrow Terminal 4"
+TRANSFORM_POINT_END
+BEFORE
+"Piccadilly Line towards Heathrow terminal 4"
+BEFORE_END
+AFTER
+"Piccadilly Line towards Cockfosters"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+
+
+# =============================================================
+#
+#    LONDON OVERGROUND
+#
+# =============================================================
+
+# =============================================================
+#     OVERGROUND - NORTH & WEST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Stratford"
+FORWARDEND
+BACKWARD
+"London Overground towards Richmond"
+BACKWARDEND
+STATIONS
+"Richmond"
+"Kew Gardens"
+"Gunnersbury"
+"South Acton"
+"Acton Central"
+"Willesden Junction"
+"Kensal Rise"
+"Brondesbury Park"
+"Brondesbury"
+"West Hampstead"
+"Finchley Road & Frognal"
+"Hampstead Heath"
+"Gospel Oak"
+"Kentish Town West"
+"Camden Road"
+"Caledonian Road & Barnsbury"
+"Highbury & Islington"
+"Canonbury"
+"Dalston Kingsland"
+"Hackney Central"
+"Homerton"
+"Hackney Wick"
+"Stratford"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"London Overground towards Stratford"
+FORWARDEND
+BACKWARD
+"London Overground towards Clapham Junction"
+BACKWARDEND
+STATIONS
+"Clapham Junction"
+"Imperial Wharf"
+"West Brompton"
+"Kensington (Olympia)"
+"Shepherd\'s Bush"
+"Willesden Junction"
+"Kensal Rise"
+"Brondesbury Park"
+"Brondesbury"
+"West Hampstead"
+"Finchley Road & Frognal"
+"Hampstead Heath"
+"Gospel Oak"
+"Kentish Town West"
+"Camden Road"
+"Caledonian Road & Barnsbury"
+"Highbury & Islington"
+"Canonbury"
+"Dalston Kingsland"
+"Hackney Central"
+"Homerton"
+"Hackney Wick"
+"Stratford"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"London Overground towards Willesden Junction"
+FORWARDEND
+BACKWARD
+"London Overground towards Clapham Junction"
+BACKWARDEND
+STATIONS
+"Clapham Junction"
+"Imperial Wharf"
+"West Brompton"
+"Kensington (Olympia)"
+"Shepherd\'s Bush"
+"Willesden Junction"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"London Overground towards Gospel Oak"
+FORWARDEND
+BACKWARD
+"London Overground towards Willesden Junction"
+BACKWARDEND
+STATIONS
+"Willesden Junction"
+"Kensal Rise"
+"Brondesbury Park"
+"Brondesbury"
+"West Hampstead"
+"Finchley Road & Frognal"
+"Hampstead Heath"
+"Gospel Oak"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - GOSPEL OAK - BARKING
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Barking"
+FORWARDEND
+BACKWARD
+"London Overground towards Gospel Oak"
+BACKWARDEND
+STATIONS
+"Gospel Oak"
+"Upper Holloway"
+"Crouch Hill"
+"Harringay Green Lanes"
+"South Tottenham"
+"Blackhorse Road"
+"Walthamstow Queens Road"
+"Leyton Midland Road"
+"Leytonstone High Road"
+"Wanstead Park"
+"Woodgrange Park"
+"Barking"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - WATFORD JUNCTION - EUSTON
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Watford Junction"
+FORWARDEND
+BACKWARD
+"London Overground towards Euston"
+BACKWARDEND
+STATIONS
+"Euston"
+"South Hampstead"
+"Kilburn High Road"
+"Queen\'s Park"
+"Kensal Green"
+"Willesden Junction"
+"Harlesden"
+"Stonebridge Park"
+"Wembley Central"
+"North Wembley"
+"South Kenton"
+"Kenton"
+"Harrow & Wealdstone"
+"Headstone Lane"
+"Hatch End"
+"Carpenders Park"
+"Bushey"
+"Watford High Street"
+"Watford Junction"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards New Cross"
+FORWARDEND
+BACKWARD
+"London Overground towards Highbury & Islington"
+BACKWARDEND
+STATIONS
+"Highbury & Islington"
+"Canonbury"
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"New Cross"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Crystal Palace"
+FORWARDEND
+BACKWARD
+"London Overground towards Highbury & Islington"
+BACKWARDEND
+STATIONS
+"Highbury & Islington"
+"Canonbury"
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"New Cross Gate"
+"Brockley"
+"Honor Oak Park"
+"Forest Hill"
+"Sydenham"
+"Crystal Palace"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards West Croydon"
+FORWARDEND
+BACKWARD
+"London Overground towards Highbury & Islington"
+BACKWARDEND
+STATIONS
+"Highbury & Islington"
+"Canonbury"
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"New Cross Gate"
+"Brockley"
+"Honor Oak Park"
+"Forest Hill"
+"Sydenham"
+"Penge West"
+"Anerley"
+"Norwood Junction"
+"West Croydon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards New Cross"
+FORWARDEND
+BACKWARD
+"London Overground towards Dalston Junction"
+BACKWARDEND
+STATIONS
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"New Cross"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Crystal Palace"
+FORWARDEND
+BACKWARD
+"London Overground towards Dalston Junction"
+BACKWARDEND
+STATIONS
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"New Cross Gate"
+"Brockley"
+"Honor Oak Park"
+"Forest Hill"
+"Sydenham"
+"Crystal Palace"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards West Croydon"
+FORWARDEND
+BACKWARD
+"London Overground towards Dalston Junction"
+BACKWARDEND
+STATIONS
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"New Cross Gate"
+"Brockley"
+"Honor Oak Park"
+"Forest Hill"
+"Sydenham"
+"Penge West"
+"Anerley"
+"Norwood Junction"
+"West Croydon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     OVERGROUND - EAST LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Sydenham"
+FORWARDEND
+BACKWARD
+"London Overground towards Surrey Quays"
+BACKWARDEND
+STATIONS
+"Surrey Quays"
+"New Cross Gate"
+"Brockley"
+"Honor Oak Park"
+"Forest Hill"
+"Sydenham"
+STATIONSEND
+SEGMENTEND
+
+
+# Extension Dalston Junction to Clapham Junction via 
+# Surrey Quays opened 9 december 2012 
+# =============================================================
+#     OVERGROUND - SOUTH LONDON LINE
+# =============================================================
+SEGMENT
+FORWARD
+"London Overground towards Clapham Junction (via Surrey Quays)"
+FORWARDEND
+BACKWARD
+"London Overground towards Highbury & Islington (via Surrey Quays)"
+BACKWARDEND
+STATIONS
+"Highbury & Islington"
+"Canonbury"
+"Dalston Junction"
+"Haggerston"
+"Hoxton"
+"Shoreditch High Street"
+"Whitechapel"
+"Shadwell"
+"Wapping"
+"Rotherhithe"
+"Canada Water"
+"Surrey Quays"
+"Queens Road Peckham"
+"Peckham Rye"
+"Denmark Hill"
+"Clapham High Street"
+"Wandsworth Road"
+"Clapham Junction"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#
+#    DOCKLANDS LIGHT RAIL
+#
+# =============================================================
+SEGMENT
+FORWARD
+"Docklands Light Railway towards Lewisham"
+FORWARDEND
+BACKWARD
+"Docklands Light Railway towards Bank"
+BACKWARDEND
+STATIONS
+"Bank"
+"Shadwell"
+"Limehouse"
+"Westferry"
+"West India Quay"
+"Canary Wharf / DLR"
+"Heron Quays"
+"South Quay"
+"Crossharbour"
+"Mudchute"
+"Island Gardens" 
+"Cutty Sark"
+"Greenwich" 	
+"Deptford Bridge" 	
+"Elverson Road" 	
+"Lewisham" 	
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Docklands Light Railway towards Canary Wharf"
+FORWARDEND
+BACKWARD
+"Docklands Light Railway towards Stratford"
+BACKWARDEND
+STATIONS
+"Stratford"
+"Pudding Mill Lane"
+"Bow Church"
+"Devons Road"
+"Langdon Park" 	
+"All Saints" 	
+"Poplar"
+"West India Quay"
+"Canary Wharf / DLR"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Docklands Light Railway towards Beckton"
+FORWARDEND
+BACKWARD
+"Docklands Light Railway towards Tower Gateway"
+BACKWARDEND
+STATIONS
+"Tower Gateway"
+"Shadwell"
+"Limehouse"
+"Westferry"
+"Poplar"
+"Blackwall"
+"East India" 	
+"Canning Town" 	
+"Royal Victoria" 	
+"Custom House"
+"Prince Regent"
+"Royal Albert"
+"Beckton Park"
+"Cyprus" 	
+"Gallions Reach"
+"Beckton" 	
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Docklands Light Railway towards Beckton"
+FORWARDEND
+BACKWARD
+"Docklands Light Railway towards Stratford International"
+BACKWARDEND
+STATIONS
+"Stratford International" 	
+"Stratford"
+"Stratford High Street"
+"Abbey Road"
+"West Ham"
+"Star Lane"
+"Canning Town"
+"Royal Victoria"
+"Custom House"
+"Prince Regent"
+"Royal Albert"
+"Beckton Park"
+"Cyprus" 	
+"Gallions Reach"
+"Beckton" 	
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Docklands Light Railway towards Woolwich Arsenal"
+FORWARDEND
+BACKWARD
+"Docklands Light Railway towards Bank"
+BACKWARDEND
+STATIONS
+"Bank"
+"Shadwell"
+"Limehouse"
+"Westferry"
+"Poplar"
+"Blackwall"
+"East India" 	
+"Canning Town" 	
+"West Silvertown"
+"Pontoon Dock"
+"London City Airport"
+"King George V"
+"Woolwich Arsenal"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    DOCKLANDS LIGHT RAIL - PEAK HOURS
+# =============================================================
+LINE
+LINE_NAME
+"DLR Peak Service"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Woolwich branch: weekdays during rush hours only; Lewisham branch: weekdays in the morning rush hour only"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"DLR Peak Service towards Woolwich Arsenal"
+FORWARDEND
+BACKWARD
+"DLR Peak Service towards Stratford International"
+BACKWARDEND
+STATIONS
+"Stratford International" 	
+"Stratford"
+"Stratford High Street"
+"Abbey Road"
+"West Ham"
+"Star Lane"
+"Canning Town" 	
+"West Silvertown"
+"Pontoon Dock"
+"London City Airport"
+"King George V"
+"Woolwich Arsenal"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"DLR Peak Service towards Lewisham"
+FORWARDEND
+BACKWARD
+"DLR Peak Service towards Stratford"
+BACKWARDEND
+STATIONS
+"Stratford"
+"Pudding Mill Lane"
+"Bow Church"
+"Devons Road"
+"Langdon Park" 	
+"All Saints" 	
+"Poplar"
+"West India Quay"
+"Canary Wharf / DLR"
+"Heron Quays"
+"South Quay"
+"Crossharbour"
+"Mudchute"
+"Island Gardens" 
+"Cutty Sark"
+"Greenwich" 	
+"Deptford Bridge" 	
+"Elverson Road" 	
+"Lewisham" 	
+STATIONSEND
+SEGMENTEND
+

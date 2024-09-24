@@ -1,0 +1,329 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Buenos_Aires_Subway and subsequent pages
+
+# City
+CITY
+CITYNAME
+"Buenos Aires"
+CITYNAME_END
+CITYCODE
+BUE
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Linea A
+# =============================================================
+SEGMENT
+FORWARD
+"Line A, towards San Pedrito"
+FORWARDEND
+BACKWARD
+"Line A, towards Plaza de Mayo"
+BACKWARDEND
+STATIONS
+"Plaza de Mayo"
+"Perú"
+"Piedras"
+"Lima"
+"Sáenz Peña"
+"Congreso"
+"Pasco"
+"Alberti"
+"Plaza Miserere"
+"Loria"
+"Castro Barros"
+"Río de Janeiro"
+"Acoyte"
+"Primera Junta"
+"Puán"
+"Carabobo"
+"San José de Flores"
+"San Pedrito"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea B
+# =============================================================
+SEGMENT
+FORWARD
+"Line B, towards Juan Manuel de Rosas"
+FORWARDEND
+BACKWARD
+"Line B, towards Leandro N. Alem"
+BACKWARDEND
+STATIONS
+"Leandro N. Alem"
+"Florida"
+"Carlos Pellegrini"
+"Uruguay"
+"Callao / Av. Corrientes"
+"Pasteur"
+"Pueyrredón / Av. Corrientes"
+"Carlos Gardel"
+"Medrano"
+"Ángel Gallardo"
+"Malabia"
+"Dorrego"
+"Federico Lacroze"
+"Tronador/Villa Ortúzar"
+"Los Incas/Parque Chas"
+"Echeverría"
+"Juan Manuel de Rosas"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea C
+# =============================================================
+SEGMENT
+FORWARD
+"Line C, towards Constitución"
+FORWARDEND
+BACKWARD
+"Line C, towards Retiro"
+BACKWARDEND
+STATIONS
+"Retiro"
+"General San Martín"
+"Lavalle"
+"Diagonal Norte"
+"Avenida de Mayo"
+"Moreno"
+"Independencia"
+"San Juan"
+"Constitución"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea D
+# =============================================================
+SEGMENT
+FORWARD
+"Line D, towards Congreso de Tucumán"
+FORWARDEND
+BACKWARD
+"Line D, towards Catedral"
+BACKWARDEND
+STATIONS
+"Catedral"
+"9 de Julio"
+"Tribunales"
+"Callao / Av. Córdoba"
+"Facultad de Medicina"
+"Pueyrredón / Av. Santa Fe"
+"Agüero"
+"Bulnes"
+"Scalabrini Ortiz"
+"Plaza Italia"
+"Palermo"
+"Ministro Carranza"
+"Olleros"
+"José Hernández"
+"Juramento"
+"Congreso de Tucumán"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea E
+# =============================================================
+SEGMENT
+FORWARD
+"Line E, towards Plaza de los Virreyes"
+FORWARDEND
+BACKWARD
+"Line E, towards Bolivar"
+BACKWARDEND
+STATIONS
+"Bolívar"
+"Belgrano"
+"Independencia"
+"San José"
+"Rodolfo Walsh (Entre Ríos)" #renamed 3/2013
+"Pichincha"
+"Jujuy"
+"General Urquiza"
+"Boedo"
+"Avenida La Plata"
+"José María Moreno"
+"Emilio Mitre"
+"Medalla Milagrosa"
+"Varela"
+"Plaza de los Virreyes"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea H
+# =============================================================
+SEGMENT
+FORWARD
+"Line H, towards Hospitales"
+FORWARDEND
+BACKWARD
+"Line H, towards Corrientes"
+BACKWARDEND
+STATIONS
+"Corrientes"
+"Once" 
+"Venezuela"
+"Humberto I"
+"Inclán"
+"Caseros"
+"Parque Patricios"
+"Hospitales"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     PreMetro E2
+# =============================================================
+SEGMENT
+FORWARD
+"PreMetro E2, towards Centro Cívico - Villa Lugano"
+FORWARDEND
+BACKWARD
+"PreMetro E2, towards Plaza de los Virreyes - Int. Saguier"
+BACKWARDEND
+STATIONS
+"Intendente Saguier"
+"Balbastro"
+"Mariano Acosta"
+"Somellera"
+"Ana María Janer"
+"Nuestra Señora de Fátima"
+"Fernández de la Cruz"
+"Presidente Illia"
+"Parque de la Ciudad"
+"Escalada"
+"Pola"
+"Ana Díaz"
+"Centro Cívico Lugano"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"PreMetro E2, towards General Savio"
+FORWARDEND
+BACKWARD
+"PreMetro E2, towards Plaza de los Virreyes - Int. Saguier"
+BACKWARDEND
+STATIONS
+"Intendente Saguier"
+"Balbastro"
+"Mariano Acosta"
+"Somellera"
+"Ana María Janer"
+"Nuestra Señora de Fátima"
+"Fernández de la Cruz"
+"Presidente Illia"
+"Parque de la Ciudad"
+"Escalada"
+"Pola"
+"Larrazabal"
+"Nicolás Descalzi"
+"Gabino Ezeiza"
+"General Savio"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Urquiza Linea U
+# =============================================================
+SEGMENT
+FORWARD
+"Urquiza Line U, towards General Lemos"
+FORWARDEND
+BACKWARD
+"Urquiza Line U, towards Federico Lacroze"
+BACKWARDEND
+STATIONS
+"Federico Lacroze"
+"José Artigas"
+"Pedro N. Arata"
+"Doctor F. Beiró"
+"El Libertador"
+"Antonio Devoto"
+"Coronel F. Lynch"
+"Fernandez Moreno"
+"Lourdes"
+"Tropezón"
+"J.M. Bosch"
+"Martín Coronado"
+"Pablo Podestá"
+"Jorge Newbery"
+"Ruben Dario"
+"Ejército de Los Andes"
+"Juan B. de Lasalle"
+"Sargento Barrufaldi"
+"Capitán Lozano"
+"Teniente Agneta"
+"Campo de Mayo"
+"Sargento Cabral"
+"General Lemos"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     MNN's
+# =============================================================
+MULTI_NAMED_NODE
+"Carlos Pellegrini"
+"9 de Julio"
+"Diagonal Norte"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Perú"
+"Catedral"
+"Bolívar"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Plaza de los Virreyes"
+"Intendente Saguier"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Once"
+"Plaza Miserere"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Jujuy"
+"Humberto I"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Lima"
+"Avenida de Mayo"
+MULTI_NAMED_NODE_END
+
+# actually two stations on the same line, each serving one direction
+# 
+#     pascoe 
+# <-----o----------
+# --------o------->
+#      alberti
+#  
+MULTI_NAMED_NODE
+"Pasco"
+"Alberti"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Corrientes"
+"Pueyrredón / Av. Corrientes"
+MULTI_NAMED_NODE_END
+
+
+

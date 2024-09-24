@@ -1,0 +1,38 @@
+CITY
+CITYNAME
+Rennes
+CITYNAME_END
+CITYCODE
+REN
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards La Poterie"
+FORWARDEND
+BACKWARD
+"Main line, towards J.F. Kennedy"
+BACKWARDEND
+STATIONS
+"J.F. Kennedy"
+"Villejean-Université"
+"Pontchaillou"
+"Anatole France"
+"Sainte-Anne"
+"République"
+"Charles de Gaulle"
+"Gares"
+"Jacques Cartier"
+"Clemenceau"
+"Henri Fréville"
+"Italie"
+"Triangle"
+"Blosne"
+"La Poterie"
+STATIONSEND
+SEGMENTEND
+

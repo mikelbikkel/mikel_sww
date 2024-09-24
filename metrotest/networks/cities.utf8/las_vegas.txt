@@ -1,0 +1,30 @@
+CITY
+CITYNAME
+"Las Vegas"
+CITYNAME_END
+CITYCODE
+LVG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Mono rail, towards MGM Grand"
+FORWARDEND
+BACKWARD
+"Mono rail, towards Sahara"
+BACKWARDEND
+STATIONS
+"Sahara"
+"Las Vegas Hilton"
+"Las Vegas Convention Center"
+"Harrah\'s / Imperial Palace"
+"Flamingo / Caesars Palace"
+"Bally\'s / Paris Las Vegas"
+"MGM Grand"
+STATIONSEND
+SEGMENTEND
+

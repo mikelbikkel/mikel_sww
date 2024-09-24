@@ -1,0 +1,1180 @@
+
+# extracted from http://pl.wikipedia.org/wiki/Metro_berli%C5%84skie and subsequent pages
+
+# REMARKS 
+# S45 as of may 2010 out of service
+# S85 as of may 2010 out of service
+
+#City
+CITY
+CITYNAME
+"Berlin"
+CITYNAME_END
+CITYCODE
+BER
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+
+#-------------------------- U Bahn ---------------------------#
+
+# =============================================================
+#     U1
+# =============================================================
+SEGMENT
+FORWARD
+"U1 towards Uhlandstraße"
+FORWARDEND
+BACKWARD
+"U1 towards Warschauer Straße"
+BACKWARDEND
+STATIONS
+"Warschauer Straße"
+"Schlesisches Tor"
+"Görlitzer Bahnhof"
+"Kottbusser Tor"
+"Prinzenstraße"
+"Hallesches Tor"
+"Möckernbrücke"
+"Gleisdreieck"
+"Kurfürstenstraße"
+"Nollendorfplatz"
+"Wittenbergplatz"
+"Kurfürstendamm"
+"Uhlandstraße"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U2
+# =============================================================
+SEGMENT
+FORWARD
+"U2 towards Ruhleben"
+FORWARDEND
+BACKWARD
+"U2 towards Pankow"
+BACKWARDEND
+STATIONS
+"Pankow"
+"Vinetastraße"
+"Schönhauser Allee"
+"Eberswalder Straße"
+"Senefelderplatz"
+"Rosa-Luxemburg-Platz"
+"Alexanderplatz"
+"Klosterstraße"
+"Märkisches Museum"
+"Spittelmarkt"
+"Hausvogteiplatz"
+"Stadtmitte"
+"Mohrenstraße"
+"Potsdamer Platz"
+"Mendelssohn-Bartholdy-Park"
+"Gleisdreieck"
+"Bülowstraße"
+"Nollendorfplatz"
+"Wittenbergplatz"
+"Zoologischer Garten"
+"Ernst-Reuter-Platz"
+"Deutsche Oper"
+"Bismarckstraße"
+"Sophie-Charlotte-Platz"
+"Kaiserdamm"
+"Theodor-Heuss-Platz"
+"Neu-Westend"
+"Olympiastadion"
+"Ruhleben"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U3
+# =============================================================
+SEGMENT
+FORWARD
+"U3 towards Krumme Lanke"
+FORWARDEND
+BACKWARD
+"U3 towards Nollendorfplatz"
+BACKWARDEND
+STATIONS
+"Nollendorfplatz"
+"Wittenbergplatz"
+"Augsburger Straße"
+"Spichernstraße"
+"Hohenzollernplatz"
+"Fehrbelliner Platz"
+"Heidelberger Platz"
+"Rüdesheimer Platz"
+"Breitenbachplatz"
+"Podbielskiallee"
+"Dahlem-Dorf"
+"Thielplatz"
+"Oskar-Helene-Heim"
+"Onkel Toms Hütte"
+"Krumme Lanke"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U4
+# =============================================================
+SEGMENT
+FORWARD
+"U4 towards Innsbrucker Platz"
+FORWARDEND
+BACKWARD
+"U4 towards Nollendorfplatz"
+BACKWARDEND
+STATIONS
+"Nollendorfplatz"
+"Viktoria-Luise-Platz"
+"Bayerischer Platz"
+"Rathaus Schöneberg"
+"Innsbrucker Platz"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U5
+# =============================================================
+SEGMENT
+FORWARD
+"U5 towards Alexanderplatz"
+FORWARDEND
+BACKWARD
+"U5 towards Hönow"
+BACKWARDEND
+STATIONS
+"Hönow"
+"Louis-Lewin-Straße"
+"Hellersdorf"
+"Cottbusser Platz"
+"Neue Grottkauer Straße"
+"Kaulsdorf-Nord"
+"Wuhletal"
+"Elsterwerdaer Platz"
+"Biesdorf-Süd"
+"Tierpark"
+"Friedrichsfelde"
+"Lichtenberg"
+"Magdalenenstraße"
+"Frankfurter Allee"
+"Samariterstraße"
+"Frankfurter Tor"
+"Weberwiese"
+"Strausberger Platz"
+"Schillingstraße"
+"Alexanderplatz"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U55
+# =============================================================
+SEGMENT
+FORWARD
+"U55 towards Brandenburger Tor"
+FORWARDEND
+BACKWARD
+"U55 towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Bundestag" 	 
+"Brandenburger Tor"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     U6
+# =============================================================
+SEGMENT
+FORWARD
+"U6 towards Alt-Mariendorf"
+FORWARDEND
+BACKWARD
+"U6 towards Alt-Tegel"
+BACKWARDEND
+STATIONS
+"Alt-Tegel"
+"Borsigwerke"
+"Holzhauser Straße"
+"Otisstraße"
+"Scharnweberstraße"
+"Kurt-Schumacher-Platz"
+"Afrikanische Straße"
+"Rehberge"
+"Seestraße"
+"Leopoldplatz"
+"Wedding"
+"Reinickendorfer Straße"
+"Schwartzkopffstraße"
+"Naturkundemuseum"
+"Oranienburger Tor"
+"Friedrichstraße"
+"Französische Straße"
+"Stadtmitte"
+"Kochstraße"
+"Hallesches Tor"
+"Mehringdamm"
+"Platz der Luftbrücke"
+"Paradestraße"
+"Tempelhof"
+"Alt-Tempelhof"
+"Kaiserin-Augusta-Straße"
+"Ullsteinstraße"
+"Westphalweg"
+"Alt-Mariendorf"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U7
+# =============================================================
+SEGMENT
+FORWARD
+"U7 towards Rudow"
+FORWARDEND
+BACKWARD
+"U7 towards Rathaus Spandau"
+BACKWARDEND
+STATIONS
+"Rathaus Spandau"
+"Altstadt Spandau"
+"Zitadelle"
+"Haselhorst"
+"Paulsternstraße"
+"Rohrdamm"
+"Siemensdamm"
+"Halemweg"
+"Jakob-Kaiser-Platz"
+"Jungfernheide"
+"Mierendorffplatz"
+"Richard-Wagner-Platz"
+"Bismarckstraße"
+"Wilmersdorfer Straße"
+"Adenauerplatz"
+"Konstanzer Straße"
+"Fehrbelliner Platz"
+"Blissestraße"
+"Berliner Straße"
+"Bayerischer Platz"
+"Eisenacher Straße"
+"Kleistpark"
+"Yorckstraße"
+"Möckernbrücke"
+"Mehringdamm"
+"Gneisenaustraße"
+"Südstern"
+"Hermannplatz"
+"Rathaus Neukölln"
+"Karl-Marx-Straße"
+"Neukölln"
+"Grenzallee"
+"Blaschkoallee"
+"Parchimer Allee"
+"Britz-Süd"
+"Johannisthaler Chaussee"
+"Lipschitzallee"
+"Wutzkyallee"
+"Zwickauer Damm"
+"Rudow"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U8
+# =============================================================
+SEGMENT
+FORWARD
+"U8 towards Hermannstraße"
+FORWARDEND
+BACKWARD
+"U8 towards Wittenau"
+BACKWARDEND
+STATIONS
+"Wittenau"
+"Rathaus Reinickendorf"
+"Karl-Bonhoeffer-Nervenklinik"
+"Lindauer Allee"
+"Paracelsus-Bad"
+"Residenzstraße"
+"Franz-Neumann-Platz"
+"Osloer Straße"
+"Pankstraße"
+"Gesundbrunnen"
+"Voltastraße"
+"Bernauer Straße"
+"Rosenthaler Platz"
+"Weinmeisterstraße"
+"Alexanderplatz"
+"Jannowitzbrücke"
+"Heinrich-Heine-Straße"
+"Moritzplatz"
+"Kottbusser Tor"
+"Schönleinstraße"
+"Hermannplatz"
+"Boddinstraße"
+"Leinestraße"
+"Hermannstraße"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     U9
+# =============================================================
+SEGMENT
+FORWARD
+"U9 towards Rathaus Steglitz"
+FORWARDEND
+BACKWARD
+"U9 towards Osloer Straße"
+BACKWARDEND
+STATIONS
+"Osloer Straße"
+"Nauener Platz"
+"Leopoldplatz"
+"Amrumer Straße"
+"Westhafen"
+"Birkenstraße"
+"Turmstraße"
+"Hansaplatz"
+"Zoologischer Garten"  
+"Kurfürstendamm"
+"Spichernstraße"
+"Güntzelstraße"
+"Berliner Straße"
+"Bundesplatz"
+"Friedrich-Wilhelm-Platz"
+"Walther-Schreiber-Platz"
+"Schloßstraße"
+"Rathaus Steglitz"
+STATIONSEND
+SEGMENTEND
+
+
+#-------------------------- S Bahn ---------------------------#
+
+# =============================================================
+#     S1
+# =============================================================
+SEGMENT
+FORWARD
+"S1 towards Oranienburg"
+FORWARDEND
+BACKWARD
+"S1 towards Wannsee"
+BACKWARDEND
+STATIONS
+"Wannsee"
+"Nikolassee"
+"Schlachtensee"
+"Mexikoplatz"
+"Zehlendorf"
+"Sundgauer Straße"
+"Lichterfelde West"
+"Botanischer Garten"
+"Rathaus Steglitz"
+"Feuerbachstraße"
+"Friedenau"
+"Schöneberg"
+"Julius-Leber-Brücke"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+"Brandenburger Tor"
+"Friedrichstraße"
+"Oranienburger Straße"
+"Nordbahnhof"
+"Humboldthain"
+"Gesundbrunnen"
+"Bornholmer Straße"
+"Wollankstraße"
+"Schönholz"
+"Wilhelmsruh"
+"Wittenau"
+"Waidmannslust"
+"Hermsdorf"
+"Frohnau"
+"Hohen Neuendorf"
+"Birkenwerder"
+"Borgsdorf"
+"Lehnitz"
+"Oranienburg"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S1 towards Frohnau"
+FORWARDEND
+BACKWARD
+"S1 towards Wannsee"
+BACKWARDEND
+STATIONS
+"Wannsee"
+"Nikolassee"
+"Schlachtensee"
+"Mexikoplatz"
+"Zehlendorf"
+"Sundgauer Straße"
+"Lichterfelde West"
+"Botanischer Garten"
+"Rathaus Steglitz"
+"Feuerbachstraße"
+"Friedenau"
+"Schöneberg"
+"Julius-Leber-Brücke"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+"Brandenburger Tor"
+"Friedrichstraße"
+"Oranienburger Straße"
+"Nordbahnhof"
+"Humboldthain"
+"Gesundbrunnen"
+"Bornholmer Straße"
+"Wollankstraße"
+"Schönholz"
+"Wilhelmsruh"
+"Wittenau"
+"Waidmannslust"
+"Hermsdorf"
+"Frohnau"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"S1 express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"only during rush hours, excluding holidays"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S1 express towards Potsdamer Platz"
+FORWARDEND
+BACKWARD
+"S1 express towards Zehlendorf"
+BACKWARDEND
+STATIONS
+"Zehlendorf"
+"Sundgauer Straße"
+"Lichterfelde West"
+"Botanischer Garten"
+"Rathaus Steglitz"
+"Feuerbachstraße"
+"Friedenau"
+"Schöneberg"
+"Julius-Leber-Brücke"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S2
+# =============================================================
+SEGMENT
+FORWARD
+"S2 towards Bernau bei Berlin"
+FORWARDEND
+BACKWARD
+"S2 towards Blankenfelde"
+BACKWARDEND
+STATIONS
+"Blankenfelde"
+"Mahlow"
+"Lichtenrade"
+"Schichauweg"
+"Buckower Chaussee"
+"Marienfelde"
+"Attilastraße"
+"Priesterweg"
+"Südkreuz"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+"Brandenburger Tor"
+"Friedrichstraße"
+"Oranienburger Straße"
+"Nordbahnhof"
+"Humboldthain"
+"Gesundbrunnen"
+"Bornholmer Straße"
+"Pankow"
+"Pankow-Heinersdorf"
+"Blankenburg"
+"Karow"
+"Buch"
+"Röntgental"
+"Zepernick"
+"Bernau-Friedenstal"
+"Bernau bei Berlin"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S2 towards Buch"
+FORWARDEND
+BACKWARD
+"S2 towards Lichtenrade"
+BACKWARDEND
+STATIONS
+"Lichtenrade"
+"Schichauweg"
+"Buckower Chaussee"
+"Marienfelde"
+"Attilastraße"
+"Priesterweg"
+"Südkreuz"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+"Brandenburger Tor"
+"Friedrichstraße"
+"Oranienburger Straße"
+"Nordbahnhof"
+"Humboldthain"
+"Gesundbrunnen"
+"Bornholmer Straße"
+"Pankow"
+"Pankow-Heinersdorf"
+"Blankenburg"
+"Karow"
+"Buch"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S25
+# =============================================================
+SEGMENT
+FORWARD
+"S25 towards Hennigsdorf"
+FORWARDEND
+BACKWARD
+"S25 towards Teltow Stadt"
+BACKWARDEND
+STATIONS
+"Teltow Stadt"
+"Lichterfelde Süd"
+"Osdorfer Straße"
+"Lichterfelde Ost"
+"Lankwitz"
+"Südende"
+"Priesterweg"
+"Südkreuz"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+"Brandenburger Tor"
+"Friedrichstraße"
+"Oranienburger Straße"
+"Nordbahnhof"
+"Humboldthain"
+"Gesundbrunnen"
+"Bornholmer Straße"
+"Wollankstraße"
+"Schönholz"
+"Alt-Reinickendorf"
+"Karl-Bonhoeffer-Nervenklinik"
+"Eichborndamm"
+"Tegel"
+"Schulzendorf"
+"Heiligensee"
+"Hennigsdorf"
+STATIONSEND
+SEGMENTEND
+
+
+
+LINE
+LINE_NAME
+"S25 express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Potsdammer Platz vs. Gesundbrunnen and vice versa only during rush hours"
+LINE_REMARK_END
+LINE_END
+
+
+SEGMENT
+FORWARD
+"S25 express towards Gesundbrunnen"
+FORWARDEND
+BACKWARD
+"S25 express towards Teltow Stadt"
+BACKWARDEND
+STATIONS
+"Teltow Stadt"
+"Lichterfelde Süd"
+"Osdorfer Straße"
+"Lichterfelde Ost"
+"Lankwitz"
+"Südende"
+"Priesterweg"
+"Südkreuz"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+"Brandenburger Tor"
+"Friedrichstraße"
+"Oranienburger Straße"
+"Nordbahnhof"
+"Humboldthain"
+"Gesundbrunnen"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S25 towards Potsdamer Platz"
+FORWARDEND
+BACKWARD
+"S25 towards Teltow Stadt"
+BACKWARDEND
+STATIONS
+"Teltow Stadt"
+"Lichterfelde Süd"
+"Osdorfer Straße"
+"Lichterfelde Ost"
+"Lankwitz"
+"Südende"
+"Priesterweg"
+"Südkreuz"
+"Yorckstraße"
+"Anhalter Bahnhof"
+"Potsdamer Platz"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S3
+# =============================================================
+SEGMENT
+FORWARD
+"S3 towards Ostkreuz"
+FORWARDEND
+BACKWARD
+"S3 towards Erkner"
+BACKWARDEND
+STATIONS
+"Erkner"
+"Wilhelmshagen"
+"Rahnsdorf"
+"Friedrichshagen"
+"Hirschgarten"
+"Köpenick"
+"Wuhlheide"
+"Karlshorst"
+"Betriebsbahnhof Rummelsburg"
+"Rummelsburg"
+"Ostkreuz"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"S3 express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"only during rush hours, not holidays"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S3 express towards Ostkreuz"
+FORWARDEND
+BACKWARD
+"S3 express towards Friedrichshagen"
+BACKWARDEND
+STATIONS
+"Friedrichshagen"
+"Hirschgarten"
+"Köpenick"
+"Wuhlheide"
+"Karlshorst"
+"Betriebsbahnhof Rummelsburg"
+"Rummelsburg"
+"Ostkreuz"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     S41 AND S42
+# =============================================================
+SEGMENT
+FORWARD
+"S41, Ringbahn clockwise"
+FORWARDEND
+BACKWARD
+"S42, Ringbahn counter-clockwise"
+BACKWARDEND
+STATIONS
+"Südkreuz"
+"Schöneberg"
+"Innsbrucker Platz"
+"Bundesplatz"
+"Heidelberger Platz"
+"Hohenzollerndamm"
+"Halensee"
+"Westkreuz"
+"Messe Nord/ICC"
+"Westend"
+"Jungfernheide"
+"Beusselstraße"
+"Westhafen"
+"Wedding"
+"Gesundbrunnen"
+"Schönhauser Allee"
+"Prenzlauer Allee"
+"Greifswalder Straße"
+"Landsberger Allee"
+"Storkower Straße"
+"Frankfurter Allee"
+"Ostkreuz"
+"Treptower Park"
+"Sonnenallee"
+"Neukölln"
+"Hermannstraße"
+"Tempelhof"
+"Südkreuz"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S45
+# =============================================================
+
+LINE
+LINE_NAME
+"S45"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"S45 towards Flughafen Berlin-Schönefeld"
+FORWARDEND
+BACKWARD
+"S45 towards Südkreuz"
+BACKWARDEND
+STATIONS
+"Südkreuz"
+"Tempelhof"
+"Hermannstraße"
+"Neukölln" 
+"Köllnische Heide" 
+"Baumschulenweg"
+"Schöneweide"
+"Betriebsbahnhof Schöneweide"
+"Adlershof" 
+"Altglienicke"
+"Grünbergallee"
+"Flughafen Berlin-Schönefeld"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S46
+# =============================================================
+SEGMENT
+FORWARD
+"S46 towards Westend"
+FORWARDEND
+BACKWARD
+"S46 towards Königs Wusterhausen"
+BACKWARDEND
+STATIONS
+"Königs Wusterhausen"
+"Wildau"
+"Zeuthen"
+"Eichwalde"
+"Grünau"
+"Adlershof"
+"Betriebsbahnhof Schöneweide"
+"Schöneweide"
+"Baumschulenweg"
+"Köllnische Heide"
+"Neukölln"
+"Hermannstraße"
+"Tempelhof"
+"Südkreuz"
+"Schöneberg"
+"Innsbrucker Platz"
+"Bundesplatz"
+"Heidelberger Platz"
+"Hohenzollerndamm"
+"Halensee"
+"Westkreuz"
+"Messe Nord/ICC"
+"Westend"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S47
+# =============================================================
+
+SEGMENT
+FORWARD
+"S47 towards Spindlersfeld"
+FORWARDEND
+BACKWARD
+"S47 towards Hermannstraße"
+BACKWARDEND
+STATIONS
+"Hermannstraße"
+"Neukölln" 
+"Köllnische Heide" 
+"Baumschulenweg"
+"Schöneweide"
+"Oberspree"
+"Spindlersfeld"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S5
+# =============================================================
+
+LINE
+LINE_NAME
+"S5"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"abends umsteigen Mahlsdorf"
+LINE_REMARK_END
+LINE_END
+
+
+SEGMENT
+FORWARD
+"S5 towards Westkreuz"
+FORWARDEND
+BACKWARD
+"S5 towards Strausberg Nord"
+BACKWARDEND
+STATIONS
+"Spandau"
+"Stresow"
+"Pichelsberg"
+"Olympiastadion"
+"Heerstraße"
+"Messe Süd"
+"Westkreuz"
+"Charlottenburg"
+"Savignyplatz"
+"Zoologischer Garten"
+"Tiergarten"
+"Bellevue"
+"Hauptbahnhof"
+"Friedrichstraße"
+"Hackescher Markt"
+"Alexanderplatz"
+"Jannowitzbrücke"
+"Ostbahnhof"
+"Warschauer Straße"
+"Ostkreuz"
+"Nöldnerplatz"
+"Lichtenberg"
+"Friedrichsfelde Ost"
+"Biesdorf"
+"Wuhletal"
+"Kaulsdorf"
+"Mahlsdorf"
+"Birkenstein"
+"Hoppegarten"
+"Neuenhagen"
+"Fredersdorf"
+"Petershagen Nord" 
+"Strausberg" 
+"Strausberg Hegermühle"
+"Strausberg Stadt"
+"Strausberg Nord"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S7
+# =============================================================
+SEGMENT
+FORWARD
+"S7 towards Potsdam Hbf"
+FORWARDEND
+BACKWARD
+"S7 towards Ahrensfelde"
+BACKWARDEND
+STATIONS
+"Ahrensfelde"
+"Mehrower Allee"
+"Raoul-Wallenberg-Straße"
+"Marzahn"
+"Poelchaustraße"
+"Springpfuhl"
+"Friedrichsfelde Ost"
+"Lichtenberg"
+"Nöldnerplatz"
+"Ostkreuz"
+"Warschauer Straße"
+"Ostbahnhof"
+"Jannowitzbrücke"
+"Alexanderplatz"
+"Hackescher Markt"
+"Friedrichstraße"
+"Hauptbahnhof"
+"Bellevue"
+"Tiergarten"
+"Zoologischer Garten"
+"Savignyplatz"
+"Charlottenburg"
+"Westkreuz"
+"Grunewald"
+"Nikolassee"
+"Wannsee"
+"Griebnitzsee"
+"Babelsberg"
+"Potsdam Hbf"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     S75
+# =============================================================
+SEGMENT
+FORWARD
+"S75 towards Westkreuz"
+FORWARDEND
+BACKWARD
+"S75 towards Wartenberg"
+BACKWARDEND
+STATIONS
+"Wartenberg"
+"Hohenschönhausen"
+"Gehrenseestraße"
+"Springpfuhl"
+"Friedrichsfelde Ost"
+"Lichtenberg"
+"Nöldnerplatz"
+"Ostkreuz"
+"Warschauer Straße"
+"Ostbahnhof"
+"Jannowitzbrücke"
+"Alexanderplatz"
+"Hackescher Markt"
+"Friedrichstraße"
+"Hauptbahnhof"
+"Bellevue"
+"Tiergarten"
+"Zoologischer Garten"
+"Savignyplatz"
+"Charlottenburg"
+"Westkreuz"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S8
+# =============================================================
+
+LINE
+LINE_NAME
+"S8"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"ab Grunau bis Zeuthen nur HVZ, abends nur jeder 3. Zug ab Hohen Neuendorf"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S8 towards Hohen Neuendorf / Birkenwerder"
+FORWARDEND
+BACKWARD
+"S8 towards Zeuthen"
+BACKWARDEND
+STATIONS
+"Birkenwerder"
+"Hohen Neuendorf"
+"Bergfelde"
+"Schönfließ"
+"Mühlenbeck-Mönchmühle" 
+"Blankenburg"
+"Pankow-Heinersdorf"
+"Pankow"
+"Bornholmer Straße"
+"Schönhauser Allee"
+"Prenzlauer Allee"
+"Greifswalder Straße"
+"Landsberger Allee"
+"Storkower Straße"
+"Frankfurter Allee" 
+"Ostkreuz"
+"Treptower Park"
+"Plänterwald"
+"Baumschulenweg"
+"Schöneweide"
+"Betriebsbahnhof Schöneweide"
+"Adlershof" 
+"Grünau"
+"Eichwalde"
+"Zeuthen"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S85
+# =============================================================
+
+LINE
+LINE_NAME
+"S85"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"nur Mo–Fr, in der HVZ bis Grünau"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S85 towards Schöneweide"
+FORWARDEND
+BACKWARD
+"S85 towards Waidmannslust"
+BACKWARDEND
+STATIONS
+"Waidmannslust"
+"Wittenau"
+"Wilhelmsruh"
+"Schönholz"
+"Wollankstraße"
+"Bornholmer Straße"
+"Schönhauser Allee"
+"Prenzlauer Allee"
+"Greifswalder Straße"
+"Landsberger Allee"
+"Storkower Straße"
+"Frankfurter Allee" 
+"Ostkreuz"
+"Treptower Park"
+"Plänterwald"
+"Baumschulenweg"
+"Schöneweide"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S9
+# =============================================================
+
+SEGMENT
+FORWARD
+"S9 towards Pankow"
+FORWARDEND
+BACKWARD
+"S9 towards Flughafen Berlin-Schönefeld"
+BACKWARDEND
+STATIONS
+"Pankow"
+"Bornholmer Straße"
+"Schönhauser Allee"
+"Prenzlauer Allee"
+"Greifswalder Straße"
+"Landsberger Allee"
+"Storkower Straße"
+"Frankfurter Allee" 
+"Ostkreuz"
+"Treptower Park"
+"Plänterwald"
+"Baumschulenweg"
+"Schöneweide"
+"Betriebsbahnhof Schöneweide"
+"Adlershof" 
+"Altglienicke"
+"Grünbergallee"
+"Flughafen Berlin-Schönefeld"
+STATIONSEND
+SEGMENTEND
+
+
+
+# --------------------------------------------------------------------------
+#  MNNs
+# --------------------------------------------------------------------------
+MULTI_NAMED_NODE
+"Charlottenburg"
+"Wilmersdorfer Straße"
+MULTI_NAMED_NODE_END
+
+
+

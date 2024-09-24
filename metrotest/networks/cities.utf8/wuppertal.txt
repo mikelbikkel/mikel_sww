@@ -1,0 +1,49 @@
+
+# Wuppertal information is extracted from http://de.wikipedia.org/wiki/Wuppertaler_Schwebebahn
+
+# City
+CITY
+CITYNAME
+Wuppertal
+CITYNAME_END
+CITYCODE
+WUP
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Schwebebahn towards Vohwinkel"
+FORWARDEND
+BACKWARD
+"Schwebebahn towards Oberbarmen"
+BACKWARDEND
+STATIONS
+"Oberbarmen"
+"Wupperfeld"
+"Werther Brücke"
+"Alter Markt"
+"Adlerbrücke"
+"Loher Brücke"
+"Völklinger Straße"
+"Landgericht"
+"Kluse"
+"Hauptbahnhof"
+"Ohligsmühle"
+"Robert-Daum-Platz"
+"Pestalozzistr"
+"Westende"
+"Varresbecker Straße"
+"Zoo/Stadion"
+"Sonnborner Straße"
+"Hammerstein"
+"Bruch"
+"Vohwinkel"
+STATIONSEND
+SEGMENTEND
+
+
+

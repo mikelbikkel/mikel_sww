@@ -1,0 +1,995 @@
+
+# http://www.hamburger-untergrundbahn.de/
+# http://www.nimmbus.de/fahrplanbuch/
+
+CITY
+CITYNAME
+Hamburg
+CITYNAME_END
+CITYCODE
+HMB 
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# U1 =======================================================================
+
+LINE
+LINE_NAME
+"U1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"saturdays & sundays 24 hour service f/t Volksdorf"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 19-12-2011"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"U1, towards Ohlstedt"
+FORWARDEND
+BACKWARD
+"U1, towards Norderstedt Mitte"
+BACKWARDEND
+STATIONS
+"Norderstedt Mitte"
+"Richtweg"
+"Garstedt"
+"Ochsenzoll"
+"Kiwittsmoor"
+"Langenhorn Nord"
+"Langenhorn Markt"
+"Fuhlsbüttel Nord"
+"Fuhlsbüttel"
+"Klein Borstel"
+"Ohlsdorf"
+"Sengelmannstraße"
+"Alsterdorf"
+"Lattenkamp"
+"Hudtwalkerstraße"
+"Kellinghusenstraße"
+"Klosterstern"
+"Hallerstraße"
+"Stephansplatz"
+"Jungfernstieg"
+"Meßberg"
+"Steinstraße"
+"Hauptbahnhof Süd"
+"Lohmühlenstraße"
+"Lübecker Straße"
+"Wartenau"
+"Ritterstraße"
+"Wandsbeker Chaussee"
+"Wandsbek Markt"
+"Straßburger Straße"
+"Alter Teichweg"
+"Wandsbek Gartenstadt"
+"Trabrennbahn"
+"Farmsen"
+"Berne"
+"Meiendorfer Weg"
+"Volksdorf"
+"Buckhorn"
+"Hoisbüttel"
+"Ohlstedt"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U1, towards Großhansdorf"
+FORWARDEND
+BACKWARD
+"U1, towards Norderstedt Mitte"
+BACKWARDEND
+STATIONS
+"Norderstedt Mitte"
+"Richtweg"
+"Garstedt"
+"Ochsenzoll"
+"Kiwittsmoor"
+"Langenhorn Nord"
+"Langenhorn Markt"
+"Fuhlsbüttel Nord"
+"Fuhlsbüttel"
+"Klein Borstel"
+"Ohlsdorf"
+"Sengelmannstraße"
+"Alsterdorf"
+"Lattenkamp"
+"Hudtwalkerstraße"
+"Kellinghusenstraße"
+"Klosterstern"
+"Hallerstraße"
+"Stephansplatz"
+"Jungfernstieg"
+"Meßberg"
+"Steinstraße"
+"Hauptbahnhof Süd"
+"Lohmühlenstraße"
+"Lübecker Straße"
+"Wartenau"
+"Ritterstraße"
+"Wandsbeker Chaussee"
+"Wandsbek Markt"
+"Straßburger Straße"
+"Alter Teichweg"
+"Wandsbek Gartenstadt"
+"Trabrennbahn"
+"Farmsen"
+"Berne"
+"Meiendorfer Weg"
+"Volksdorf"
+"Buchenkamp"
+"Ahrensburg West"
+"Ahrensburg Ost"
+"Schmalenbeck"
+"Kiekut"
+"Großhansdorf"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U1, towards Volksdorf"
+FORWARDEND
+BACKWARD
+"U1, towards Norderstedt Mitte"
+BACKWARDEND
+STATIONS
+"Norderstedt Mitte"
+"Richtweg"
+"Garstedt"
+"Ochsenzoll"
+"Kiwittsmoor"
+"Langenhorn Nord"
+"Langenhorn Markt"
+"Fuhlsbüttel Nord"
+"Fuhlsbüttel"
+"Klein Borstel"
+"Ohlsdorf"
+"Sengelmannstraße"
+"Alsterdorf"
+"Lattenkamp"
+"Hudtwalkerstraße"
+"Kellinghusenstraße"
+"Klosterstern"
+"Hallerstraße"
+"Stephansplatz"
+"Jungfernstieg"
+"Meßberg"
+"Steinstraße"
+"Hauptbahnhof Süd"
+"Lohmühlenstraße"
+"Lübecker Straße"
+"Wartenau"
+"Ritterstraße"
+"Wandsbeker Chaussee"
+"Wandsbek Markt"
+"Straßburger Straße"
+"Alter Teichweg"
+"Wandsbek Gartenstadt"
+"Trabrennbahn"
+"Farmsen"
+"Berne"
+"Meiendorfer Weg"
+"Volksdorf"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U1, towards Farmsen"
+FORWARDEND
+BACKWARD
+"U1, towards Ochsenzoll"
+BACKWARDEND
+STATIONS
+"Ochsenzoll"
+"Kiwittsmoor"
+"Langenhorn Nord"
+"Langenhorn Markt"
+"Fuhlsbüttel Nord"
+"Fuhlsbüttel"
+"Klein Borstel"
+"Ohlsdorf"
+"Sengelmannstraße"
+"Alsterdorf"
+"Lattenkamp"
+"Hudtwalkerstraße"
+"Kellinghusenstraße"
+"Klosterstern"
+"Hallerstraße"
+"Stephansplatz"
+"Jungfernstieg"
+"Meßberg"
+"Steinstraße"
+"Hauptbahnhof Süd"
+"Lohmühlenstraße"
+"Lübecker Straße"
+"Wartenau"
+"Ritterstraße"
+"Wandsbeker Chaussee"
+"Wandsbek Markt"
+"Straßburger Straße"
+"Alter Teichweg"
+"Wandsbek Gartenstadt"
+"Trabrennbahn"
+"Farmsen"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U1, towards Farmsen"
+FORWARDEND
+BACKWARD
+"U1, towards Ohlsdorf"
+BACKWARDEND
+STATIONS
+"Ohlsdorf"
+"Sengelmannstraße"
+"Alsterdorf"
+"Lattenkamp"
+"Hudtwalkerstraße"
+"Kellinghusenstraße"
+"Klosterstern"
+"Hallerstraße"
+"Stephansplatz"
+"Jungfernstieg"
+"Meßberg"
+"Steinstraße"
+"Hauptbahnhof Süd"
+"Lohmühlenstraße"
+"Lübecker Straße"
+"Wartenau"
+"Ritterstraße"
+"Wandsbeker Chaussee"
+"Wandsbek Markt"
+"Straßburger Straße"
+"Alter Teichweg"
+"Wandsbek Gartenstadt"
+"Trabrennbahn"
+"Farmsen"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U1, towards Wandsbek Markt"
+FORWARDEND
+BACKWARD
+"U1, towards Ohlsdorf"
+BACKWARDEND
+STATIONS
+"Ohlsdorf"
+"Sengelmannstraße"
+"Alsterdorf"
+"Lattenkamp"
+"Hudtwalkerstraße"
+"Kellinghusenstraße"
+"Klosterstern"
+"Hallerstraße"
+"Stephansplatz"
+"Jungfernstieg"
+"Meßberg"
+"Steinstraße"
+"Hauptbahnhof Süd"
+"Lohmühlenstraße"
+"Lübecker Straße"
+"Wartenau"
+"Ritterstraße"
+"Wandsbeker Chaussee"
+"Wandsbek Markt"
+STATIONSEND
+SEGMENTEND
+
+
+# U2 =======================================================================
+
+LINE
+LINE_NAME
+"U2"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"saturdays & sundays 24 hour service f/t Niendorf Markt"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 19-12-2011"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"U2, towards Mümmelmannsberg"
+FORWARDEND
+BACKWARD
+"U2, towards Niendorf Nord"
+BACKWARDEND
+STATIONS
+"Niendorf Nord"
+"Schippelsweg"
+"Joachim-Mähl-Straße"
+"Niendorf Markt"
+"Hagendeel"
+"Hagenbecks Tierpark"
+"Lutterothstraße"
+"Osterstraße"
+"Emilienstraße"
+"Christuskirche"
+"Schlump"
+"Messehallen"
+"Gänsemarkt"
+"Jungfernstieg"
+"Hauptbahnhof Nord"
+"Berliner Tor"
+"Burgstraße"
+"Hammer Kirche"
+"Rauhes Haus"
+"Horner Rennbahn"
+"Legienstraße"
+"Billstedt"
+"Merkenstraße"
+"Steinfurther Allee"
+"Mümmelmannsberg"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U2, towards Mümmelmannsberg"
+FORWARDEND
+BACKWARD
+"U2, towards Niendorf Markt"
+BACKWARDEND
+STATIONS
+"Niendorf Markt"
+"Hagendeel"
+"Hagenbecks Tierpark"
+"Lutterothstraße"
+"Osterstraße"
+"Emilienstraße"
+"Christuskirche"
+"Schlump"
+"Messehallen"
+"Gänsemarkt"
+"Jungfernstieg"
+"Hauptbahnhof Nord"
+"Berliner Tor"
+"Burgstraße"
+"Hammer Kirche"
+"Rauhes Haus"
+"Horner Rennbahn"
+"Legienstraße"
+"Billstedt"
+"Merkenstraße"
+"Steinfurther Allee"
+"Mümmelmannsberg"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U2, towards Billstedt"
+FORWARDEND
+BACKWARD
+"U2, towards Niendorf Markt"
+BACKWARDEND
+STATIONS
+"Niendorf Markt"
+"Hagendeel"
+"Hagenbecks Tierpark"
+"Lutterothstraße"
+"Osterstraße"
+"Emilienstraße"
+"Christuskirche"
+"Schlump"
+"Messehallen"
+"Gänsemarkt"
+"Jungfernstieg"
+"Hauptbahnhof Nord"
+"Berliner Tor"
+"Burgstraße"
+"Hammer Kirche"
+"Rauhes Haus"
+"Horner Rennbahn"
+"Legienstraße"
+"Billstedt"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U2, towards Billstedt"
+FORWARDEND
+BACKWARD
+"U2, towards Schlump"
+BACKWARDEND
+STATIONS
+"Schlump"
+"Messehallen"
+"Gänsemarkt"
+"Jungfernstieg"
+"Hauptbahnhof Nord"
+"Berliner Tor"
+"Burgstraße"
+"Hammer Kirche"
+"Rauhes Haus"
+"Horner Rennbahn"
+"Legienstraße"
+"Billstedt"
+STATIONSEND
+SEGMENTEND
+
+
+# U3 =======================================================================
+
+# This line is like Bucharests' LINEA 1 where Dristor is visited twice on
+# a pseudo pan shaped loop. Here the station being stopped twice is Barmbek.
+
+LINE
+LINE_NAME
+"U3"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"saturdays & sundays 24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 08-01-2012"
+LINE_EDIT_END
+LINE_END
+
+# This one is tricky!
+# 
+# all possible headsigns from routeplanner http://www.hochbahn.de/
+#
+# CW
+# ===
+# Schlump
+# Barmbek
+# Hauptbahnhof Süd - Schlump
+# 
+# CCW
+# ===
+# Hauptbahnhof Süd - Barmbek
+# Hauptbahnhof Süd - Wandsbek-Gartenstadt
+# Schlump - Hauptbahnhof Süd
+#
+
+SEGMENT
+FORWARD
+"U3, Schlump - HBF Süd - Barmbek - Wandsbek-Gartenstadt"
+FORWARDEND
+BACKWARD
+"U3, Barmbek - HBF Süd - Schlump - Barmbek (Terminus)"
+BACKWARDEND
+STATIONS
+"Barmbek (Terminus)"
+"Saarlandstraße"
+"Borgweg"
+"Sierichstraße"
+"Kellinghusenstraße"
+"Eppendorfer Baum"
+"Hoheluftbrücke"
+"Schlump"
+"Sternschanze"
+"Feldstraße"
+"St.Pauli"
+"Landungsbrücken"
+"Baumwall"
+"Rödingsmarkt"
+"Rathaus"
+"Mönckebergstraße"
+"Hauptbahnhof Süd"
+"Berliner Tor"
+"Lübecker Straße"
+"Uhlandstraße"
+"Mundsburg"
+"Hamburger Straße"
+"Dehnhaide"
+"Barmbek"
+"Habichtstraße"
+"Wandsbek Gartenstadt"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U3, Schlump - HBF Süd - Barmbek"
+FORWARDEND
+BACKWARD
+"U3, HBF Süd - Schlump - Barmbek (Terminus)"
+BACKWARDEND
+STATIONS
+"Barmbek (Terminus)"
+"Saarlandstraße"
+"Borgweg"
+"Sierichstraße"
+"Kellinghusenstraße"
+"Eppendorfer Baum"
+"Hoheluftbrücke"
+"Schlump"
+"Sternschanze"
+"Feldstraße"
+"St.Pauli"
+"Landungsbrücken"
+"Baumwall"
+"Rödingsmarkt"
+"Rathaus"
+"Mönckebergstraße"
+"Hauptbahnhof Süd"
+"Berliner Tor"
+"Lübecker Straße"
+"Uhlandstraße"
+"Mundsburg"
+"Hamburger Straße"
+"Dehnhaide"
+"Barmbek"
+# That last one's not the terminus! It's on the northbound line to Wandsbek-Gartenstadt 
+# but some service go no further than Barmbek.    
+STATIONSEND
+SEGMENTEND
+
+# opened december 2012
+# U4 =======================================================================
+SEGMENT
+FORWARD
+"U4, towards Billstedt"
+FORWARDEND
+BACKWARD
+"U4, towards HafenCity Universität"
+BACKWARDEND
+STATIONS
+"HafenCity Universität"
+"Überseequartier"
+"Jungfernstieg"
+"Hauptbahnhof Nord"
+"Berliner Tor"
+"Burgstraße"
+"Hammer Kirche"
+"Rauhes Haus"
+"Horner Rennbahn"
+"Legienstraße"
+"Billstedt"
+STATIONSEND
+SEGMENTEND
+
+
+
+# S1 =======================================================================
+
+LINE
+LINE_NAME
+"S1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_EDIT
+"acdhirr 08-01-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S1 towards Hamburg Airport / Flughafen"
+FORWARDEND
+BACKWARD
+"S1 towards Wedel"
+BACKWARDEND
+STATIONS
+"Wedel"
+"Rissen"
+"Sülldorf"
+"Iserbrook"
+"Blankenese"
+"Hochkamp"
+"Klein Flottbek / Botanischer Garten"
+"Othmarschen"
+"Bahrenfeld"
+"Altona"
+"Königstraße" 
+"Reeperbahn"
+"Landungsbrücken"
+"Stadthausbrücke"
+"Jungfernstieg"
+"Hauptbahnhof"
+"Berliner Tor"
+"Landwehr"
+"Hasselbrook"
+"Wandsbeker Chaussee"
+"Friedrichsberg"
+"Barmbek"
+"Alte Wöhr / Stadtpark"
+"Rübenkamp / City Nord"
+"Ohlsdorf"
+"Hamburg Airport / Flughafen"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S1 towards Poppenbüttel"
+FORWARDEND
+BACKWARD
+"S1 towards Wedel"
+BACKWARDEND
+STATIONS
+"Wedel"
+"Rissen"
+"Sülldorf"
+"Iserbrook"
+"Blankenese"
+"Hochkamp"
+"Klein Flottbek / Botanischer Garten"
+"Othmarschen"
+"Bahrenfeld"
+"Altona"
+"Königstraße" 
+"Reeperbahn"
+"Landungsbrücken"
+"Stadthausbrücke"
+"Jungfernstieg"
+"Hauptbahnhof"
+"Berliner Tor"
+"Landwehr"
+"Hasselbrook"
+"Wandsbeker Chaussee"
+"Friedrichsberg"
+"Barmbek"
+"Alte Wöhr / Stadtpark"
+"Rübenkamp / City Nord"
+"Ohlsdorf"
+"Kornweg / Klein Borstel"
+"Hoheneichen"
+"Wellingsbüttel"
+"Poppenbüttel"
+STATIONSEND
+SEGMENTEND
+
+
+# S2 =======================================================================
+# S2 is a partial service altogether. There is no regular S2.
+
+LINE
+LINE_NAME
+"S2"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"peak hours only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 08-01-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S2 towards Bergedorf"
+FORWARDEND
+BACKWARD
+"S2 towards Altona"
+BACKWARDEND
+STATIONS
+"Altona"
+"Königstraße"
+"Reeperbahn"
+"Landungsbrücken"
+"Stadthausbrücke"
+"Jungfernstieg"
+"Hauptbahnhof"
+"Berliner Tor"
+"Rothenburgsort"
+"Tiefstack"
+"Billwerder-Moorfleet"
+"Mittlerer Landweg"
+"Allermöhe"
+"Nettelnburg"
+"Bergedorf"
+STATIONSEND
+SEGMENTEND
+
+
+# S3 =======================================================================
+
+LINE
+LINE_NAME
+"S3"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_EDIT
+"acdhirr 08-01-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S3 towards Stade"
+FORWARDEND
+BACKWARD
+"S3 towards Pinneberg"
+BACKWARDEND
+STATIONS
+"Pinneberg"
+"Thesdorf"
+"Halstenbek"
+"Krupunder"
+"Elbgaustraße"
+"Eidelstedt"
+"Stellingen"
+"Langenfelde"
+"Diebsteich"
+"Altona"
+"Königstraße"
+"Reeperbahn"
+"Landungsbrücken"
+"Stadthausbrücke"
+"Jungfernstieg"
+"Hauptbahnhof"
+"Hammerbrook / City Süd"
+"Veddel / BallinStadt"
+"Wilhelmsburg"
+"Harburg"
+"Harburg Rathaus"
+"Heimfeld"
+"Neuwiedenthal"
+"Neugraben"
+"Fischbek"
+"Neu Wulmstorf"
+"Buxtehude"
+"Neukloster"
+"Horneburg"
+"Dollern"
+"Agathenburg"
+"Stade"
+STATIONSEND
+SEGMENTEND
+
+
+# S11 =======================================================================
+# A partial service
+
+LINE
+LINE_NAME
+"S11"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"peak hours only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 08-01-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S11 towards Ohlsdorf"
+FORWARDEND
+BACKWARD
+"S11 towards Blankenese"
+BACKWARDEND
+STATIONS
+"Blankenese"
+"Hochkamp"
+"Klein Flottbek / Botanischer Garten"
+"Othmarschen"
+"Bahrenfeld"
+"Altona"
+"Holstenstraße"
+"Sternschanze"
+"Dammtor"
+"Hauptbahnhof"
+"Berliner Tor"
+"Landwehr"
+"Hasselbrook"
+"Wandsbeker Chaussee"
+"Friedrichsberg"
+"Barmbek"
+"Alte Wöhr / Stadtpark"
+"Rübenkamp / City Nord"
+"Ohlsdorf"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S11 towards Poppenbüttel"
+FORWARDEND
+BACKWARD
+"S11 towards Blankenese"
+BACKWARDEND
+STATIONS
+"Blankenese"
+"Hochkamp"
+"Klein Flottbek / Botanischer Garten"
+"Othmarschen"
+"Bahrenfeld"
+"Altona"
+"Holstenstraße"
+"Sternschanze"
+"Dammtor"
+"Hauptbahnhof"
+"Berliner Tor"
+"Landwehr"
+"Hasselbrook"
+"Wandsbeker Chaussee"
+"Friedrichsberg"
+"Barmbek"
+"Alte Wöhr / Stadtpark"
+"Rübenkamp / City Nord"
+"Ohlsdorf"
+"Kornweg / Klein Borstel"
+"Hoheneichen"
+"Wellingsbüttel"
+"Poppenbüttel"
+STATIONSEND
+SEGMENTEND
+
+
+# S21 =======================================================================
+
+LINE
+LINE_NAME
+"S21"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_EDIT
+"acdhirr 08-01-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S21 towards Aumühle"
+FORWARDEND
+BACKWARD
+"S21 towards Elbgaustraße"
+BACKWARDEND
+STATIONS
+"Elbgaustraße"
+"Eidelstedt"
+"Stellingen"
+"Langenfelde"
+"Diebsteich"
+"Holstenstraße"
+"Sternschanze"
+"Dammtor"
+"Hauptbahnhof"
+"Berliner Tor"
+"Rothenburgsort"
+"Tiefstack"
+"Billwerder-Moorfleet"
+"Mittlerer Landweg"
+"Allermöhe"
+"Nettelnburg"
+"Bergedorf"
+"Reinbek"
+"Wohltorf"
+"Aumühle"
+STATIONSEND
+SEGMENTEND
+
+
+# S31 =======================================================================
+# an evening/weekends service to Berliner Tor (partial: evenings & weekends only)
+# a daytime to Harburg Rathaus (partial: daytime only)
+# and a peak hour extension to Neugraben (partial: peak hours only) 
+
+LINE
+LINE_NAME
+"S31 express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"evenings (> 20h) & weekends only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 02-01-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"S31 express towards Berliner Tor"
+FORWARDEND
+BACKWARD
+"S31 express towards Altona"
+BACKWARDEND
+STATIONS
+"Altona"
+"Holstenstraße"
+"Sternschanze"
+"Dammtor"
+"Hauptbahnhof"
+"Berliner Tor"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"S31 express towards Harburg Rathaus"
+FORWARDEND
+BACKWARD
+"S31 express towards Altona"
+BACKWARDEND
+STATIONS
+"Altona"
+"Holstenstraße"
+"Sternschanze"
+"Dammtor"
+"Hauptbahnhof"
+"Hammerbrook / City Süd"
+"Veddel / BallinStadt"
+"Wilhelmsburg"
+"Harburg"
+"Harburg Rathaus"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"S31 express towards Neugraben"
+FORWARDEND
+BACKWARD
+"S31 express towards Altona"
+BACKWARDEND
+STATIONS
+"Altona"
+"Holstenstraße"
+"Sternschanze"
+"Dammtor"
+"Hauptbahnhof"
+"Hammerbrook / City Süd"
+"Veddel / BallinStadt"
+"Wilhelmsburg"
+"Harburg"
+"Harburg Rathaus"
+"Heimfeld"
+"Neuwiedenthal"
+"Neugraben"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     MNN's
+# =============================================================
+MULTI_NAMED_NODE
+"Barmbek"
+"Barmbek (Terminus)"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Hauptbahnhof" 
+"Hauptbahnhof Nord"
+"Hauptbahnhof Süd"
+MULTI_NAMED_NODE_END
+
+

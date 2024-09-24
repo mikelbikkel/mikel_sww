@@ -1,0 +1,66 @@
+
+# Extracted from http://en.wikipedia.org/wiki/Warsaw_Metro
+
+# City
+CITY
+CITYNAME
+Warsaw
+CITYNAME_END
+CITYCODE
+WRS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1 towards Mlociny"
+FORWARDEND
+BACKWARD
+"Line 1 towards Kabaty"
+BACKWARDEND
+STATIONS
+"Mlociny"
+"Wawrzyszew"
+"Stare Bielany"
+"Slodowiec"
+"Marymont"
+"Plac Wilsona"
+"Dworzec Gdanski"
+"Ratusz Arsenal"
+"Swietokrzyska"
+"Centrum"
+"Politechnika"
+"Pole Mokotowskie"
+"Raclawicka"
+"Wierzbno"
+"Wilanowska"
+"Sluzew"
+"Ursynow"
+"Stoklosy"
+"Imielin"
+"Natolin"
+"Kabaty"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 2 towards Dworzec Wilenski"
+FORWARDEND
+BACKWARD
+"Line 2 towards Rondo Daszynskiego"
+BACKWARDEND
+STATIONS
+"Rondo Daszynskiego"
+"Rondo ONZ"
+"Swietokrzyska"
+"Nowy Swiat-Uniwersytet"
+"Centrum Nauki Kopernik"
+"Stadion Narodowy"
+"Dworzec Wilenski"
+STATIONSEND
+SEGMENTEND

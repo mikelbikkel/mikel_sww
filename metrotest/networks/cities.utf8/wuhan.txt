@@ -1,0 +1,227 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Wuhan_Metro
+
+# City
+CITY
+CITYNAME
+Wuhan
+CITYNAME_END
+CITYCODE
+WUH
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#	Line 1
+#	Dongwu Dadao - Dijiao
+#   
+#	Beginning May 28, 2014, every other train will reach Hankou North Station as the northern terminus; others will terminate at Dijiao Station.[11]
+#
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Dongwu Boulevard"
+FORWARDEND
+BACKWARD
+"Line 1, towards Hankou North Station"
+BACKWARDEND
+STATIONS
+"Hankou North Station"
+"Shekouxincheng"
+"Tengzigang"
+"Dijiao" 
+"Xinrong" 
+"Danshuichi" 
+"Xuzhouxincon"
+"Erqi Road"
+"Toudao Street"
+"Huangpu Road"
+"Sanyang Road"
+"Dazhi Road"
+"Xunlimen"
+"Youyi Road"
+"Liji North Road"
+"Chongren Road"
+"Qiaokou Road"
+"Taipingyang"
+"Zongguan"
+"Hanxi 1st Road"
+"Gutian 4th Road"
+"Gutian 3rd Road"
+"Gutian 2nd Road"
+"Gutian 1st Road"
+"Duoluokou"
+"Zhuyehai" # december 2014
+"Etouwan"
+"Wuhuan Boulevard"
+"Dongwu Boulevard"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 1, towards Dongwu Boulevard"
+FORWARDEND
+BACKWARD
+"Line 1, towards Dijiao"
+BACKWARDEND
+STATIONS
+"Dijiao" 
+"Xinrong" 
+"Danshuichi" 
+"Xuzhouxincon"
+"Erqi Road"
+"Toudao Street"
+"Huangpu Road"
+"Sanyang Road"
+"Dazhi Road"
+"Xunlimen"
+"Youyi Road"
+"Liji North Road"
+"Chongren Road"
+"Qiaokou Road"
+"Taipingyang"
+"Zongguan"
+"Hanxi 1st Road"
+"Gutian 4th Road"
+"Gutian 3rd Road"
+"Gutian 2nd Road"
+"Gutian 1st Road"
+"Duoluokou"
+"Zhuyehai" # december 2014
+"Etouwan"
+"Wuhuan Boulevard"
+"Dongwu Boulevard"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+# =============================================================
+# 	Line 2
+#	Jinyintan - Optics Valley Square
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Optics Valley Square"
+FORWARDEND
+BACKWARD
+"Line 2, towards Jinyintan"
+BACKWARDEND
+STATIONS
+"Jinyintan"
+"Changqing Huayuan" 	
+"Changgang Road"
+"Hankou Railway Station" 	
+"Fanhu"
+"Wangjiadun East" 	
+"Qingnian Road"
+"Zhongshan Park" 	
+"Xunlimen"
+"Jianghan Road" 	
+"Jiyuqiao"
+"Pangxiejia" 	
+"Xiaoguishan" 	
+"Hongshan Square" 	
+"Zhongnan Road" 	
+"Baotong Temple" 	
+"Jiedaokou"
+"Guangbutun" 	
+"Huquan" 	
+"Yangjiawan" 	
+"Optics Valley Square"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+# 	Line 3
+#	januari 2016
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3, towards Zhuanyang Boulevard"
+FORWARDEND
+BACKWARD
+"Line 3, towards Hongtu Boulevard"
+BACKWARDEND
+STATIONS
+"Hongtu Boulevard"
+"Citizens Home" 	
+"Houhu Boulevard" 	
+"Xingye Road" 	
+"Erqi Branch Road" 	
+"Luojiazhuang" 	
+"Zhaojiatiao" 	
+"Huiji 2nd Road" 	
+"Xianggang Road" 	
+"Lingjiaohu"
+"Fanhu" 
+"Yunfei Road" 	
+"Wuhan Business District" 	
+"Shuangdun"
+"Zongguan" 
+"Wangjiawan"
+"Longyangcun" 	
+"Taojialing" 	
+"Sixin Boulevard" 	
+"Hanyang Bus Station" 	
+"Sanjiaohu" 	
+"Sports Center" 	
+"Dongfeng Motor Corporation" 	
+"Zhuanyang Boulevard"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+# 	Line 4
+#	opened december 2013
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4, towards Wuhan Railway Station"
+FORWARDEND
+BACKWARD
+"Line 4, towards Huangjinkou"
+BACKWARDEND
+STATIONS
+"Huangjinkou"
+"Mengjiapu" 	
+"Yong\'antang" 	
+"Yulong Road" 	
+"Wangjiawan" 	
+"Shilipu" 	
+"Qilimiao"
+"Wulidun" 	
+"Hanyang Railway Station" 	
+"Zhongjiacun"	
+"Lanjiang Road" 	
+"Fuxing Road"
+"Shouyi Road"
+"Wuchang Railway Station"
+"Meiyuanxiaoqu"
+"Zhongnan Road"
+"Hongshan Square"
+"Chuhe Hanjie"
+"Qingyuzui"
+"Dongting"
+"Yuejiazui"
+"Tieji Road"
+"Luojiagang"
+"Yuanlin Road"
+"Renhe Road"
+"Gongye 4th Road"
+"Yangchunhu"
+"Wuhan Railway Station"
+STATIONSEND
+SEGMENTEND
+
+

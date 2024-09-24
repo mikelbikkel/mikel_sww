@@ -1,0 +1,65 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Kryvyi_Rih_Metrotram
+
+
+# City
+CITY
+CITYNAME
+"Kryvyi Rih"
+CITYNAME_END
+CITYCODE
+KRR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#       Line No.1 
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Maidan Pratsi"
+FORWARDEND
+BACKWARD
+"Line 1, towards Kiltseva"
+BACKWARDEND
+STATIONS
+"Kiltseva"
+"Prospekt Metalurhiv"
+"Budynok Rad"
+"Dzerzhynska"
+"Maidan Artema"
+"Miska Likarnia"
+"Imeni Hutovskoho"   
+"Maidan Pratsi"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line 2 
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Zarichna"
+FORWARDEND
+BACKWARD
+"Line 2, towards Kiltseva"
+BACKWARDEND
+STATIONS
+"Kiltseva"
+"Prospekt Metalurhiv"
+"Budynok Rad"
+"Dzerzhynska"
+"Maidan Artema"
+"Miska Likarnia"
+"Imeni Hutovskoho"    
+"Maidan Pratsi"    
+"Industrialna"
+"Elektrozavodska"
+"Zarichna"
+STATIONSEND
+SEGMENTEND		
+
+

@@ -1,0 +1,49 @@
+
+CITY
+CITYNAME
+VALPARAISO
+CITYNAME_END
+CITYCODE
+VAL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line 1
+#     Puerto - Limache 
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Puerto"
+FORWARDEND
+BACKWARD
+"Line 1, towards Limache"
+BACKWARDEND
+STATIONS
+"Puerto"
+"Bellavista"
+"Francia"
+"Barón"
+"Portales"
+"Recreo"
+"Miramar"
+"Viña del Mar"
+"Hospital"
+"Chorrillos"
+"El Salto"
+"Quilpué"
+"El Sol"
+"El Belloto"
+"Las Américas"
+"La Concepción"
+"Villa Alemana"
+"Sargento Aldea"
+"Peñablanca"	
+"Limache"
+STATIONSEND
+SEGMENTEND
+
+

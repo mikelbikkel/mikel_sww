@@ -1,0 +1,109 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Kholodnohirsko%E2%80%93Zavodska_Line, checked a.d.h.v. kaart
+
+# City
+CITY
+CITYNAME
+"Kharkov"
+CITYNAME_END
+CITYCODE
+KRK
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#       Line No.1 (Red)
+#	Kholodnohirsko–Zavodska Line
+# =============================================================
+SEGMENT
+FORWARD
+"1-Red Kholodnohirsko–Zavodska Line, towards Proletarska"
+FORWARDEND
+BACKWARD
+"1-Red Kholodnohirsko–Zavodska Line, towards Kholodna Hora"
+BACKWARDEND
+STATIONS
+"Kholodna Hora"
+"Pivdennyi Vokzal"
+"Tsentralnyi Rynok"
+"Radianska - Sovetskaya"
+"Prospect Haharina"
+"Sportyvna"
+"Zavod Imeni Malysheva"
+"Moskovskyi Prospekt"
+"Marshala Zhukova"
+"Radianskoi Armii"
+"Imeni O.S. Maselskoho"
+"Traktornyi Zavod"
+"Proletarska"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line No.2 (Blue)
+#     Saltivska Line 
+# =============================================================
+SEGMENT
+FORWARD
+"2-Blue Saltivska Line, towards Heroiv Pratsi"
+FORWARDEND
+BACKWARD
+"2-Blue Saltivska Line, towards Istorychnyi Muzei"
+BACKWARDEND
+STATIONS
+"Istorychnyi Muzei"
+"Universytet"
+"Pushkinska"
+"Kyivska"
+"Akademika Barabashova"
+"Akademika Pavlova"
+"Studentska"
+"Heroiv Pratsi"
+STATIONSEND
+SEGMENTEND		
+
+
+# =============================================================
+#     Line No.3 (Green)
+#     Oleksiivska Line
+# =============================================================
+SEGMENT
+FORWARD
+"3-Green Oleksiivska Line, towards Metrobudivnykiv imeni H.I. Vashchenka"
+FORWARDEND
+BACKWARD
+"3-Green Oleksiivska Line, towards Oleksiivska"
+BACKWARDEND
+STATIONS
+"Oleksiivska"
+"23 Serpnia"
+"Botanichnyi Sad"
+"Naukova"
+"Derzhprom"
+"Arkhitektora Beketova"
+"Ploshcha Povstannia"
+"Metrobudivnykiv imeni H.I. Vashchenka"
+STATIONSEND
+SEGMENTEND		
+
+
+# =============================================================
+# 	MNNs
+# =============================================================
+MULTI_NAMED_NODE
+"Radianska - Sovetskaya"
+"Istorychnyi Muzei"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Derzhprom"
+"Universytet"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Sportyvna"
+"Metrobudivnykiv imeni H.I. Vashchenka"
+MULTI_NAMED_NODE_END

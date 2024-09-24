@@ -1,0 +1,322 @@
+
+# http://en.wikipedia.org/wiki/MTR
+
+CITY
+CITYNAME
+"Hong Kong"
+CITYNAME_END
+CITYCODE
+HNK
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+
+# =============================================================
+#     Line Kwun Tong Line
+# =============================================================
+SEGMENT
+FORWARD
+"Kwun Tong Line, towards Tiu Keng Leng"
+FORWARDEND
+BACKWARD
+"Kwun Tong Line, towards Yau Ma Tei"
+BACKWARDEND
+STATIONS
+"Yau Ma Tei"
+"Mong Kok"
+"Prince Edward"
+"Shek Kip Mei"
+"Kowloon Tong"
+"Lok Fu"
+"Wong Tai Sin"
+"Diamond Hill"
+"Choi Hung"
+"Kowloon Bay"
+"Ngau Tau Kok"
+"Kwun Tong"
+"Lam Tin"
+"Yau Tong"
+"Tiu Keng Leng"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Tsuen Wan Line
+# =============================================================
+SEGMENT
+FORWARD
+"Tsuen Wan Line, towards Tsuen Wan"
+FORWARDEND
+BACKWARD
+"Tsuen Wan Line, towards Central"
+BACKWARDEND
+STATIONS
+"Central"
+"Admiralty"
+"Tsim Sha Tsui"
+"Jordan"
+"Yau Ma Tei"
+"Mong Kok"
+"Prince Edward"
+"Sham Shui Po"
+"Cheung Sha Wan"
+"Lai Chi Kok"
+"Mei Foo"
+"Lai King"
+"Kwai Fong"
+"Kwai Hing"
+"Tai Wo Hau"
+"Tsuen Wan"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Island Line MTR
+# =============================================================
+SEGMENT
+FORWARD
+"Island Line MTR, towards Chai Wan"
+FORWARDEND
+BACKWARD
+"Island Line MTR, towards Kennedy Town"
+BACKWARDEND
+STATIONS
+"Kennedy Town"
+"HKU"
+# "Sai Ying Pun"
+"Sheung Wan"
+"Central"
+"Admiralty"
+"Wan Chai"
+"Causeway Bay"
+"Tin Hau"
+"Fortress Hill"
+"North Point"
+"Quarry Bay"
+"Tai Koo"
+"Sai Wan Ho"
+"Shau Kei Wan"
+"Heng Fa Chuen"
+"Chai Wan"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Tung Chung Line
+# =============================================================
+SEGMENT
+FORWARD
+"Tung Chung Line, towards Tung Chung"
+FORWARDEND
+BACKWARD
+"Tung Chung Line, towards Hong Kong"
+BACKWARDEND
+STATIONS
+"Hong Kong"
+"Kowloon"
+"Olympic"
+"Nam Cheong"
+"Lai King"
+"Tsing Yi"
+"Sunny Bay"
+"Tung Chung"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Airport Express MTR
+# =============================================================
+SEGMENT
+FORWARD
+"Line Airport Express MTR, towards AsiaWorld-Expo"
+FORWARDEND
+BACKWARD
+"Line Airport Express MTR, towards Hong Kong"
+BACKWARDEND
+STATIONS
+"Hong Kong"
+"Kowloon"
+"Tsing Yi"
+"Airport"
+"AsiaWorld-Expo"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Disneyland Resort Line
+# =============================================================
+SEGMENT
+FORWARD
+"Disneyland Resort Line, towards Disneyland Resort"
+FORWARDEND
+BACKWARD
+"Disneyland Resort Line, towards Sunny Bay"
+BACKWARDEND
+STATIONS
+"Sunny Bay"
+"Disneyland Resort"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Tseung Kwan O Line
+# =============================================================
+SEGMENT
+FORWARD
+"Tseung Kwan O Line, towards Po Lam"
+FORWARDEND
+BACKWARD
+"Tseung Kwan O Line, towards North Point"
+BACKWARDEND
+STATIONS
+"North Point"
+"Quarry Bay"
+"Yau Tong"
+"Tiu Keng Leng"
+"Tseung Kwan O"
+"Hang Hau"
+"Po Lam"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Tseung Kwan O Line, towards LOHAS Park"
+FORWARDEND
+BACKWARD
+"Tseung Kwan O Line, towards North Point"
+BACKWARDEND
+STATIONS
+"North Point"
+"Quarry Bay"
+"Yau Tong"
+"Tiu Keng Leng"
+"Tseung Kwan O"
+"LOHAS Park"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line East Rail Line
+# =============================================================
+SEGMENT
+FORWARD
+"East Rail Line, towards Lok Ma Chau"
+FORWARDEND
+BACKWARD
+"East Rail Line, towards Hung Hom"
+BACKWARDEND
+STATIONS
+"Hung Hom"
+"Mong Kok East"
+"Kowloon Tong"
+"Tai Wai"
+"Sha Tin"
+"Fo Tan / Racecourse"
+"University"
+"Tai Po Market"
+"Tai Wo"
+"Fanling"
+"Sheung Shui"
+"Lok Ma Chau"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"East Rail Line, towards Lo Wu"
+FORWARDEND
+BACKWARD
+"East Rail Line, towards Hung Hom"
+BACKWARDEND
+STATIONS
+"Hung Hom"
+"Mong Kok East"
+"Kowloon Tong"
+"Tai Wai"
+"Sha Tin"
+"Fo Tan / Racecourse"
+"University"
+"Tai Po Market"
+"Tai Wo"
+"Fanling"
+"Sheung Shui"
+"Lo Wu"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line West Rail Line
+# =============================================================
+SEGMENT
+FORWARD
+"West Rail Line, towards Tuen Mun"
+FORWARDEND
+BACKWARD
+"West Rail Line, towards Hung Hom"
+BACKWARDEND
+STATIONS
+"Hung Hom"
+"East Tsim Sha Tsui"
+"Austin"
+"Nam Cheong"
+"Mei Foo"
+"Tsuen Wan West"
+"Kam Sheung Road"
+"Yuen Long"
+"Long Ping"
+"Tin Shui Wai"
+"Siu Hong"
+"Tuen Mun"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line Ma On Shan Line
+# =============================================================
+SEGMENT
+FORWARD
+"Ma On Shan Line, towards Tai Wai"
+FORWARDEND
+BACKWARD
+"Ma On Shan Line, towards Wu Kai Sha"
+BACKWARDEND
+STATIONS
+"Wu Kai Sha"
+"Ma On Shan"
+"Heng On"
+"Tai Shui Hang"
+"Shek Mun"
+"City One"
+"Sha Tin Wai"
+"Che Kung Temple"
+"Tai Wai"
+STATIONSEND
+SEGMENTEND
+
+
+
+MULTI_NAMED_NODE
+"Tsim Sha Tsui"
+"East Tsim Sha Tsui"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Central"
+"Hong Kong"
+MULTI_NAMED_NODE_END
+

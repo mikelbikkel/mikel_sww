@@ -1,0 +1,628 @@
+
+# Data extracted from http://de.wikipedia.org/wiki/Metro_Madrid
+
+
+# City
+CITY
+CITYNAME
+Madrid
+CITYNAME_END
+CITYCODE
+MDR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Linea 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Valdecarros"
+FORWARDEND
+BACKWARD
+"Line 1, towards Pinar de Chamartín"
+BACKWARDEND
+STATIONS
+"Pinar de Chamartín"
+"Bambú"
+"Chamartín"
+"Plaza de Castilla"
+"Valdeacederas"
+"Tetuán"
+"Estrecho"
+"Alvarado"
+"Cuatro Caminos"
+"Ríos Rosas"
+"Iglesia"
+"Bilbao"
+"Tribunal"
+"Gran Vía"
+"Sol"
+"Tirso de Molina"
+"Antón Martín"
+"Atocha"
+"Atocha Renfe"
+"Menéndez Pelayo"
+"Pacífico"
+"Puente de Vallecas"
+"Nueva Numancia"
+"Portazgo"
+"Buenos Aires"
+"Alto del Arenal"
+"Miguel Hernández"
+"Sierra de Guadalupe"
+"Villa de Vallecas"
+"Congosto"
+"La Gavía"
+"Las Suertes"
+"Valdecarros"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 2
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Cuatro Caminos"
+FORWARDEND
+BACKWARD
+"Line 2, towards Las Rosas"
+BACKWARDEND
+STATIONS
+"Cuatro Caminos"
+"Canal"
+"Quevedo"
+"San Bernardo"
+"Noviciado"
+"Santo Domingo"
+"Ópera"
+"Sol"
+"Sevilla"
+"Banco de España"
+"Retiro"
+"Príncipe de Vergara"
+"Goya"
+"Manuel Becerra"
+"Ventas"
+"La Elipa"
+"La Almudena"
+"Alsacia"
+"Avenida de Guadalajara"
+"Las Rosas"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 3
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3, towards Villaverde Alto"
+FORWARDEND
+BACKWARD
+"Line 3, towards Moncloa"
+BACKWARDEND
+STATIONS
+"Moncloa"
+"Argüelles"
+"Ventura Rodríguez"
+"Plaza de España"
+"Callao"
+"Sol"
+"Lavapiés"
+"Embajadores"
+"Palos de la Frontera"
+"Delicias"
+"Legazpi"
+"Almendrales"
+"Hospital 12 de Octubre"
+"San Fermín"
+"Ciudad de los Ángeles"
+"Cruce de Villaverde"
+"San Cristóbal"
+"Villaverde Alto"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 4
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4, towards Pinar de Chamartín"
+FORWARDEND
+BACKWARD
+"Line 4, towards Argüelles"
+BACKWARDEND
+STATIONS
+"Argüelles"
+"San Bernardo"
+"Bilbao"
+"Alonso Martínez"
+"Colón"
+"Serrano"
+"Velázquez"
+"Goya"
+"Lista"
+"Diego de León"
+"Avenida de América"
+"Prosperidad"
+"Alfonso XIII"
+"Avenida de la Paz"
+"Arturo Soria"
+"Esperanza"
+"Canillas"
+"Mar de Cristal"
+"San Lorenzo"
+"Parque de Santa María"
+"Hortaleza"
+"Manoteras"
+"Pinar de Chamartín"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 5
+# =============================================================
+SEGMENT
+FORWARD
+"Line 5, towards Casa de Campo"
+FORWARDEND
+BACKWARD
+"Line 5, towards Alameda de Osuna"
+BACKWARDEND
+STATIONS
+"Alameda de Osuna"
+"El Capricho"
+"Canillejas"
+"Torre Arias"
+"Suanzes"
+"Ciudad Lineal"
+"Pueblo Nuevo"
+"Quintana"
+"El Carmen"
+"Ventas"
+"Diego de León"
+"Núñez de Balboa"
+"Rubén Darío"
+"Alonso Martínez"
+"Chueca"
+"Gran Vía"
+"Callao"
+"Ópera"
+"La Latina"
+"Puerta de Toledo"
+"Acacias"
+"Pirámides"
+"Marqués de Vadillo"
+"Urgel"
+"Oporto"
+"Vista Alegre"
+"Carabanchel"
+"Eugenia de Montijo"
+"Aluche"
+"Empalme"
+"Campamento"
+"Casa de Campo"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 6
+# =============================================================
+SEGMENT
+FORWARD
+"Line 6, circular clockwise"
+FORWARDEND
+BACKWARD
+"Line 6, circular counterclockwise"
+BACKWARDEND
+STATIONS
+"Cuatro Caminos"
+"Nuevos Ministerios"
+"República Argentina"
+"Avenida de América"
+"Diego de León"
+"Manuel Becerra"
+"O\'Donnell"
+"Sainz de Baranda"
+"Conde de Casal"
+"Pacífico"
+"Méndez Álvaro"
+"Arganzuela-Planetario"
+"Legazpi"
+"Usera"
+"Plaza Elíptica"
+"Opañel"
+"Oporto"
+"Carpetana"
+"Laguna"
+"Lucero"
+"Alto de Extremadura"
+"Puerta del Ángel"
+"Príncipe Pío"
+"Argüelles"
+"Moncloa"
+"Ciudad Universitaria"
+"Metropolitano"
+"Guzmán el Bueno"
+"Cuatro Caminos"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 7A
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7A, towards Estadio Olímpico"
+FORWARDEND
+BACKWARD
+"Line 7A, towards Pitis"
+BACKWARDEND
+STATIONS
+"Pitis"
+"Lacoma"
+"Avenida de la Ilustración"
+"Peñagrande"
+"Antonio Machado"
+"Valdezarza"
+"Francos Rodríguez"
+"Guzmán el Bueno"
+"Islas Filipinas"
+"Canal"
+"Alonso Cano"
+"Gregorio Marañón"
+"Avenida de América"
+"Cartagena"
+"Parque de las Avenidas"
+"Barrio de la Concepción"
+"Pueblo Nuevo"
+"Ascao"
+"García Noblejas"
+"Simancas"
+"San Blas"
+"Las Musas"
+"Estadio Olímpico"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 7B
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7B, towards Hospital del Henares"
+FORWARDEND
+BACKWARD
+"Line 7B, towards Estadio Olímpico"
+BACKWARDEND
+STATIONS
+"Estadio Olímpico"
+"Barrio del Puerto"
+"Coslada Central"
+"La Rambla"
+"San Fernando"
+"Jarama"
+"Henares"
+"Hospital del Henares"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 8
+# =============================================================
+SEGMENT
+FORWARD
+"Line 8, towards Nuevos Ministerios"
+FORWARDEND
+BACKWARD
+"Line 8, towards Aeropuerto T4"
+BACKWARDEND
+STATIONS
+"Aeropuerto T4"
+"Barajas"
+"Aeropuerto T1-T2-T3"
+"Campo de las Naciones"
+"Mar de Cristal"
+"Pinar del Rey"
+"Colombia"
+"Nuevos Ministerios"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 9A
+# =============================================================
+SEGMENT
+FORWARD
+"Line 9A, towards Puerta de Arganda"
+FORWARDEND
+BACKWARD
+"Line 9A, towards Paco de Lucía"
+BACKWARDEND
+STATIONS
+"Paco de Lucía"
+"Mirasierra"
+"Herrera Oria"
+"Barrio del Pilar"
+"Ventilla"
+"Plaza de Castilla"
+"Duque de Pastrana"
+"Pio XII"
+"Colombia"
+"Concha Espina"
+"Cruz del Rayo"
+"Avenida de América"
+"Núñez de Balboa"
+"Príncipe de Vergara"
+"Ibiza"
+"Sainz de Baranda"
+"Estrella"
+"Vinateros"
+"Artilleros"
+"Pavones"
+"Valdebernardo"
+"Vicálvaro"
+"San Cipriano"
+"Puerta de Arganda"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 9B
+# =============================================================
+SEGMENT
+FORWARD
+"Line 9B, towards Arganda del Rey"
+FORWARDEND
+BACKWARD
+"Line 9B, towards Puerta de Arganda"
+BACKWARDEND
+STATIONS
+"Puerta de Arganda"
+"Rivas Urbanizaciones"
+"Rivas Futura"
+"Rivas Vaciamadrid"
+"La Poveda"
+"Arganda del Rey"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 10A
+# =============================================================
+SEGMENT
+FORWARD
+"Line 10A, towards Puerta del Sur"
+FORWARDEND
+BACKWARD
+"Line 10A, towards Tres Olivos"
+BACKWARDEND
+STATIONS
+"Tres Olivos"
+"Fuencarral"
+"Begoña"
+"Chamartín"
+"Plaza de Castilla"
+"Cuzco"
+"Santiago Bernabeu"
+"Nuevos Ministerios"
+"Gregorio Marañón"
+"Alonso Martínez"
+"Tribunal"
+"Plaza de España"
+"Príncipe Pío"
+"Lago"
+"Batán"
+"Casa de Campo"
+"Colonia Jardín"
+"Aviación Española"
+"Cuatro Vientos"
+"Joaquín Vilumbrales"
+"Puerta del Sur"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 10B
+# =============================================================
+SEGMENT
+FORWARD
+"Line 10B, towards Tres Olivos"
+FORWARDEND
+BACKWARD
+"Line 10B, towards Hospital Infanta Sofía"
+BACKWARDEND
+STATIONS
+"Hospital Infanta Sofía"
+"Reyes Católicos"
+"Baunatal"
+"Manuel de Falla"
+"Marqués de la Valdavia"
+"La Moraleja"
+"La Granja"
+"Ronda de la Comunicación"
+"Las Tablas"
+"Montecarmelo"
+"Tres Olivos"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 11
+# =============================================================
+SEGMENT
+FORWARD
+"Line 11, towards La Fortuna"
+FORWARDEND
+BACKWARD
+"Line 11, towards Plaza Elíptica"
+BACKWARDEND
+STATIONS
+"Plaza Elíptica"
+"Abrantes"
+"Pan Bendito"
+"San Francisco"
+"Carabanchel Alto"
+"La Peseta"
+"La Fortuna"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea 12
+# =============================================================
+SEGMENT
+FORWARD
+"Line 12, MetroSur clockwise"
+FORWARDEND
+BACKWARD
+"Line 12, MetroSur counter-clockwise"
+BACKWARDEND
+STATIONS
+"Puerta del Sur"
+"San Nicasio"
+"Leganés Central"
+"Hospital Severo Ochoa"
+"Casa del Reloj"
+"Julián Besteiro"
+"El Carrascal"
+"El Bercial"
+"Los Espartales"
+"El Casar"
+"Juan de la Cierva"
+"Getafe Central"
+"Alonso de Mendoza"
+"Conservatorio"
+"Arroyo Culebro"
+"Parque de los Estados"
+"Fuenlabrada Central"
+"Parque Europa"
+"Hospital de Fuenlabrada"
+"Loranca"
+"Manuela Malassaña"
+"Hospital de Móstoles"
+"Pradillo"
+"Móstoles Central"
+"Universidad Rey Juan Carlos"
+"Parque Oeste"
+"Alcorcón Central"
+"Parque Lisboa"
+"Puerta del Sur"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Linea R
+# =============================================================
+SEGMENT
+FORWARD
+"Line R, towards Príncipe Pío"
+FORWARDEND
+BACKWARD
+"Line R, towards Ópera"
+BACKWARDEND
+STATIONS
+"Ópera"
+"Príncipe Pío"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Ligero 1
+# =============================================================
+SEGMENT
+FORWARD
+"Metro Ligero 1, towards Las Tablas"
+FORWARDEND
+BACKWARD
+"Metro Ligero 1, towards Pinar de Chamartín"
+BACKWARDEND
+STATIONS
+"Pinar de Chamartín"
+"Fuente de la Mora"
+"Virgen del Cortijo"
+"Antonio Saura"
+"Álvarez de Villaamil"
+"Blasco Ibáñez"
+"María Tudor"
+"Palas del Rey"
+"Las Tablas"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Ligero 2
+# =============================================================
+SEGMENT
+FORWARD
+"Metro Ligero 2, towards Estación de Avaraca"
+FORWARDEND
+BACKWARD
+"Metro Ligero 2, towards Colonia Jardín"
+BACKWARDEND
+STATIONS
+"Colonia Jardín"
+"Prado de la Vega"
+"Colonia de los Ángeles"
+"Prado del Rey"
+"Somosaguas Sur"
+"Somosaguas Centro"
+"Pozuelo Oeste"
+"Bélgica"
+"Dos Castillas"
+"Campus de Somosaguas"
+"Avenida de Europa"
+"Berna"
+"Estación de Avaraca"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Ligero 3
+# =============================================================
+SEGMENT
+FORWARD
+"Metro Ligero 3, towards Puerta de Boadilla"
+FORWARDEND
+BACKWARD
+"Metro Ligero 3, towards Colonia Jardín"
+BACKWARDEND
+STATIONS
+"Colonia Jardín"
+"Cuidad de la Imagen"
+"José Isbert"
+"Ciudad del Cine"
+"Cocheras"
+"Retamares"
+"Montepríncipe"
+"Ventorro del Cano"
+"Prado del Espino"
+"Cantabria"
+"Ferial del Boradilla"
+"Boadilla Centro"
+"Nuevo Mundo"
+"Siglo XXI"
+"Infante Don Luís"
+"Puerta de Boadilla"
+STATIONSEND
+SEGMENTEND
+
+
+MULTI_NAMED_NODE
+"Acacias"
+"Embajadores"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Plaza de España"
+"Noviciado"
+MULTI_NAMED_NODE_END
+
+

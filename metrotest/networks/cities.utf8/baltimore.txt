@@ -1,0 +1,163 @@
+# bron: http://en.wikipedia.org/wiki/List_of_Baltimore_Light_Rail_stations
+
+# City
+CITY
+CITYNAME
+Baltimore
+CITYNAME_END
+CITYCODE
+BAL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards Johns Hopkins Hospital"
+FORWARDEND
+BACKWARD
+"Main line, towards Owings Mills"
+BACKWARDEND
+STATIONS
+"Owings Mills"
+"Old Court"
+"Milford Mill"
+"Reisterstown Plaza"
+"Rogers Avenue"
+"West Coldspring"
+"Mondawmin"
+"Penn-North"
+"Upton/Avenue Market"
+"State Center"
+"Lexington Market"
+"Charles Center"
+"Shot Tower/Market Place"
+"Johns Hopkins Hospital"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Light Rail, towards BWI Marshall Airport"
+FORWARDEND
+BACKWARD
+"Light Rail, towards Hunt Valley"
+BACKWARDEND
+STATIONS
+"Hunt Valley"
+"Pepper Road"
+"McCormick Road"
+"Gilroy Road"
+"Warren Road"
+"Timonium"
+"Timonium Business Park"
+"Lutherville"
+"Falls Road"
+"Mount Washington"
+"Coldspring Lane"
+"Woodberry"
+"North Avenue"
+"University of Baltimore/Mount Royal"
+"Cultural Center"
+"Centre Street"
+"Lexington Market"
+"University Center/Baltimore Street"
+"Convention Center"
+"Camden Yards"
+"Hamburg Street"
+"Westport"
+"Cherry Hill"
+"Patapsco"
+"Baltimore Highlands"
+"Nursery Road"
+"North Linthicum"
+"Linthicum"
+"BWI Business District"
+"BWI Marshall Airport"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Light Rail, towards Cromwell Station/Glen Burnie"
+FORWARDEND
+BACKWARD
+"Light Rail, towards Timonium"
+BACKWARDEND
+STATIONS
+"Timonium"
+"Timonium Business Park"
+"Lutherville"
+"Falls Road"
+"Mount Washington"
+"Coldspring Lane"
+"Woodberry"
+"North Avenue"
+"University of Baltimore/Mount Royal"
+"Cultural Center"
+"Centre Street"
+"Lexington Market"
+"University Center/Baltimore Street"
+"Convention Center"
+"Camden Yards"
+"Hamburg Street"
+"Westport"
+"Cherry Hill"
+"Patapsco"
+"Baltimore Highlands"
+"Nursery Road"
+"North Linthicum"
+"Linthicum"
+"Ferndale"
+"Cromwell Station/Glen Burnie"
+STATIONSEND
+SEGMENTEND
+
+# =========================================
+#
+# Non peak trips extended from Titonium on the Cromwell 
+# Service (traject fully covered by Cromwell line so
+# no need to make Partial).
+#
+# =========================================
+SEGMENT
+FORWARD
+"Light Rail, towards Timonium"
+FORWARDEND
+BACKWARD
+"Light Rail, towards Hunt Valley"
+BACKWARDEND
+STATIONS
+"Hunt Valley"
+"Pepper Road"
+"McCormick Road"
+"Gilroy Road"
+"Warren Road"
+"Timonium"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Light Rail, towards Camden Yards"
+FORWARDEND
+BACKWARD
+"Light Rail, towards Penn Station"
+BACKWARDEND
+STATIONS
+"Penn Station"
+"University of Baltimore/Mount Royal"
+"Cultural Center"
+"Centre Street"
+"Lexington Market"
+"University Center/Baltimore Street"
+"Convention Center"
+"Camden Yards"
+STATIONSEND
+SEGMENTEND
+
+

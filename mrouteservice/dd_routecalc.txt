@@ -1,0 +1,57 @@
+Targets:
+- optimize (go to db once, re-use in memory info to calculate multiple routes)
+  squential: one calculator, multiple routes.
+- enable parallel processing
+  parallel: multiple calculators, multiple routes.
+
+Calculator: statefull versus stateless processing mode.
+Stateful: client server processing, batch processing
+Stateless: Stripes processing.
+
+If client wants statefull processing: call setCity. m_info is not null? statefull processing mode.
+
+How:
+MetroInfo: split fixed and variable data structures.
+
+DS must support:
+name => Station lookup
+Station => node lookup
+stationcode => halte lookup (transform info)
+Dijkstra transform (tx MetroInfo ds into Dijkstra ds)
+
+Combine MetroInfo changes with DijkstraInfo?
+Make MetroInfo immutable and store changes in DijkstraInfo?
+- m_nodes => haltes.
+  From String to Halte2.
+  No need to update station or maintain station-halte relation. check...
+  m_nodes: intermediary??
+- m_trans => m_sp_haltes.
+  Add transform info to haltes. stationcode to halte lookup.
+  FIX: add nodeId to transforminfo. Find halte using nodeId.
+- m_segs => m_sp_links.
+  From SegmentInfo to Link2.
+  for each si: trySplit(A). trySplit(B) add Link2??
+  add 
+
+mi.generateDijkstraInfo (m_sp: geen members.... local stuff)
+
+add servicetype param to shortestPath
+remove m_node loading from storage... move to getRoute. gen Halte2
+do not change node attribute in Station. immutable stats?
+make m_nodes local and temp variable.
+
+m_sp_nodes;
+
+Need NodeInfo (nodeId, stationCode, Halte2) relation. Dynamic.
+Derive from stationlist. Add nodes if req. statlist stable.
+NodeId may occur multiple times.
+
+=> setCity(cityCode)
+MetroInfo
+=> getRoute(MI, A, B)
+DijkstraInfo
+=> ShortestPath(DI, A, B)
+RouteInfo
+=> createDisplayInfo(RI, MI)
+DisplayInfo
+

@@ -1,0 +1,23 @@
++ Add support to set Enum fields when loading data from the database.
+  +[2017-04-28] xlate string value from database into enum constant.
+
++ Use dbwrapper to write stations:
+  +[2017-04-26] add batchInsert (write collection to database) to dbwrapper.
+  +[2017-04-27] Add PrimaryKey annotation to dbwrapper.
+  +[2017-04-27] update DBInsert to handle supplied PK-values.
+  +[2017-04-27] Add missing attribute (city_id) to MetroStation.
+  +[2017-04-27] Add annotations to MetroStation.
+  +[2017-04-28] Handle enumerations when writing objects to the database.
+  +[2017-04-28] uses batchInsert in DBUpdate.
+
++ Add support for SWW on PostgreSQL:
+  +[2017-04-25] Add stored procedures.
+
++ DBUpdate: switch to dbwrapper.
+  +[2017-04-25] Remove MetroDB.
+  
+- Add logging to dbwrapper.
+  Log the SQL-statements (and results).
+
+Design fixaton:
+DBUpdate does not use preparedStatements. Blind spot, because the desire to keep the SQL test in line with SQLWriter.

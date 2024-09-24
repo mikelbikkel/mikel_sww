@@ -1,0 +1,657 @@
+
+# http://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Metro
+# http://en.wikipedia.org/wiki/Companhia_Paulista_de_Trens_Metropolitanos
+# http://www.cptm.sp.gov.br/
+
+CITY
+CITYNAME
+"Sao Paulo"
+CITYNAME_END
+CITYCODE
+SPA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1 (Blue), towards Jabaquara"
+FORWARDEND
+BACKWARD
+"Line 1 (Blue), towards Tucuruvi"
+BACKWARDEND
+STATIONS
+"Tucuruvi"
+"Parada Inglesa"
+"Jardim São Paulo"
+"Santana"
+"Carandiru"
+"Portuguesa-Tietê"
+"Armênia"
+"Tiradentes"
+"Luz"
+"São Bento"
+"Sé"
+"Liberdade"
+"São Joaquim"
+"Vergueiro"
+"Paraíso"
+"Ana Rosa"
+"Vila Mariana"
+"Santa Cruz"
+"Praça da Árvore"
+"Saúde"
+"São Judas"
+"Conceição"
+"Jabaquara"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 2
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2 (Green), towards Vila Prudente"
+FORWARDEND
+BACKWARD
+"Line 2 (Green), towards Vila Madalena"
+BACKWARDEND
+STATIONS
+"Vila Madalena"
+"Santuário Nossa Senhora de Fátima-Sumaré"
+"Clínicas"
+"Consolação"
+"Trianon-Masp"
+"Brigadeiro"
+"Paraíso"
+"Ana Rosa"
+"Chácara Klabin"
+"Santos-Imigrantes"
+"Alto do Ipiranga"
+"Sacomã"
+"Tamanduateí"
+"Vila Prudente"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 3
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3 (Red), towards Corinthians-Itaquera"
+FORWARDEND
+BACKWARD
+"Line 3 (Red), towards Palmeiras-Barra Funda"
+BACKWARDEND
+STATIONS
+"Palmeiras-Barra Funda"
+"Marechal Deodoro"
+"Santa Cecília"
+"República"
+"Anhangabaú"
+"Sé"
+"Pedro II"
+"Brás"
+"Bresser-Mooca"
+"Belém"
+"Tatuapé"
+"Carrão"
+"Penha"
+"Vila Matilde"
+"Guilhermina-Esperança"
+"Patriarca"
+"Artur Alvim"
+"Corinthians-Itaquera"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 4
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4 (Yellow), towards Vila Sônia"
+FORWARDEND
+BACKWARD
+"Line 4 (Yellow), towards Luz"
+BACKWARDEND
+STATIONS
+"Luz"
+"República"
+# "Higienópolis-Mackenzie"
+"Paulista"
+# "Oscar Freire"
+# "Fradique Coutinho"
+"Faria Lima"
+"Pinheiros"
+"Butantã"
+# "São Paulo-Morumbi"
+# "Vila Sônia"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 5
+# =============================================================
+SEGMENT
+FORWARD
+"Line 5 (Lilac), towards Chácara Klabin"
+FORWARDEND
+BACKWARD
+"Line 5 (Lilac), towards Capão Redondo"
+BACKWARDEND
+STATIONS
+"Capão Redondo"
+"Campo Limpo"
+"Vila das Belezas"
+"Giovanni Gronchi"
+"Santo Amaro"
+"Largo Treze"
+"Adolfo Pinheiro"
+# "Alto da Boa Vista"
+# "Borba Gato"
+# "Brooklin-Campo Belo"
+# "Água Espraiada"
+# "Ibirapuera"
+# "Moema"
+# "Hospital Servidor Público"
+# "Vila Clementino"
+# "Santa Cruz"
+# "Chácara Klabin"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 6
+# =============================================================
+# SEGMENT
+# FORWARD
+# "Line 6 (Orange), towards Anália Franco"
+# FORWARDEND
+# BACKWARD
+# "Line 6 (Orange), towards Vila Clarice"
+# BACKWARDEND
+# STATIONS
+# "Vila Clarice"
+# "Brasilândia"
+# "Vila Cardoso"
+# "Itaberaba"
+# "João Paulo I"
+# "Freguesia do Ó"
+# "Santa Marina"
+# "Água Branca"
+# "Pompéia"
+# "Perdizes"
+# "Cardoso de Almeida"
+# "Angélica"
+# "Higienópolis-Mackenzie"
+# "14 Bis/Treze de Maio"
+# "São Joaquim"
+# "Mooca"
+# "Anália Franco"
+# STATIONSEND
+# SEGMENTEND
+
+
+# =============================================================
+#     Line 7
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7 (Ruby), towards Caieiras"
+FORWARDEND
+BACKWARD
+"Line 7 (Ruby), towards Luz"
+BACKWARDEND
+STATIONS
+"Luz"
+"Palmeiras-Barra Funda" 
+"Água Branca" 
+"Lapa"
+"Piqueri"
+"Pirituba"
+"Vila Clarice" 
+"Jaraguá" 
+"Perus"
+"Caieiras"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 7 (Ruby), towards Francisco Morato"
+FORWARDEND
+BACKWARD
+"Line 7 (Ruby), towards Caieiras"
+BACKWARDEND
+STATIONS
+"Caieiras"
+"Franco da Rocha"
+"Baltazar Fidelis"
+"Francisco Morato" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 7 (Ruby), towards Francisco Morato"
+FORWARDEND
+BACKWARD
+"Line 7 (Ruby), towards Luz"
+BACKWARDEND
+STATIONS
+"Luz"
+"Palmeiras-Barra Funda" 
+"Água Branca" 
+"Lapa"
+"Piqueri"
+"Pirituba"
+"Vila Clarice" 
+"Jaraguá" 
+"Perus"
+"Caieiras"
+"Franco da Rocha"
+"Baltazar Fidelis"
+"Francisco Morato" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 7 (Ruby), towards Jundiaí"
+FORWARDEND
+BACKWARD
+"Line 7 (Ruby), towards Francisco Morato"
+BACKWARDEND
+STATIONS
+"Francisco Morato" 
+"Botujuru"
+"Campo Limpo Paulista" 
+"Várzea Paulista" 
+"Jundiaí"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 8
+# =============================================================
+SEGMENT
+FORWARD
+"Line 8 (Diamond), towards Itapevi"
+FORWARDEND
+BACKWARD
+"Line 8 (Diamond), towards Júlio Prestes"
+BACKWARDEND
+STATIONS
+"Júlio Prestes"
+"Palmeiras-Barra Funda" 
+"Lapa"
+"Domingos de Moraes"
+"Imperatriz Leopoldina" 
+"Presidente Altino" 
+"Osasco"
+"Comandante Sampaio" 
+"Quitaúna"
+"General Miguel Costa" 
+"Carapicuiba"
+"Santa Terezinha" 
+"Antonio João" 
+"Barueri"
+"Jardim Belval"
+"Jardim Silveira" 
+"Jandira"
+"Sagrado Coração" 
+"Engenheiro Cardoso" 
+"Itapevi"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 8 (Diamond), towards Barueri"
+FORWARDEND
+BACKWARD
+"Line 8 (Diamond), towards Júlio Prestes"
+BACKWARDEND
+STATIONS
+"Júlio Prestes"
+"Palmeiras-Barra Funda" 
+"Lapa"
+"Domingos de Moraes"
+"Imperatriz Leopoldina" 
+"Presidente Altino" 
+"Osasco"
+"Comandante Sampaio" 
+"Quitaúna"
+"General Miguel Costa" 
+"Carapicuiba"
+"Santa Terezinha" 
+"Antonio João" 
+"Barueri"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 8 (Diamond), towards Itapevi"
+FORWARDEND
+BACKWARD
+"Line 8 (Diamond), towards Barueri"
+BACKWARDEND
+STATIONS
+"Barueri"
+"Jardim Belval"
+"Jardim Silveira" 
+"Jandira"
+"Sagrado Coração" 
+"Engenheiro Cardoso" 
+"Itapevi"
+STATIONSEND
+SEGMENTEND
+
+# was closed - reopenend 2014
+# http://pt.wikipedia.org/wiki/Linha_8_da_CPTM
+SEGMENT
+FORWARD
+"Line 8 (Diamond), towards Amador Bueno"
+FORWARDEND
+BACKWARD
+"Line 8 (Diamond), towards Itapevi"
+BACKWARDEND
+STATIONS
+"Itapevi"
+"Santa Rita"
+"Cimenrita"
+"Ambuitá"
+"Amador Bueno"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 9
+# =============================================================
+SEGMENT
+FORWARD
+"Line 9 (Emerald), towards Grajaú"
+FORWARDEND
+BACKWARD
+"Line 9 (Emerald), towards Osasco"
+BACKWARDEND
+STATIONS
+"Osasco"
+"Presidente Altino" 
+"Ceasa"
+"Vila Lobos-Jaguaré"
+"Cidade Universitária" 
+"Pinheiros"
+"Hebraica-Rebouças" 
+"Cidade Jardim" 
+"Vila Olímpia" 
+"Berrini"
+"Morumbi"
+"Granja Julieta" 
+"Santo Amaro" 
+"Socorro"
+"Jurubatuba" 
+"Autódromo"
+"Primavera-Interlagos" 
+"Grajaú"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 9 (Emerald), towards Pinheiros"
+FORWARDEND
+BACKWARD
+"Line 9 (Emerald), towards Osasco"
+BACKWARDEND
+STATIONS
+"Osasco"
+"Presidente Altino" 
+"Ceasa"
+"Vila Lobos-Jaguaré"
+"Cidade Universitária" 
+"Pinheiros"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 9 (Emerald), towards Socorro"
+FORWARDEND
+BACKWARD
+"Line 9 (Emerald), towards Pinheiros"
+BACKWARDEND
+STATIONS
+"Pinheiros"
+"Hebraica-Rebouças" 
+"Cidade Jardim" 
+"Vila Olímpia" 
+"Berrini"
+"Morumbi"
+"Granja Julieta" 
+"Santo Amaro" 
+"Socorro"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 9 (Emerald), towards Grajaú"
+FORWARDEND
+BACKWARD
+"Line 9 (Emerald), towards Socorro"
+BACKWARDEND
+STATIONS
+"Socorro"
+"Jurubatuba" 
+"Autódromo"
+"Primavera-Interlagos" 
+"Grajaú"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 10
+# =============================================================
+SEGMENT
+FORWARD
+"Line 10 (Turquoise), towards Rio Grande da Serra"
+FORWARDEND
+BACKWARD
+"Line 10 (Turquoise), towards Brás"
+BACKWARDEND
+STATIONS
+"Brás" 
+"Mooca" 
+"Ipiranga" 
+"Tamanduateí" 
+"São Caetano" 
+"Utinga" 
+"Prefeito Saladino" 
+"Prefeito Celso Daniel - Santo André" 
+"Capuava" 
+"Mauá"
+"Guapituba" 
+"Ribeirão Pires" 
+"Rio Grande da Serra"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 10 (Turquoise), towards Mauá"
+FORWARDEND
+BACKWARD
+"Line 10 (Turquoise), towards Brás"
+BACKWARDEND
+STATIONS
+"Brás" 
+"Mooca" 
+"Ipiranga" 
+"Tamanduateí" 
+"São Caetano" 
+"Utinga" 
+"Prefeito Saladino" 
+"Prefeito Celso Daniel - Santo André" 
+"Capuava" 
+"Mauá"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 10 (Turquoise), towards Rio Grande da Serra"
+FORWARDEND
+BACKWARD
+"Line 10 (Turquoise), towards Mauá"
+BACKWARDEND
+STATIONS
+"Mauá"
+"Guapituba" 
+"Ribeirão Pires" 
+"Rio Grande da Serra"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 11
+# =============================================================
+SEGMENT
+FORWARD
+"Line 11 (Coral) Expresso Leste, towards Guaianazes"
+FORWARDEND
+BACKWARD
+"Line 11 (Coral) Expresso Leste, towards Luz"
+BACKWARDEND
+STATIONS
+"Luz" 
+"Brás" 
+"Tatuapé" 
+"Corinthians-Itaquera" 
+"Dom Bosco"
+"José Bonifácio" 
+"Guaianazes"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 11 (Coral), towards Estudantes"
+FORWARDEND
+BACKWARD
+"Line 11 (Coral), towards Guaianazes"
+BACKWARDEND
+STATIONS
+"Guaianazes"
+"Antonio Gianetti Neto" 
+"Ferraz de Vasconcelos"
+"Poá"
+"Calmon Viana" 
+"Suzano"
+"Jundiapeba" 
+"Brás Cubas"
+"Mogi das Cruzes" 
+"Estudantes"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 12
+# =============================================================
+SEGMENT
+FORWARD
+"Line 12 (Sapphire), towards Calmon Viana"
+FORWARDEND
+BACKWARD
+"Line 12 (Sapphire), towards Brás"
+BACKWARDEND
+STATIONS
+"Brás" 
+"Tatuapé" 
+"Engenheiro Goulart" 
+"USP Leste"
+"Comendador Ermelino" 
+"São Miguel Paulista"
+"Jardim Helena-Vila Mara" 
+"Itaím Paulista"
+"Jardim Romano"
+"Engenheiro Manoel Feio" 
+"Itaquaquecetuba"
+"Aracaré"
+"Calmon Viana" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 12 (Sapphire), towards Engenheiro Manoel Feio"
+FORWARDEND
+BACKWARD
+"Line 12 (Sapphire), towards Brás"
+BACKWARDEND
+STATIONS
+"Brás" 
+"Tatuapé" 
+"Engenheiro Goulart" 
+"USP Leste"
+"Comendador Ermelino" 
+"São Miguel Paulista"
+"Jardim Helena-Vila Mara" 
+"Itaím Paulista"
+"Jardim Romano"
+"Engenheiro Manoel Feio" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 12 (Sapphire), towards Calmon Viana"
+FORWARDEND
+BACKWARD
+"Line 12 (Sapphire), towards Engenheiro Manoel Feio"
+BACKWARDEND
+STATIONS
+"Engenheiro Manoel Feio" 
+"Itaquaquecetuba"
+"Aracaré"
+"Calmon Viana" 
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     MNNs
+# =============================================================
+MULTI_NAMED_NODE
+"Paulista"
+"Consolação"
+MULTI_NAMED_NODE_END
+
+
+
+

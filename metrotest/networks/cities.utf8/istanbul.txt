@@ -1,0 +1,909 @@
+
+# http://upload.wikimedia.org/wikipedia/commons/3/30/Istanbul_Rapid_Transit_Map.png
+# http://upload.wikimedia.org/wikipedia/commons/8/87/Istanbul_Rapid_Transit_Map_with_Metrob%C3%BCs_%28schematic%29.png
+# http://www.istanbul-ulasim.com.tr/
+
+# City
+CITY
+CITYNAME
+Istanbul
+CITYNAME_END
+CITYCODE
+IST
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# ---------------------------------------------------------------
+# Light Metro M1
+# http://upload.wikimedia.org/wikipedia/commons/f/f3/M1AB.png
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Line M1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Hafif Metro (Light Metro)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line M1 towards Yenikapı"
+FORWARDEND
+BACKWARD
+"Line M1 towards Atatürk Havalimanı/Airport"
+BACKWARDEND
+STATIONS
+"Atatürk Havalimanı/Airport"
+"DTM-Istanbul Fuar Merkezi"
+"Yenibosna"
+"Ataköy-Şirinevler"
+"Bahçelievler"
+"Bakırköy-İncirli"
+"Zeytinburnu"
+"Merter"
+"Davutpaşa - YTÜ"
+"Terazidere"
+"Otogar/Esenler Bus Terminal"
+"Kartaltepe-Kocatepe"
+"Sağmalcılar"
+"Bayrampaşa-Maltepe"
+"Topkapı-Ulubatlı"
+"Emniyet-Fatih"
+"Aksaray" 
+"Yenikapı"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line M1 towards Yenikapı"
+FORWARDEND
+BACKWARD
+"Line M1 towards Kirazlı"
+BACKWARDEND
+STATIONS
+"Kirazlı"
+"Bağcılar-Meydan"
+"Üçyüzlü"
+"Menderes"
+"Esenler"
+"Otogar/Esenler Bus Terminal"
+"Kartaltepe-Kocatepe"
+"Sağmalcılar"
+"Bayrampaşa-Maltepe"
+"Topkapı-Ulubatlı"
+"Emniyet-Fatih"
+"Aksaray" 
+"Yenikapı"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------------
+# Light Metro T4
+# http://upload.wikimedia.org/wikipedia/commons/4/4c/T4_Hafif_Metro_Istanbul.png
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Line T4"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Hafif Metro (Light Metro)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line T4 towards Mescid-i Selam"
+FORWARDEND
+BACKWARD
+"Line T4 towards Topkapı"
+BACKWARDEND
+STATIONS
+"Topkapı"
+"Fetihkapı"
+"Vatan"
+"Edirnekapı"
+"Şehitlik"
+"Demirkapı"
+"Topçular"
+"Rami"
+"Uluyol-Bereç"
+"Sağmalcılar-Kartaltepe"
+"Bosna-Çukurçesme"
+"Ali Fuat Başgil"
+"Taşköprü"
+"Karadeniz"
+"Metris"
+"Cumhuriyet Mah."
+"50. Yil-Bastabya"
+"Hacı Şükrü"
+"Yeni Mahalle"  # not to be confused with M3!
+"Sultançıftliği"
+"Cebeci"
+"Mescid-i Selam"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------------
+# Tramvay hattı Metro T1
+# http://www.istanbul-ulasim.com.tr/media/8540/erisim_2200px_1546px-01.jpg
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Line T1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Tramvay hattı"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line T1 towards Kabataş"
+FORWARDEND
+BACKWARD
+"Line T1 towards Bağcılar"
+BACKWARDEND
+STATIONS
+"Bağcılar"
+"Güneştepe"
+"Yavuzselim"
+"Soğanlı"
+"Akıncılar"
+"Güngören"
+"Merter Tekstil Merkezi"
+"Mehmet Akif"	
+"Zeytinburnu"
+"Mithatpaşa"
+"Akşemsettin"
+"Merkez Efendi"
+"Cevizlibağ A.Ö.Y."
+"Topkapı"
+"Pazartekke"
+"Çapa-Şehremini"
+"Fındıkzade"
+"Haseki"
+"Yusufpaşa"
+"Aksaray / Atatürk Blvd."
+"Laleli - Üniversite"
+"Beyazıt - Kapalı Carsı"
+"Çemberlitaş"
+"Sultanahmet"
+"Gülhane"
+"Sirkeci"
+"Eminönü"
+"Karaköy"
+"Tophane"
+"Fındıklı"
+"Kabataş"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------------
+# Tünel
+# http://en.wikipedia.org/wiki/T%C3%BCnel
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Tünel"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Since January 17, 1875"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Tünel towards Tünel Meydanı"
+FORWARDEND
+BACKWARD
+"Tünel towards Karaköy"
+BACKWARDEND
+STATIONS
+"Karaköy"
+"Tünel Meydanı" # Tünel Square 
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Füniküler Kabataş–Taksim
+# http://de.wikipedia.org/wiki/F%C3%BCnik%C3%BCler_Kabata%C5%9F%E2%80%93Taksim
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Füniküler F1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Füniküler Kabataş–Taksim"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Füniküler F1 towards Kabataş"
+FORWARDEND
+BACKWARD
+"Füniküler F1 towards Taksim"
+BACKWARDEND
+STATIONS
+"Taksim"
+"Kabataş"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ---------------------------------------------------------------
+# M2
+# http://de.wikipedia.org/wiki/M2_%28Metro_Istanbul%29
+# http://www.istanbul-ulasim.com.tr/media/24900/ag_2200px_1546px-01.jpg
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Line M2"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line M2 towards Yenikapı"
+FORWARDEND
+BACKWARD
+"Line M2 towards Hacıosman"
+BACKWARDEND
+STATIONS
+"Hacıosman"
+"Darüşşafaka"
+"Atatürk Oto Sanayi" 
+"İTÜ Ayazağa"
+"Sanayi Mahallesi"
+"4. Levent"
+"Levent"
+"Gayrettepe"
+"Şişli-Mecidiyeköy"
+"Osmanbey"
+"Taksim"
+"Şişhane"
+"Haliç"
+"Vezneciler"
+"Yenikapı"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"M2-Shuttle"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Towards Ali Sami Yen Spor Kompleks vv."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"M2-Shuttle, towards TT Arena, Seyrantepe"
+FORWARDEND
+BACKWARD
+"M2-Shuttle, towards Sanayi Mahallesi"
+BACKWARDEND				
+STATIONS
+"TT Arena, Seyrantepe" 
+"Sanayi Mahallesi"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------------
+# M3
+# http://de.wikipedia.org/wiki/M3_%28Metro_Istanbul%29
+# http://www.istanbul-ulasim.com.tr/media/24900/ag_2200px_1546px-01.jpg
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Line M3"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line M3 towards MetroKent"
+FORWARDEND
+BACKWARD
+"Line M3 towards Kirazlı"
+BACKWARDEND
+STATIONS
+"Kirazlı"
+"Yeni Mahalle (Bağcılar)"  # not to be confused with T4!
+"Mahmutbey"
+"İstoç"
+"İkitelli Sanayi"
+"Turgut Özal"
+"Siteler"
+"Başak Konutları"
+"MetroKent"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line M3 towards Olimpiyat Parkı"
+FORWARDEND
+BACKWARD
+"Line M3 towards Kirazlı"
+BACKWARDEND
+STATIONS
+"Kirazlı"
+"Yeni Mahalle (Bağcılar)"  # not to be confused with T4!
+"Mahmutbey"
+"İstoç"
+"İkitelli Sanayi"
+"Ziya Gökalp Mahallesi"
+"Olimpiyat Parkı"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------------
+# M4
+# http://de.wikipedia.org/wiki/M4_%28Metro_Istanbul%29
+# http://www.istanbul-ulasim.com.tr/media/24900/ag_2200px_1546px-01.jpg
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Line M4"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line M4 towards Kartal"
+FORWARDEND
+BACKWARD
+"Line M4 towards Kadıköy"
+BACKWARDEND
+STATIONS
+"Kadıköy"
+"Ayrılıkçeşme"
+"Acıbadem"
+"Ünalan"
+"Göztepe"
+"Yenisahra"
+"Kozyatağı"
+"Bostancı"
+"Küçükyalı"
+"Maltepe"
+"Huzurevi"
+"Gülsuyu"
+"Esenkent"
+"Hastane-Adliye"
+"Soğanlık"
+"Kartal"
+STATIONSEND
+SEGMENTEND
+
+
+# ---------------------------------------------------------------
+# M6
+# april 2015
+# ---------------------------------------------------------------
+
+LINE
+LINE_NAME
+"Line M6"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Line M6 towards Boğaziçi Üniversitesi/Hisarüstü"
+FORWARDEND
+BACKWARD
+"Line M6 towards Levent"
+BACKWARDEND
+STATIONS
+"Levent"
+"Nispetiye"
+"Etiler"
+"Boğaziçi Üniversitesi/Hisarüstü"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# ---------------------------------------------------------------
+# MARMARAY
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Marmaray Railway"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Bosphorus (Istanbul Strait) Railway"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Marmaray Railway towards Ayrılıkçeşme"
+FORWARDEND
+BACKWARD
+"Marmaray Railway towards Kazlıçeşme"
+BACKWARDEND
+STATIONS
+"Kazlıçeşme"
+"Yenikapı"
+"Sirkeci (train station)"
+"Üsküdar"
+"Ayrılıkçeşme"
+STATIONSEND
+SEGMENTEND
+
+
+# METROBUS START ------------------------------------------------------------------------ METROBUS START 
+
+# ---------------------------------------------------------------
+# Metrobüs 34
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34" # no suffix indeed, just 34!
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34 towards Avcılar Kampüs"
+FORWARDEND
+BACKWARD
+"Metrobüs 34 towards Zincirlikuyu"
+BACKWARDEND
+STATIONS
+"Zincirlikuyu" 							
+"Mecidiyeköy"
+"Çağlayan" 							
+"Okmeydanı Hastane" 							
+"Darülaceze-Perpa"				
+"Okmeydanı" 							
+"Halıcıoğlu" 							
+"Ayvansaray" 							
+"Edirnekapı (büs)"					
+"A.M.B. Adnan Menderes Bulvarı" 							
+"Bayrampaşa Maltepe (büs)"						
+"Topkapı" 							
+"Cevizlibağ A.Ö.Y."
+"Merter" 							
+"Zeytinburnu" 							
+"İncirli"
+"Bahçelievler" 							
+"Ataköy-Şirinevler"		
+"Yenibosna (büs)"							
+"Sefaköy" 							
+"Beşyol" 							
+"Florya" 							
+"Cennet Mahallesi" 							
+"Küçükçekmece" 							
+"İBB Sosyal Tesisler" 							
+"Şükrübey" 							
+"Avcılar Kampüs" 							
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Metrobüs 34A
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34A"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34A towards Cevizlibağ A.Ö.Y."
+FORWARDEND
+BACKWARD
+"Metrobüs 34A towards Söğütlüçeşme"
+BACKWARDEND
+STATIONS
+"Söğütlüçeşme" 							
+"Fikirtepe" 							
+"Uzunçayır" 							
+"Acıbadem (büs)" 							
+"Altunizade" 							
+"Burhaniye"						
+"Boğaziçi Köprüsü" 							
+"Zincirlikuyu" 							
+"Mecidiyeköy"
+"Çağlayan" 							
+"Okmeydanı Hastane" 							
+"Darülaceze-Perpa"		
+"Okmeydanı" 							
+"Halıcıoğlu" 							
+"Ayvansaray" 							
+"Edirnekapı (büs)"				
+"A.M.B. Adnan Menderes Bulvarı" 							
+"Bayrampaşa Maltepe (büs)"						
+"Topkapı" 							
+"Cevizlibağ A.Ö.Y."
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Metrobüs 34B
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34B"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34B towards Beylikdüzü Sondurak"
+FORWARDEND
+BACKWARD
+"Metrobüs 34B towards Avcılar Kampüs"
+BACKWARDEND
+STATIONS
+"Avcılar Kampüs" 							
+"Avcılar Merkez"
+"Kemal Mustafa Paşa"					
+"Saadet Dere Mahallesi" 							
+"Haramidere Sanayi" 							
+"Haramidere" 							
+"Güzelyurt" 							
+"Beylükdüzü Belediye"							
+"Cumhuriyet Mahallesi" 							
+"Hadımköy-Beykent"
+"Beylikdüzü Sondurak"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Metrobüs 34C
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34C"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34C towards Beylikdüzü Sondurak"
+FORWARDEND
+BACKWARD
+"Metrobüs 34C towards Topkapı"
+BACKWARDEND
+STATIONS
+"Topkapı" 							
+"Cevizlibağ A.Ö.Y."
+"Merter" 							
+"Zeytinburnu" 							
+"İncirli"
+"Bahçelievler" 							
+"Ataköy-Şirinevler"		
+"Yenibosna (büs)"					
+"Sefaköy" 							
+"Beşyol" 							
+"Florya" 							
+"Cennet Mahallesi" 							
+"Küçükçekmece" 							
+"İBB Sosyal Tesisler" 							
+"Şükrübey" 							
+"Avcılar Kampüs" 							
+"Avcılar Merkez"
+"Kemal Mustafa Paşa"					
+"Saadet Dere Mahallesi" 							
+"Haramidere Sanayi" 							
+"Haramidere" 							
+"Güzelyurt" 							
+"Beylükdüzü Belediye"							
+"Cumhuriyet Mahallesi" 							
+"Hadımköy-Beykent"
+"Beylikdüzü Sondurak"
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Metrobüs 34T
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34T"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34T towards Avcılar Kampüs"
+FORWARDEND
+BACKWARD
+"Metrobüs 34T towards Topkapı"
+BACKWARDEND
+STATIONS
+"Topkapı" 							
+"Cevizlibağ A.Ö.Y."
+"Merter" 							
+"Zeytinburnu" 							
+"İncirli"
+"Bahçelievler" 							
+"Ataköy-Şirinevler"		
+"Yenibosna (büs)"						
+"Sefaköy" 							
+"Beşyol" 							
+"Florya" 							
+"Cennet Mahallesi" 							
+"Küçükçekmece" 							
+"İBB Sosyal Tesisler" 							
+"Şükrübey" 							
+"Avcılar Kampüs" 							
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Metrobüs 34Z
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34Z"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34Z towards Zincirlikuyu"
+FORWARDEND
+BACKWARD
+"Metrobüs 34Z towards Söğütlüçeşme"
+BACKWARDEND
+STATIONS
+"Söğütlüçeşme" 							
+"Fikirtepe" 							
+"Uzunçayır" 							
+"Acıbadem (büs)" 							
+"Altunizade" 							
+"Burhaniye"						
+"Boğaziçi Köprüsü" 							
+"Zincirlikuyu" 							
+STATIONSEND
+SEGMENTEND
+
+# ---------------------------------------------------------------
+# Metrobüs 34G
+# http://en.wikipedia.org/wiki/Marmaray
+# ---------------------------------------------------------------
+LINE
+LINE_NAME
+"Metrobüs 34G"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"(Night Service) Dedicated bus lane BRT (Bus Rapid Transit)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Metrobüs 34G towards Beylikdüzü Sondurak"
+FORWARDEND
+BACKWARD
+"Metrobüs 34G towards Söğütlüçeşme"
+BACKWARDEND
+STATIONS
+"Söğütlüçeşme" 							
+"Fikirtepe" 							
+"Uzunçayır" 							
+"Acıbadem (büs)" 							
+"Altunizade" 							
+"Burhaniye"						
+"Boğaziçi Köprüsü" 							
+"Zincirlikuyu" 							
+"Mecidiyeköy"
+"Çağlayan" 							
+"Okmeydanı Hastane" 							
+"Darülaceze-Perpa" 							
+"Okmeydanı" 							
+"Halıcıoğlu" 							
+"Ayvansaray" 							
+"Edirnekapı (büs)" 							
+"A.M.B. Adnan Menderes Bulvarı" 							
+"Bayrampaşa Maltepe (büs)" 							
+"Topkapı" 							
+"Cevizlibağ A.Ö.Y."
+"Merter" 							
+"Zeytinburnu" 		
+"İncirli"					
+"Bahçelievler" 							
+"Ataköy-Şirinevler"		
+"Yenibosna (büs)"							
+"Sefaköy" 							
+"Beşyol" 							
+"Florya" 							
+"Cennet Mahallesi" 							
+"Küçükçekmece" 							
+"İBB Sosyal Tesisler" 							
+"Şükrübey" 							
+"Avcılar Kampüs" 							
+"Avcılar Merkez"
+"Kemal Mustafa Paşa"					
+"Saadet Dere Mahallesi" 							
+"Haramidere Sanayi" 							
+"Haramidere" 							
+"Güzelyurt" 							
+"Beylükdüzü Belediye"							
+"Cumhuriyet Mahallesi" 							
+"Hadımköy-Beykent"
+"Beylikdüzü Sondurak"
+STATIONSEND
+SEGMENTEND
+
+# METROBUS END ---------------------------------------------------------------------------- METROBUS END
+
+
+# ---------------------------------------------------------------
+# MNNs 
+# see http://www.istanbul-ulasim.com.tr/rayl%C4%B1-sistemler/aktarma-istasyonlar%C4%B1.aspx
+# ---------------------------------------------------------------
+
+# 1,5 km walk metro-bus  = TOO FAR - SKIP THIS MNN 
+# MULTI_NAMED_NODE
+# "Bayrampaşa Maltepe (büs)" 
+# "Bayrampaşa Maltepe"
+# MULTI_NAMED_NODE_END
+
+# 300 m walk metro-tram
+MULTI_NAMED_NODE
+"Bağcılar-Meydan"
+"Bağcılar"
+MULTI_NAMED_NODE_END
+
+# 400 m walk metro-tram
+MULTI_NAMED_NODE
+"Topkapı-Ulubatlı"
+"Vatan"
+MULTI_NAMED_NODE_END
+
+# 351 m walk metro-tram
+MULTI_NAMED_NODE
+"Aksaray" 
+"Yusufpaşa"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Tünel Meydanı"
+"Şişhane"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Edirnekapı (büs)"
+"Şehitlik" # not Edirnekapi on the tramway as you might expect!
+MULTI_NAMED_NODE_END
+
+# 300 m walk metrobüs-metro
+MULTI_NAMED_NODE
+"Zincirlikuyu"
+"Gayrettepe"
+MULTI_NAMED_NODE_END
+
+# 340 m walk metrobüs-metro
+MULTI_NAMED_NODE
+"Uzunçayır" 	
+"Ünalan"
+MULTI_NAMED_NODE_END
+
+# 351 m walk tram-train
+MULTI_NAMED_NODE
+"Sirkeci"
+"Sirkeci (train station)"
+MULTI_NAMED_NODE_END
+
+# 351 m walk metro-tram
+MULTI_NAMED_NODE
+"Aksaray"
+"Aksaray / Atatürk Blvd."
+MULTI_NAMED_NODE_END
+
+# walk metrobüs-metro
+MULTI_NAMED_NODE
+"Mecidiyeköy"
+"Şişli-Mecidiyeköy"
+MULTI_NAMED_NODE_END
+
+# 270 m walk metrobüs-metro 
+MULTI_NAMED_NODE
+"İncirli"					
+"Bakırköy-İncirli"
+MULTI_NAMED_NODE_END
+
+# MULTI_NAMED_NODE - SKIP - THERE ARE BETTER ALTERNATIVES ONE STATION LATER
+# 650 m walk metrobüs-metro
+# "Yenibosna"
+# "Yenibosna (büs)"
+# MULTI_NAMED_NODE_END

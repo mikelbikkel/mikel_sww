@@ -1,0 +1,193 @@
+
+# http://de.wikipedia.org/wiki/M%C3%A9tro_Lausanne
+
+CITY
+CITYNAME
+Lausanne
+CITYNAME_END
+CITYCODE
+LAU
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# ==================================
+#	Line TSOL/M1
+# ==================================
+SEGMENT
+FORWARD
+"TSOL/m1, towards Lausanne-Flon"
+FORWARDEND
+BACKWARD
+"TSOL/m1, towards Renens"
+BACKWARDEND
+STATIONS
+"Renens" 
+"Epenex"
+"Crochy"
+"Cerisaie"
+"Bassenges"
+"EPFL"
+"UNIL-Sorge"
+"Mouline"
+"UNIL-Dorigny"
+"Bourdonnette"
+"Malley"
+"Provence"
+"Montelly"
+"Vigie"
+"Lausanne-Flon"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"TSOL/m1, towards Lausanne-Flon"
+FORWARDEND
+BACKWARD
+"TSOL/m1, towards EPFL"
+BACKWARDEND
+STATIONS
+"EPFL"
+"UNIL-Sorge"
+"Mouline"
+"UNIL-Dorigny"
+"Bourdonnette"
+"Malley"
+"Provence"
+"Montelly"
+"Vigie"
+"Lausanne-Flon"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"TSOL/m1, towards EPFL"
+FORWARDEND
+BACKWARD
+"TSOL/m1, towards Renens"
+BACKWARDEND
+STATIONS
+"Renens" 
+"Epenex"
+"Crochy"
+"Cerisaie"
+"Bassenges"
+"EPFL"
+STATIONSEND
+SEGMENTEND
+
+
+# ==================================
+#	Line: m2
+# ==================================
+SEGMENT
+FORWARD
+"m2, towards Les Croisettes"
+FORWARDEND
+BACKWARD
+"m2, towards Ouchy"
+BACKWARDEND
+STATIONS
+"Ouchy"
+"Jordils"
+"Délices"
+"Grancy"
+"Gare CFF"
+"Lausanne-Flon"
+"Riponne"
+"Bessières"
+"Ours"
+"CHUV"
+"Sallaz"
+"Fourmi"
+"Vennes"
+"Les Croisettes"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"m2, towards Sallaz"
+FORWARDEND
+BACKWARD
+"m2, towards Gare CFF"
+BACKWARDEND
+STATIONS
+"Gare CFF"
+"Lausanne-Flon"
+"Riponne"
+"Bessières"
+"Ours"
+"CHUV"
+"Sallaz"
+STATIONSEND
+SEGMENTEND
+
+
+# ==================================  
+# 	LEB railway
+# ==================================
+SEGMENT
+FORWARD
+"LEB-railway, towards Lausanne-Flon"
+FORWARDEND
+BACKWARD
+"LEB-railway, towards Bercher"
+BACKWARDEND
+STATIONS
+"Bercher"
+"Fey"
+"Sugnens"
+"Grésaley"
+"Sur Roche"
+"Echallens"
+"Assens"
+"Etagnières"
+"Les Ripes"
+"Cheseaux"
+"Bel-Air"
+"Vernand-Camarès"
+"Romanel-sur-Lausanne"
+"Le Lussex"
+"Jouxtens-Mézery"
+"Cery-Fleur-de-Lys"
+"Prilly-Chasseur"
+"Union-Prilly"
+"Montétan"
+"Lausanne-Chauderon"
+"Lausanne-Flon"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"LEB-railway, towards Lausanne-Flon"
+FORWARDEND
+BACKWARD
+"LEB-railway, towards Echallens"
+BACKWARDEND
+STATIONS
+"Echallens"
+"Assens"
+"Etagnières"
+"Les Ripes"
+"Cheseaux"
+"Bel-Air"
+"Vernand-Camarès"
+"Romanel-sur-Lausanne"
+"Le Lussex"
+"Jouxtens-Mézery"
+"Cery-Fleur-de-Lys"
+"Prilly-Chasseur"
+"Union-Prilly"
+"Montétan"
+"Lausanne-Chauderon"
+"Lausanne-Flon"
+STATIONSEND
+SEGMENTEND
+

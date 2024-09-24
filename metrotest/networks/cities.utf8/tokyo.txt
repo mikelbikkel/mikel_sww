@@ -1,0 +1,832 @@
+CITY
+CITYNAME
+Tokyo
+CITYNAME_END
+CITYCODE
+TKY
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# replace operation to swap numbers / name:
+# "^([A-Z]-[0-9][0-9])-([^"]+)"
+# $2 / $1
+
+
+# ===========================================================================
+#	Line 3
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 3 Ginza, towards Asakusa"
+FORWARDEND
+BACKWARD
+"Line 3 Ginza, towards Shibuya"
+BACKWARDEND
+STATIONS
+"Shibuya / F-16 G-01 Z-01"
+"Omotesando / C-04 G-02 Z-02"
+"Gaiemmae / G-03"
+"Aoyama-Itchome / E-24 G-04 Z-03"
+"Akasaka-Mitsuke / G-05 M-13"
+"Tameike-Sanno / G-06 N-06"
+"Toranomon / G-07"
+"Shimbashi / A-10 G-08 U-01"
+"Ginza / G-09 H-08 M-16"
+"Kyobashi / G-10"
+"Nihombashi / A-13 G-11 T-10"
+"Mitsukoshimae / G-12 Z-09"
+"Kanda / G-13"
+"Suehirocho / G-14"
+"Ueno-Hirokoji / G-15"
+"Ueno / G-16 H-17"
+"Inaricho / G-17"
+"Tawaramachi / G-18"
+"Asakusa / A-18 G-19"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3 Ginza, towards Ueno"
+FORWARDEND
+BACKWARD
+"Line 3 Ginza, towards Shibuya"
+BACKWARDEND
+STATIONS
+"Shibuya / F-16 G-01 Z-01"
+"Omotesando / C-04 G-02 Z-02"
+"Gaiemmae / G-03"
+"Aoyama-Itchome / E-24 G-04 Z-03"
+"Akasaka-Mitsuke / G-05 M-13"
+"Tameike-Sanno / G-06 N-06"
+"Toranomon / G-07"
+"Shimbashi / A-10 G-08 U-01"
+"Ginza / G-09 H-08 M-16"
+"Kyobashi / G-10"
+"Nihombashi / A-13 G-11 T-10"
+"Mitsukoshimae / G-12 Z-09"
+"Kanda / G-13"
+"Suehirocho / G-14"
+"Ueno-Hirokoji / G-15"
+"Ueno / G-16 H-17"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 1
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 1 Asakusa, towards Oshiage"
+FORWARDEND
+BACKWARD
+"Line 1 Asakusa, towards Nishi-Magome"
+BACKWARDEND
+STATIONS
+"Nishi-Magome / A-01"
+"Magome / A-02"
+"Nakanobu / A-03"
+"Togoshi / A-04"
+"Gotanda / A-05"
+"Takanawadai / A-06"
+"Sengakuji / A-07"
+"Mita / A-08 I-04"
+"Daimon / A-09 E-20"
+"Shimbashi / A-10 G-08 U-01"
+"Higashi-Ginza / A-11 H-09"
+"Takaracho / A-12"
+"Nihombashi / A-13 G-11 T-10"
+"Ningyocho / A-14 H-13"
+"Higashi-Nihombashi / A-15"
+"Asakusabashi / A-16"
+"Kuramae / A-17 E-11"
+"Asakusa / A-18 G-19"
+"Honjo-Azumabashi / A-19"
+"Oshiage / A-20 Z-14"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 1 Asakusa, towards Sengakuji"
+FORWARDEND
+BACKWARD
+"Line 1 Asakusa, towards Nishi-Magome"
+BACKWARDEND
+STATIONS
+"Nishi-Magome / A-01"
+"Magome / A-02"
+"Nakanobu / A-03"
+"Togoshi / A-04"
+"Gotanda / A-05"
+"Takanawadai / A-06"
+"Sengakuji / A-07"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 2
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 2 Hibiya, towards Kita-Senju"
+FORWARDEND
+BACKWARD
+"Line 2 Hibiya, towards Naka-Meguro"
+BACKWARDEND
+STATIONS
+"Naka-Meguro / H-01"
+"Ebisu / H-02"
+"Hiroo / H-03"
+"Roppongi / E-23 H-04"
+"Kamiyacho / H-05"
+"Kasumigaseki / C-08 H-06 M-15"
+"Hibiya / C-09 I-08 H-07"
+"Ginza / G-09 H-08 M-16"
+"Higashi-Ginza / A-11 H-09"
+"Tsukiji / H-10"
+"Hatchobori / H-11"
+"Kayabacho / H-12 T-11"
+"Ningyocho / A-14 H-13"
+"Kodemmacho / H-14"
+"Akihabara / H-15"
+"Naka-Okachimachi / H-16"
+"Ueno / G-16 H-17"
+"Iriya / H-18"
+"Minowa / H-19"
+"Minami-Senju / H-20"
+"Kita-Senju / C-18 H-21"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 6
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 6 Mita, towards Nishi-Takashimadaira"
+FORWARDEND
+BACKWARD
+"Line 6 Mita, towards Meguro"
+BACKWARDEND
+STATIONS
+"Meguro / I-01 N-01"
+"Shirokanedai / I-02 N-02"
+"Shirokane-Takanawa / I-03 N-03"
+"Mita / A-08 I-04"
+"Shibakoen / I-05"
+"Onarimon / I-06"
+"Uchisaiwaicho / I-07"
+"Hibiya / C-09 I-08 H-07"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Jimbocho / I-10 S-06 Z-07"
+"Suidobashi / I-11"
+"Kasuga / E-07 I-12"
+"Hakusan / I-13"
+"Sengoku / I-14"
+"Sugamo / I-15"
+"Nishi-Sugamo / I-16"
+"Shin-Itabashi / I-17"
+"Itabashi-Kuyakushomae / I-18"
+"Itabashi-Honcho / I-19"
+"Motohasunuma / I-20"
+"Shimura-Sakaue / I-21"
+"Shimura-Sanchome / I-22"
+"Hasune / I-23"
+"Nishidai / I-24"
+"Takashimadaira / I-25"
+"Shin-Takashimadaira / I-26"
+"Nishi-Takashimadaira / I-27"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 5
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 5 Tozai, towards Nishi-Funabashi"
+FORWARDEND
+BACKWARD
+"Line 5 Tozai, towards Nakano"
+BACKWARDEND
+STATIONS
+"Nakano / T-01"
+"Ochiai / T-02"
+"Takadanobaba / T-03"
+"Waseda / T-04"
+"Kagurazaka / T-05"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Kudanshita / S-05 T-07 Z-06"
+"Takebashi / T-08"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Nihombashi / A-13 G-11 T-10"
+"Kayabacho / H-12 T-11"
+"Monzen-Nakacho / E-15 T-12"
+"Kiba / T-13"
+"Toyocho / T-14"
+"Minami-Sunamachi / T-15"
+"Nishi-Kasai / T-16"
+"Kasai / T-17"
+"Urayasu / T-18"
+"Minami-Gyotoku / T-19"
+"Gyotoku / T-20"
+"Myoden / T-21"
+"Baraki-Nakayama / T-22"
+"Nishi-Funabashi / T-23"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 5 Tozai Rapid"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Tozai Rapid and Tozai Commuter Rapid run different services!"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 5 Tozai Rapid, towards Nishi-Funabashi"
+FORWARDEND
+BACKWARD
+"Line 5 Tozai Rapid, towards Nakano"
+BACKWARDEND
+STATIONS
+"Nakano / T-01"
+"Ochiai / T-02"
+"Takadanobaba / T-03"
+"Waseda / T-04"
+"Kagurazaka / T-05"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Kudanshita / S-05 T-07 Z-06"
+"Takebashi / T-08"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Nihombashi / A-13 G-11 T-10"
+"Kayabacho / H-12 T-11"
+"Monzen-Nakacho / E-15 T-12"
+"Kiba / T-13"
+"Toyocho / T-14"
+"Urayasu / T-18"
+"Nishi-Funabashi / T-23"
+STATIONSEND
+SEGMENTEND
+
+
+LINE
+LINE_NAME
+"Line 5 Tozai Commuter Rapid"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays westbound trains skip T19-T22"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 5 Tozai Commuter Rapid, towards Nishi-Funabashi"
+FORWARDEND
+STATIONS
+"Nakano / T-01"
+"Ochiai / T-02"
+"Takadanobaba / T-03"
+"Waseda / T-04"
+"Kagurazaka / T-05"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Kudanshita / S-05 T-07 Z-06"
+"Takebashi / T-08"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Nihombashi / A-13 G-11 T-10"
+"Kayabacho / H-12 T-11"
+"Monzen-Nakacho / E-15 T-12"
+"Kiba / T-13"
+"Toyocho / T-14"
+"Minami-Sunamachi / T-15"
+"Nishi-Kasai / T-16"
+"Kasai / T-17"
+"Urayasu / T-18"
+"Minami-Gyotoku / T-19"
+"Gyotoku / T-20"
+"Myoden / T-21"
+"Baraki-Nakayama / T-22"
+"Nishi-Funabashi / T-23"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 5 Tozai Commuter Rapid, towards Nakano"
+FORWARDEND
+STATIONS
+"Nishi-Funabashi / T-23"
+"Urayasu / T-18"
+"Kasai / T-17"
+"Nishi-Kasai / T-16"
+"Minami-Sunamachi / T-15"
+"Toyocho / T-14"
+"Kiba / T-13"
+"Monzen-Nakacho / E-15 T-12"
+"Kayabacho / H-12 T-11"
+"Nihombashi / A-13 G-11 T-10"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Takebashi / T-08"
+"Kudanshita / S-05 T-07 Z-06"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Kagurazaka / T-05"
+"Waseda / T-04"
+"Takadanobaba / T-03"
+"Ochiai / T-02"
+"Nakano / T-01"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===========================================================================
+#	Line 10
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 10 Shinjuku, towards Motoyawata"
+FORWARDEND
+BACKWARD
+"Line 10 Shinjuku, towards Shinjuku"
+BACKWARDEND
+STATIONS
+"Shinjuku / E-27 M-08 S-01"
+"Shinjuku-sanchome / S-02"
+"Akebonobashi / S-03"
+"Ichigaya / N-09 S-04 Y-14"
+"Kudanshita / S-05 T-07 Z-06"
+"Jimbocho / I-10 S-06 Z-07"
+"Ogawamachi / S-07"
+"Iwamotocho / S-08"
+"Bakuro-yokoyama / S-09"
+"Hamacho / S-10"
+"Morishita / E-13 S-11"
+"Kikukawa / S-12"
+"Sumiyoshi / S-13 Z-12"
+"Nishi-ojima / S-14"
+"Ojima / S-15"
+"Higashi-ojima / S-16"
+"Funabori / S-17"
+"Ichinoe / S-18"
+"Mizue / S-19"
+"Shinozaki / S-20"
+"Motoyawata / S-21"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 10 Shinjuku Express, towards Motoyawata"
+FORWARDEND
+BACKWARD
+"Line 10 Shinjuku Express, towards Shinjuku"
+BACKWARDEND
+STATIONS
+"Shinjuku / E-27 M-08 S-01"
+"Ichigaya / N-09 S-04 Y-14"
+"Jimbocho / I-10 S-06 Z-07"
+"Bakuro-yokoyama / S-09"
+"Morishita / E-13 S-11"
+"Ojima / S-15"
+"Funabori / S-17"
+"Motoyawata / S-21"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 9
+#   Don't get confused by railway through services sharing the same track,
+# 	like the romancecar and bay resort express. 
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 9 Chiyoda, towards Ayase"
+FORWARDEND
+BACKWARD
+"Line 9 Chiyoda, towards Yoyogi-Uehara"
+BACKWARDEND
+STATIONS
+"Yoyogi-Uehara / C-01"
+"Yoyogi-Koen / C-02"
+"Meiji-Jingumae / C-03 F-15"
+"Omotesando / C-04 G-02 Z-02"
+"Nogizaka  / C-05"
+"Akasaka  / C-06"
+"Kokkai-Gijido-mae / C-07 M-14"
+"Kasumigaseki / C-08 H-06 M-15"
+"Hibiya / C-09 I-08 H-07"
+"Nijubashimae / C-10"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Shin-Ochanomizu / C-12"
+"Yushima / C-13"
+"Nezu / C-14"
+"Sendagi / C-15"
+"Nishi-Nippori / C-16"
+"Machiya / C-17"
+"Kita-Senju / C-18 H-21"
+"Ayase / C-19"
+# It's called a branch line to Kita Ayase because it isn't shared with railways
+# but it seems not to be a shuttle service so I just connected it 
+# to the main line - Richard
+"Kita Ayase / C-20"  
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 8
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 8 Yurakucho, towards Shin-Kiba"
+FORWARDEND
+BACKWARD
+"Line 8 Yurakucho, towards Wakoshi"
+BACKWARDEND
+STATIONS
+"Wakoshi / F-01 Y-01"
+"Chikatetsu-Narimasu / F-02 Y-02"
+"Chikatetsu-Akatsuka / F-03 Y03"
+"Heiwadai / F-04 Y-04"
+"Hikawadai / F-05 Y-05"
+"Kotake-Mukaihara / F-06 Y06"
+"Senkawa / F-07 Y-07"
+"Kanamecho / F-08 Y-08"
+"Ikebukuro / F-09 M-25 Y-09"
+"Higashi-Ikebukuro / Y-10"
+"Gokokuji / Y-11"
+"Edogawabashi / Y-12"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Ichigaya / N-09 S-04 Y-14"
+"Kojimachi / Y-15"
+"Nagatacho / N-07 Y-16 Z-04"
+"Sakuradamon / Y-17"
+"Yurakucho / Y-18"
+"Ginza-itchome / Y-19"
+"Shintomicho / Y-20"
+"Tsukishima / E-16 Y-21"
+"Toyosu / Y-22 U-16"
+"Tatsumi / Y-23"
+"Shin-Kiba / Y-24"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 13
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 13 Fukutoshin, towards Shibuya"
+FORWARDEND
+BACKWARD
+"Line 13 Fukutoshin, towards Wakoshi"
+BACKWARDEND
+STATIONS
+"Wakoshi / F-01 Y-01"
+"Chikatetsu-Narimasu / F-02 Y-02"
+"Chikatetsu-Akatsuka / F-03 Y03"
+"Heiwadai / F-04 Y-04"
+"Hikawadai / F-05 Y-05"
+"Kotake-Mukaihara / F-06 Y06"
+"Senkawa / F-07 Y-07"
+"Kanamecho / F-08 Y-08"
+"Ikebukuro / F-09 M-25 Y-09"
+"Zoshigaya / F-10"
+"Nishi-Waseda / F-11"
+"Higashi-Shinjuku / E-02 F-12"
+"Shinjuku-Sanchome / F-13 M-09 S-02"
+"Kitasando / F-14"
+"Meiji-Jingumae / C-03 F-15"
+"Shibuya / F-16 G-01 Z-01"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 13 Fukutoshin Commuter Express"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Express and Commuter Express run different services!"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 13 Fukutoshin Commuter Express, towards Shibuya"
+FORWARDEND
+BACKWARD
+"Line 13 Fukutoshin Commuter Express, towards Wakoshi"
+BACKWARDEND
+STATIONS
+"Wakoshi / F-01 Y-01"
+"Chikatetsu-Narimasu / F-02 Y-02"
+"Chikatetsu-Akatsuka / F-03 Y03"
+"Heiwadai / F-04 Y-04"
+"Hikawadai / F-05 Y-05"
+"Kotake-Mukaihara / F-06 Y06"
+"Ikebukuro / F-09 M-25 Y-09"
+"Shinjuku-Sanchome / F-13 M-09 S-02"
+"Shibuya / F-16 G-01 Z-01"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 13 Fukutoshin Express"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Express and Commuter Express run different services!"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 13 Fukutoshin Express, towards Shibuya"
+FORWARDEND
+BACKWARD
+"Line 13 Fukutoshin Express, towards Wakoshi"
+BACKWARDEND
+STATIONS
+"Wakoshi / F-01 Y-01"
+"Kotake-Mukaihara / F-06 Y06"
+"Ikebukuro / F-09 M-25 Y-09"
+"Shinjuku-Sanchome / F-13 M-09 S-02"
+"Shibuya / F-16 G-01 Z-01"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 11
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 11 Hanzomon, towards Oshiage"
+FORWARDEND
+BACKWARD
+"Line 11 Hanzomon, towards Shibuya"
+BACKWARDEND
+STATIONS
+"Shibuya / F-16 G-01 Z-01"
+"Omotesando / C-04 G-02 Z-02"
+"Aoyama-itchome / Z-03"
+"Nagatacho / N-07 Y-16 Z-04"
+"Hanzomon / Z-05"
+"Kudanshita / S-05 T-07 Z-06"
+"Jimbocho / I-10 S-06 Z-07"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Mitsukoshimae / G-12 Z-09"
+"Suitengumae / Z-10"
+"Kiyosumi-Shirakawa / E-14 Z-11"
+"Sumiyoshi / S-13 Z-12"
+"Kinshicho / Z-13"
+"Oshiage / A-20 Z-14"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 7
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 7 Namboku, towards Akabane-Iwabuchi"
+FORWARDEND
+BACKWARD
+"Line 7 Namboku, towards Meguro"
+BACKWARDEND
+STATIONS
+"Meguro / I-01 N-01"
+"Shirokanedai / I-02 N-02"
+"Shirokane-Takanawa / I-03 N-03"
+"Azabu-Juban / E-22 N-04"
+"Roppongi-Itchome / N-05"
+"Tameike-Sanno / G-06 N-06"
+"Nagatacho / N-07 Y-16 Z-04"
+"Yotsuya / M-12 N-08"
+"Ichigaya / N-09 S-04 Y-14"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Korakuen / M-22 N-11"
+"Todaimae / N-12"
+"Hon-Komagome / N-13"
+"Komagome / N-14"
+"Nishigahara / N-15"
+"Oji / N-16"
+"Oji-Kamiya / N-17"
+"Shimo / N-18"
+"Akabane-Iwabuchi / N-19"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	Line 4
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 4 Marunouchi, towards Ikebukuro"
+FORWARDEND
+BACKWARD
+"Line 4 Marunouchi, towards Ogikubo"
+BACKWARDEND
+STATIONS
+"Ogikubo / M-01"
+"Minami-Asagaya / M-02"
+"Shin-Koenji / M-03"
+"Higashi-Koenji / M-04"
+"Shin-Nakano / M-05"
+"Nakano-Sakaue / E-30 M-06"
+"Nishi-Shinjuku / M-07"
+"Shinjuku / E-27 M-08 S-01"
+"Shinjuku-Sanchome / F-13 M-09 S-02"
+"Shinjuku-Gyoemmae / M-10"
+"Yotsuya-Sanchome / M-11"
+"Yotsuya / M-12 N-08"
+"Akasaka-Mitsuke / G-05 M-13"
+"Kokkai-Gijido-mae / C-07 M-14"
+"Kasumigaseki / C-08 H-06 M-15"
+"Ginza / G-09 H-08 M-16"
+"Tokyo / M-17"
+"Otemachi / C-11 I-09 M-18 T-09 Z-08"
+"Awajicho / M-19"
+"Ochanomizu / M-20"
+"Hongo-Sanchome / E-08 M-21"
+"Korakuen / M-22 N-11"
+"Myogadani / M-23"
+"Shin-Otsuka / M-24"
+"Ikebukuro / F-09 M-25 Y-09"
+STATIONSEND
+SEGMENTEND
+
+# Branch Line 'm' stops at Nakano-Sakaue, you'll have to transfer there to 'M' line.
+# See Tokyo Metro Transfer Planner & Fare Calculation at http://www.tokyometro.jp 
+SEGMENT
+FORWARD
+"Line 4 Marunouchi, towards Nakano-Sakaue"
+FORWARDEND
+BACKWARD
+"Line 4 Marunouchi, towards Honancho"
+BACKWARDEND
+STATIONS
+"Honancho / m-03"
+"Nakano-Fujimicho / m-04"
+"Nakano-Shimbashi / m-05"
+"Nakano-Sakaue / E-30 M-06"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===========================================================================
+#	Line 12
+#	Not a real loop but a 'Dristor' kind of story!
+# ===========================================================================
+SEGMENT
+FORWARD
+"Line 12 Oedo, towards Hikarigaoka"
+FORWARDEND
+BACKWARD
+"Line 12 Oedo, towards Tochomae"
+BACKWARDEND
+STATIONS
+"Tochomae Terminal / E-28"
+"Shinjuku-Nishiguchi / E-01"
+"Higashi-Shinjuku / E-02 F-12"
+"Wakamatsu-Kawada / E-03"
+"Ushigome-Yanagicho / E-04"
+"Ushigome-Kagurazaka / E-05"
+"Iidabashi / E-06 N-10 T-06 Y-13"
+"Kasuga / E-07 I-12"
+"Hongo-Sanchome / E-08 M-21"
+"Ueno-Okachimachi / E-09"
+"Shin-Okachimachi / E-10"
+"Kuramae / A-17 E-11"
+"Ryogoku / E-12"
+"Morishita / E-13 S-11"
+"Kiyosumi-Shirakawa / E-14 Z-11"
+"Monzen-Nakacho / E-15 T-12"
+"Tsukishima / E-16 Y-21"
+"Kachidoki / E-17"
+"Tsukijishijo / E-18"
+"Shiodome / E-19 U-02"
+"Daimon / A-09 E-20"
+"Akabanebashi / E-21"
+"Azabu-Juban / E-22 N-04"
+"Roppongi / E-23 H-04"
+"Aoyama-Itchome / E-24 G-04 Z-03"
+"Kokuritsu-Kyogijo / E-25"
+"Yoyogi / E-26"
+"Shinjuku / E-27 M-08 S-01"
+"Tochomae / E-28" # No connection except a transfer here to Tochomae
+"Nishi-Shinjuku-Gochome / E-29"
+"Nakano-Sakaue / E-30 M-06"
+"Higashi-Nakano / E-31"
+"Nakai / E-32"
+"Ochiai-Minami-Nagasaki / E-33"
+"Shin-Egota / E-34"
+"Nerima / E-35"
+"Toshimaen / E-36"
+"Nerima-Kasugacho / E-37"
+"Hikarigaoka / E-38"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ===========================================================================
+#	Yurikamome Line
+# ===========================================================================
+SEGMENT
+FORWARD
+"New Transit Yurikamome Waterfront Line, towards Akabane-Iwabuchi"
+FORWARDEND
+BACKWARD
+"New Transit Yurikamome Waterfront Line, towards Meguro"
+BACKWARDEND
+STATIONS
+"Shimbashi / A-10 G-08 U-01"
+"Shiodome / E-19 U-02"
+"Takeshiba / U-03"
+"Hinode / U-04"
+"Shibaura-futo / U-05" 
+"Odaiba-kaihinkoen / U-06"
+"Daiba / U-07"
+"Fune-no-kagakukan / U-08" 
+"Telecom Center / U-09"
+"Aomi / U-10"
+"Kokusai-tenjijo-seimon / U-11" 
+"Ariake / U-12"
+"Ariake-tennis-no-mori / U-13" 
+"Shijo-mae / U-14"
+"Shin-toyosu / U-15"
+"Toyosu / Y-22 U-16"
+STATIONSEND
+SEGMENTEND
+
+
+# ===========================================================================
+#	MNNs
+# ===========================================================================
+
+MULTI_NAMED_NODE
+"Shinjuku-Nishiguchi / E-01"
+"Shinjuku / E-27 M-08 S-01"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Akasaka-Mitsuke / G-05 M-13"
+"Nagatacho / N-07 Y-16 Z-04"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Korakuen / M-22 N-11"
+"Kasuga / E-07 I-12"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Shin-Ochanomizu / C-12"
+"Ogawamachi / S-07"
+"Awajicho / M-19"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Higashi-Nihombashi / A-15"
+"Bakuro-yokoyama / S-09"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Ueno-Okachimachi / E-09"
+"Ueno-Hirokoji / G-15"
+"Naka-Okachimachi / H-16"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Tochomae / E-28"
+"Tochomae Terminal / E-28"
+MULTI_NAMED_NODE_END

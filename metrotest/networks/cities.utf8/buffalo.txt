@@ -1,0 +1,77 @@
+CITY
+CITYNAME
+"Buffalo"
+CITYNAME_END
+CITYCODE
+BUF
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards Erie Canal Harbor"
+FORWARDEND
+BACKWARD
+"Main line, towards University"
+BACKWARDEND
+STATIONS
+"Univerity"
+"LaSalle"
+"Amherst Street"
+"Humboldt-Hospital"
+"Delavan/Canisius College"
+"Utica"
+"Summer-Best"
+"Allen/Medical Campus"
+"Theater"
+"Fountain Plaza"
+"Lafayette Square"
+"Church"
+"Seneca"
+"Erie Canal Harbor"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Main line (Special Events)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Trains only travel to and from Special Events Station to service events at the Arena"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Main line (Special Events), towards Special Events Station"
+FORWARDEND
+BACKWARD
+"Main line (Special Events), towards University"
+BACKWARDEND
+STATIONS
+"Univerity"
+"LaSalle"
+"Amherst Street"
+"Humboldt-Hospital"
+"Delavan/Canisius College"
+"Utica"
+"Summer-Best"
+"Allen/Medical Campus"
+"Theater"
+"Fountain Plaza"
+"Lafayette Square"
+"Church"
+"Seneca"
+"Erie Canal Harbor"
+"Special Events / First Niagara Center"
+STATIONSEND
+SEGMENTEND
+
+
+

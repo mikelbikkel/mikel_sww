@@ -1,0 +1,8 @@
+interface: exception signature
+jdbc retry-able exceptions instead of connectionexception.
+try with resources
+dbwrapper
+logging
+split interface: route and selection?
+modern api (json, microservice, etc).
+clear separation between domain model and api/interface

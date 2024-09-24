@@ -1,0 +1,123 @@
+
+# TODO: file can only be saved using UTF-8 encoding due to exotic characters
+# line data is verified 18-05-2010   
+
+# Data extracted from http://es.wikipedia.org/wiki/Metro_de_Praga
+
+# City
+CITY
+CITYNAME
+Prague
+CITYNAME_END
+CITYCODE
+PRG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line A
+# =============================================================
+SEGMENT
+FORWARD
+"Line A (Green), towards Depo Hostivař"
+FORWARDEND
+BACKWARD
+"Line A (Green), towards Nemocnice Motol"
+BACKWARDEND
+STATIONS
+"Nemocnice Motol"
+"Petřiny"
+"Nádraží Veleslavín"
+"Bořislavka"
+"Dejvická"
+"Hradčanská"
+"Malostranská"
+"Staroměstská"
+"Můstek"
+"Muzeum"
+"Náměstí Míru"
+"Jiřího z Poděbrad"
+"Flora"
+"Želivského"
+"Strašnická"
+"Skalka"
+"Depo Hostivař"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line B
+# =============================================================
+SEGMENT
+FORWARD
+"Line B (Yellow), towards Černý most"
+FORWARDEND
+BACKWARD
+"Line B (Yellow), towards Zličín"
+BACKWARDEND
+STATIONS
+"Zličín"
+"Stodůlky"
+"Luka"
+"Lužiny"
+"Hůrka"
+"Nové Butovice"
+"Jinonice"
+"Radlická"
+"Smíchovské nádraží"
+"Anděl"
+"Karlovo náměstí"
+"Národní třída"
+"Můstek"
+"Náměstí Republiky"
+"Florenc"
+"Křižíkova"
+"Invalidovna"
+"Palmovka"
+"Českomoravská"
+"Vysočanská"
+"Kolbenova"
+"Hloubětín"
+"Rajská zahrada"
+"Černý most"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line C
+# =============================================================
+SEGMENT
+FORWARD
+"Line C (Red), towards Háje"
+FORWARDEND
+BACKWARD
+"Line C (Red), towards Letnany"
+BACKWARDEND
+STATIONS
+"Letnany"
+"Prosek"
+"Střížkov"
+"Ládví"
+"Kobylisy"
+"Nádraží Holešovice"
+"Vltavská"
+"Florenc"
+"Hlavní nádraží"
+"Muzeum"
+"I.P.Pavlova"
+"Vyšehrad"
+"Pražského povstání"
+"Pankrác"
+"Budějovická"
+"Kačerov"
+"Roztyly"
+"Chodov"
+"Opatov"
+"Háje"
+STATIONSEND
+SEGMENTEND
+
+

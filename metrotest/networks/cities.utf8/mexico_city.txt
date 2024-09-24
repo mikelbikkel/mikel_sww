@@ -1,0 +1,379 @@
+# Source: french wikipedia
+# http://en.wikipedia.org/wiki/Mexico_City_metro_lines
+
+# City
+CITY
+CITYNAME
+"Mexico City"
+CITYNAME_END
+CITYCODE
+MXC
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+SEGMENT
+FORWARD
+"Line 1 towards Pantitlán"
+FORWARDEND
+BACKWARD
+"Line 1 towards Observatorio"
+BACKWARDEND
+STATIONS
+"Observatorio"
+"Tacubaya"
+"Juanacatlán"
+"Chapultepec"
+"Sevilla"
+"Insurgentes"
+"Cuauhtémoc"
+"Balderas"
+"Salto del Agua"
+"Isabel la Católica"
+"Pino Suárez"
+"Merced"
+"Candelaria"
+"San Lázaro"
+"Moctezuma"
+"Balbuena"
+"Blvd. Puerto Aéreo"
+"Gómez Farías"
+"Zaragoza"
+"Pantitlán"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2 towards Tasqueña"
+FORWARDEND
+BACKWARD
+"Line 2 towards Cuatro Caminos"
+BACKWARDEND
+STATIONS
+"Cuatro Caminos"
+"Panteones"
+"Tacuba"
+"Cuitláhuac"
+"Popotla"
+"Colegio Militar"
+"Normal"
+"San Cosme"
+"Revolución"
+"Hidalgo"
+"Bellas Artes"
+"Allende"
+"Zócalo"
+"Pino Suárez"
+"San Antonio Abad"
+"Chabacano"
+"Viaducto"
+"Xola"
+"Villa de Cortés"
+"Nativitas"
+"Portales"
+"Ermita"
+"General Anaya"
+"Tasqueña"
+STATIONSEND
+SEGMENTEND
+
+
+
+SEGMENT
+FORWARD
+"Line 3 towards Universidad"
+FORWARDEND
+BACKWARD
+"Line 3 towards Indios Verdes"
+BACKWARDEND
+STATIONS
+"Indios Verdes"
+"Deportivo 18 de marzo"
+"Potrero"
+"La Raza"
+"Tlatelolco"
+"Guerrero"
+"Hidalgo"
+"Juárez"
+"Balderas"
+"Niños Héroes"
+"Hospital General"
+"Centro Médico"
+"Etiopía"
+"Eugenia"
+"División del Norte"
+"Zapata"
+"Coyoacán"
+"Viveros"
+"Miguel Ángel de Quevedo"
+"Copilco"
+"Universidad"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 4 towards Santa Anita"
+FORWARDEND
+BACKWARD
+"Line 4 towards Martín Carrera"
+BACKWARDEND
+STATIONS
+"Martín Carrera"
+"Talismán"
+"Bondojito"
+"Consulado"
+"Canal del Norte"
+"Morelos"
+"Candelaria"
+"Fray Servando"
+"Jamaica"
+"Santa Anita"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 5 towards Pantitlán"
+FORWARDEND
+BACKWARD
+"Line 5 towards Politécnico"
+BACKWARDEND
+STATIONS
+"Politécnico"
+"Instituto del Petróleo"
+"Autobuses del Norte"
+"La Raza"
+"Misterios"
+"Valle Gómez"
+"Consulado"
+"Eduardo Molina"
+"Aragón"
+"Oceanía"
+"Terminal Aérea"
+"Hangares"
+"Pantitlán"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 6 towards Martín Carrera"
+FORWARDEND
+BACKWARD
+"Line 6 towards El Rosario"
+BACKWARDEND
+STATIONS
+"El Rosario"
+"Tezozómoc"
+"Azcapotzalco"
+"Ferrería"
+"Norte 45"
+"Vallejo"
+"Instituto del Petróleo"
+"Lindavista"
+"Deportivo 18 de marzo"
+"La Villa-Basílica"
+"Martín Carrera"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 7 towards Barranca del Muerto"
+FORWARDEND
+BACKWARD
+"Line 7 towards El Rosario"
+BACKWARDEND
+STATIONS
+"El Rosario"
+"Aquiles Serdán"
+"Camarones"
+"Refinería"
+"Tacuba"
+"San Joaquín"
+"Polanco"
+"Auditorio"
+"Constituyentes"
+"Tacubaya"
+"San Pedro de los Pinos"
+"San Antonio"
+"Mixcoac"
+"Barranca del Muerto"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 8 towards Constitución de 1917"
+FORWARDEND
+BACKWARD
+"Line 8 towards Garibaldi / Lagunilla"
+BACKWARDEND
+STATIONS
+"Garibaldi / Lagunilla"
+"Bellas Artes"
+"San Juan de Letrán"
+"Salto del Agua"
+"Doctores"
+"Obrera"
+"Chabacano"
+"La Viga"
+"Santa Anita"
+"Coyuya"
+"Iztacalco"
+"Apatlaco"
+"Aculco"
+"Escuadrón 201"
+"Atlalilco"
+"Iztapalapa"
+"Cerro de la Estrella"
+"UAM-I"
+"Constitución de 1917"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 9 towards Pantitlán"
+FORWARDEND
+BACKWARD
+"Line 9 towards Tacubaya"
+BACKWARDEND
+STATIONS
+"Tacubaya"
+"Patriotismo"
+"Chilpancingo"
+"Centro Médico"
+"Lázaro Cárdenas"
+"Chabacano"
+"Jamaica"
+"Mixiuhca"
+"Velódromo"
+"Ciudad Deportiva"
+"Puebla"
+"Pantitlán"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line A (10) towards La Paz"
+FORWARDEND
+BACKWARD
+"Line A (10) towards Pantitlán"
+BACKWARDEND
+STATIONS
+"Pantitlán"
+"Agrícola Oriental"
+"Canal de San Juan"
+"Tepalcates"
+"Guelatao"
+"Peñón Viejo"
+"Acatitla"
+"Santa Marta"
+"Los Reyes"
+"La Paz"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line B (11) towards Ciudad Azteca"
+FORWARDEND
+BACKWARD
+"Line B (11) towards Buenavista"
+BACKWARDEND
+STATIONS
+"Buenavista"
+"Guerrero"
+"Garibaldi / Lagunilla"
+"Lagunilla"
+"Tepito"
+"Morelos"
+"San Lázaro"
+"Ricardo Flores Magón"
+"Romero Rubio"
+"Oceanía"
+"Deportivo Oceanía"
+"Bosque de Aragón"
+"Villa de Aragón"
+"Nezahualcóyotl"
+"Impulsora"
+"Río de los Remedios"
+"Múzquiz"
+"Tecnológico"
+"Olímpica"
+"Plaza Aragón"
+"Ciudad Azteca"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 12 towards Pantitlán"
+FORWARDEND
+BACKWARD
+"Line 12 towards Tacubaya"
+BACKWARDEND
+STATIONS
+"Mixcoac"
+"Insurgentes Sur"
+"Hospital 20 de Noviembre"
+"Zapata"
+"Parque de los Venados"
+"Eje Central"
+"Ermita"
+"Mexicaltzingo"
+"Atlalilco"
+"Culhuacán"
+"San Andrés Tomatlán"
+"Lomas Estrella"
+"Calle 11"
+"Periférico Oriente"
+"Tezonco"
+"Olivos"
+"Nopalera"
+"Zapotitlán"
+"Tlaltenco"
+"Tláhuac"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Xochimilco Light Rail, towards Xochimilco"
+FORWARDEND
+BACKWARD
+"Xochimilco Light Rail, towards Tasqueña"
+BACKWARDEND
+STATIONS
+"Tasqueña"
+"Las Torres"
+"Ciudad Jardín"
+"La Virgen"
+"Xotepingo"
+"Nezahualpilli"
+"Registro Federal"
+"Textitlán"
+"El Vergel"
+"Estadio Azteca"
+"Huipulco"
+"Xomali"
+"Periférico"
+"Tepepan"
+"La Noria"
+"Huichapan"
+"Francisco Goitia"
+"Xochimilco"
+STATIONSEND
+SEGMENTEND
+
+

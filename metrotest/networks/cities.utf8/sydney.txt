@@ -1,0 +1,1257 @@
+
+# http://www.sydneytrains.info/timetables
+# http://en.wikipedia.org/wiki/Sydney_Trains
+# http://www.railpage.org.au/railmaps/sydney.htm
+
+# Mono rail
+# Light rail
+# City rail
+#
+CITY
+CITYNAME
+Sydney
+CITYNAME_END
+CITYCODE
+SYD
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+LINE
+LINE_NAME
+"Dulwich Hill Line L1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"A.k.a. Inner West Light Rail"
+LINE_REMARK_END
+LINE_END
+
+# 2014 extension planned to Dulwich Hill
+SEGMENT
+FORWARD
+"Dulwich Hill Line L1, towards Dulwich Hill"
+FORWARDEND
+BACKWARD
+"Dulwich Hill Line L1, towards Central Station"
+BACKWARDEND
+STATIONS
+"Central"
+"Capitol Square"
+"Paddy\'s Markets"
+"Exhibition Centre"
+"Convention"
+"Pyrmont Bay"
+"The Star"
+"John St Square"
+"Fish Market"
+"Wentworth Park"
+"Glebe"
+"Jubilee Park"
+"Rozelle Bay"
+"Lilyfield"
+"Leichhardt North"
+"Hawthorne"
+"Marion"
+"Taverners Hill"
+"Lewisham West"
+"Waratah Mills"
+"Arlington"
+"Dulwich Grove"
+"Dulwich Hill"
+STATIONSEND
+SEGMENTEND
+
+
+# 2014 extension planned to Dulwich Hill
+SEGMENT
+FORWARD
+"Dulwich Hill Line L1, towards The Star"
+FORWARDEND
+BACKWARD
+"Dulwich Hill Line L1, towards Central Station"
+BACKWARDEND
+STATIONS
+"Central"
+"Capitol Square"
+"Paddy\'s Markets"
+"Exhibition Centre"
+"Convention"
+"Pyrmont Bay"
+"The Star"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+# http://en.wikipedia.org/wiki/Eastern_Suburbs_%26_Illawarra_railway_line
+# =============================================================
+#     Line Eastern_Suburbs_and_Illawarra_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Eastern Suburbs and Illawarra Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Trains may skip Oatley, Como or Tempe. Check operator info before leaving."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Eastern Suburbs and Illawarra Line, towards Cronulla"
+FORWARDEND
+BACKWARD
+"Eastern Suburbs and Illawarra Line, towards Bondi Junction"
+BACKWARDEND
+STATIONS
+"Bondi Junction"
+"Edgecliff"
+"Kings Cross"
+"Martin Place"
+"Town Hall"
+"Central"
+"Redfern"
+"Sydenham"
+"Wolli Creek"
+"Rockdale"
+"Kogarah"
+"Hurstville"
+"Penshurst"
+"Mortdale"
+"Oatley"
+"Como"
+"Jannali"
+"Sutherland"
+"Kirrawee"
+"Gymea"
+"Miranda"
+"Caringbah"
+"Woolooware"
+"Cronulla"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Eastern Suburbs and Illawarra Line, towards Waterfall"
+FORWARDEND
+BACKWARD
+"Eastern Suburbs and Illawarra Line, towards Bondi Junction"
+BACKWARDEND
+STATIONS
+"Bondi Junction"
+"Edgecliff"
+"Kings Cross"
+"Martin Place"
+"Town Hall"
+"Central"
+"Redfern"
+"Sydenham"
+"Wolli Creek"
+"Rockdale"
+"Kogarah"
+"Hurstville"
+"Penshurst"
+"Mortdale"
+"Oatley"
+"Como"
+"Jannali"
+"Sutherland"
+"Loftus"
+"Engadine"
+"Heathcote"
+"Waterfall"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Eastern Suburbs and Illawarra Line, towards Hurstville"
+FORWARDEND
+BACKWARD
+"Eastern Suburbs and Illawarra Line, towards Bondi Junction"
+BACKWARDEND
+STATIONS
+"Bondi Junction"
+"Edgecliff"
+"Kings Cross"
+"Martin Place"
+"Town Hall"
+"Central"
+"Redfern"
+"Sydenham"
+"Tempe"
+"Wolli Creek"
+"Arncliffe"
+"Banksia"
+"Rockdale"
+"Kogarah"
+"Carlton"
+"Allawah"
+"Hurstville"
+STATIONSEND
+SEGMENTEND
+
+
+# http://en.wikipedia.org/wiki/Bankstown_railway_line
+# =============================================================
+#     Line Bankstown_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Bankstown Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Trains to Lidcombe continue on the Inner West Line." 
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Bankstown Line, towards Liverpool"
+FORWARDEND
+BACKWARD
+"Bankstown Line, towards Town Hall"
+BACKWARDEND
+STATIONS
+"Town Hall"
+"Wynyard"
+"Circular Quay"
+"St James"
+"Museum"
+"Central"
+"Redfern"
+"Erskineville"
+"St Peters"
+"Sydenham"
+"Marrickville"
+"Dulwich Hill"
+"Hurlstone Park"
+"Canterbury"
+"Campsie"
+"Belmore"
+"Lakemba"
+"Wiley Park"
+"Punchbowl"
+"Bankstown"
+"Yagoona"
+"Birrong"
+"Sefton"
+"Chester Hill"
+"Leightonfield"
+"Vilawood"
+"Carramar"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Bankstown Line, towards Strathfield"
+FORWARDEND
+BACKWARD
+"Bankstown Line, towards Town Hall"
+BACKWARDEND
+STATIONS
+"Town Hall"
+"Wynyard"
+"Circular Quay"
+"St James"
+"Museum"
+"Central"
+"Redfern"
+"Erskineville"
+"St Peters"
+"Sydenham"
+"Marrickville"
+"Dulwich Hill"
+"Hurlstone Park"
+"Canterbury"
+"Campsie"
+"Belmore"
+"Lakemba"
+"Wiley Park"
+"Punchbowl"
+"Bankstown"
+"Yagoona"
+"Birrong"
+"Regents Park"
+"Berala"
+"Lidcombe"
+"Flemington"
+"Homebush"
+"Strathfield"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Bankstown Line, towards Strathfield"
+FORWARDEND
+BACKWARD
+"Bankstown Line, towards Bankstown"
+BACKWARDEND
+STATIONS
+"Bankstown"
+"Yagoona"
+"Birrong"
+"Regents Park"
+"Berala"
+"Lidcombe"
+"Flemington"
+"Homebush"
+"Strathfield"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Bankstown Line (peak hours)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Bankstown Line (peak hours), towards Liverpool"
+FORWARDEND
+BACKWARD
+"Bankstown Line (peak hours), towards Town Hall"
+BACKWARDEND
+STATIONS
+"Town Hall"
+"Wynyard"
+"Circular Quay"
+"St James"
+"Museum"
+"Central"
+"Redfern"
+"Sydenham"
+"Campsie"
+"Belmore"
+"Lakemba"
+"Wiley Park"
+"Punchbowl"
+"Bankstown"
+"Yagoona"
+"Birrong"
+"Sefton"
+"Chester Hill"
+"Leightonfield"
+"Vilawood"
+"Carramar"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+STATIONSEND
+SEGMENTEND
+
+
+# http://en.wikipedia.org/wiki/Carlingford_railway_line
+# =============================================================
+#     Line Carlingford_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Carlingford Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"One service morning peak continues to Central"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Carlingford Line, towards Carlingford"
+FORWARDEND
+BACKWARD
+"Carlingford Line, towards Clyde"
+BACKWARDEND
+STATIONS
+"Clyde"
+"Rosehill"
+"Camellia"
+"Rydalmere"
+"Dundas"
+"Telopea"
+"Carlingford"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://en.wikipedia.org/wiki/Cumberland_railway_line
+# =============================================================
+#     Line Cumberland_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Cumberland Line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays only"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Cumberland Line, towards Campbelltown"
+FORWARDEND
+BACKWARD
+"Cumberland Line, towards Blacktown"
+BACKWARDEND
+STATIONS
+"Blacktown"
+"Seven Hills"
+"Toongabbie"
+"Pendle Hill"
+"Wentworthville"
+"Westmead"
+"Parramatta"
+"Harris Park"
+"Merrylands"
+"Guildford"
+"Yennora"
+"Fairfield"
+"Canley Vale"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+"Casula"
+"Glenfield"
+"Macquarie Fields"
+"Ingleburn"
+"Minto"
+"Leumeah"
+"Campbelltown"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Cumberland Line, towards Campbelltown"
+FORWARDEND
+BACKWARD
+"Cumberland Line, towards Quaker\'s Hill"
+BACKWARDEND
+STATIONS
+"Quaker\'s Hill"
+"Marayong"
+"Blacktown"
+"Seven Hills"
+"Toongabbie"
+"Pendle Hill"
+"Wentworthville"
+"Westmead"
+"Parramatta"
+"Harris Park"
+"Merrylands"
+"Guildford"
+"Yennora"
+"Fairfield"
+"Canley Vale"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+"Casula"
+"Glenfield"
+"Macquarie Fields"
+"Ingleburn"
+"Minto"
+"Leumeah"
+"Campbelltown"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Cumberland Line, towards Campbelltown"
+FORWARDEND
+BACKWARD
+"Cumberland Line, towards Schofields"
+BACKWARDEND
+STATIONS
+"Schofields" 
+"Quaker\'s Hill"
+"Marayong"
+"Blacktown"
+"Seven Hills"
+"Toongabbie"
+"Pendle Hill"
+"Wentworthville"
+"Westmead"
+"Parramatta"
+"Harris Park"
+"Merrylands"
+"Guildford"
+"Yennora"
+"Fairfield"
+"Canley Vale"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+"Casula"
+"Glenfield"
+"Macquarie Fields"
+"Ingleburn"
+"Minto"
+"Leumeah"
+"Campbelltown"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://en.wikipedia.org/wiki/North_Shore_railway_line
+# http://en.wikipedia.org/wiki/Western_railway_line,_Sydney
+# =============================================================
+#     COMBINED North Shore and Western Railway Line
+# =============================================================
+LINE
+LINE_NAME
+"North Shore and Western Railway Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Some peak hour services terminate at Blacktown or Gordon"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"North Shore and Western Railway Line, towards Penrith / Emu Plains"
+FORWARDEND
+BACKWARD
+"North Shore and Western Railway Line, towards Berowra"
+BACKWARDEND
+STATIONS
+"Berowra"
+"Mount Kuring-gai"
+"Mount Colah"
+"Asquith"
+"Hornsby"
+"Waitara"
+"Wahroonga"
+"Warrawee"
+"Turramurra"
+"Pymble"
+"Gordon"
+"Killara"
+"Lindfield"
+"Roseville"
+"Chatswood"
+"Artarmon"
+"St Leonards"
+"Wollstonecraft"
+"Waverton"
+"North Sydney"
+"Milsons Point"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Burwood"
+"Strathfield"
+"Lidcombe"
+"Auburn"
+"Clyde"
+"Granville"
+"Parramatta"
+"Westmead"
+"Seven Hills"
+"Blacktown"
+"Doonside"
+"Rooty Hill"
+"Mount Druitt"
+"St Marys"
+"Werrington"
+"Kingswood"
+"Penrith"
+"Emu Plains"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"North Shore and Western Railway Line, towards Richmond"
+FORWARDEND
+BACKWARD
+"North Shore and Western Railway Line, towards Hornsby"
+BACKWARDEND
+STATIONS
+"Hornsby"
+"Waitara"
+"Wahroonga"
+"Warrawee"
+"Turramurra"
+"Pymble"
+"Gordon"
+"Killara"
+"Lindfield"
+"Roseville"
+"Chatswood"
+"Artarmon"
+"St Leonards"
+"Wollstonecraft"
+"Waverton"
+"North Sydney"
+"Milsons Point"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Burwood"
+"Strathfield"
+"Lidcombe"
+"Granville"
+"Harris Park"
+"Parramatta"
+"Westmead"
+"Wentworthville"
+"Pendle Hill"
+"Toongabbie"
+"Seven Hills"
+"Blacktown"
+"Marayong"
+"Quakers Hill"
+"Schofields"
+"Riverstone"
+"Vineyard"
+"Mulgrave"
+"Windsor"
+"Clarendon"
+"East Richmond"
+"Richmond"
+STATIONSEND
+SEGMENTEND
+
+# UNCLEAR whether this is correct -R 
+# see www.sydneytrains.info/timetables/timetables_by_line.htm?line=ns
+#  
+# http://en.wikipedia.org/wiki/North_Shore_railway_line
+# =============================================================
+#     North Shore Intercity Line Wyong
+# =============================================================
+# LINE
+# LINE_NAME
+# "North Shore Railway (peak hour intercity)"
+# LINE_NAME_END
+# SERVICETYPE
+# PARTIAL
+# SERVICETYPEEND
+# LINE_END
+
+# SEGMENT
+# FORWARD
+# "North Shore Railway (peak hour intercity), towards Central"
+# FORWARDEND
+# BACKWARD
+# "North Shore Railway (peak hour intercity), towards Gosford"
+# BACKWARDEND
+# STATIONS
+# "Gosford"
+# "Woy Woy"
+# "Berowra"
+# "Asquith"
+# "Hornsby"
+# "Turramurra"
+# "Pymble"
+# "Gordon"
+# "Chatswood"
+# "Artarmon"
+# "St Leonards"
+# "Wollstonecraft"
+# "Waverton"
+# "North Sydney"
+# "Milsons Point"
+# "Wynyard"
+# "Town Hall"
+# "Central"
+# STATIONSEND
+# SEGMENTEND
+
+# SEGMENT
+# FORWARD
+# "North Shore Railway (peak hour intercity), towards Central"
+# FORWARDEND
+# BACKWARD
+# "North Shore Railway (peak hour intercity), towards Wyong"
+# BACKWARDEND
+# STATIONS
+# "Wyong"
+# "Tuggerah"
+# "Ourimbah"
+# "Lisarow"
+# "Niagara Park"
+# "Narara"
+# "Gosford"
+# "Woy Woy"
+# "Berowra"
+# "Asquith"
+# "Hornsby"
+# "Turramurra"
+# "Pymble"
+# "Gordon"
+# "Chatswood"
+# "Artarmon"
+# "St Leonards"
+# "Wollstonecraft"
+# "Waverton"
+# "North Sydney"
+# "Milsons Point"
+# "Wynyard"
+# "Town Hall"
+# "Central"
+# STATIONSEND
+# SEGMENTEND
+
+
+# http://en.wikipedia.org/wiki/Olympic_Park_railway_line
+# =============================================================
+#     Line Olympic_Park_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Olympic Park Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Some trains connect directly to Central."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Olympic Park Line, towards Olympic Park"
+FORWARDEND
+BACKWARD
+"Olympic Park Line, towards Lidcombe"
+BACKWARDEND
+STATIONS
+"Lidcombe"
+"Olympic Park"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://en.wikipedia.org/wiki/Inner_West_railway_line
+# =============================================================
+#     Line Inner_West_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Inner West Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Inner West Line, towards Ashfield"
+FORWARDEND
+BACKWARD
+"Inner West Line, towards Museum"
+BACKWARDEND
+STATIONS
+"Museum"
+"St James"
+"Circular Quay"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Macdonaldtown"
+"Newtown"
+"Stanmore"
+"Petersham"
+"Lewisham"
+"Summer Hill"
+"Ashfield"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Inner West Line, towards Regents Park"
+FORWARDEND
+BACKWARD
+"Inner West Line, towards Museum"
+BACKWARDEND
+STATIONS
+"Museum"
+"St James"
+"Circular Quay"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Macdonaldtown"
+"Newtown"
+"Stanmore"
+"Petersham"
+"Lewisham"
+"Summer Hill"
+"Ashfield"
+"Croydon"
+"Burwood"
+"Strathfield"
+"Homebush"
+"Flemington"
+"Lidcombe"
+"Berala"
+"Regents Park"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Inner West Line (peak hours)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Some trains continue to Glenfield."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Inner West Line (peak hours), towards Liverpool"
+FORWARDEND
+BACKWARD
+"Inner West Line (peak hours), towards Museum"
+BACKWARDEND
+STATIONS
+"Museum"
+"St James"
+"Circular Quay"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Macdonaldtown"
+"Newtown"
+"Stanmore"
+"Petersham"
+"Lewisham"
+"Summer Hill"
+"Ashfield"
+"Croydon"
+"Burwood"
+"Strathfield"
+"Homebush"
+"Flemington"
+"Lidcombe"
+"Berala"
+"Regents Park"
+"Sefton"
+"Chester Hill"
+"Leightonfield"
+"Villawood"
+"Carramar"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://en.wikipedia.org/wiki/South_railway_line,_Sydney
+# =============================================================
+#     Line South_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"South Railway Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Peak hour trains may stop at intermediate stations."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"South Railway Line, towards Campbelltown"
+FORWARDEND
+BACKWARD
+"South Railway Line, towards Museum"
+BACKWARDEND
+STATIONS
+"Museum"
+"St James"
+"Circular Quay"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Ashfield"
+"Croydon"
+"Strathfield"
+"Lidcombe"
+"Auburn"
+"Granville"
+"Merrylands"
+"Guildford"
+"Yennora"
+"Fairfield"
+"Canley Vale"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+"Casula"
+"Glenfield"
+"Macquarie Fields"
+"Ingleburn"
+"Minto"
+"Leumeah"
+"Campbelltown"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"South Railway Line, towards Glenfield"
+FORWARDEND
+BACKWARD
+"South Railway Line, towards Museum"
+BACKWARDEND
+STATIONS
+"Museum"
+"St James"
+"Circular Quay"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Ashfield"
+"Croydon"
+"Strathfield"
+"Lidcombe"
+"Auburn"
+"Granville"
+"Merrylands"
+"Guildford"
+"Yennora"
+"Fairfield"
+"Canley Vale"
+"Cabramatta"
+"Warwick Farm"
+"Liverpool"
+"Casula"
+"Glenfield"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://en.wikipedia.org/wiki/Airport_and_East_Hills_railway_line
+# =============================================================
+#     Line Airport_and_East_Hills_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Airport and East Hills Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Airport and East Hills Line, towards Macarthur"
+FORWARDEND
+BACKWARD
+"Airport and East Hills Line, towards Town Hall"
+BACKWARDEND
+STATIONS
+"Town Hall"
+"Wynyard"
+"Circular Quay"
+"St James"
+"Museum"
+"Central"
+"Green Square"
+"Mascot"
+"Domestic Airport"
+"International Airport"
+"Wolli Creek"
+"Kingsgrove"
+"Riverwood"
+"Padstow"
+"Revesby"
+"Panania"
+"East Hills"
+"Holsworthy"
+"Glenfield"
+"Macquarie Fields"
+"Ingleburn"
+"Minto"
+"Leumeah"
+"Campbelltown"
+"Macarthur"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Airport and East Hills Line, towards Revesby"
+FORWARDEND
+BACKWARD
+"Airport and East Hills Line, towards Town Hall"
+BACKWARDEND
+STATIONS
+"Town Hall"
+"Wynyard"
+"Circular Quay"
+"St James"
+"Museum"
+"Central"
+"Green Square"
+"Mascot"
+"Domestic Airport"
+"International Airport"
+"Wolli Creek"
+"Turrella"
+"Bardwell Park"
+"Bexley North"
+"Kingsgrove"
+"Beverly Hills"
+"Narwee"
+"Riverwood"
+"Padstow"
+"Revesby"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Airport and East Hills Line - Sydenham branch"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Early morning and afternoon, weekdays only"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Airport and East Hills Line - Sydenham branch, towards Campbelltown / Macarthur"
+FORWARDEND
+BACKWARD
+"Airport and East Hills Line - Sydenham branch, towards Town Hall"
+BACKWARDEND
+STATIONS
+"Town Hall"
+"Wynyard"
+"Circular Quay"
+"St James"
+"Museum"
+"Central"
+"Redfern"
+"Sydenham"
+"Kingsgrove"
+"Riverwood"
+"Padstow"
+"Revesby"
+"Panania"
+"East Hills"
+"Holsworthy"
+"Glenfield"
+"Macquarie Fields"
+"Ingleburn"
+"Minto"
+"Leumeah"
+"Campbelltown"
+"Macarthur"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://en.wikipedia.org/wiki/Northern_railway_line,_Sydney
+# It looks like a loop but it never completes the loop
+# =============================================================
+#     Line Northern_railway_line
+# =============================================================
+LINE
+LINE_NAME
+"Northern Railway Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Northern Railway Line, towards Central"
+FORWARDEND
+BACKWARD
+"Northern Railway Line, towards Hornsby"
+BACKWARDEND
+STATIONS
+"Hornsby"
+"Normanhurst"
+"Thornleigh"
+"Pennant Hills"
+"Beecroft"
+"Cheltenham"
+"Epping X::X 1" # underground
+"Macquarie University"
+"Macquarie Park"
+"North Ryde"
+"Chatswood"
+"Artarmon"
+"St Leonards"
+"North Sydney"
+"Milsons Point"
+"Wynyard"
+"Town Hall"
+"Central"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Northern Railway Line, towards Epping"
+FORWARDEND
+BACKWARD
+"Northern Railway Line, towards Chatswood"
+BACKWARDEND
+STATIONS
+"Chatswood"
+"St Leonards"
+"North Sydney"
+"Milsons Point"
+"Wynyard"
+"Town Hall"
+"Central"
+"Redfern"
+"Burwood"
+"Strathfield"
+"North Strathfield"
+"Concord West"
+"Rhodes"
+"Meadowbank"
+"West Ryde"
+"Denistone"
+"Eastwood"
+"Epping X::X 2" # aboveground
+STATIONSEND
+SEGMENTEND
+
+# Partial, but route is entirely served by non-partials, so no need to make it PARTIAL
+SEGMENT
+FORWARD
+"Northern Railway Line, towards Chatswood"
+FORWARDEND
+BACKWARD
+"Northern Railway Line, towards Hornsby"
+BACKWARDEND
+STATIONS
+"Hornsby"
+"Normanhurst"
+"Thornleigh"
+"Pennant Hills"
+"Beecroft"
+"Cheltenham"
+"Epping X::X 1" # underground
+"Macquarie University"
+"Macquarie Park"
+"North Ryde"
+"Chatswood"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Northern Railway Line (peak hours)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Northern Railway Line (peak hours), towards Central"
+FORWARDEND
+BACKWARD
+"Northern Railway Line (peak hours), towards Hornsby"
+BACKWARDEND
+STATIONS
+"Hornsby"
+"Normanhurst"
+"Thornleigh"
+"Pennant Hills"
+"Beecroft"
+"Cheltenham"
+"Epping X::X 1" # underground
+"Macquarie University"
+"Macquarie Park"
+"North Ryde"
+"Chatswood"
+"Artarmon"
+"St Leonards"
+"Wollstonecraft"
+"Waverton"
+"North Sydney"
+"Milsons Point"
+"Wynyard"
+"Town Hall"
+"Central"
+STATIONSEND
+SEGMENTEND
+
+
+
+# --------------------------------------------------------
+# WORK 07/2013
+# --------------------------------------------------------
+# ready
+
+
+
+
+
+
+

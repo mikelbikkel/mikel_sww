@@ -1,0 +1,332 @@
+28-06-2016:
++ Update javadoc.
++ Make LineManager2, StationManager2 and SegmentManager2 an immutable object.
+
+26-03:
+refactor to maven-eclipse project:
+
+Java Build Path | Source:
+  Add source folder src2\main\java
+
+Move java sources from \src to src2\main\java
+  Including the resource files.
+
+Commit changes.
+
+Remove src
+
+svn update
+Commit changes.
+
+Java Build Path | Source:
+  Add source folder src\test\java 
+  Rename src2\main\java to src\main\java
+
+svn update
+Commit changes.
+
+svn add src\test
+Commit changes
+
+Java Build Path | Source:
+  Add source folder src\test\resources 
+  Add source folder src\main\resources 
+Remove folder src2\main
+
+Commit changes.
+
+Move src/main/java/res/* to src/main/resources/res/*
+
+Commit changes.
+
+Create package org.subwayworld.metrogen in src/test/resources
+Move test_01/2/3.txt to the new package
+
+Commit changes.
+
+Move java files from src/main/java/org.subwayworld.metrogen.test
+to src/test/java/org.subwayworld.metrogen.
+
+Add pom.xml
+From within Eclipse: convert to Maven project.
+Remove mysql-connectr.jar from Build path (now included in Maven dependencies).
+
+
+4.0 [311]
+19-07-2015:
++ fix bug where 2 raw station names map to the same ID (Istanbul).
+
++ add ConsoleParser as driver
++ change metrogen into a library.
++ add resource bundle for MetroGenerator.
+
+
+3.3 [310]:
+10-05-2015:
++ Fix bug in partial overlap. <Newark, test_03.txt>
+ 
+05-05-2015:
++ setup the Logging configuration.
+
+03-05-2015:
++ change grammer: 1 forward/backward direction for segments in network file.
+
+01-05-2015:
++ make JavaCC parser non-static.
++ add "throws MetroException" to IHandler and to JavaCC grammer.
++ Eclipse project: defualt encoding for resources = UTF-8.
++ add Override segment networkfile.
+
+19-04-205:
++ add Trajecten to SegmentManager2.
++ only 1 direction for a traject.
++ replace List with Set in MetroNetwork.
++ remove RawTraject.
+
+18-04-205:
++ add Trajecten to SegmentManager2.
+
+08-03-2015:
++ add TestSegmentSplitter.
++ fix bugs in SegmentSplitter.
+
+03-03-2015:
++ refactor SegmentSplitter.
+
+01-03-2015:
++ refactor splitAndMerge.
+
+27-02-2015:
++ add MNN unit test for NetworkManager2.
+
+26-02-2015:
++ MNN unit tests for NetworkManager2.
+
+15-02-2015:
++ finalize SegmentManager2.
+
+14-02-2015:
++ Collect RawOverrideSegment2 from input.
+
+07-02-2015:
++ start SegmentManager2.
+
+03-02-2015:
++ LineManager2: unit tests.
+
+31-01-2015:
++ StationManager2: check MNN references.
+
+24-01-2015:
++ StationManager2: create MetroStations from RawStations and MNN info.
+
+15-01-2015:
++ process complex info in RawStation.
+
+12-01-2015:
++ add RawStation.
++ add StationManager2 (skeleton).
+
+11-01-2015:
++ implement LineManager2.
+
+10-01-2015:
++ add LineManager2 (skeleton only).
+
+09-01-2015:
++ add RawDirection.
++ populate RawDirections from segments and override segments.
+  next step: implement RawDirection functionality.
+
+05-01-2015:
++ remove StatMap code (obsolete functionality, no longer exists in the grammer).
+
+04-01-2015:
++ Split MetroNetwork and MetroSettings.
+
+3.2 [310]: 14-04-2013.
++ remove -traject option. -traject is now standard.
+
+3.2 [309]: 26-01-2013.
++ split traject and traject direction.
++ remove trajectonly option.
+
+3.1 [308]: 11-01-2013 - 12-01-2013
++ add only-traject option.
++ add ti_traject attributes (city, transport).
+
+3.1 [307] : 09-01-2013
++ traject with forward direction only.
+
+3.0 [306] : 02-01-2013 - 03-01-2013
++ remove landmarks from grammar and segparser.
++ remove station code-name mapping from grammar.
++ simplify grammar for lists using ( ... )+
+
+3.0 [305] : 02-01-2013
++ better javadoc for MetroCity.
++ remove java printer.
+
+3.0 [304] : 01-01-2013
++ remove remarks and servicetype from segment declaration.
++ remove IMetroHandler.checkDirection.
++ remove IMetroHandler.checkStation.
+
+
+3.0 [303] : 31-12-2012
++ process RawOverrideSegment and RawOverrideSection.
++ generate DirectionOverrides in output.
+
+3.0 [302] : 30-12-2012
++ add RawOverrideSegment and RawOverrideSection.
+
+3.0 [301] : 29-12-2012
+Features: add direction override to grammar.
++ add override_segment to SegParser.jj
++ regenerate java classes for new grammar.
+
+3.0 [300] : 29-12-2012
+Features: add direction override to grammar.
+
+2.1 [204]: 03-11-2012
++ clean landmark-station records if station is renamed.
++ clean location records if station is renamed.
+
+2.0 [203]: 23-05-2012
++ remove COMPLEX definiton from grammar.
+  The X::X in the station name replaces the COMPLEX definition.
++ remove addComplex from IMetroHandler.
++ remove ComplexManager, RawComplex.
+
+2.0 [202]: 22-05-2012
++ integrate ComplexManager functionality into StationManager.
+
+2.0 [201]: 03-05-2012
+Process complex information.
++ add station_type to MetroStation and to db-table station.
++ process complex input information in segparser (RawComplex, ComplexManager).
+- precondition checks for complexes (MetroData.parseFinished)
+  + unique complex names (set+RawComplex.equals)
+  - complex names do not overlap with station names
+  + nodes are defined as stations
+  - nodes are not part of other MNNs
++ create MNN for complexes (station node id) MetroData.addComplex
++ use complex info to set station type and station description.
+  Make sure station_id is already derived from station name including suffix!!!!
+  ComplexManager.processComplexData
+  MetroStation.setName
++ how to deal with fact that station name is not unique for complex stations??
+  MetroStation.hashcode/equals: use id, do not use name.
++ no EELs for complex suffix
+  Use << X::X >> as suffix-separator. Change stored proc to recognize splitter
+  and to exclude network stations.
+
+2.0 [200]: 03-05-2012
++ add complex declaration to grammar.
+
+2.0: 02-05-2012
++ remove line segment from grammar.
+
+1.32: 07-03-2012
++ do not perform city check for test cities.
+
+1.31: 15-02-2012
++ change parameters for procedures to generate EELs.
+
+1.30: 04-02-2012
++ Factory for DBEnv instances.
++ Dependency injection for MetroDB to get DBEnv.
+
+1.29: 04-02-2012
++ pass connectinfo as properties.
+
+1.28: 12-01-2012
++ improve handling of db connectioninfo.
+
+1.27: 09-01-2012 - 12-01-2012
++ switch to exception based error handling in .database and .output package.
++ detect wrong city code and prevent database updates if wrong city code 
+  city id combination is found.
+
+1.26: 30-12-2011
++ UTFHandler: improve exception handling.
+
+1.25: 27-12-2011
++ throw MetroException in case of illegal characters in city, station 
+  and landmark names.
+
+1.24: 20-12-2011
++ Add -landmark option
+
+1.23: 19-12-2011
++ Fix bug: direct db code did not generate SQL for traject and traject_info.
+
+1.22: 13-12-2011 - 16-12-2011
++ refactor station and mnn processing.
++ add metrogen.input and metrogen.split packages
+
+1.21: 10-12-2011 - 13-12-2011
++ error handling in metrogen.database package.
++ add -db:connectinfo cmdline argument processing.
++ refactor Metrogenerator.collectInput.
+
+1.20: 04-12-2011 - 07-12-2011
++ implement "-traject" functionality.
+
+1.19: 23-10-2011 - 26-10-2011
++ Add package org.subwayworld.metrogen.database: direct database update/insert.
+
+1.18: 07-09-2011 - 09-09-2011
++ error handling when splitting direction in line and endpoint.
++ generate call to eel procedures
+
+1.17: 02-01-2010 - 02-01-2010
++ change grammar: allow all sections anywhere in file.
+
+1.16: 02-01-2010 - 02-01-2010
++ add RawLandmark, LandmarkManager
++ process landmark data into MetroLandmark objects
++ generate SQL from MetroLandmarks.
+
+1.15: 29-12-2010 - 29-12-2010
++ add landmark declaration to grammer.
++ add new function to interface: addLandmark.
+
+1.14: 14-12-2010 - 14-12-2010
++ remove direction.servicetype from direction in SQL output.
++ remove servicetype from MetroDirection.
+
+1.13: 08-12-2010 - 12-12-2010
++ add LINE section to grammar.
++ process lineInfo.
+
+1.12: 04-12-2010 - 07-12-2010
++ add metroLine and LineManager.
++ parse direction into line and endpoint.
++ add Lines to SQL output.
++ add delete from swwlines to SQL output.
++ add line_id and endpoint to SQL output for directions.
+
+
+1.11: 26-11-2010 - 27-11-2010
++ remove MNN segments.
++ remove walk direction.
++ remove dircode from MetroSegment. Fix equals and hashcode.
++ remove dircode from testcases.
+
+1.10: 26-11-2010 - 26-11-2010
++ make MNN name different from primary station name.
+  For MNN stations, node name <> station name.
+  For SNN stations, node name = station name.
+
+1.9: 25-11-2010
++ Remove dircodes from segparser.
++ Add check directions: service type inconsistencies.
+
+1.2:
++ create new direction for "Walk, towards"
++ create new segments for walks between multi-named node stations.
++ update splitter to use station names for matches, not use node name.
+
+1.1_build_1:
++ add headsign indicator (+, -, =) to stationlist in LineSegment.

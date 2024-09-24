@@ -1,0 +1,225 @@
+# Data extracted from http://en.wikipedia.org/wiki/Dalian_Metro
+
+# City
+CITY
+CITYNAME
+"Dalian"
+CITYNAME_END
+CITYCODE
+DAL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line 2 - 17 may 2015
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Jichang Airport"
+FORWARDEND
+BACKWARD
+"Line 2, towards Haizhiyun"
+BACKWARDEND
+STATIONS
+"Haizhiyun"
+"Donggang"
+"Huiyizhongxin"
+"Gangwan guangchang"
+"Zhongshan guangchang"
+"Youhao guangchang"
+"Qingniwaqiao"
+"Yierjiujie"
+"Renmin guangchang"
+"Lianhelu"
+"Xi\'anlu"
+"Jiaotongdaxue"
+"Liaoshi"
+"Malanguangchang"
+"Wanjia"
+"Hongqixilu"
+"Hongjinlu"
+"Hongganglu"
+"Jichang Airport"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 (november 2015)
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Huizhanzhongxin"
+FORWARDEND
+BACKWARD
+"Line 1, towards Yaojia"
+BACKWARDEND
+STATIONS
+"Yaojia"
+"Dalianbeizhan" 	
+"Huabeilu" 	
+# "Huananbei" 	
+"Huananguangchang" 	
+"Qianshanlu" 	
+"Songjianglu" 	
+"Dongweilu" 	
+"Chunliu"
+"Xianggongjie" 	
+"Zhongchangjie" 	
+"Xinggonglu" 	
+"Xi\'anlu" 
+"Fuguojie" 	
+"Huizhanzhongxin"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 3
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3, towards Jinshitan"
+FORWARDEND
+BACKWARD
+"Line 3, towards Dalian Railway Station"
+BACKWARDEND
+STATIONS
+"Dalian Railway Station"
+"Xianglujiao"
+"Jinjiajie"
+"Quanshui"
+"Houyan"
+"Dalianwan"
+"Jinmalu"
+"Kaifaqu"
+"Baoshuiqu"
+"DD Port"
+"Xiaoyaowan"
+"Jinshitan"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3, towards Baoshuiqu"
+FORWARDEND
+BACKWARD
+"Line 3, towards Dalian Railway Station"
+BACKWARDEND
+STATIONS
+"Dalian Railway Station"
+"Xianglujiao"
+"Jinjiajie"
+"Quanshui"
+"Houyan"
+"Dalianwan"
+"Jinmalu"
+"Kaifaqu"
+"Baoshuiqu"
+STATIONSEND
+SEGMENTEND
+
+# FORWARD only, continues as 7!
+# http://en.wikipedia.org/wiki/Line_3,_Dalian_Metro
+SEGMENT
+FORWARD
+"Line 3, towards Jiuli"
+FORWARDEND
+STATIONS
+"Dalian Railway Station"
+"Xianglujiao"
+"Jinjiajie"
+"Quanshui"
+"Houyan"
+"Dalianwan"
+"Jinmalu"
+"Kaifaqu"
+"TOSTEM"
+"Phoenix Peak"
+"Dongshanlu"
+"Hepinglu"
+"Shijiuju"
+"Jiuli"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 7
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7, towards Kaifaqu"
+FORWARDEND
+BACKWARD
+"Line 7, towards Jiuli"
+BACKWARDEND
+STATIONS
+"Jiuli"
+"Shijiuju"
+"Hepinglu"
+"Dongshanlu"
+"Phoenix Peak"
+"TOSTEM"
+"Kaifaqu"
+STATIONSEND
+SEGMENTEND
+
+# FORWARD only, continues as 3!
+# http://en.wikipedia.org/wiki/Line_3,_Dalian_Metro
+SEGMENT
+FORWARD
+"Line 7, towards Dalian Railway Station"
+FORWARDEND
+STATIONS
+"Jiuli"
+"Shijiuju"
+"Hepinglu"
+"Dongshanlu"
+"Phoenix Peak"
+"TOSTEM"
+"Kaifaqu"
+"Jinmalu"
+"Dalianwan"
+"Houyan"
+"Quanshui"
+"Jinjiajie"
+"Xianglujiao"
+"Dalian Railway Station"
+STATIONSEND
+SEGMENTEND
+
+
+# Isolated suburban line 8 - will connect through future line 1 #  
+#SEGMENT
+#FORWARD
+#"Line 8, towards Lüshunxingang"
+#FORWARDEND
+#BACKWARD
+#"Line 8, towards Hekou"
+#BACKWARDEND
+#STATIONS
+#"Hekou"
+#"Caidaling"
+#"Huangnichuan"
+#"Longwangtang"
+#"Tahewan"
+#"Lüshun"
+#"Tieshanzhen"
+#"Lüshunxingang"
+#STATIONSEND
+#SEGMENTEND
+
+
+
+MULTI_NAMED_NODE
+"Zhongshan guangchang"
+"Dalian Railway Station"
+MULTI_NAMED_NODE_END
+
+

@@ -1,0 +1,415 @@
+
+# Future enhancement: integration of Rodalies Barcelona (commuter railway, same tickets, 
+# shares stations with metro, mostly underground in city)
+
+# Extracted from http://nl.wikipedia.org/wiki/Metro_van_Barcelona and subsequent pages
+# http://www.tmb.cat/en/detall-linia-metro/
+
+
+# City
+CITY
+CITYNAME
+Barcelona
+CITYNAME_END
+CITYCODE
+BAR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Funicular de Montjuïc
+# =============================================================
+SEGMENT
+FORWARD
+"Funicular de Montjuïc, uphill"
+FORWARDEND
+BACKWARD
+"Funicular de Montjuïc, downhill"
+BACKWARDEND
+STATIONS
+"Paral·lel"
+"Montjuïc"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 1
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 1 y Fondo"
+FORWARDEND
+BACKWARD
+"Línea 1 y Hospital de Bellvitge"
+BACKWARDEND
+STATIONS
+"Hospital de Bellvitge"
+"Bellvitge"
+"Avinguda Carrilet"
+"Rambla Just Oliveras"
+"Can Serra"
+"Florida"
+"Torrassa"
+"Santa Eulàlia"
+"Mercat Nou"
+"Plaça de Sants"
+"Hostafrancs"
+"Plaça Espanya"
+"Rocafort"
+"Urgell"
+"Universitat"
+"Catalunya"
+"Urquinaona"
+"Arc de Triomf"
+"Marina"
+"Glòries"
+"Clot"
+"Navas"
+"Sagrera"
+"Fabra i Puig"
+"Sant Andreu"
+"Torras i Bages"
+"Trinitat Vella"
+"Baró de Viver"
+"Santa Coloma"
+"Fondo"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 2
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 2 y Vall d\'Hebron"
+FORWARDEND
+BACKWARD
+"Línea 2 y Paral·lel"
+BACKWARDEND
+STATIONS
+"Paral·lel"
+"Sant Antoni"
+"Universitat"
+"Passeig de Gràcia"
+"Tetuan"
+"Monumental"
+"Sagrada Família"
+"Encants"
+"Clot"
+"Bac de Roda"
+"Sant Martí"
+"La Pau"
+"Verneda"
+"Artigues-Sant Adrià"
+"Sant Roc"
+"Gorg"
+"Pep Ventura"
+"Vall d\'Hebron"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 3
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 3 y Trinitat Nova"
+FORWARDEND
+BACKWARD
+"Línea 3 y Zona Universitària"
+BACKWARDEND
+STATIONS
+"Zona Universitària"
+"Palau Reial"
+"Maria Cristina"
+"Les Corts"
+"Plaça del Centre"
+"Sants Estació"
+"Tarragona"
+"Plaça Espanya"
+"Poble Sec"
+"Paral·lel"
+"Drassanes"
+"Liceu"
+"Catalunya"
+"Passeig de Gràcia"
+"Diagonal"
+"Fontana"
+"Lesseps"
+"Vallcarca"
+"Penitents"
+"Vall d\'Hebron"
+"Montbau"
+"Mundet"
+"Valldaura"
+"Canyelles"
+"Roquetes"
+"Trinitat Nova"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 4
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 4 y La Pau"
+FORWARDEND
+BACKWARD
+"Linea 4 y Trinitat Nova"
+BACKWARDEND
+STATIONS
+"Trinitat Nova"
+"Via Júlia"
+"Llucmajor"
+"Maragall"
+"Guinardó | Hospital de Sant Pau"
+"Alfons X"
+"Joanic"
+"Verdaguer"
+"Girona"
+"Passeig de Gràcia"
+"Urquinaona"
+"Jaume I"
+"Barceloneta"
+"Ciutadella-Vila Olímpica"
+"Bogatell"
+"Llacuna"
+"Poblenou"
+"Selva de Mar"
+"El Maresme-Fòrum"
+"Besòs Mar"
+"Besòs"
+"La Pau"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 5
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 5 y Vall d\'Hebron"
+FORWARDEND
+BACKWARD
+"Línea 5 y Cornellà Centre"
+BACKWARDEND
+STATIONS
+"Cornellà Centre"
+"Gavarra"
+"Sant Ildefons"
+"Can Boixeres"
+"Can Vidalet"
+"Pubilla Cases"
+"Collblanc"
+"Badal"
+"Plaça de Sants"
+"Sants Estació"
+"Entença"
+"Hospital Clínic"
+"Diagonal"
+"Verdaguer"
+"Sagrada Família"
+"Sant Pau-Dos de Maig"
+"Camp de l\'Arpa"
+"Sagrera"
+"Congrés"
+"Maragall"
+"Virrei Amat"
+"Vilapicina"
+"Horta"
+"El Carmel"
+"La Teixonera"
+"Vall d\'Hebron"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 6 (commuter train, FGC not TMB)
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 6 y Reina Elisenda"
+FORWARDEND
+BACKWARD
+"Línea 6 y Plaça Catalunya"
+BACKWARDEND
+STATIONS
+"Plaça Catalunya"
+"Provença"
+"Gràcia"
+"Sant Gervasi"
+"Muntaner"
+"La Bonanova"
+"Les Tres Torres"
+"Sarrià"
+"Reina Elisenda"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 7 (commuter train, FGC not TMB)
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 7 y Avinguda Tibidabo"
+FORWARDEND
+BACKWARD
+"Línea 7 y Plaça Catalunya"
+BACKWARDEND
+STATIONS
+"Plaça Catalunya"
+"Provença"
+"Gràcia"
+"Plaça Molina"
+"Pàdua"
+"El Putxet"
+"Avinguda Tibidabo"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 8 FGC
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 8 y Molí Nou-Ciutat Cooperativa"
+FORWARDEND
+BACKWARD
+"Línea 8 y Plaça Espanya"
+BACKWARDEND
+STATIONS
+"Plaça Espanya"
+"Magòria-La Campana"
+"Ildefons Cerdà"
+"Europa-Fira"
+"Gornal"
+"Sant Josep"
+"Avinguda Carrilet"
+"Almeda"
+"Cornellà-Riera"
+"Sant Boi"
+"Molí Nou-Ciutat Cooperativa"
+STATIONSEND
+SEGMENTEND
+
+
+# (Line 9 consists of two not yet connected parts)
+# =============================================================
+#     Linea 9-North
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 9N y Can Zam"
+FORWARDEND
+BACKWARD
+"Línea 9N y La Sagrera"
+BACKWARDEND
+STATIONS
+"La Sagrera"
+"Onze de Setembre"
+"Bon Pastor"
+"Can Peixauet"
+"Santa Rosa"
+"Fondo"
+"Església Major"
+"Singuerlín"
+"Can Zam"
+STATIONSEND
+SEGMENTEND
+
+
+# (Line 9 consists of two not yet connected parts)
+# =============================================================
+#     Linea 9-South
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 9S y Zona Universitària"
+FORWARDEND
+BACKWARD
+"Línea 9S y Aeroport-T1"
+BACKWARDEND
+STATIONS
+"Aeroport-T1"
+"Aeroport-T2"
+"Mas Blau"
+"Parc Nou"
+"Cèntric"
+"El Prat Estació"
+"Les Moreres"
+"Mercabarna"
+"Parc Logístic"
+"Fira"
+"Europa-Fira"
+"Can Tries - Gornal"
+"Torrassa"
+"Collblanc"
+"Zona Universitària"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 10
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 10 y Gorg"
+FORWARDEND
+BACKWARD
+"Línea 10 y La Sagrera"
+BACKWARDEND
+STATIONS
+"La Sagrera"
+"Onze de Setembre"
+"Bon Pastor"
+"Llefià"
+"La Salut"
+"Gorg"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 11
+# =============================================================
+SEGMENT
+FORWARD
+"Línea 11 y Can Cuiàs"
+FORWARDEND
+BACKWARD
+"Línea 11 y Trinitat Nova"
+BACKWARDEND
+STATIONS
+"Trinitat Nova"
+"Casa de l\'Aigua"
+"Torre Baró-Vallbona"
+"Ciutat Meridiana"
+"Can Cuiàs"
+STATIONSEND
+SEGMENTEND
+
+
+MULTI_NAMED_NODE
+"Diagonal"
+"Provença"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Sant Gervasi"
+"Plaça Molina"
+MULTI_NAMED_NODE_END
+

@@ -1,0 +1,133 @@
+CITY
+CITYNAME
+"Pittsburgh"
+CITYNAME_END
+CITYCODE
+PIT
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Red Line (Castle Shannon via Beechview), towards Allegheny"
+FORWARDEND
+BACKWARD
+"Red Line (Castle Shannon via Beechview), towards South Hills Village"
+BACKWARDEND
+STATIONS
+"South Hills Village"
+"Dorchester"
+"Bethel Village"
+"Highland"
+"Casswell"
+"Washington Junction"
+"Smith Road"
+"St. Anne\'s"
+"Overbrook Junction"
+"Castle Shannon"
+"Arlington"
+"Poplar"
+"Mt. Lebanon"
+"Dormont Junction"
+"Potomac"
+"Stevenson"
+"Shiras"
+"Belasco"
+"Hampshire"
+"Fallowfield"
+"Westfield"
+"Pennant"
+"Dawn"
+"Palm Garden"
+"South Hills Junction"
+"Station Square"
+"First Avenue"
+"Steel Plaza"
+"Wood Street"
+"Gateway Center"
+"North Side"
+"Allegheny"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line (Library), towards Allegheny"
+FORWARDEND
+BACKWARD
+"Blue line (Library), towards Library"
+BACKWARDEND
+STATIONS
+"Library"
+"West Library"
+"Sandy Creek"
+"Beagle"
+"King\'s School"
+"Logan"
+"Sarah"
+"Munroe"
+"South Park"
+"Mesta"
+"Lytle"
+"Hillcrest"
+"Washington Junction"
+"Smith Road"
+"St. Anne\'s"
+"Willow"
+"Memorial Hall"
+"Killarney"
+"McNeilly"
+"South Bank"
+"Denise"
+"Bon Air"
+"Boggs"
+"South Hills Junction"
+"Station Square"
+"First Avenue"
+"Steel Plaza"
+"Wood Street"
+"Gateway Center"
+"North Side"
+"Allegheny"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line (South Hills Village), towards Allegheny"
+FORWARDEND
+BACKWARD
+"Blue line (South Hills Village), towards South Hills Village"
+BACKWARDEND
+STATIONS
+"South Hills Village"
+"Dorchester"
+"Bethel Village"
+"Highland"
+"Casswell"
+"Washington Junction"
+"Smith Road"
+"St. Anne\'s"
+"Willow"
+"Memorial Hall"
+"Killarney"
+"McNeilly"
+"South Bank"
+"Denise"
+"Bon Air"
+"Boggs"
+"South Hills Junction"
+"Station Square"
+"First Avenue"
+"Steel Plaza"
+"Wood Street"
+"Gateway Center"
+"North Side"
+"Allegheny"
+STATIONSEND
+SEGMENTEND
+
+# Brown line terminated march 2011 and removed from this file -Richard (jun 2012)

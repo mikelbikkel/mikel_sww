@@ -1,0 +1,209 @@
+CITY
+CITYNAME
+Atlanta
+CITYNAME_END
+CITYCODE
+ATL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+# Red
+# =============================================================
+SEGMENT
+FORWARD
+"Red line, towards Lindbergh centre"
+FORWARDEND
+BACKWARD
+"Red line, towards North Springs"
+BACKWARDEND
+STATIONS
+"North Springs"
+"Sandy Springs"
+"Dunwoody"
+"Medical Center"
+"Buckhead"
+"Lindbergh Center"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Red line (daytime)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"service during daytime till 7:00 pm"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Red line (daytime), towards Airport"
+FORWARDEND
+BACKWARD
+"Red line (daytime), towards North Springs"
+BACKWARDEND
+STATIONS
+"North Springs"
+"Sandy Springs"
+"Dunwoody"
+"Medical Center"
+"Buckhead"
+"Lindbergh Center"
+"Arts Center"
+"Midtown"
+"North Avenue"
+"Civic Center"
+"Peachtree Center"
+"Five Points"
+"Garnett"
+"West End"
+"Oakland City"
+"Lakewood / Ft. McPherson"
+"East Point"
+"College Park"
+"Airport"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+# Gold
+# =============================================================
+SEGMENT
+FORWARD
+"Gold line, towards Airport"
+FORWARDEND
+BACKWARD
+"Gold line, towards Doraville"
+BACKWARDEND
+STATIONS
+"Doraville"
+"Chamblee"
+"Brookhaven/Oglethorpe"
+"Lenox"
+"Lindbergh Center"
+"Arts Center"
+"Midtown"
+"North Avenue"
+"Civic Center"
+"Peachtree Center"
+"Five Points"
+"Garnett"
+"West End"
+"Oakland City"
+"Lakewood / Ft. McPherson"
+"East Point"
+"College Park"
+"Airport"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Blue
+# =============================================================
+SEGMENT
+FORWARD
+"Blue line, towards Indian Creek"
+FORWARDEND
+BACKWARD
+"Blue line, towards Hamilton E. Holmes"
+BACKWARDEND
+STATIONS
+"Hamilton E. Holmes"
+"West Lake"
+"Ashby"
+"Vine City"
+"Dome/GWCC/Philips/CNN"
+"Five Points"
+"Georgia State"
+"King Memorial"
+"Inman Park/Reynoldstown"
+"Edgewood/Candler Park"
+"East Lake"
+"Decatur"
+"Avondale"
+"Kensingston"
+"Indian Creek"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+# Green
+# =============================================================
+SEGMENT
+FORWARD
+"Green line, towards Vine City"
+FORWARDEND
+BACKWARD
+"Green line, towards Bankhead"
+BACKWARDEND
+STATIONS
+"Bankhead"
+"Ashby"
+"Vine City"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Green line (daytime)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Green line (daytime), towards King Memorial"
+FORWARDEND
+BACKWARD
+"Green line (daytime), towards Bankhead"
+BACKWARDEND
+STATIONS
+"Bankhead"
+"Ashby"
+"Vine City"
+"Dome/GWCC/Philips/CNN"
+"Five Points"
+"Georgia State"
+"King Memorial"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Green line (rush hour)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_END
+
+SEGMENT
+FORWARD
+"Green line (rush hour), towards Edgewood/Candler Park"
+FORWARDEND
+BACKWARD
+"Green line (rush hour), towards Bankhead"
+BACKWARDEND
+STATIONS
+"Bankhead"
+"Ashby"
+"Vine City"
+"Dome/GWCC/Philips/CNN"
+"Five Points"
+"Georgia State"
+"King Memorial"
+"Inman Park/Reynoldstown"
+"Edgewood/Candler Park"
+STATIONSEND
+SEGMENTEND
+

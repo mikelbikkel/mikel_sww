@@ -1,0 +1,294 @@
+# http://www.metrobilbao.net/en/using-the-underground/map-and-frequencies
+# frecuencias marzo 2012 combinado.pdf
+
+CITY
+CITYNAME
+Bilbao
+CITYNAME_END
+CITYCODE
+BIL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+# Linea 1
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 1, towards Plentzia"
+FORWARDEND
+BACKWARD
+"Linea 1 towards Etxebarri"
+BACKWARDEND
+STATIONS
+"Etxebarri"
+"Bolueta"
+"Basarrate"
+"Santutxu"
+"Casco Viejo"
+"Abando"
+"Moyua"
+"Indautxu"
+"San Mamés"
+"Deusto"
+"Sarriko"
+"San Inazio"
+"Lutxana"
+"Erandio"
+"Astrabudua"
+"Leioa"
+"Lamiako"
+"Areeta"
+"Gobela"
+"Neguri"
+"Aiboa"
+"Algorta"
+"Bidezabal"
+# "Ibarbengoa-Getxo"
+"Berango"
+"Larrabasterra"
+"Sopelana"
+"Urduliz"
+"Plentzia"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Linea 1, towards Urduliz"
+FORWARDEND
+BACKWARD
+"Linea 1 towards Etxebarri"
+BACKWARDEND
+STATIONS
+"Etxebarri"
+"Bolueta"
+"Basarrate"
+"Santutxu"
+"Casco Viejo"
+"Abando"
+"Moyua"
+"Indautxu"
+"San Mamés"
+"Deusto"
+"Sarriko"
+"San Inazio"
+"Lutxana"
+"Erandio"
+"Astrabudua"
+"Leioa"
+"Lamiako"
+"Areeta"
+"Gobela"
+"Neguri"
+"Aiboa"
+"Algorta"
+"Bidezabal"
+# "Ibarbengoa-Getxo"
+"Berango"
+"Larrabasterra"
+"Sopelana"
+"Urduliz"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea 1, towards Larrabasterra"
+FORWARDEND
+BACKWARD
+"Linea 1 towards Etxebarri"
+BACKWARDEND
+STATIONS
+"Etxebarri"
+"Bolueta"
+"Basarrate"
+"Santutxu"
+"Casco Viejo"
+"Abando"
+"Moyua"
+"Indautxu"
+"San Mamés"
+"Deusto"
+"Sarriko"
+"San Inazio"
+"Lutxana"
+"Erandio"
+"Astrabudua"
+"Leioa"
+"Lamiako"
+"Areeta"
+"Gobela"
+"Neguri"
+"Aiboa"
+"Algorta"
+"Bidezabal"
+# "Ibarbengoa-Getxo"
+"Berango"
+"Larrabasterra"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea 1, towards Bidezabal"
+FORWARDEND
+BACKWARD
+"Linea 1 towards Etxebarri"
+BACKWARDEND
+STATIONS
+"Etxebarri"
+"Bolueta"
+"Basarrate"
+"Santutxu"
+"Casco Viejo"
+"Abando"
+"Moyua"
+"Indautxu"
+"San Mamés"
+"Deusto"
+"Sarriko"
+"San Inazio"
+"Lutxana"
+"Erandio"
+"Astrabudua"
+"Leioa"
+"Lamiako"
+"Areeta"
+"Gobela"
+"Neguri"
+"Aiboa"
+"Algorta"
+"Bidezabal"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+# Linea 2
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 2, towards Santurtzi"
+FORWARDEND
+BACKWARD
+"Linea 2 towards Basauri"
+BACKWARDEND
+STATIONS
+"Basauri"
+"Ariz"
+"Etxebarri"
+"Bolueta"
+"Basarrate"
+"Santutxu"
+"Casco Viejo"
+"Abando"
+"Moyua"
+"Indautxu"
+"San Mamés"
+"Deusto"
+"Sarriko"
+"San Inazio"
+"Gurutzeta / Cruces"
+"Ansio"
+"Barakaldo"
+"Bagatza"
+"Urbinaga"
+"Sestao"
+"Abatxolo"
+"Portugalete"
+"Peñota"
+"Santurtzi"
+# "Kabiezes"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea 2, towards Santurtzi"
+FORWARDEND
+BACKWARD
+"Linea 2 towards Etxebarri"
+BACKWARDEND
+STATIONS
+"Etxebarri"
+"Bolueta"
+"Basarrate"
+"Santutxu"
+"Casco Viejo"
+"Abando"
+"Moyua"
+"Indautxu"
+"San Mamés"
+"Deusto"
+"Sarriko"
+"San Inazio"
+"Gurutzeta / Cruces"
+"Ansio"
+"Barakaldo"
+"Bagatza"
+"Urbinaga"
+"Sestao"
+"Abatxolo"
+"Portugalete"
+"Peñota"
+"Santurtzi"
+# "Kabiezes"
+STATIONSEND
+SEGMENTEND
+
+# http://en.wikipedia.org/wiki/EuskoTran
+# =============================================================
+# Euskotren Tranbia
+# =============================================================
+SEGMENT
+FORWARD
+"Euskotren Tranbia, towards La Casilla"
+FORWARDEND
+BACKWARD
+"Euskotren Tranbia, towards Atxuri"
+BACKWARDEND
+STATIONS
+"Atxuri"
+"Ribera"
+"Arriaga"
+"Abando"
+"Pío Baroja"
+"Uribitarte"
+"Guggenheim"
+"Abandoibarra"
+"Euskalduna"
+"Sabino Arana"
+"San Mamés"
+"Ospitalea/Hospital"
+"Basurto"
+"La Casilla"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+# Mamariga Shuttle
+# =============================================================
+SEGMENT
+FORWARD
+"Funicular Mamariga-Santurtzi, towards Mamariga"
+FORWARDEND
+BACKWARD
+"Funicular Mamariga-Santurtzi, towards Santurtzi"
+BACKWARDEND
+STATIONS
+"Santurtzi"
+"Mamariga"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+

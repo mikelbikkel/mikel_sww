@@ -1,0 +1,450 @@
+
+# Extracted from http://es.wikipedia.org/wiki/Metro_de_Santiago
+# Express train information from http://es.wikipedia.org/wiki/Metro_de_Santiago
+
+# City
+CITY
+CITYNAME
+Santiago
+CITYNAME_END
+CITYCODE
+SNT
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Linea 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1 towards Plaza Los Domínicos"
+FORWARDEND
+BACKWARD
+"Line 1 towards San Pablo"
+BACKWARDEND
+STATIONS
+"San Pablo"
+"Neptuno"
+"Pajaritos"
+"Las Rejas"
+"Ecuador"
+"San Alberto Hurtado"
+"Universidad de Santiago"
+"Estación Central"
+"Unión Latinoamericana"
+"República"
+"Los Héroes"
+"La Moneda"
+"Universidad de Chile"
+"Santa Lucía"
+"Universidad Católica"
+"Baquedano"
+"Salvador"
+"Manuel Montt"
+"Pedro de Valdivia"
+"Los Leones"
+"Tobalaba"
+"El Golf"
+"Alcántara"
+"Escuela Militar"
+"Manquehue"
+"Hernando de Magallanes"
+"Plaza Los Domínicos"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 2
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2 towards La Cisterna"
+FORWARDEND
+BACKWARD
+"Line 2 towards Vespucio Norte"
+BACKWARDEND
+STATIONS
+"Vespucio Norte"
+"Zapadores"
+"Dorsal"
+"Einstein"
+"Cementerios"
+"Cerro Blanco"
+"Patronato"
+"Puente Cal y Canto"
+"Santa Ana"
+"Los Héroes"
+"Toesca"
+"Parque O\'Higgins"
+"Rondizzoni"
+"Franklin"
+"El Llano"
+"San Miguel"
+"Lo Vial"
+"Departamental"
+"Ciudad del Niño"
+"Lo Ovalle"
+"El Parrón"
+"La Cisterna"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 2 Red Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express train Ruta Roja"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 2 Red Express towards La Cisterna"
+FORWARDEND
+BACKWARD
+"Line 2 Red Express towards Vespucio Norte"
+BACKWARDEND
+STATIONS
+"Vespucio Norte"
+"Zapadores"
+"Dorsal"
+"Einstein"
+"Cementerios"
+"Patronato"
+"Puente Cal y Canto"
+"Santa Ana"
+"Los Héroes"
+"Parque O\'Higgins"
+"Rondizzoni"
+"El Llano"
+"Lo Vial"
+"Ciudad del Niño"
+"Lo Ovalle"
+"La Cisterna"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 2 Green Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express train Ruta Verde"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 2 Green Express towards La Cisterna"
+FORWARDEND
+BACKWARD
+"Line 2 Green Express towards Einstein"
+BACKWARDEND
+STATIONS
+"Einstein"
+"Cerro Blanco"
+"Puente Cal y Canto"
+"Santa Ana"
+"Los Héroes"
+"Toesca"
+"Rondizzoni"
+"Franklin"
+"San Miguel"
+"Departamental"
+"Lo Ovalle"
+"El Parrón"
+"La Cisterna"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Linea 4
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4 towards Plaza de Puente Alto"
+FORWARDEND
+BACKWARD
+"Line 4 towards Tobalaba"
+BACKWARDEND
+STATIONS
+"Tobalaba"
+"Cristóbal Colón"
+"Francisco Bilbao"
+"Príncipe de Gales"
+"Simón Bolívar"
+"Plaza Egaña"
+"Los Orientales"
+"Grecia"
+"Los Presidentes"
+"Quilín"
+"Las Torres"
+"Macul"
+"Vicuña Mackenna"
+"Vicente Valdés"
+"Rojas Magallanes"
+"Trinidad"
+"San José de la Estrella"
+"Los Quillayes"
+"Elisa Correa"
+"Hospital Sótero del Río"
+"Protectora de la Infancia"
+"Las Mercedes"
+"Plaza de Puente Alto"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 4 Red Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express train Ruta Roja"
+LINE_REMARK_END
+LINE_END
+ 
+SEGMENT
+FORWARD
+"Line 4 Red Express towards Plaza de Puente Alto"
+FORWARDEND
+BACKWARD
+"Line 4 Red Express towards Tobalaba"
+BACKWARDEND
+STATIONS
+"Tobalaba"
+"Francisco Bilbao"
+"Príncipe de Gales"
+"Plaza Egaña"
+"Los Orientales"
+"Los Presidentes"
+"Las Torres"
+"Macul"
+"Vicuña Mackenna"
+"Vicente Valdés"
+"Trinidad"
+"Los Quillayes"
+"Elisa Correa"
+"Hospital Sótero del Río"
+"Las Mercedes"
+"Plaza de Puente Alto"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 4 Green Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express train Ruta Verde"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 4 Green Express towards Plaza de Puente Alto"
+FORWARDEND
+BACKWARD
+"Line 4 Green Express towards Tobalaba"
+BACKWARDEND
+STATIONS
+"Tobalaba"
+"Cristóbal Colón"
+"Francisco Bilbao"
+"Simón Bolívar"
+"Plaza Egaña"
+"Grecia"
+"Quilín"
+"Macul"
+"Vicuña Mackenna"
+"Vicente Valdés"
+"Rojas Magallanes"
+"San José de la Estrella"
+"Elisa Correa"
+"Hospital Sótero del Río"
+"Protectora de la Infancia"
+"Plaza de Puente Alto"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Linea 4a
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4a towards Vicuña Mackenna"
+FORWARDEND
+BACKWARD
+"Line 4a towards La Cisterna"
+BACKWARDEND
+STATIONS
+"La Cisterna"
+"San Ramón"
+"Santa Rosa"
+"La Granja"
+"Santa Julia"
+"Vicuña Mackenna"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Linea 5
+# =============================================================
+SEGMENT
+FORWARD
+"Line 5 towards Vicente Valdés"
+FORWARDEND
+BACKWARD
+"Line 5 towards Plaza de Maipú"
+BACKWARDEND
+STATIONS
+"Plaza de Maipú"
+"Santiago Bueras"
+"Del Sol"
+"Monte Tabor"
+"Las Parcelas"
+"Laguna Sur"
+"Barrancas"
+"Pudahuel"
+"San Pablo"
+"Lo Prado"
+"Blanqueado"
+"Gruta de Lourdes"
+"Quinta Normal"
+"Cumming"
+"Santa Ana"
+"Plaza de Armas"
+"Bellas Artes"
+"Baquedano"
+"Parque Bustamante"
+"Santa Isabel"
+"Irarrázaval"
+"Ñuble"
+"Rodrigo de Araya"
+"Carlos Valdovinos"
+"Camino Agrícola"
+"San Joaquín"
+"Pedrero"
+"Mirador"
+"Bellavista de La Florida"
+"Vicente Valdés"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 5 Red Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express train Ruta Roja"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 5 Red Express towards Vicente Valdés"
+FORWARDEND
+BACKWARD
+"Line 5 Red Express towards Pudahuel"
+BACKWARDEND
+STATIONS
+"Plaza de Maipú"
+"Santiago Bueras"
+"Del Sol"
+"Monte Tabor"
+"Las Parcelas"
+"Laguna Sur"
+"Barrancas"
+"Pudahuel"
+"San Pablo"
+"Lo Prado"
+"Blanqueado"
+"Gruta de Lourdes"
+"Quinta Normal"
+"Cumming"
+"Santa Ana"
+"Plaza de Armas"
+"Baquedano"
+"Parque Bustamante"
+"Irarrázaval"
+"Ñuble"
+"Carlos Valdovinos"
+"San Joaquín"
+"Mirador"
+"Bellavista de La Florida"
+"Vicente Valdés"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line 5 Green Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express train Ruta Verde"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 5 Green Express towards Vicente Valdés"
+FORWARDEND
+BACKWARD
+"Line 5 Green Express towards Santa Ana"
+BACKWARDEND
+STATIONS
+"Plaza de Maipú"
+"Santiago Bueras"
+"Del Sol"
+"Monte Tabor"
+"Las Parcelas"
+"Laguna Sur"
+"Barrancas"
+"Pudahuel"
+"San Pablo"
+"Lo Prado"
+"Blanqueado"
+"Gruta de Lourdes"
+"Quinta Normal"
+"Santa Ana"
+"Plaza de Armas"
+"Bellas Artes"
+"Baquedano"
+"Santa Isabel"
+"Irarrázaval"
+"Rodrigo de Araya"
+"Camino Agrícola"
+"Pedrero"
+"Bellavista de La Florida"
+"Vicente Valdés"
+STATIONSEND
+SEGMENTEND
+

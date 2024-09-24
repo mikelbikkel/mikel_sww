@@ -1,0 +1,135 @@
+# City
+CITY
+CITYNAME
+Daegu
+CITYNAME_END
+CITYCODE
+DAE
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1, towards Ansim"
+FORWARDEND
+BACKWARD
+"Line 1, towards Daegok"
+BACKWARDEND
+STATIONS
+"Daegok"
+"Jincheon"
+"Wolbae"
+"Sangin"
+"Wolchon"
+"Songhyeon"
+"Seongdangmo"
+"Daemyeong"
+"Anjirang"
+"Hyeonchungno"
+"Yeungnam University Hospital"
+"National University of Education"
+"Myeongdeok"
+"Banwoldang"
+"Jungangno"
+"Daegu"
+"Chilseong Market"
+"Sincheon"
+"Dongdaegu"
+"Keungogae"
+"Ayanggyo"
+"Dongchon"
+"Haean"
+"Bangchon"
+"Yonggye"
+"Yulha"
+"Singi"
+"Banyawol"
+"Gaksan"
+"Ansim"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2, towards Yeungnam University"
+FORWARDEND
+BACKWARD
+"Line 2, towards Munyang"
+BACKWARDEND
+STATIONS
+"Munyang"
+"Dasa"
+"Daesil"
+"Gangchang"
+"Keimyung University"
+"Seongseo Industrial Complex"
+"Igok"
+"Yongsan"
+"Jukjeon"
+"Gamsam"
+"Duryu"
+"Naedang"
+"Bangogoae"
+"Sinnam" # renamed from Seomun Market
+"Banwoldang"
+"Kyungpook National University Hospital"
+"Daegu Bank"
+"Beomeo"
+"Suseong-gu Office"
+"Manchon"
+"Damti"
+"Yeonho"
+"Daegu Grand Park"
+"Gosan"
+"Sinmae"
+"Sawol"
+"Jeongpyeong"
+"Imdang"
+"Yeungnam University"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3, towards Yongji"
+FORWARDEND
+BACKWARD
+"Line 3, towards KNU Medical Center"
+BACKWARDEND
+STATIONS
+"KNU Medical Center"
+"Hakjeong"
+"Palgeo"
+"Dongcheon"
+"Chilgok"
+"Guam"
+"Taejeon"
+"Maecheon"
+"Maecheon Market"
+"Paldal"
+"Industrial Complex"
+"Manpyeong"
+"Paldal Market"
+"Wondae"
+"Buk-gu Office"
+"Dalseong Park"
+"Seomun Market"
+"Sinnam"
+"Namsan"
+"Myeongdeok"
+"Geondeulbawi"
+"Daebonggyo"
+"Suseong Market"
+"Suseong-gu Stadium"
+"Children\'s Hall"
+"Hwanggeum"
+"Suseongmot"
+"Jisan"
+"Beommul"
+"Yongji"
+STATIONSEND
+SEGMENTEND
+

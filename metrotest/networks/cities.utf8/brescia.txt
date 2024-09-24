@@ -1,0 +1,41 @@
+# City
+CITY
+CITYNAME
+Brescia
+CITYNAME_END
+CITYCODE
+BRE
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards Sant\'Eufemia-Buffalora"
+FORWARDEND
+BACKWARD
+"Main line, towards Prealpino"
+BACKWARDEND
+STATIONS
+"Prealpino" 	
+"Casazza"
+"Mompiano" 	
+"Europa"
+"Ospedale" 	
+"Marconi"	
+"San Faustino" 		
+"Vittoria"
+"Stazione FS" 	
+"Bresciadue"	
+"Lamarmora"
+"Volta"
+"Poliambulanza" 		
+"San Polo Parco" 	
+"San Polo"
+"Sanpolino" 	
+"Sant\'Eufemia-Buffalora"
+STATIONSEND
+SEGMENTEND
+

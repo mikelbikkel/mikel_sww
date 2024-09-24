@@ -1,0 +1,178 @@
+# City
+CITY
+CITYNAME
+Rotterdam
+CITYNAME_END
+CITYCODE
+RDM
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Erasmus line D, towards De Akkers"
+FORWARDEND
+BACKWARD
+"Erasmus line D, towards Rotterdam Centraal"
+BACKWARDEND
+STATIONS
+"Rotterdam Centraal"
+Stadhuis
+Beurs
+Leuvehaven
+Wilhelminaplein
+Rijnhaven
+Maashaven
+Zuidplein
+Slinge
+Rhoon
+Poortugaal
+Tussenwater
+Hoogvliet
+Zalmplaat
+"Spijkenisse Centrum"
+Heemraadlaan
+"De Akkers"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Caland line A, towards Binnenhof"
+FORWARDEND
+BACKWARD
+"Caland line A, towards Schiedam Centrum"
+BACKWARDEND
+STATIONS
+"Schiedam Centrum"
+Marconiplein
+Delfshaven
+Coolhaven
+Dijkzigt
+Eendrachtsplein
+Beurs
+Blaak
+Oostplein
+Gerdesiaweg
+Voorschoterlaan
+"Kralingse Zoom"
+"Capelsebrug"
+Schenkel
+Prinsenlaan
+Oosterflank
+Alexander
+Graskruid
+Romeynshof
+Binnenhof
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Caland line B, towards Nesselande"
+FORWARDEND
+BACKWARD
+"Caland line B, towards Schiedam Centrum"
+BACKWARDEND
+STATIONS
+"Schiedam Centrum"
+Marconiplein
+Delfshaven
+Coolhaven
+Dijkzigt
+Eendrachtsplein
+Beurs
+Blaak
+Oostplein
+Gerdesiaweg
+Voorschoterlaan
+"Kralingse Zoom"
+"Capelsebrug"
+Schenkel
+Prinsenlaan
+Oosterflank
+Alexander
+Graskruid
+Hesseplaats
+"Nieuw Verlaat"
+Ambachtsland
+"De Tochten"
+Nesselande
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Caland line C, towards De Terp"
+FORWARDEND
+BACKWARD
+"Caland line C, towards De Akkers"
+BACKWARDEND
+STATIONS
+"De Akkers"
+Heemraadlaan
+"Spijkenisse Centrum"
+Zalmplaat
+Hoogvliet
+Tussenwater
+Pernis
+Vijfsluizen
+Troelstralaan
+Parkweg
+"Schiedam Centrum"
+Marconiplein
+Delfshaven
+Coolhaven
+Dijkzigt
+Eendrachtsplein
+Beurs
+Blaak
+Oostplein
+Gerdesiaweg
+Voorschoterlaan
+"Kralingse Zoom"
+"Capelsebrug"
+"Slotlaan"
+"Capelle Centrum"
+"De Terp"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Erasmus line E, towards Slinge"
+FORWARDEND
+BACKWARD
+"Erasmus line E, towards Den Haag Centraal"
+BACKWARDEND
+STATIONS
+"Den Haag Centraal"
+"Laan van NOI"
+"Voorburg \'t Loo"
+"Leidschendam-Voorburg"
+Forepark
+Leidschenveen
+Nootdorp
+"Pijnacker Centrum"
+"Pijnacker Zuid"
+"Berkel Westpolder"
+Rodenrijs
+Meijersplein
+Melanchtonweg
+Blijdorp
+"Rotterdam Centraal"
+Stadhuis
+Beurs
+Leuvehaven
+Wilhelminaplein
+Rijnhaven
+Maashaven
+Zuidplein
+Slinge
+STATIONSEND
+SEGMENTEND
+
+

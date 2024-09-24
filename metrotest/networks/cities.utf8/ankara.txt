@@ -1,0 +1,162 @@
+
+# http://upload.wikimedia.org/wikipedia/commons/9/9d/Ankara_metro.png
+
+# City
+CITY
+CITYNAME
+Ankara
+CITYNAME_END
+CITYCODE
+ANK
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Batıkent Metrosu M1, towards Kizilay"
+FORWARDEND
+BACKWARD
+"Batıkent Metrosu M1, towards Batikent"
+BACKWARDEND
+STATIONS
+"Batikent"
+"Ostim"
+"Macunkoy"
+"Hastane"
+"Demetevler"
+"Yenimahalle"
+"Ivedik"
+"Akkopru"
+"Kultur Merkezi"
+"Ulus"
+"Sıhhiye"
+"Kizilay"
+STATIONSEND
+SEGMENTEND
+
+# opened march 2014
+SEGMENT
+FORWARD
+"Çayyolu Metrosu M2, towards Koru"
+FORWARDEND
+BACKWARD
+"Çayyolu Metrosu M2, towards Kizilay"
+BACKWARDEND
+STATIONS
+"Kizilay"
+"Necatibey"
+"Milli Kütüphane"
+"Söğütözü"
+"Maden Teknik ve Arama"
+"Orta Doğu Teknik Üniversitesi"
+"Bilkent"
+"Tarim Bakanliği-Daniştay"
+"Beytepe"
+"Ümitköy"
+"Çayyolu"
+"Koru"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Törekent Metrosu M3, towards OSB-Torekent"
+FORWARDEND
+BACKWARD
+"Törekent Metrosu M3, towards Batikent"
+BACKWARDEND
+STATIONS
+"Batikent"
+"Bati Merkezi"
+"MESA"
+"Botanik"
+"Istanbul yolu"
+"Eryaman 1-2"
+"Eryaman 5"
+"Devlet Mahallesi"
+"Harikalar Diyari"
+"Fatih"
+"OSB-Torekent"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ankaray, towards ASTI"
+FORWARDEND
+BACKWARD
+"Ankaray, towards Dikimevi"
+BACKWARDEND
+STATIONS
+"Dikimevi"
+"Kurtuluş"
+"Kolej"
+"Kizilay"
+"Demirtepe"
+"Maltepe"
+"Tandogan"
+"Besevler"
+"Bahcelievler"
+"Emek"
+"ASTI"
+STATIONSEND
+SEGMENTEND
+
+# commuter train, added march 2014
+SEGMENT
+FORWARD
+"Sincan-Kayaş Line, towards Kayaş"
+FORWARDEND
+BACKWARD
+"Sincan-Kayaş Line, towards Sincan"
+BACKWARDEND
+STATIONS
+"Sincan"
+"Lale"
+"Elvankent"
+"Emirler"
+"Özgüneş"
+"Etimesgut"
+"Subayevleri"
+"Havadurağı"
+"Yıldırım"
+"Behiçbey"
+"Marşandiz"
+"Motor Fabrikası"
+"Gazi"
+"Gazi Mahallesi"
+"Hipodrom"
+"Ankara Gari"
+"Yenişehir"
+"Kurtuluş"
+"Cebeci"
+"Demirlibahçe"
+"Gülveren"
+"Saimekadın"
+"Mamak"
+"Bağderesi"
+"Üreğil"
+"Topkaya"
+"Köstence"
+"Kayaş"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     MNN's
+# =============================================================
+MULTI_NAMED_NODE
+"Sıhhiye"
+"Yenişehir"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Maltepe"
+"Ankara Gari"
+MULTI_NAMED_NODE_END
+
+

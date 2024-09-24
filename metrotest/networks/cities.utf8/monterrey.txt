@@ -1,0 +1,66 @@
+CITY
+CITYNAME
+Monterrey
+CITYNAME_END
+CITYCODE
+MNT
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Línea 1 (Amarillo), towards Exposición"
+FORWARDEND
+BACKWARD
+"Línea 1 (Amarillo), towards Talleres"
+BACKWARDEND
+STATIONS
+"Talleres"
+"San Bernabé"
+"Unidad Modelo"
+"Aztlán"
+"Penitenciaría"
+"Alfonso Reyes"
+"Mitras"
+"Simón Bolívar"
+"Hospital"
+"Edison"
+"Central"
+"Cuauhtémoc"
+"Del Golfo"
+"Felix U. Gómez"
+"Parque Fundidora"
+"Y Griega"
+"Eloy Cavazos"
+"Lerdo de Tejada"
+"Exposición"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Línea 2 (Verde), towards Zaragoza"
+FORWARDEND
+BACKWARD
+"Línea 2 (Verde), towards Sendero"
+BACKWARDEND
+STATIONS
+"Sendero"
+"Santiago Tapia"
+"San Nicolás"
+"Anáhuac"
+"Universidad"
+"Niños Héroes"
+"Regina"
+"General Anaya"
+"Cuauhtémoc"
+"Alameda"
+"Fundadores"
+"Padre Mier"
+"Zaragoza"
+STATIONSEND
+SEGMENTEND
+

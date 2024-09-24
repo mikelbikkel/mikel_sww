@@ -1,0 +1,296 @@
+CITY
+CITYNAME
+"Kuala Lumpur"
+CITYNAME_END
+CITYCODE
+KLL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Kelana Jaya Line, towards Kelana Jaya"
+FORWARDEND
+BACKWARD
+"Kelana Jaya Line, towards Gombak"
+BACKWARDEND
+STATIONS
+"Gombak / Terminal PUTRA"
+"Taman Melati"
+"Wangsa Maju"
+"Sri Rampai"
+"Setiawangsa"
+"Jelatek"
+"Dato\' Keramat"
+"Damai"
+"Ampang Park"
+"KLCC"
+"Kampung Baru"
+"Dang Wangi"
+"Masjid Jamek"
+"Pasar Seni"
+"KL Sentral"
+"Bangsar"
+"Abdullah Hukum"
+"Kerinchi"
+"Universiti"
+"Taman Jaya"
+"Asia Jaya"
+"Taman Paramount"
+"Taman Bahagia"
+"Kelana Jaya"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ampang Line, towards Ampang"
+FORWARDEND
+BACKWARD
+"Ampang Line, towards Sentul Timur"
+BACKWARDEND
+STATIONS
+"Sentul Timur"
+"Sentul"
+"Titiwangsa"
+"PWTC"
+"Sultan Ismail"
+"Bandaraya"
+"Masjid Jamek"
+"Plaza Rakyat"
+"Hang Tuah"
+"Pudu"
+"Chan Sow Lin"
+"Miharja"
+"Maluri"
+"Pandan Jaya"
+"Pandan Indah"
+"Cempaka"
+"Cahaya"
+"Ampang"
+"Sentul"
+"Titiwangsa"
+"PWTC"
+"Sultan Ismail"
+"Bandaraya"
+"Masjid Jamek"
+"Plaza Rakyat"
+"Hang Tuah"
+"Pudu"
+"Chan Sow Lin"
+"Miharja"
+"Maluri"
+"Pandan Jaya"
+"Pandan Indah"
+"Cempaka"
+"Cahaya"
+"Ampang"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ampang Line, towards Sri Petaling"
+FORWARDEND
+BACKWARD
+"Ampang Line, towards Sentul Timur"
+BACKWARDEND
+STATIONS
+"Sentul Timur"
+"Sentul"
+"Titiwangsa"
+"PWTC"
+"Sultan Ismail"
+"Bandaraya"
+"Masjid Jamek"
+"Plaza Rakyat"
+"Hang Tuah"
+"Pudu"
+"Chan Sow Lin"
+"Cheras"
+"Salak Selatan"
+"Bandar Tun Razak"
+"Bandar Tasik Selatan"
+"Sungai Besi"
+"Bukit Jalil"
+"Sri Petaling"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"KTM Komuter, towards Pelabuhan Klang"
+FORWARDEND
+BACKWARD
+"KTM Komuter, towards Batu Caves"
+BACKWARDEND
+STATIONS
+"Batu Caves"
+"Taman Wahyu"
+"Kampung Batu"
+"Batu Kentomen"
+"Sentul KTM"
+"Putra"
+"Bank Negara"
+"Kuala Lumpur"
+"KL Sentral"
+"Angkasapuri"
+"Pantai Dalam"
+"Petaling"
+"Jalan Templer"
+"Kampung Dato Harun"
+"Seri Setia"
+"Setia Jaya"
+"Subang Jaya"
+"Batu Tiga"
+"Shah Alam"
+"Padang Jawa"
+"Bukit Badak"
+"Klang"
+"Teluk Pulai"
+"Teluk Gadong"
+"Kampung Raja Uda"
+"Jalan Kastam"
+"Pelabuhan Klang"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"KTM Komuter, towards Sungai Gadut"
+FORWARDEND
+BACKWARD
+"KTM Komuter, towards Rawang"
+BACKWARDEND
+STATIONS
+"Rawang"
+"Kuang"
+"Sungai Buloh"
+"Kepong Sentral"
+"Kepong"
+"Segambut"
+"Putra"
+"Bank Negara"
+"Kuala Lumpur"
+"KL Sentral"
+"Mid Valley"
+"Seputeh"
+"Salak Selatan KTM"
+"Bandar Tasik Selatan"
+"Serdang"
+"Kajang"
+"UKM"
+"Bangi"
+"Batang Benar"
+"Nilai"
+"Labu"
+"Tiroi"
+"Seremban"
+"Senawang"
+"Sungai Gadut"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"KTM Komuter, towards Rawang"
+FORWARDEND
+BACKWARD
+"KTM Komuter, towards Tanjung Malim"
+BACKWARDEND
+STATIONS
+"Tanjung Malim"
+"Kuala Kubu Bharu"
+"Rasa"
+"Batang Kali"
+"Serendah"
+"Rawang"
+STATIONSEND
+SEGMENTEND
+
+
+
+SEGMENT
+FORWARD
+"KLIA Ekspres, towards KL Sentral"
+FORWARDEND
+BACKWARD
+"KLIA Ekspres, towards Kuala Lumpur International Airport"
+BACKWARDEND
+STATIONS
+"KLIA / Kuala Lumpur International Airport"
+"KL Sentral"
+STATIONSEND
+SEGMENTEND
+SEGMENT
+
+FORWARD
+"KLIA Transit, towards KL Sentral"
+FORWARDEND
+BACKWARD
+"KLIA Transit, towards Kuala Lumpur International Airport"
+BACKWARDEND
+STATIONS
+"KLIA / Kuala Lumpur International Airport"
+"Salak Tinggi"
+"Putrajaya Sentral"
+"Bandar Tasik Selatan"
+"KL Sentral"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"KL Monorel, towards Titiwangsa"
+FORWARDEND
+BACKWARD
+"KL Monorel, towards KL Sentral"
+BACKWARDEND
+STATIONS
+"KL Sentral / Monorel"
+"Tun Sambanthan"
+"Maharajalela"
+"Hang Tuah"
+"Imbi"
+"Bukit Bintang"
+"Raja Chulan"
+"Bukit Nanas"
+"Dang Wangi"
+"Medan Tuanku"
+"Chow Kit"
+"Titiwangsa"
+STATIONSEND
+SEGMENTEND
+
+MULTI_NAMED_NODE
+"Putra"
+"PWTC"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Bank Negara"
+"Bandaraya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Kuala Lumpur"
+"Pasar Seni"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Dang Wangi"
+"Bukit Nanas"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"KL Sentral"
+"KL Sentral / Monorel"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Salak Selatan"
+"Salak Selatan KTM"
+MULTI_NAMED_NODE_END

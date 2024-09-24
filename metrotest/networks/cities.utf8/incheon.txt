@@ -1,0 +1,443 @@
+# Data extracted from http://en.wikipedia.org/wiki/Seoul_Metropolitan_Subway
+
+#
+# NOTE: these lines are copied from Seoul's network.
+# They are essentially those lines from Seoul that connect to 	
+# or run through Incheon.
+#
+
+# City
+CITY
+CITYNAME
+"Incheon"
+CITYNAME_END
+CITYCODE
+INC
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1
+# =============================================================
+LINE
+LINE_NAME
+"Line 1"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Seoul-Incheon Railway Line 1"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 1, towards Incheon"
+FORWARDEND
+BACKWARD
+"Line 1, towards Soyosan"
+BACKWARDEND
+STATIONS
+"Soyosan"
+"Dongducheon"
+"Bosan"
+"Dongducheonjungang"
+"Jihaeng"
+"Deokjeong"
+"Deokgye"
+"Yangju"
+"Nogyang"
+"Ganeung"
+"Uijeongbu"
+"Hoeryong"
+"Mangwolsa"
+"Dobongsan"
+"Dobong"
+"Banghak"
+"Chang-dong"
+"Nokcheon"
+"Wolgye"
+"Seongbuk"
+"Seokgye"
+"Sinimun"
+"Hankuk University of Foreign Studies"
+"Hoegi"
+"Cheongnyangni"
+"Jegi-dong"
+"Sinseol-dong"
+"Dongmyo"
+"Dongdaemun"
+"Jongno 5-ga"
+"Jongno 3-ga"
+"Jonggak"
+"City Hall"
+"Seoul Station"
+"Namyeong"
+"Yongsan"
+"Noryangjin"
+"Daebang"
+"Singil"
+"Yeongdeungpo"
+"Sindorim"
+"Guro"
+"Guil"
+"Gaebong"
+"Oryu-dong"
+"Onsu"
+"Yeokgok"
+"Sosa"
+"Bucheon"
+"Jung-dong"
+"Songnae"
+"Bugae"
+"Bupyeong"
+"Baegun"
+"Dongam"
+"Ganseok"
+"Juan"
+"Dohwa"
+"Jemulpo"
+"Dowon"
+"Dongincheon"
+"Incheon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 - II
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Sinchang"
+FORWARDEND
+BACKWARD
+"Line 1, towards Incheon"
+BACKWARDEND
+STATIONS
+"Incheon"
+"Dongincheon"
+"Dowon"
+"Jemulpo"
+"Dohwa"
+"Juan"
+"Ganseok"
+"Dongam"
+"Baegun"
+"Bupyeong"
+"Bugae"
+"Songnae"
+"Jung-dong"
+"Bucheon"
+"Sosa"
+"Yeokgok"
+"Onsu"
+"Oryu-dong"
+"Gaebong"
+"Guil"
+"Guro"
+"Gasan Digital Complex"
+"Doksan"
+"Geumcheon-gu Office"
+"Seoksu"
+"Gwanak"
+"Anyang"
+"Myeonghak"
+"Geumjeong"
+"Gunpo"
+"Dangjeong"
+"Uiwang"
+"Sungkyunkwan University"
+"Hwaseo"
+"Suwon"
+"Seryu"
+"Byeongjeom"
+"Sema"
+"Osan College"
+"Osan"
+"Jinwi"
+"Songtan"
+"Seojeong-ri"
+"Jije"
+"Pyeongtaek"
+"Seonghwan"
+"Jiksan"
+"Dujeong"
+"Cheonan"
+"Bongmyeong"
+"Ssangyong"
+"Asan"
+"Baebang"
+"Onyangoncheon"
+"Sinchang"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 - III
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Seodongtan"
+FORWARDEND
+BACKWARD
+"Line 1, towards Incheon"
+BACKWARDEND
+STATIONS
+"Incheon"
+"Dongincheon"
+"Dowon"
+"Jemulpo"
+"Dohwa"
+"Juan"
+"Ganseok"
+"Dongam"
+"Baegun"
+"Bupyeong"
+"Bugae"
+"Songnae"
+"Jung-dong"
+"Bucheon"
+"Sosa"
+"Yeokgok"
+"Onsu"
+"Oryu-dong"
+"Gaebong"
+"Guil"
+"Guro"
+"Gasan Digital Complex"
+"Doksan"
+"Geumcheon-gu Office"
+"Seoksu"
+"Gwanak"
+"Anyang"
+"Myeonghak"
+"Geumjeong"
+"Gunpo"
+"Dangjeong"
+"Uiwang"
+"Sungkyunkwan University"
+"Hwaseo"
+"Suwon"
+"Seryu"
+"Byeongjeom"
+"Seodongtan"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 - IV
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Gwangmyeong"
+FORWARDEND
+BACKWARD
+"Line 1, towards Incheon"
+BACKWARDEND
+STATIONS
+"Incheon"
+"Dongincheon"
+"Dowon"
+"Jemulpo"
+"Dohwa"
+"Juan"
+"Ganseok"
+"Dongam"
+"Baegun"
+"Bupyeong"
+"Bugae"
+"Songnae"
+"Jung-dong"
+"Bucheon"
+"Sosa"
+"Yeokgok"
+"Onsu"
+"Oryu-dong"
+"Gaebong"
+"Guil"
+"Guro"
+"Gasan Digital Complex"
+"Doksan"
+"Geumcheon-gu Office"
+"Gwangmyeong"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 1 Express
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1 Express, towards Dongincheon"
+FORWARDEND
+BACKWARD
+"Line 1 Express, towards Yongsan"
+BACKWARDEND
+STATIONS
+"Yongsan"
+"Noryangjin"
+"Daebang"
+"Singil"
+"Yeongdeungpo"
+"Sindorim"
+"Guro"
+"Yeokgok"
+"Bucheon"
+"Songnae"
+"Bupyeong"
+"Dongam"
+"Juan"
+"Dongincheon"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# extra intermediate stations planned 01-04-2012
+# =============================================================
+#     A'REX - Incheon Int. Airport Railroad
+# =============================================================
+SEGMENT
+FORWARD
+"A\'REX, towards Incheon International Airport"
+FORWARDEND
+BACKWARD
+"A\'REX, towards Seoul Station"
+BACKWARDEND
+STATIONS
+"Seoul Station"
+"Gongdeok"
+"Hongik University"
+"Digital Media City"
+"Gimpo International Airport"
+"Gyeyang"
+"Geomam"
+"Unseo"
+"Incheon International Airport Cargo Terminal"
+"Incheon International Airport"
+STATIONSEND
+SEGMENTEND
+
+
+
+# This operator (Incheon Subway) plans two more lines in the future. 
+# =============================================================
+#     Incheon Subway 1
+# =============================================================
+SEGMENT
+FORWARD
+"Incheon Subway 1, towards International Business District"
+FORWARDEND
+BACKWARD
+"Incheon Subway 1, towards Gyeyang"
+BACKWARDEND
+STATIONS
+"Gyeyang"
+"Gyulhyeon"
+"Bakchon"
+"Imhak"
+"Gyesan"
+"Gyeongin National University of Education"
+"Jakjeon"
+"Galsan"
+"Bupyeong-gu Office"
+"Bupyeong Market"
+"Bupyeong"
+"Dongsu"
+"Bupyeongsamgeori"
+"Ganseogogeori"
+"Incheon City Hall"
+"Arts Center"
+"Incheon Bus Terminal"
+"Munhak Sports Complex"
+"Seonhak"
+"Sinyeonsu"
+"Woninjae"
+"Dongchun"
+"Dongmak"
+"Campus Town"
+"Technopark"
+"BIT Zone"
+"University of Incheon"
+"Central Park"
+"International Business District"
+STATIONSEND
+SEGMENTEND
+
+
+# (Seoul line connecting to Incheon Subway 1)
+# =============================================================
+#     Line 7
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7, towards Onsu"
+FORWARDEND
+BACKWARD
+"Line 7, towards Jangam"
+BACKWARDEND
+STATIONS
+"Jangam"
+"Dobongsan"
+"Suraksan"
+"Madeul"
+"Nowon"
+"Junggye"
+"Hagye"
+"Gongneung"
+"Taereung"
+"Meokgol"
+"Junghwa"
+"Sangbong"
+"Myeonmok"
+"Sagajeong"
+"Yongmasan"
+"Junggok"
+"Gunja"
+"Children\'s Grand Park"
+"Konkuk University"
+"Ttukseom Resort"
+"Cheongdam"
+"Gangnam-gu Office"
+"Hak-dong"
+"Nonhyeon"
+"Banpo"
+"Express Bus Terminal"
+"Naebang"
+"Isu"
+"Namseong"
+"Soongsil University"
+"Sangdo"
+"Jangseungbaegi"
+"Sindaebangsamgeori"
+"Boramae"
+"Sinpung"
+"Daerim"
+"Namguro"
+"Gasan Digital Complex"
+"Cheolsan"
+"Gwangmyeongsageori"
+"Cheonwang"
+"Onsu"
+"Kkachiul"
+"Bucheon Stadium"
+"Chunui"
+"Sinjung-dong"
+"Bucheon City Hall"
+"Sang-dong"
+"Samsan Gymnasium"
+"Gulpocheon"
+"Bupyeong-gu Office"
+STATIONSEND
+SEGMENTEND

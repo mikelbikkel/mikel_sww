@@ -1,0 +1,64 @@
+CITY
+CITYNAME
+Marseille
+CITYNAME_END
+CITYCODE
+MAR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1 (blue), towards La Fourragère"
+FORWARDEND
+BACKWARD
+"Line 1 (blue), towards La Rose"
+BACKWARDEND
+STATIONS
+"La Rose"
+"Frais Vallon"
+"Malpassé"
+"Saint-Just - Hôtel du Département"
+"Chartreux"
+"Cinq Avenues - Longchamp"
+"Réformés - Canebière"
+"Saint-Charles - Gare SNCF"
+"Colbert - Hôtel de Région"
+"Vieux-Port - Hôtel de Ville"
+"Estrangin - Préfecture"
+"Castellane"
+"Baille"
+"La Timone"
+"La Blancarde"
+"Louis Armand"
+"Saint-Barnabé"
+"La Fourragère"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2 (red), towards Sainte-Marguerite Dromel"
+FORWARDEND
+BACKWARD
+"Line 2 (red), towards Bougainville"
+BACKWARDEND
+STATIONS
+"Bougainville"
+"National"
+"Désirée Clary"
+"Joliette"
+"Jules Guesde"
+"Saint-Charles - Gare SNCF"
+"Noailles"
+"Notre-Dame du Mont - Cours Julien"
+"Castellane"
+"Périer"
+"Rond-point du Prado"
+"Sainte-Marguerite Dromel"
+STATIONSEND
+SEGMENTEND
+

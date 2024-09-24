@@ -1,0 +1,50 @@
+# City
+CITY
+CITYNAME
+Lima
+CITYNAME_END
+CITYCODE
+LMA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Linea 1, towards Bayóvar"
+FORWARDEND
+BACKWARD
+"Linea 1, towards Villa El Salvador"
+BACKWARDEND
+STATIONS
+"Villa El Salvador"
+"Parque Industrial"
+"Pumacahua"
+"Villa María"
+"Maria Auxiliadora"
+"San Juan"
+"Atocongo"
+"Jorge Chávez"
+"Ayacucho"
+"Los Cabitos"
+"Angamos"
+"San Borja Sur"
+"La Cultura"
+"Nicolás Arriola"
+"Gamarra"
+"Miguel Grau"
+"El Ángel"
+"Presbítero Maestro"
+"Caja de Agua"
+"Pirámide del Sol"
+"Los Jardines"
+"Los Postes"
+"San Carlos"
+"San Martín"
+"Santa Rosa"
+"Bayóvar"
+STATIONSEND
+SEGMENTEND
+

@@ -1,0 +1,93 @@
+CITY
+CITYNAME
+Baku
+CITYNAME_END
+CITYCODE
+BKU
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Green line, towards Jabar Jabarli"
+FORWARDEND
+BACKWARD
+"Green line, towards Darnagul"
+BACKWARDEND
+STATIONS
+"Darnagul"
+"Azadlig Prospekti"
+"Nasimi"
+"Memar Ajami" 
+"20 Yanvar"
+"Inshaatchilar"
+"Elmlar Akademiyasi"
+"Nizami Ganjevi"
+"Jabar Jabarli"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Green line shuttle, towards Jabar Jabarli"
+FORWARDEND
+BACKWARD
+"Green line shuttle, towards Shakh Ismail Khatai"
+BACKWARDEND
+STATIONS
+"Shakh Ismail Khatai"
+"Jabar Jabarli"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Red line, towards Icheri Sheher"
+FORWARDEND
+BACKWARD
+"Red line, towards Hazi Aslanov"
+BACKWARDEND
+STATIONS
+"Hazi Aslanov"
+"Ahmedli"
+"Halglar Doslugu"
+"Neftchilar"
+"Gara Garayev"
+"Koroglu"
+"Ulduz"
+"Nariman Narimanov"
+"Ganjlik"
+"28 May"
+"Sahil"
+"Icheri Sheher"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Red line, towards Ichery Sheher"
+FORWARDEND
+BACKWARD
+"Red line, towards Bakmil"
+BACKWARDEND
+STATIONS
+"Bakmil"
+"Nariman Narimanov"
+"Ganjlik"
+"28 May"
+"Sahil"
+"Icheri Sheher"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     MNN
+# =============================================================
+MULTI_NAMED_NODE
+"28 May"
+"Jabar Jabarli"
+MULTI_NAMED_NODE_END

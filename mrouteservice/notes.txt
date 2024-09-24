@@ -1,0 +1,47 @@
+=
+= Assertions
+=
+- put "assert false" on places that should never be reached.
+- enable assertions: -ea:org.subwayworld... (3 trailing dots)
+  In package and all sub-packages.
+.
+
+  If you add:
+      <scope>test</scope>
+to the junit dependncy, the build fails (static import only from classes and interfaces).
+
+Set source to 1.6: import static (1.5) and @Override (1.6).
+
+Maven error: add jdk as JRE. And select jdk as runtime environment for Maven build.
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.1</version>
+        ...
+        <configuration>
+          <archive>
+            <manifest>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+            </manifest>
+          </archive>
+        </configuration>
+        ...
+      </plugin>
+      
+          Manifest-Version: 1.0
+    Archiver-Version: Plexus Archiver
+    Created-By: Apache Maven ${maven.version}
+    Built-By: ${user.name}
+    Build-Jdk: ${java.version}
+    Specification-Title: ${project.name}
+    Specification-Version: ${project.version}
+    Specification-Vendor: ${project.organization.name}
+    Implementation-Title: ${project.name}
+    Implementation-Version: ${project.version}
+    Implementation-Vendor-Id: ${project.groupId}
+    Implementation-Vendor: ${project.organization.name}
+    Implementation-URL: ${project.url}
+  .
+  

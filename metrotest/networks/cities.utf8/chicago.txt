@@ -1,0 +1,556 @@
+
+# Blue and Red Lines circle 24/7
+# Data extracted from http://en.wikipedia.org/wiki/Chicago_%27L%27 and subsequent pages
+
+# City
+CITY
+CITYNAME
+Chicago
+CITYNAME_END
+CITYCODE
+CCG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Red line
+# =============================================================
+SEGMENT
+FORWARD
+"Red Line, towards 95th / Dan Ryan"
+FORWARDEND
+BACKWARD
+"Red Line, towards Howard"
+BACKWARDEND
+STATIONS
+"Howard"
+"Jarvis"
+"Morse"
+"Loyola"
+"Granville"
+"Thorndale"
+"Bryn Mawr"
+"Berwyn"
+"Argyle"
+"Lawrence"
+"Wilson"
+"Sheridan"
+"Addison / Sheffield Avenue"
+"Belmont / Sheffield Avenue"
+"Fullerton"
+"North / Clybourn"
+"Clark / Division"
+"Chicago / N. State Str."
+"Grand / N. State Str."
+"Lake"
+"Monroe"
+"Jackson"
+"Harrison"
+"Roosevelt"
+"Cermak-Chinatown"
+"Sox-35th"
+"47th / Dan Ryan Expressway"
+"Garfield / Dan Ryan Expressway"
+"63rd"
+"69th"
+"79th"
+"87th"
+"95 / Dan Ryan"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Blue line
+# =============================================================
+SEGMENT
+FORWARD
+"Blue Line, towards Forest Park"
+FORWARDEND
+BACKWARD
+"Blue Line, towards O\'Hare"
+BACKWARDEND
+STATIONS
+"O\'Hare"
+"Rosemont"
+"Cumberland"
+"Harlem"
+"Jefferson Park"
+"Montrose / Knox Avenue"
+"Irving Park / Pulaski Road"
+"Addison / Central Park Avenue"
+"Belmont / N Kimball Avenue"
+"Logan Square"
+"California / Lyndale Str."
+"Western / Cortland Str.- Milwaukee Avenue"
+"Damen / North Av. - Milwaukee Av."
+"Division"
+"Chicago / Ogden Avenue"
+"Grand / Milwaukee Avenue -Halstead Str."
+"Clark / Lake"
+"Washington"
+"Monroe"
+"Jackson"
+"LaSalle"
+"Clinton / Congress Parkway"
+"UIC-Halsted"
+"Racine"
+"Illinois Medical District"
+"Western / Eisenhouwer Expressway"
+"Kedzie-Homan"
+"Pulaski / Eisenhouwer Expressway"
+"Cicero / Eisenhouwer Expressway"
+"Austin / Eisenhouwer Expressway"
+"Oak Park / Eisenhouwer Expressway"
+"Harlem / Eisenhouwer Expressway"
+"Forest Park"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Orange line
+# =============================================================
+SEGMENT
+FORWARD
+"Orange Line, towards The Loop"
+FORWARDEND
+STATIONS
+"Midway"
+"Pulaski / 51st Str."
+"Kedzie / 49th Str."
+"Western / 49th Str."
+"35 / Archer"
+"Ashland / 31st Str."
+"Halsted / Archer Av."
+"Roosevelt"
+"Library-State / Van Buren"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Orange Line, towards Midway"
+FORWARDEND
+STATIONS
+"Library-State / Van Buren"
+"LaSalle / Van Buren"
+"Quincy"
+"Washington / Wells"
+"Clark / Lake"
+"State / Lake"
+"Randolph / Wabash"
+"Madison / Wabash"
+"Adams / Wabash"
+"Roosevelt"
+"Halsted / Archer Av."
+"Ashland / 31st Str."
+"35 / Archer"
+"Western / 49th Str."
+"Kedzie / 49th Str." 
+"Pulaski / 51st Str."
+"Midway"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Brown line
+# =============================================================
+SEGMENT
+FORWARD
+"Brown Line, towards The Loop"
+FORWARDEND
+STATIONS
+"Kimball"
+"Kedzie / Leland Avenue"
+"Francisco"
+"Rockwell"
+"Western / Leland Av."
+"Damen / Leland Av."
+"Montrose / Ravenswood Av."
+"Irving Park / Ravenswood Av."
+"Addison / Ravenswood Av."
+"Paulina"
+"Southport"
+"Belmont / Sheffield Avenue"
+"Wellington"
+"Diversey"
+"Fullerton"
+"Armitage"
+"Sedgwick"
+"Chicago / Franklin Str."
+"Merchandise Mart"
+"Washington / Wells"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Brown Line, towards Kimball"
+FORWARDEND
+STATIONS
+"Washington / Wells"
+"Quincy"
+"LaSalle / Van Buren"
+"Library-State / Van Buren"
+"Adams / Wabash"
+"Madison / Wabash"
+"Randolph / Wabash"
+"State / Lake"
+"Clark / Lake"
+"Merchandise Mart"
+"Chicago / Franklin Str."
+"Sedgwick"
+"Armitage"
+"Fullerton"
+"Diversey"
+"Wellington"
+"Belmont / Sheffield Avenue"
+"Southport"
+"Paulina"
+"Addison / Ravenswood Av."
+"Irving Park / Ravenswood Av."
+"Montrose / Ravenswood Av."
+"Damen / Leland Av."
+"Western / Leland Av."
+"Rockwell"
+"Francisco"
+"Kedzie / Leland Avenue"
+"Kimball"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Pink line
+# =============================================================
+SEGMENT
+FORWARD
+"Pink Line, towards The Loop"
+FORWARDEND
+STATIONS
+"54 / Cermak"
+"Cicero / 21st Place"
+"Kostner"
+"Pulaski / 21st Str."
+"Central Park"
+"Kedzie / W 21st Str."
+"California / W 21st Str."
+"Western / W 21st Str."
+"Damen / Cullerton Str."
+"18th"
+"Polk"
+"Ashland / Lake"
+"Morgan"
+"Clinton / Lake"
+"Clark / Lake"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Pink Line, towards 54 / Cermak"
+FORWARDEND
+STATIONS
+"Clark / Lake"
+"State / Lake"
+"Randolph / Wabash"
+"Madison / Wabash"
+"Adams / Wabash"
+"Library-State / Van Buren"
+"LaSalle / Van Buren"
+"Quincy"
+"Washington / Wells"
+"Clinton / Lake"
+"Morgan"
+"Ashland / Lake"
+"Polk"
+"18th"
+"Damen / Cullerton Str."
+"Western / W 21st Str."
+"California / W 21st Str."
+"Kedzie / W 21st Str."
+"Central Park"
+"Pulaski / 21st Str."
+"Kostner"
+"Cicero / 21st Place"
+"54 / Cermak"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Purple line
+# =============================================================
+SEGMENT
+FORWARD
+"Purple Line, towards Linden"
+FORWARDEND
+BACKWARD
+"Purple Line, towards Howard"
+BACKWARDEND
+STATIONS
+"Linden"
+"Central / Girard Av."
+"Noyes"
+"Foster"
+"Davis"
+"Dempster"
+"Main"
+"South Blvd"
+"Howard"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Purple Line (express)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAl
+SERVICETYPEEND
+LINE_REMARK
+"Weekday rush hours only"
+LINE_REMARK_END
+LINE_EDIT
+"mikel de bikkel. 10-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Purple Line (express), towards The Loop"
+FORWARDEND
+STATIONS
+"Linden"
+"Howard"
+"Sheridan"
+"Belmont / Sheffield Avenue"
+"Wellington"
+"Diversey"
+"Fullerton"
+"Armitage"
+"Sedgwick"
+"Chicago / Franklin Str."
+"Merchandise Mart"
+"Clark / Lake"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Purple Line (express), towards Linden"
+FORWARDEND
+STATIONS
+"Clark / Lake"
+"State / Lake"
+"Randolph / Wabash"
+"Madison / Wabash"
+"Adams / Wabash"
+"Library-State / Van Buren"
+"LaSalle / Van Buren"
+"Quincy"
+"Washington / Wells"
+"Merchandise Mart"
+"Chicago / Franklin Str."
+"Sedgwick"
+"Armitage"
+"Fullerton"
+"Diversey"
+"Wellington"
+"Belmont / Sheffield Avenue"
+"Sheridan"
+"Howard"
+"Linden"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Green line
+# =============================================================
+SEGMENT
+FORWARD
+"Green Line, towards Ashland / 63"
+FORWARDEND
+BACKWARD
+"Green Line, towards Harlem"
+BACKWARDEND
+STATIONS
+"Harlem / South Boulevard"
+"Oak Park / South Boulevard"
+"Ridgeland"
+"Austin / Corcoran Place"
+"Central / Corcoran Place"
+"Laramie"
+"Cicero / Lake Str."
+"Pulaski / Lake Str."
+"Conservatory-Central Park Drive"
+"Kedzie / Lake Str."
+"California / Lake Str."
+"Ashland / Lake"
+"Morgan"
+"Clinton / Lake"
+"Clark / Lake"
+"State / Lake"
+"Randolph / Wabash"
+"Madison / Wabash"
+"Adams / Wabash"
+"Roosevelt"
+"Cermak-McCormick Place" # new station 2015
+"35-Bronzeville-IIT"
+"Indiana"
+"43rd"
+"47th / Prairi Av."
+"51st"
+"Garfield / Prairi Av."
+"Halsted / 63rd Str."
+"Ashland / 63 Str."
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Green Line, towards Cottage Grove"
+FORWARDEND
+BACKWARD
+"Green Line, towards Harlem"
+BACKWARDEND
+STATIONS
+"Harlem / South Boulevard"
+"Oak Park / South Boulevard"
+"Ridgeland"
+"Austin / Corcoran Place"
+"Central / Corcoran Place"
+"Laramie"
+"Cicero / Lake Str."
+"Pulaski / Lake Str."
+"Conservatory-Central Park Drive"
+"Kedzie / Lake Str."
+"California / Lake Str."
+"Ashland / Lake"
+"Morgan"
+"Clinton / Lake"
+"Clark / Lake"
+"State / Lake"
+"Randolph / Wabash"
+"Madison / Wabash"
+"Adams / Wabash"
+"Roosevelt"
+"35-Bronzeville-IIT"
+"Indiana"
+"43rd"
+"47th / Prairi Av."
+"51st"
+"Garfield / Prairi Av."
+"King Drive"
+"Cottage Grove"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Yellow line
+# =============================================================
+SEGMENT
+FORWARD
+"Yellow Line, towards Howard"
+FORWARDEND
+BACKWARD
+"Yellow Line, towards Skokie"
+BACKWARDEND
+STATIONS
+"Dempster-Skokie"
+"Oakton-Skokie"
+"Howard"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+
+
+
+# =============================================================
+#     TRANSFORM Orange line stationslist changed to new 
+#     transform point approach
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Library-State / Van Buren"
+TRANSFORM_POINT_END
+BEFORE
+"Orange Line, towards The Loop"
+BEFORE_END
+AFTER
+"Orange Line, towards Midway"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# =============================================================
+#     TRANSFORM Brown line
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Washington / Wells"
+TRANSFORM_POINT_END
+BEFORE
+"Brown Line, towards The Loop"
+BEFORE_END
+AFTER
+"Brown Line, towards Kimball"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# 'Lake' serves only red line, but they are very close
+MULTI_NAMED_NODE
+"Lake"
+"State / Lake"
+MULTI_NAMED_NODE_END
+
+# 'LaSalle' serves only blue line, but they are very close
+MULTI_NAMED_NODE
+"LaSalle"
+"LaSalle / Van Buren"
+MULTI_NAMED_NODE_END
+
+
+
+# =============================================================
+#     TRANSFORM Pink line
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Clark / Lake"
+TRANSFORM_POINT_END
+BEFORE
+"Pink Line, towards The Loop"
+BEFORE_END
+AFTER
+"Pink Line, towards 54 / Cermak"
+AFTER_END
+METRO_TRANSFORM_END
+
+# =============================================================
+#     TRANSFORM Purple line (express)
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Clark / Lake"
+TRANSFORM_POINT_END
+BEFORE
+"Purple Line (express), towards The Loop"
+BEFORE_END
+AFTER
+"Purple Line (express), towards Linden"
+AFTER_END
+METRO_TRANSFORM_END

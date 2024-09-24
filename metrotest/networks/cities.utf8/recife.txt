@@ -1,0 +1,107 @@
+# City
+CITY
+CITYNAME
+Recife
+CITYNAME_END
+CITYCODE
+REC
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Linha Centro - C1, towards Camaragibe"
+FORWARDEND
+BACKWARD
+"Linha Centro - C1, towards Recife"
+BACKWARDEND
+STATIONS
+Recife
+"Joana Bezerra"
+Afogados
+Ipiranga
+Mangueira
+"Santa Luzia"
+"Edgar Werneck"
+Barro
+"Tejipió"
+Coqueiral
+"Alto do Céu"
+Curado
+"Rodoviária"
+"Cosme e Damião" 
+Camaragibe
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linha Centro - C2, towards Jaboatão"
+FORWARDEND
+BACKWARD
+"Linha Centro - C2, towards Recife"
+BACKWARDEND
+STATIONS
+Recife
+"Joana Bezerra"
+Afogados
+Ipiranga
+Mangueira
+"Santa Luzia"
+"Edgar Werneck"
+Barro
+"Tejipió"
+Coqueiral
+Cavaleiro
+Floriano
+"Engenho Velho"
+"Jaboatão"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linha Sul, towards Cajueiro Seco"
+FORWARDEND
+BACKWARD
+"Linha Sul, towards Recife"
+BACKWARDEND
+STATIONS
+Recife
+"Joana Bezerra"
+"Largo da Paz"
+Imbiribeira
+"Antônio Falcão"
+Shopping
+"Tancredo Neves"
+Aeroporto
+"Porta Larga"
+"Monte dos Guararapes"
+Prazeres
+"Cajueiro Seco"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Trem Diesel, towards Curado"
+FORWARDEND
+BACKWARD
+"Trem Diesel, towards Cabo"
+BACKWARDEND
+STATIONS
+Curado
+"Jorge Lins"
+"Marcos Freire"
+"Cajueiro Seco"
+"Ângelo de Souza"
+Pontezinha
+"Ponte dos Carvalhos"
+"Santo Inácio"
+Cabo
+STATIONSEND
+SEGMENTEND
+

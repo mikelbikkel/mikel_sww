@@ -1,0 +1,246 @@
+# City
+CITY
+CITYNAME
+Miami
+CITYNAME_END
+CITYCODE
+MIA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# ======================================
+# Green Line
+# ======================================
+SEGMENT
+FORWARD
+"Green Line, towards Dadeland South"
+FORWARDEND
+BACKWARD
+"Green Line, towards Palmetto"
+BACKWARDEND
+STATIONS
+"Palmetto"
+"Okeechobee" 
+"Hialeah"
+"Tri-Rail" 
+"Northside" 
+"Dr. Martin Luther King Jr. Plaza"
+"Brownsville" 
+"Earlington Heights"
+"Allapattah"
+"Santa Clara"  
+"Civic Center"
+"Culmer" 
+"Historic Overtown/Lyric Theatre" 
+"Government Center"
+"Brickell"
+"Vizcaya"
+"Coconut Grove"
+"Douglas Road"
+"University"
+"South Miami"
+"Dadeland North"
+"Dadeland South"
+STATIONSEND
+SEGMENTEND
+
+
+# ======================================
+# Orange Line
+# ======================================
+SEGMENT
+FORWARD
+"Orange Line, towards Dadeland South"
+FORWARDEND
+BACKWARD
+"Orange Line, towards Miami International Airport / Central Station"
+BACKWARDEND
+STATIONS
+"Miami International Airport / Central Station" 
+"Earlington Heights"
+"Allapattah"
+"Santa Clara"  
+"Civic Center"
+"Culmer" 
+"Historic Overtown/Lyric Theatre" 
+"Government Center"
+"Brickell"
+"Vizcaya"
+"Coconut Grove"
+"Douglas Road"
+"University"
+"South Miami"
+"Dadeland North"
+"Dadeland South"
+STATIONSEND
+SEGMENTEND
+
+
+# ======================================
+# MIA Mover
+# ======================================
+SEGMENT
+FORWARD
+"MIA Mover, towards MIC Station"
+FORWARDEND
+BACKWARD
+"MIA Mover, towards MIA Station"
+BACKWARDEND
+STATIONS
+"MIA Station (MIA Mover)" 
+"MIC Station (MIA Mover)"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+# ===========================================
+# Omni Loop
+# ==========================================
+SEGMENT
+FORWARD
+"Omni Loop, towards College North"
+FORWARDEND
+STATIONS
+"School Board" 
+"Adrienne Arsht Center"
+"Eleventh Street"
+"Park West"
+"Freedom Tower"
+"College North"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Omni Loop, towards School Board"
+FORWARDEND
+STATIONS
+"College North"
+"Wilkie D.Ferguson, Jr."
+"Government Center"
+"Third Street"
+"Knight Center"
+"Bayfront Park"
+"First Street"
+"College/Bayside"
+"Freedom Tower"
+"Park West"
+"Eleventh Street"
+"Adrienne Arsht Center"
+"School Board"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     TRANSFORM 
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"College North"
+TRANSFORM_POINT_END
+BEFORE
+"Omni Loop, towards College North"
+BEFORE_END
+AFTER
+"Omni Loop, towards School Board"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# ===================================================
+# Downtown Loop
+# ================================================
+SEGMENT
+FORWARD
+"Downtown Loop, Inner Loop"
+FORWARDEND
+STATIONS
+"College North"
+"Wilkie D.Ferguson, Jr."
+"Government Center"
+"Miami Avenue"
+"Knight Center"
+"Bayfront Park"
+"First Street"
+"College/Bayside"
+"College North"
+STATIONSEND
+SEGMENTEND
+
+
+# ====================================================
+# Brickell Loop
+# ===================================================
+SEGMENT
+FORWARD
+"Brickell Loop, towards Knight Center"
+FORWARDEND
+STATIONS
+"Financial District"
+"Brickell"
+"Tenth Street/Promenade"
+"Eighth Street"
+"Fifth Street"
+"Riverwalk"
+"Knight Center"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Brickell Loop, towards Financial District"
+FORWARDEND
+STATIONS
+"Knight Center"
+"Bayfront Park"
+"First Street"
+"College/Bayside"
+"College North"
+"Wilkie D.Ferguson, Jr."
+"Government Center"
+"Third Street"
+"Riverwalk"
+"Fifth Street"
+"Eighth Street"
+"Tenth Street/Promenade"
+"Brickell"
+"Financial District"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     TRANSFORM 
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Knight Center"
+TRANSFORM_POINT_END
+BEFORE
+"Brickell Loop, towards Knight Center"
+BEFORE_END
+AFTER
+"Brickell Loop, towards Financial District"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# =============================================================
+#     MNNS
+# =============================================================
+
+MULTI_NAMED_NODE
+"MIC Station (MIA Mover)"
+"Miami International Airport / Central Station"
+MULTI_NAMED_NODE_END
+
+

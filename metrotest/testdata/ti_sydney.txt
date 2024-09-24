@@ -1,0 +1,57 @@
+# Mono rail
+# Light rail
+# City rail
+#
+CITY
+CITYNAME
+Sydney
+CITYNAME_END
+CITYCODE
+SYD
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Mono rail, clockwise"
+FORWARDEND
+STATIONS
+"Harbourside"
+"Convention"
+"Paddy\'s Markets"
+"Chinatown"
+"World Square"
+"Galeries Victoria"
+"City Centre"
+"Darling Park"
+"Harbourside"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Light rail, towards Lilyfield"
+FORWARDEND
+BACKWARD
+"Light rail, towards Central Station"
+BACKWARDEND
+STATIONS
+"Central Station"
+"Capitol Square"
+"Paddy\'s Markets"
+"Exhibition Centre"
+"Convention"
+"Pyrmont Bay"
+"Star City"
+"John St Square"
+"Fish Market"
+"Wentworth Park"
+"Glebe"
+"Jubilee Park"
+"Rozelle Bay"
+"Lilyfield"
+STATIONSEND
+SEGMENTEND

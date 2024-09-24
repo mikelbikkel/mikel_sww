@@ -1,0 +1,76 @@
+# Metropalermo
+# http://de.wikipedia.org/wiki/Servizio_ferroviario_metropolitano_di_Palermo
+
+CITY
+CITYNAME
+Palermo
+CITYNAME_END
+CITYCODE
+PAL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Linea A, towards Punta Raisi"
+FORWARDEND
+BACKWARD
+"Linea A, towards Palermo Centrale"
+BACKWARDEND
+STATIONS
+"Palermo Centrale"
+"Vespri"
+"Palazzo Reale-Orleans"
+"Palermo Notarbartolo"
+"Francia"
+"San Lorenzo Colli"
+"Cardillo-Zen"
+"Tommaso Natale"
+"Isola delle Femmine"
+"Capaci"
+"Carini Torre Ciachea"
+"Carini"
+"Piraineto"
+"Punta Raisi"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea B, towards Giachery"
+FORWARDEND
+BACKWARD
+"Linea B, towards Palermo Notarbartolo"
+BACKWARDEND
+STATIONS
+"Palermo Notarbartolo"
+"Imperatore Federico"
+"Fiera"
+"Giachery"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea C, towards Termini Imerese"
+FORWARDEND
+BACKWARD
+"Linea C, towards Palermo Centrale"
+BACKWARDEND
+STATIONS
+"Palermo Centrale"
+"Palermo Brancaccio"
+"Ficarazzi"
+"Bagheria"
+"Santa Flavia-Solunto-Porticello"
+"Casteldaccia"
+"Altavilla Milicia"
+"San Nicola Tonnara"
+"Trabia"
+"Termini Imerese"
+STATIONSEND
+SEGMENTEND
+

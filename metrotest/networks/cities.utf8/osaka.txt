@@ -1,0 +1,522 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Osaka_Municipal_Subway#cite_note-11
+
+# City
+CITY
+CITYNAME
+OSAKA
+CITYNAME_END
+CITYCODE
+OSA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#          Kitakyu Namboku Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1a, towards Esaka"
+FORWARDEND
+BACKWARD
+"Line 1a, towards Senri-Chūō"
+BACKWARDEND
+STATIONS
+"Senri-Chūō (M8)" 	
+"Momoyama-dai (M9)"
+"Ryokuchi-kōen (M10)"
+"Esaka (M11)"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line No.1
+#     Midōsuji Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Nakamozu"
+FORWARDEND
+BACKWARD
+"Line 1, towards Esaka"
+BACKWARDEND
+STATIONS
+"Esaka / M11"
+"Higashi-Mikuni M12"
+"Shin-Ōsaka / M13"
+"Nishinakajima - Minamigata / M14"
+"Nakatsu / M15"
+"Umeda / M16"
+"Yodoyabashi / M17"
+"Hommachi / M18"
+"Shinsaibashi / M19"
+"Namba / M20"
+"Daikokuchō / M21"
+"Dōbutsuen-mae / M22"
+"Tennōji / M23"
+"Shōwachō / M24"
+"Nishitanabe / M25"
+"Nagai / M26"
+"Abiko / M27"
+"Kitahanada / M28"
+"Shinkanaoka / M29"
+"Nakamozu / M30"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#	Line No. 2
+#	Tanimachi Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 2, towards Yaominami"
+FORWARDEND
+BACKWARD
+"Line No. 2, towards Dainichi"
+BACKWARDEND
+STATIONS
+"Dainichi / T11"
+"Moriguchi / T12"
+"Taishibashi-Imaichi / T13"
+"Sembayashi-Omiya / T14"
+"Sekime-Takadono / T15"
+"Noe-Uchindai / T16"
+"Miyakojima / T17"
+"Tenjimbashisuji Rokuchōme / T18"
+"Nakazakichō / T19"
+"Higashi-Umeda / T20"
+"Minami-morimachi / T21"
+"Temmabashi / T22"
+"Tanimachi Yonchōme / T23"
+"Tanimachi Rokuchōme / T24"
+"Tanimachi Kyūchōme / T25"
+"Shitennōji-mae Yūhigaoka / T26"
+"Tennōji / T27"
+"Abeno / T28"
+"Fuminosato / T29"
+"Tanabe / T30"
+"Komagawa-Nakano / T31"
+"Hirano / T32"
+"Kire-Uriwari / T33"
+"Deto / T34"
+"Nagahara / T35"
+"Yaominami / T36"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#   Line No. 3 
+#   Yotsubashi Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 3, towards Suminoekōen"
+FORWARDEND
+BACKWARD
+"Line No. 3, towards Nishi-Umeda"
+BACKWARDEND
+STATIONS
+"Nishi-Umeda / Y11"
+"Higobashi / Y12"
+"Hommachi / Y13"
+"Yotsubashi / Y14"
+"Namba / Y15"
+"Daikokuchō / Y16"
+"Hanazonochō / Y17"
+"Kishinosato / Y18"
+"Tamade / Y19"
+"Kitakagaya / Y20"
+"Suminoekōen / Y21"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Line No. 4 
+#    Chūō Line (Yumehanna)
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 4, towards Nagata"
+FORWARDEND
+BACKWARD
+"Line No. 4, towards Cosmosquare"
+BACKWARDEND
+STATIONS
+"Cosmosquare / C10"
+"Ōsakakō / C11"
+"Asashiobashi / C12"
+"Bentenchō / C13"
+"Kujō / C14"
+"Awaza / C15"
+"Hommachi / C16"
+"Sakaisuji-Hommachi / C17"
+"Tanimachi Yonchōme / C18"
+"Morinomiya / C19"
+"Midoribashi / C20"
+"Fukaebashi / C21"
+"Takaida / C22"
+"Nagata / C23"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#   Line No. 5 
+#   Sennichimae Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 5, towards Minami-Tatsumi"
+FORWARDEND
+BACKWARD
+"Line No. 5, towards Nodahanshin"
+BACKWARDEND
+STATIONS
+"Nodahanshin / S11"
+"Tamagawa / S12"
+"Awaza / S13"
+"Nishi-Nagahori / S14"
+"Sakuragawa / S15"
+"Namba / S16"
+"Nippombashi / S17"
+"Tanimachi Kyūchōme / S18"
+"Tsuruhashi / S19"
+"Imazato / S20"
+"Shin-Fukae / S21"
+"Shōji Osaka / S22"  # Not to be confused with Shōji on the Monorail!
+"Kita-Tatsumi / S23"
+"Minami-Tatsumi / S24"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line No. 6
+#     Sakaisuji Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 6, towards Tengachaya"
+FORWARDEND
+BACKWARD
+"Line No. 6, towards Tenjimbashisuji Rokuchōme"
+BACKWARDEND
+STATIONS
+"Tenjimbashisuji Rokuchōme / K11"
+"Ōgimachi / K12"
+"Minami-morimachi / K13"
+"Kitahama / K14"
+"Sakaisuji-Hommachi / K15"
+"Nagahoribashi / K16"
+"Nippombashi / K17"
+"Ebisuchō / K18"
+"Dōbutsuen-mae / K19"
+"Tengachaya / K20"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line No. 7
+#     Nagahori Tsurumi-ryokuchi Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 7, towards Kadoma-minami"
+FORWARDEND
+BACKWARD
+"Lijn_naam, towards Taishō"
+BACKWARDEND
+STATIONS
+"Taishō / N11"
+"Dome-mae Chiyozaki / N12"
+"Nishi-Nagahori / N13"
+"Nishiōhashi / N14"
+"Shinsaibashi / N15"
+"Nagahoribashi / N16"
+"Matsuyamachi / N17"
+"Tanimachi Rokuchōme / N18"
+"Tamatsukuri / N19"
+"Morinomiya / N20"
+"Osaka Business Park / N21"
+"Kyōbashi / N22"
+"Gamō Yonchōme / N23"
+"Imafuku-Tsurumi / N24"
+"Yokozutsumi / N25"
+"Tsurumi-ryokuchi / N26"
+"Kadoma-minami / N27"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line No. 8
+#     Imazatosuji Line
+# =============================================================
+SEGMENT
+FORWARD
+"Line No. 8, towards Imazato"
+FORWARDEND
+BACKWARD
+"Line No. 8, towards Itakano"
+BACKWARDEND
+STATIONS
+"Itakano / I11"
+"Zuikō Yonchōme / I12"
+"Daidō-Toyosato / I13"
+"Taishibashi-Imaichi / I14"
+"Shimizu / I15"
+"Shimmori-Furuichi / I16"
+"Sekime-Seiiku / I17"
+"Gamō Yonchōme / I18"
+"Shigino / I19"
+"Midoribashi / I20"
+"Imazato / I21"
+STATIONSEND
+SEGMENTEND
+
+
+
+# -------------------------------------------------------------------------------------------------------------
+
+
+# =============================================================
+#   Nankō Port Town Line
+# =============================================================
+SEGMENT
+FORWARD
+"Nankō Port Town Line, towards Suminoekōen"
+FORWARDEND
+BACKWARD
+"Nankō Port Town Line, towards Cosmosquare"
+BACKWARDEND
+STATIONS
+"Cosmosquare / P09"
+"Trade Center-mae / P10"
+"Nakafutō / P11"
+"Port Town-nishi / P12"
+"Port Town-higashi / P13"
+"Ferry Terminal / P14"
+"Nankō-higashi / P15"
+"Nankōguchi / P16"
+"Hirabayashi / P17"
+"Suminoekōen / P18"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Osaka Loop Line
+# =============================================================
+SEGMENT
+FORWARD
+"Osaka Loop Line, counterclockwise"
+FORWARDEND
+BACKWARD
+"Osaka Loop Line, clockwise"
+BACKWARDEND
+STATIONS
+"Ōsaka"
+"Fukushima"
+"Noda"
+"Nishikujō"
+"Bentenchō"
+"Taishō"
+"Ashiharabashi"
+"Imamiya"
+"Shin-Imamiya"
+"Tennōji"
+"Teradachō"
+"Momodani"
+"Tsuruhashi"
+"Tamatsukuri"
+"Morinomiya"
+"Osakajō-kōen"
+"Kyōbashi"
+"Sakuranomiya"
+"Temma"
+"Ōsaka"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Osaka Monorail Main Line
+# =============================================================
+SEGMENT
+FORWARD
+"Monorail, towards Kadoma-shi Station"
+FORWARDEND
+BACKWARD
+"Monorail, towards Osaka Airport Station"
+BACKWARDEND
+STATIONS
+"Osaka Airport / 11"
+"Hotarugaike / 12"
+"Shibahara / 13"
+"Shōji / 14"
+"Senri-Chūō / 15"
+"Yamada / 16"
+"Bampaku-kinen-kōen / 17"
+"Unobe / 18"
+"Minami Ibaraki / 19"
+"Sawaragi / 20"
+"Settsu / 21"
+"Minami Settsu / 22"
+"Dainichi / 23"
+"Kadoma-shi / 24"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Osaka monorail Saito Line
+# =============================================================
+SEGMENT
+FORWARD
+"Saito Line, towards Saito-nishi Station"
+FORWARDEND
+BACKWARD
+"Saito Line, towards Bampaku-kinen-kōen"
+BACKWARDEND
+STATIONS
+"Bampaku-kinen-kōen / 17"
+"Koen-higashiguchi / 51"
+"Handai-byoin-mae / 52"
+"Toyokawa / 53"
+"Saito-nishi / 54"
+STATIONSEND
+SEGMENTEND
+
+
+
+MULTI_NAMED_NODE
+"Tenjimbashisuji Rokuchōme / T18"
+"Tenjimbashisuji Rokuchōme / K11"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Minami-morimachi / T21"
+"Minami-morimachi / K13"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Sakaisuji-Hommachi / C17"
+"Sakaisuji-Hommachi / K15"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Nagahoribashi / K16"
+"Nagahoribashi / N16"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Nippombashi / S17"
+"Nippombashi / K17"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Dōbutsuen-mae / M22"
+"Dōbutsuen-mae / K19"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Daikokuchō / M21"
+"Daikokuchō / Y16"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Namba / M20"
+"Namba / S16"
+"Namba / Y15"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Shinsaibashi / N15"
+"Shinsaibashi / M19"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Hommachi / C16"
+"Hommachi / M18"
+"Hommachi / Y13"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Awaza / C15"
+"Awaza / S13"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Nishi-Nagahori / S14"
+"Nishi-Nagahori / N13"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Cosmosquare / C10"
+"Cosmosquare / P09"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Tennōji / M23"
+"Tennōji / T27"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Tanimachi Kyūchōme / T25"
+"Tanimachi Kyūchōme / S18"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Tanimachi Rokuchōme / T24"
+"Tanimachi Rokuchōme / N18"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Tanimachi Yonchōme / T23"
+"Tanimachi Yonchōme / C18"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Morinomiya / C19"
+"Morinomiya / N20"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Imazato / S20"
+"Imazato / I21"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Morinomiya / C19"
+"Morinomiya / N20"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Midoribashi / C20"
+"Midoribashi / I20"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Gamō Yonchōme / N23"
+"Gamō Yonchōme / I18 "
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Taishibashi-Imaichi / T13"
+"Taishibashi-Imaichi / I14"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Suminoekōen / Y21"
+"Suminoekōen / P18"
+MULTI_NAMED_NODE_END
+

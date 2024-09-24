@@ -1,0 +1,99 @@
+CITY
+CITYNAME
+Seattle
+CITYNAME_END
+CITYCODE
+SEA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Light Rail, towards SeaTac - Airport"
+FORWARDEND
+BACKWARD
+"Light Rail, towards Westlake"
+BACKWARDEND
+STATIONS
+"Westlake"
+"University Street"
+"Pioneer Square"
+"International District - Chinatown"
+"Stadium"
+"SODO"
+"Beacon Hill"
+"Mount Baker"
+"Columbia City"
+"Othello"
+"Rainier Beach"
+"Tukwila International Blvd"
+"SeaTac - Airport"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Monorail, towards Seattle Centre"
+FORWARDEND
+BACKWARD
+"Monorail, towards Westlake Centre Mall"
+BACKWARDEND
+STATIONS
+"Westlake Centre Mall"
+"Seattle Centre"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"South lake union streetcar, towards Fairview Campus Drive"
+FORWARDEND
+STATIONS
+"Westlake Hub"
+"Westlake 7th"
+"Westlake Denny"
+"Terry Thomas"
+"Terry Mercer"
+"Lake Union Park"
+"Fairview Campus Drive"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"South lake union streetcar, towards Westlake Hub"
+FORWARDEND
+STATIONS
+"Fairview Campus Drive"
+"Lake Union Park"
+"Westlake Mercer"
+"Westlake Thomas"
+"Westlake Denny"
+"Westlake 9th"
+"Westlake 7th"
+"Westlake Hub"
+STATIONSEND
+SEGMENTEND
+
+MULTI_NAMED_NODE
+"Westlake"
+"Westlake Hub"
+"Westlake Centre Mall"
+MULTI_NAMED_NODE_END
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Fairview Campus Drive"
+TRANSFORM_POINT_END
+BEFORE
+"South lake union streetcar, towards Fairview Campus Drive"
+BEFORE_END
+AFTER
+"South lake union streetcar, towards Westlake Hub"
+AFTER_END
+METRO_TRANSFORM_END
+
+

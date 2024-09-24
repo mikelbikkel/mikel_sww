@@ -1,0 +1,52 @@
+# Data extracted from http://en.wikipedia.org/wiki/Turin_Metro
+
+# City
+CITY
+CITYNAME
+Turin	
+CITYNAME_END
+CITYCODE
+TUR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Fermi"
+FORWARDEND
+BACKWARD
+"Line 1, towards Lingotto"
+BACKWARDEND
+STATIONS
+"Fermi" 
+"Paradiso" 
+"Marche" 
+"Massaua"
+"Pozzo Strada"
+"Monte Grappa"
+"Rivoli" 
+"Racconigi"
+"Bernini"
+"Principi d\'Acaja"
+"XVIII Dicembre"
+"Porta Susa" 
+"Vinzaglio"
+"Re Umberto"
+"Porta Nuova"
+"Marconi"
+"Nizza"
+"Dante"
+"Carducci-Molinette"
+"Spezia" 
+"Lingotto" 
+STATIONSEND
+SEGMENTEND
+
+
+

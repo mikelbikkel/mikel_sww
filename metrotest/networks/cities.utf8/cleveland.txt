@@ -1,0 +1,245 @@
+CITY
+CITYNAME
+Cleveland
+CITYNAME_END
+CITYCODE
+CLV
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =================================================================================
+SEGMENT
+FORWARD
+"Red line, towards louis Stokes / Windermere"
+FORWARDEND
+BACKWARD
+"Red line, towards Cleveland Hopkins International Airport"
+BACKWARDEND
+STATIONS
+"Cleveland Hopkins International Airport"
+"Brookpark"
+"Puritas"
+"West Park"
+"Triskett"
+"West 117th Madison"
+"West Blvd. Cudell"
+"West 65th Lorain"
+"West 25th Ohio City"
+"Tower City"
+"East 34th Campus"
+"East 55th"
+"East 79th (red line)"
+"East 105th Quincy"
+"University Circle"
+"Euclid East 120th"
+"Superior"
+"Louis Stokes / Windermere"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Red line, towards Tower City"
+FORWARDEND
+BACKWARD
+"Red line, towards Cleveland Hopkins International Airport"
+BACKWARDEND
+STATIONS
+"Cleveland Hopkins International Airport"
+"Brookpark"
+"Puritas"
+"West Park"
+"Triskett"
+"West 117th Madison"
+"West Blvd. Cudell"
+"West 65th Lorain"
+"West 25th Ohio City"
+"Tower City"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Red line, towards East 34th Campus"
+FORWARDEND
+BACKWARD
+"Red line, towards Cleveland Hopkins International Airport"
+BACKWARDEND
+STATIONS
+"Cleveland Hopkins International Airport"
+"Brookpark"
+"Puritas"
+"West Park"
+"Triskett"
+"West 117th Madison"
+"West Blvd. Cudell"
+"West 65th Lorain"
+"West 25th Ohio City"
+"Tower City"
+"East 34th Campus"
+STATIONSEND
+SEGMENTEND
+
+
+# =================================================================================
+SEGMENT
+FORWARD
+"Blue line, towards Warrensville"
+FORWARDEND
+BACKWARD
+"Blue line, towards Tower City"
+BACKWARDEND
+STATIONS
+"Tower City"
+"East 34th Campus"
+"East 55th"
+"East 79th"
+"Woodhill"
+"East 116th"
+"Shaker Square"
+"Drexmore"
+"South Woodland"
+"Southington / Van Aken"
+"Onaway"
+"Ashby"
+"Lee / Van Aken"
+"Avalon"
+"Kenmore"
+"Lynnfield"
+"Farnsleigh"
+"Warrensville / Van Aken"
+STATIONSEND
+SEGMENTEND
+
+# =================================================================================
+LINE
+LINE_NAME
+"Blue line (Waterfront)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Only weekends daytime. Service every 30 minutes."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Blue line (Waterfront), towards Warrensville"
+FORWARDEND
+BACKWARD
+"Blue line (Waterfront), towards South Harbor"
+BACKWARDEND
+STATIONS
+"South Harbor"
+"North Coast"
+"Amtrak"
+"West 3rd"
+"Flats East Bank"
+"Settlers Landing"
+"Tower City"
+"East 34th Campus"
+"East 55th"
+"East 79th"
+"Woodhill"
+"East 116th"
+"Shaker Square"
+"Drexmore"
+"South Woodland"
+"Southington / Van Aken"
+"Onaway"
+"Ashby"
+"Lee / Van Aken"
+"Avalon"
+"Kenmore"
+"Lynnfield"
+"Farnsleigh"
+"Warrensville / Van Aken"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =================================================================================
+SEGMENT
+FORWARD
+"Green line, towards Green"
+FORWARDEND
+BACKWARD
+"Green line, towards Tower City"
+BACKWARDEND
+STATIONS
+"Tower City"
+"East 34th Campus"
+"East 55th"
+"East 79th"
+"Woodhill"
+"East 116th"
+"Shaker Square"
+"Coventry"
+"Southington / Shaker"
+"South Park"
+"Lee / Shaker"
+"Attleboro"
+"Eaton"
+"Courtland"
+"Warrensville / Shaker"
+"Belvoir"
+"West Green"
+"Green"
+STATIONSEND
+SEGMENTEND
+
+# =================================================================================
+LINE
+LINE_NAME
+"Green line (Waterfront)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Only weekends daytime. Service every 30 minutes."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Green line (Waterfront), towards Green"
+FORWARDEND
+BACKWARD
+"Green line (Waterfront), towards South Harbor"
+BACKWARDEND
+STATIONS
+"South Harbor"
+"North Coast"
+"Amtrak"
+"West 3rd"
+"Flats East Bank"
+"Settlers Landing"
+"Tower City"
+"East 34th Campus"
+"East 55th"
+"East 79th"
+"Woodhill"
+"East 116th"
+"Shaker Square"
+"Coventry"
+"Southington / Shaker"
+"South Park"
+"Lee / Shaker"
+"Attleboro"
+"Eaton"
+"Courtland"
+"Warrensville / Shaker"
+"Belvoir"
+"West Green"
+"Green"
+STATIONSEND
+SEGMENTEND
+

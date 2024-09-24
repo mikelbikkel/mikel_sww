@@ -1,0 +1,232 @@
+3.9 [301: 18-04-2017
++ refactor possible usage of null pointers.
+
+3.8 [3012]: 04-11-2015
++ change to maven build system.
++ change db config file to use maven properties.
+
+3.8 [3012]: 15-09-2013
++ findStation: return both display and network stations.
++ update documentation for IRouteService.
+- unit test cases for display/network stations.
+
+3.8 [3011]: 27-01-2013
++ remove duplicates from getStationDepartures.
+
+3.8 [3010]: 13-01-2013 - 16-01-2013
++ add IRouteService.getStationDepartures.
+
+3.8 [3009]: 04-01-2012
++ remove desc from Direction.
++ refactor creation of SegmentDirection.
+
+3.8: 04-01-2012
++ remove desc from SegmentDirection.
++ refactor and consolidate implementation of direction overrides.
++ refactor logic for WalkDirection.
+
+3.7: 27-12-2012
++ TestRouteTransform: use complex names in Oslo.
++ MetroInfo: add postOverrideDirections.
++ DirectionOverride: new class.
++ CalculationGateway: add getDirectionOverrides.
++ metroInfo: add m_dirOverrides.
++ RouteCalculation.getMetroInfo: get overrides. 
+
+3.6: 27-12-2012
++ Add debug print to Dijkstra.
++ new transform testcase: testOsloTransform_Storo.
+
+3.5: 12-12-2012
++ Add IRouteService.getFilteredLocations.
+
+3.4 12-11-2012
++ add GetCountries() to IRouteService.
+
+3.3 02-11-2012
++ Handle landmark_stations that refer to no-longer-existing stations.
+
+3.2 14-09-2012
+Get landmarks for city.
++ New function IRouteService: getLandmarksInCity.
+
+3.1 28-07-2012
+NewCastle complex.
+- MetroInfo, add methods:
+  - findNodesForComplex
+  - findNodesForLocation
+  - isSameComplex
+  - getComplexStation
+  - removeComplexMNNWalks
+- MetroInfo, refactor from shortestPath:
+  - findRoute(ILocation, ILocation, EnumSet<ServiceType>, RouteResult)
+- MetroInfo.shortestPath
+  - calculate multiple paths to handle complexes as start or endpoint.
+- MetroInfo: new member: m_complexMap
+- CalculationGateway: add getComplexInfo
+- RouteCalculation.getMetroInfo: add call to m_storage.getComplexInfo to load m_complexMap.
+- new unit test: TestRouteComplex. (requires NewCastle network info in database).
+
+3.1: 28-07-2012
+NewCastle complex.
+Get station_type from database.
+- remove ctors without station_type from station.
+- CalculationGaetway, SelectioGateway:
+  - include station_type in queries.
+  - call station ctors with station_type.
+
+3.1: 27-07-2012
+Newcastle complex.
+Database changes:
+[sww_mysql_views.sql]
+- rs_network_station:
+  - add station_type
+- rs_display_station
+  - add station_type
+  - add: where station_type in regular, complex
+- rs_station_eel:
+  - add station_type
+- rs_locations:
+  - add station_type to 3 select statements.
+- rs_location_eel:
+  - add station_type to 2 select statements.
+- rs_mnn_nodes:
+  - add station_type
+[sww_mysql_procedures.sql]
+- gen_station_eel_one
+  - only eel's for display stations (regular, complex)
+  - Use _X__X_ as splitter for complex suffix
+    Only words before the splitter are used for eel's
+  
+3.1: 23-07-2012
+Newcastle complex.
++ Station: add station_type (regular, network, complex).
+- CalculationGateway:
+  - getStationNodes: get station_type from view rs_network_station
+- SelectionGateway:
+  - createStation: new station ctor
+    findStation - rs_display_station
+    XXX getStations - rs_station_eel
+    getStationsWithGPSInfo  - rs_display_station
+  - createLocation: new station ctor
+    getLocation - rs_locations
+    getLocationsWithEEL - rs_location_eel
+    testGetLocations - rs_locations
+
+2.14: 05-07-2012
++ remove debugging code from RouteSelection.getContinents
+
+2.14: 04-07-2012
++ add retry to RouteService methods for RSConnectionExceptions.
+
+2.13: 02-07-2012
++ log all SQLExceptions at ERROR level.
++ getContinents: return dummy continent with sql error info in case of SQLException.
+
+2.13: 01-07-2012
++ update unit tests.
+
+2.13: 30-06-2012
++ add function getEELsForLocations.
++ add function getLocationsWithEEL.
+
+2.12: 28-05-2012
++ fix bug in GPSInfo.getDistance.
++ test function to get all station and landmark locations.
++ unit test to calculate all distances.
+
+2.11: 08-05-2012
++ rename ILocation.hasGPSInfo to getHasGPSInfo (to support Stripes properties).
+
+2.10: 02-05-2012
++ refactor city selection functions.
+
+2.9: 01-05-2012
++ ILocation.hasGPSInfo. new method.
+
+2.8: 26-04-2012
++ localnames for ILocation classes: City, Station, Landmark
+
+2.7: 24-04-2012:
++ getNewMessages: sort, most recent first.
++ junit test for getNewMessages: extend check to cover all attributes.
+
+2.6: 22-04-2012
++ add getNewMessages method.
+
+2.5: 22-04-2012
++ add getLocation method.
+
+2.4: 22-04-2012
++ IPublishInfo - replace isNew and isUpdated with getStatus.
+
+2.3: 09-04-2012
++ implement toString for PublishMessage.MsgType
+
+2.3: 07-04-2012 - 08-04-2012
++ refactor SelectionGateway to remove duplicated functionality.
++ clean up views
+
+2.2: 07-04-2012
++ fix bug in SelectionGateway.getContinents (caused by 2.1 changes)
++ fix bug in SelectionGateway.getCities (caused by 2.1 changes)
++ extend unit test cases for city and continent to check data values (city name, ...)
+
+2.1: 04-04-2012 - 06-04-2012
++ new views rs_city_publish, rs_continent_publish
++ change city and continent selections to use new views and populate publish info.
+
+2.0: 28-03-2012
++ interface IPublishInfo:
+  + mock implementation.
+  + add to City and Continent
+
+1.10: 03-mar-2012
++ new signature IRouteservice.getNearestStation
++ new implementation RouteService.getNearestStation
+
+1.9: 15-01-2012
++ Fix routeservice to detect when first 3 characters of station name
+  is not a valid city code.
+
+1.8: 28-11-2011
++ Add localname to ILocation. Get local name from database for stations.
+
+1.7: 29-10-2011
++ Add external jars to project 
+  (no more dependencies on jars outside the project directory).
+
+1.7: 03-10-2011 - 05-10-2011
++ fix bug to determine correct direct lines for landmarks.
++ add distance to RouteSegment.
+
+1.6: 10-09-2011
+[Bugs found in Miami, on transformation points]
++ fix bug in calculating transfer cost for transformations on directly 
+  connected lines.
++ fix bug in calculating sp directions for edge in case of directly connected lines.
++ fix bug in calculating sp directions for edge in case of transformations.
+
+1.5: 17-12-2010
++ fix bug in segment split logic.
+  Wrong assuption: tussenstation can only split 1 segment.
+
+1.4: 14-12-2010
++ remove servicetype attribute at segment level.
+
+1.3: 09-12-2010 - 12-12-2010
++ add view rs_direction.
++ add line and endpoint attributes to Direction and SegmentDirection.
++ CalculationGateway.getLineDirections to retrieve lines and endpoints.
++ testcase 900: new syntax.
++ SelectionGateway.getServiceTypes: use rs_direction.
+
+1.2: 04-12-2010 - 06-12-2010
++ add lines to database create script.
++ fix testcases: new name Rotterdam Centraal.
+
+1.1: 26-11-2010 - 27-11-2010
++ add view rs_mnn_nodes.
++ add view rs_mnn_segments.
++ remove walk direction filter from views.
++ add mnn segments to network inside routeservice.

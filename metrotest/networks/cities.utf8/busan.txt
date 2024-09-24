@@ -1,0 +1,194 @@
+CITY
+CITYNAME
+Busan
+CITYNAME_END
+CITYCODE
+BUS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1, towards Nopo"
+FORWARDEND
+BACKWARD
+"Line 1, towards Sinpyeong"
+BACKWARDEND
+STATIONS
+"Sinpyeong"
+"Hadan"
+"Dangni"
+"Saha"
+"Goejeong"
+"Daeti"
+"Seodaesin"
+"Dongdaesin"
+"Toseong"
+"Jagalchi"
+"Nampo"
+"Jungang"
+"Busan"
+"Choryang"
+"Busanjin"
+"Jwacheon"
+"Beomil"
+"Beomnaegol"
+"Seomyeon"
+"Bujeon"
+"Yangjeong"
+"City Hall"
+"Yeonsan"
+"Busan National. Univ. of Education"
+"Dongnae"
+"Myeongnyun"
+"Oncheonjang"
+"Pusan National Univ."
+"Jangjeon"
+"Guseo"
+"Dusil"
+"Namsan"
+"Beomeosa"
+"Nopo"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2, towards Yangsan"
+FORWARDEND
+BACKWARD
+"Line 2, towards Jangsan"
+BACKWARDEND
+STATIONS
+"Jangsan"
+"Jung-dong"
+"Haeundae"
+"Dongbaek"
+"Busan Museum of Art"
+"Centum City"
+"Millak"
+"Suyeong"
+"Gwangan"
+"Geumnyeonsan"
+"Namcheon"
+"Kyunsung Univ. Pukyong National Univ."
+"Daeyeon"
+"Motgol"
+"Jigegol"
+"Munhyeon"
+"Munjeon"
+"Jeonpo"
+"Seomyeon"
+"Buam"
+"Gaya"
+"Dong-eui Univ."
+"Gaegeum"
+"Naengjeong"
+"Jurye"
+"Gamjeon"
+"Sasang"
+"Deokpo"
+"Modeok"
+"Mora"
+"Gunam"
+"Gumyeong"
+"Deokcheon"
+"Sujeong"
+"Hwamyeong"
+"Yulli"
+"Dongwon"
+"Geumgok"
+"Hopo"
+"Pusan National Univ. Yangsan Campus"
+"Namyangsan"
+"Yangsan"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3, towards Daejeo"
+FORWARDEND
+BACKWARD
+"Line 3, towards Suyeong"
+BACKWARDEND
+STATIONS
+"Suyeong"
+"Mangmi"
+"Baesan"
+"Mulmangol"
+"Yeonsan"
+"Geoje"
+"Sports Complex"
+"Sajik"
+"Minam"
+"Mandeok"
+"Namsanjeong"
+"Sukdeung"
+"Deokcheon"
+"Gupo"
+"Gangseo-gu Office"
+"Sports Park"
+"Daejeo"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 4, towards Anpyeong"
+FORWARDEND
+BACKWARD
+"Line 4, towards Minam"
+BACKWARDEND
+STATIONS
+"Minam"
+"Dongnae"
+"Suan"
+"Nakmin"
+"Chungnyeolsa"
+"Myeongjang"
+"Seodong"
+"Geumsa"
+"Banyeo Agricultural Market"
+"Seokdae"
+"Youngsan Univ."
+"Dong-Busan College"
+"Gochon"
+"Anpyeong"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Busan Gimhae Light rail, towards Sasang"
+FORWARDEND
+BACKWARD
+"Busan Gimhae Light rail, towards Kaya University"
+BACKWARDEND
+STATIONS
+"Sasang"
+"Gwaebeop Renecite"
+"Seobusan Yutongjigu"
+"Gimhae International Airport"
+"Deokdu"
+"Deunggu"
+"Daejeo"
+"Pyeonggang"
+"Daesa"
+"Buram"
+"Jinae"
+"Gimhae College"
+"Inje University"
+"Gimhae City Hall"
+"Buwon"
+"Bonghwang"
+"Royal Tomb of King Suro"
+"Gimhae National Museum"
+"Yeonji Park"
+"Presbyterian University"
+"Kaya University"
+STATIONSEND
+SEGMENTEND

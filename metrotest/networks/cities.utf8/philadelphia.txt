@@ -1,0 +1,500 @@
+CITY
+CITYNAME
+"Philadelphia"
+CITYNAME_END
+CITYCODE
+PHI
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# --------------------------------------------------------------------------
+#  Blue Line
+# --------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Market Frankford (blue line), towards Frankford Transportation Center"
+FORWARDEND
+BACKWARD
+"Market Frankford (blue line), towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Millbourne"
+"63rd Street"
+"60th Street"
+"56th Street"
+"52nd Street"
+"46th Street"
+"40th Street"
+"34th Street"
+"30th Street"
+"15th Street"
+"13th Street"
+"11th Street"
+"8th Street"
+"5th Street"
+"2nd Street"
+"Spring Garden/Delaware Expy"
+"Girard"
+"Berks"
+"York-Dauphin"
+"Huntingdon"
+"Somerset"
+"Allegheny/Kensington Ave"
+"Tioga"
+"Erie-Torresdale"
+"Church"
+"Margaret-Orthodox"
+"Frankford Transportation Center"
+STATIONSEND
+SEGMENTEND
+
+# --------------------------------------------------------------------------
+#  Orange Line
+# --------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Broad street local (orange line), towards AT and T Station"
+FORWARDEND
+BACKWARD
+"Broad street local (orange line), towards Fern Rock Transportation Center"
+BACKWARDEND
+STATIONS
+"Fern Rock Transportation Center"
+"Olney Transportation Center"
+"Logan"
+"Wyoming"
+"Hunting Park"
+"Erie"
+"Allegheny/Broad st."
+"North Philadelphia"
+"Susquehanna - Dauphin"
+"Cecil B. Moore"
+"Girard/Broad st."
+"Fairmount"
+"Spring Garden/Broad st."
+"Race - Vine"
+"City Hall"
+"Walnut - Locust"
+"Lombard - South"
+"Ellsworth - Federal"
+"Tasker - Morris"
+"Snyder"
+"Oregon"
+"AT and T Station"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Broad street express (orange line), towards Walnut - Locust"
+FORWARDEND
+BACKWARD
+"Broad street express (orange line), towards Fern Rock Transportation Center"
+BACKWARDEND
+STATIONS
+"Fern Rock Transportation Center"
+"Olney Transportation Center"
+"Erie"
+"Girard/Broad st."
+"Spring Garden/Broad st."
+"Race - Vine"
+"City Hall"
+"Walnut - Locust"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Broad ridge spur, towards 8th Street"
+FORWARDEND
+BACKWARD
+"Broad ridge spur, towards Fern Rock Transportation Center"
+BACKWARDEND
+STATIONS
+"Fern Rock Transportation Center"
+"Olney Transportation Center"
+"Erie"
+"North Philadelphia"
+"Girard/Broad st."
+"Fairmount"
+"Chinatown"
+"8th Street"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Broad street special (orange line), towards AT and T Station"
+FORWARDEND
+BACKWARD
+"Broad street special (orange line), towards Fern Rock Transportation Center"
+BACKWARDEND
+STATIONS
+"Fern Rock Transportation Center"
+"Olney Transportation Center"
+"Erie"
+"Girard/Broad st."
+"Spring Garden/Broad st."
+"Race - Vine"
+"City Hall"
+"Walnut - Locust"
+"AT and T Station"
+STATIONSEND
+SEGMENTEND
+
+# --------------------------------------------------------------------------
+#  Trolleys
+# --------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Trolley route 10, towards Overbrook Loop"
+FORWARDEND
+BACKWARD
+"Trolley route 10, towards 13th Street"
+BACKWARDEND
+STATIONS
+"13th Street"
+"15th Street"
+"19th Street"
+"22nd Street"
+"30th Street"
+"33rd Street"
+"36th Street Portal"
+"Overbrook Loop"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Trolley route 11, towards Darby Transportation Center"
+FORWARDEND
+BACKWARD
+"Trolley route 11, towards 13th Street"
+BACKWARDEND
+STATIONS
+"13th Street"
+"15th Street"
+"19th Street"
+"22nd Street"
+"30th Street"
+"33rd Street"
+"Sansom Commons/36th Street"
+"37th/Spruce"
+"40th Street Portal"
+"Darby Transportation Center"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Trolley route 13, towards Darby Transportation Center"
+FORWARDEND
+BACKWARD
+"Trolley route 13, towards 13th Street"
+BACKWARDEND
+STATIONS
+"13th Street"
+"15th Street"
+"19th Street"
+"22nd Street"
+"30th Street"
+"33rd Street"
+"Sansom Commons/36th Street"
+"37th/Spruce"
+"40th Street Portal"
+"Mt. Moriah"
+"Yeadon"
+"Darby Transportation Center"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Trolley route 34, towards Angora Loop"
+FORWARDEND
+BACKWARD
+"Trolley route 34, towards 13th Street"
+BACKWARDEND
+STATIONS
+"13th Street"
+"15th Street"
+"19th Street"
+"22nd Street"
+"30th Street"
+"33rd Street"
+"Sansom Commons/36th Street"
+"37th/Spruce"
+"40th Street Portal"
+"Angora Loop"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Trolley route 36, towards Eastwick Loop"
+FORWARDEND
+BACKWARD
+"Trolley route 36, towards 13th Street"
+BACKWARDEND
+STATIONS
+"13th Street"
+"15th Street"
+"19th Street"
+"22nd Street"
+"30th Street"
+"33rd Street"
+"Sansom Commons/36th Street"
+"37th/Spruce"
+"40th Street Portal"
+"Elmwood Carhouse"
+"Eastwick Loop"
+STATIONSEND
+SEGMENTEND
+
+MULTI_NAMED_NODE
+"City Hall"
+"15th Street"
+MULTI_NAMED_NODE_END
+
+SEGMENT
+FORWARD
+"Trolley route 101, towards Orange Street/Media"
+FORWARDEND
+BACKWARD
+"Trolley route 101, towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Fairfield Avenue"
+"Walnut Street"
+"Avon Road"
+"Hilltop Road"
+"Beverly Boulevard"
+"Congress Avenue"
+"Lansdowne Avenue"
+"Drexel Park"
+"Irvington Road"
+"Drexel Hill Junction"
+"Huey Avenue"
+"School Lane"
+"Aronimink"
+"Anderson Avenue"
+"Drexelbrook"
+"Drexeline"
+"Scenic Road"
+"Springfield Road (101)"
+"Saxer Avenue"
+"Leamy Avenue"
+"Woodland Avenue"
+"Thomson Avenue"
+"Springfield Mall"
+"Paper Mill Road"
+"Pine Ridge"
+"Beatty Road"
+"Providence Road (101)"
+"Manchester Avenue"
+"Edgemont Street"
+"Monroe Street"
+"Jackson Street"
+"Olive Street"
+"Veterans Square"
+"Orange Street"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Trolley route 102, towards Sharon Hill"
+FORWARDEND
+BACKWARD
+"Trolley route 102, towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Fairfield Avenue"
+"Walnut Street"
+"Avon Road"
+"Hilltop Road"
+"Beverly Boulevard"
+"Congress Avenue"
+"Lansdowne Avenue"
+"Drexel Park"
+"Irvington Road"
+"Drexel Hill Junction"
+"Garrettford"
+"Drexel Manor"
+"Marshall Road"
+"Creek Road"
+"Baltimore Road"
+"Penn Street"
+"Springfield Road (102)"
+"Clifton - Aldan"
+"Providence Road (102)"
+"Magnolia Avenue"
+"North Street"
+"Bartam Avenue"
+"Andrews Avenue"
+"MacDade Boulevard"
+"Sharon Hill"
+STATIONSEND
+SEGMENTEND
+
+# --------------------------------------------------------------------------
+#  Norristown Line
+# --------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Norristown High Speed Line, towards Norristown T.C."
+FORWARDEND
+BACKWARD
+"Norristown High Speed Line, towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Parkview"
+"Township Line Road"
+"Penfield"
+"Beechwood-Brookline"
+"Wynnewood Road"
+"Ardmore Junction"
+"Ardmore Avenue"
+"Haverford Car parking"
+"Bryn Mawr"
+"Roberts Road"
+"Garrett Hill"
+"Stadium - Ithan Avenue"
+"Villanova"
+"Radnor"
+"County Line"
+"Matsonford"
+"Gulph Mills"
+"Hughes Park"
+"DeKalb Street"
+"Bridgeport"
+"Norristown Transportation Center"
+STATIONSEND
+SEGMENTEND
+
+# partial: weekday peak hours
+LINE
+LINE_NAME
+"Norristown Express Line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays during peak hours"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Norristown Express Line, towards Norristown T.C."
+FORWARDEND
+BACKWARD
+"Norristown Express Line, towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Penfield"
+"Ardmore Junction"
+"Haverford Car parking"
+"Bryn Mawr"
+"Roberts Road"
+"Garrett Hill"
+"Stadium - Ithan Avenue"
+"Villanova"
+"Radnor"
+"County Line"
+"Matsonford"
+"Gulph Mills"
+"Hughes Park"
+"DeKalb Street"
+"Bridgeport"
+"Norristown Transportation Center"
+STATIONSEND
+SEGMENTEND
+
+# partial weekday peak hours
+LINE
+LINE_NAME
+"Norristown Hughes Park Express"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays during peak hours"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Norristown Hughes Park Express, towards Hughes Park"
+FORWARDEND
+BACKWARD
+"Norristown Hughes Park Express, towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Beechwood-Brookline"
+"Wynnewood Road"
+"Ardmore Junction"
+"Ardmore Avenue"
+"Haverford Car parking"
+"Bryn Mawr"
+"Roberts Road"
+"Garrett Hill"
+"Stadium - Ithan Avenue"
+"Villanova"
+"Radnor"
+"County Line"
+"Matsonford"
+"Gulph Mills"
+"Hughes Park"
+STATIONSEND
+SEGMENTEND
+
+
+# partial: weekday peak hours 
+LINE
+LINE_NAME
+"Norristown Limited"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays during peak hours"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Norristown Limited, towards Norristown T.C."
+FORWARDEND
+BACKWARD
+"Norristown Limited, towards 69th Street"
+BACKWARDEND
+STATIONS
+"69th Street"
+"Ardmore Junction"
+"Radnor"
+"Gulph Mills"
+"Hughes Park"
+"DeKalb Street"
+"Bridgeport"
+"Norristown Transportation Center"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+

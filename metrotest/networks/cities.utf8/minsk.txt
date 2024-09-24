@@ -1,0 +1,71 @@
+
+# City
+# 53.9 ; 27.566667
+CITY
+CITYNAME
+Minsk
+CITYNAME_END
+CITYCODE
+MNK
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+MULTI_NAMED_NODE
+"Oktiabrskaya"
+"Kupalovskaya"
+MULTI_NAMED_NODE_END
+
+SEGMENT
+FORWARD
+"Maskowskaya line, towards Malinovka"
+FORWARDEND
+BACKWARD
+"Maskowskaya line, towards Uruchye"
+BACKWARDEND
+STATIONS
+"Uruchye"
+"Borisovskiy Trakt"
+"Vostok"
+"Moskovskaya"
+"Park Chelyuskintsev"
+"Akademiya Nauk"
+"Ploschad Yakuba Kolasa"
+"Ploschad Pobedy"
+"Oktiabrskaya"
+"Ploschad  Lenina"
+"Institut Kultury"
+"Grushevka"
+"Mikhalovo"
+"Petrovshchina"
+"Malinovka"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Avtozavodskaya line, towards Mogilyevskaya"
+FORWARDEND
+BACKWARD
+"Avtozavodskaya line, towards Kammennaya Gorka"
+BACKWARDEND
+STATIONS
+"Kammennaya Gorka"
+"Kunstevschina"
+"Sportivnaya"
+"Pushkinskaya"
+"Molodyozhnaya"
+"Frunzenskaya"
+"Nemiga"
+"Kupalovskaya"
+"Pervomayskaya"
+"Proletarskaya"
+"Traktornyi Zavod"
+"Partizanskaya"
+"Avtozavodskaya"
+"Mogilyevskaya"
+STATIONSEND
+SEGMENTEND
+

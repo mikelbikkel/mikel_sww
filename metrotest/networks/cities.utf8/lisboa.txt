@@ -1,0 +1,128 @@
+
+# Data extracted from http://pt.wikipedia.org/wiki/Metropolitano_de_Lisboa and subsequent pages
+
+# City
+CITY
+CITYNAME
+Lisbon
+CITYNAME_END
+CITYCODE
+LIS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Azul
+# =============================================================
+SEGMENT
+FORWARD
+"Linha Azul, towards Santa Apolónia"
+FORWARDEND
+BACKWARD
+"Linha Azul, towards Amadora Este"
+BACKWARDEND
+STATIONS
+"Amadora Este"
+"Alfornelos"
+"Pontinha"
+"Carnide"
+"Colégio Militar/Luz"
+"Alto Dos Moinhos"
+"Laranjeiras"
+"Jardim Zoológico"
+"Praça De Espanha"
+"São Sebastião"
+"Parque"
+"Marquês De Pombal"
+"Avenida"
+"Restauradores"
+"Baixa-Chiado"
+"Terreiro Do Paço"
+"Santa Apolónia"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Amarela
+# =============================================================
+SEGMENT
+FORWARD
+"Linha Amarela, towards Rato"
+FORWARDEND
+BACKWARD
+"Linha Amarela, towards Odivelas"
+BACKWARDEND
+STATIONS
+"Odivelas"
+"Senhor Roubado"
+"Ameixoeira"
+"Lumiar"
+"Quinta Das Conchas"
+"Campo Grande"
+"Cidade Universitária"
+"Entre Campos"
+"Campo Pequeno"
+"Saldanha"
+"Picoas"
+"Marquês De Pombal"
+"Rato"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Verde
+# =============================================================
+SEGMENT
+FORWARD
+"Linha Verde, towards Telheiras"
+FORWARDEND
+BACKWARD
+"Linha Verde, towards Cais do Sodré"
+BACKWARDEND
+STATIONS
+"Cais Do Sodré"
+"Baixa-Chiado"
+"Rossio"
+"Martim Moniz"
+"Intendente"
+"Anjos"
+"Arroios"
+"Alameda"
+"Areeiro"
+"Roma"
+"Alvalade"
+"Campo Grande"
+"Telheiras"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Vermelha
+# =============================================================
+SEGMENT
+FORWARD
+"Linha Vermelha, towards Aeroporto"
+FORWARDEND
+BACKWARD
+"Linha Vermelha, towards São Sebastião"
+BACKWARDEND
+STATIONS
+"São Sebastião"
+"Saldanha"
+"Alameda"
+"Olaias"
+"Bela Vista"
+"Chelas"
+"Olivais"
+"Cabo Ruivo"
+"Oriente"
+"Moscavide"
+"Encarnação"
+"Aeroporto"
+STATIONSEND
+SEGMENTEND
+

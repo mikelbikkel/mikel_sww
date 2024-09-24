@@ -1,0 +1,58 @@
+# City
+
+CITY
+CITYNAME
+Novosibirsk
+CITYNAME_END
+CITYCODE
+NOV
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Leninskaya line, towards Zajeltsovskaya"
+FORWARDEND
+BACKWARD
+"Leninskaya line, towards Ploshchad Marksa"
+BACKWARDEND
+STATIONS
+"Zayeltsovskaya"
+"Gagarinskaya"
+"Krasny Prospekt"
+"Ploshchad Lenina"
+"Oktyabrskaya"
+"Rechnoy Vokzal"
+#"Sportivnaya"(maybe opening soon)
+"Studencheskaya"
+"Ploshchad Marksa" 
+#"Ploshchad Stanislavskogo" (opens in 2015)
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Dzerzhinskaya line, towards Ploshchad Garina-Mikhaylovskogo"
+FORWARDEND
+BACKWARD
+"Dzerzhinskaya line, towards Zolotaya Niva"
+BACKWARDEND
+STATIONS
+"Ploshchad Garina-Mikhaylovskogo"
+"Sibirskaya"
+"Marshala Pokryshkina"
+"Beryozovaya Roshcha"
+"Zolotaya Niva"
+#"Gusinobrodskaya" Opens in 2013
+#"Volochayevskaya" Opens on middle long term
+STATIONSEND
+SEGMENTEND
+
+MULTI_NAMED_NODE
+"Krasny Prospekt"
+"Sibirskaya"
+MULTI_NAMED_NODE_END
+

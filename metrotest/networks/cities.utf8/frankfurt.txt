@@ -1,0 +1,409 @@
+CITY
+CITYNAME
+Frankfurt
+CITYNAME_END
+CITYCODE
+FRA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"U 1, towards Ginnheim"
+FORWARDEND
+BACKWARD
+"U 1, towards Heddernheim"
+BACKWARDEND
+STATIONS
+"Heddernheim"
+"Zeilweg"
+"Heddernheimer Landstraße"
+"Nordwestzentrum"
+"Römerstadt"
+"Niddapark"
+"Ginnheim"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 1, towards Ginnheim"
+FORWARDEND
+BACKWARD
+"U 1, towards Südbahnhof"
+BACKWARDEND
+STATIONS
+"Südbahnhof"
+"Schweizer Platz"
+"Willy-Brandt-Platz"
+"Hauptwache"
+"Eschenheimer Tor"
+"Grüneburgweg"
+"Holzhausenstraße"
+"Miquel-/Adickesallee"
+"Dornbusch"
+"Fritz-Tarnow-Straße"
+"Hügelstraße"
+"Lindenbaum"
+"Weißer Stein"
+"Heddernheim"
+"Zeilweg"
+"Heddernheimer Landstraße"
+"Nordwestzentrum"
+"Römerstadt"
+"Niddapark"
+"Ginnheim"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 1, towards Heddernheim"
+FORWARDEND
+BACKWARD
+"U 1, towards Südbahnhof"
+BACKWARDEND
+STATIONS
+"Südbahnhof"
+"Schweizer Platz"
+"Willy-Brandt-Platz"
+"Hauptwache"
+"Eschenheimer Tor"
+"Grüneburgweg"
+"Holzhausenstraße"
+"Miquel-/Adickesallee"
+"Dornbusch"
+"Fritz-Tarnow-Straße"
+"Hügelstraße"
+"Lindenbaum"
+"Weißer Stein"
+"Heddernheim"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 2, towards Gonzenheim"
+FORWARDEND
+BACKWARD
+"U 2, towards Südbahnhof"
+BACKWARDEND
+STATIONS
+"Südbahnhof"
+"Schweizer Platz"
+"Willy-Brandt-Platz"
+"Hauptwache"
+"Eschenheimer Tor"
+"Grüneburgweg"
+"Holzhausenstraße"
+"Miquel-/Adickesallee"
+"Dornbusch"
+"Fritz-Tarnow-Straße"
+"Hügelstraße"
+"Lindenbaum"
+"Weißer Stein"
+"Heddernheim"
+"Sandelmühle"
+"Riedwiese/Mertonviertel"
+"Kalbach"
+"Bonames Mitte"
+"Nieder-Eschbach"
+"Ober-Eschbach"
+"Gonzenheim"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 2, towards Nieder-Eschbach"
+FORWARDEND
+BACKWARD
+"U 2, towards Südbahnhof"
+BACKWARDEND
+STATIONS
+"Südbahnhof"
+"Schweizer Platz"
+"Willy-Brandt-Platz"
+"Hauptwache"
+"Eschenheimer Tor"
+"Grüneburgweg"
+"Holzhausenstraße"
+"Miquel-/Adickesallee"
+"Dornbusch"
+"Fritz-Tarnow-Straße"
+"Hügelstraße"
+"Lindenbaum"
+"Weißer Stein"
+"Heddernheim"
+"Sandelmühle"
+"Riedwiese/Mertonviertel"
+"Kalbach"
+"Bonames Mitte"
+"Nieder-Eschbach"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 3, towards Oberursel-Hohemark"
+FORWARDEND
+BACKWARD
+"U 3, towards Südbahnhof"
+BACKWARDEND
+STATIONS
+"Südbahnhof"
+"Schweizer Platz"
+"Willy-Brandt-Platz"
+"Hauptwache"
+"Eschenheimer Tor"
+"Grüneburgweg"
+"Holzhausenstraße"
+"Miquel-/Adickesallee"
+"Dornbusch"
+"Fritz-Tarnow-Straße"
+"Hügelstraße"
+"Lindenbaum"
+"Weißer Stein"
+"Heddernheim"
+"Zeilweg"
+"Wiesenau"
+"Niederursel"
+"Weißkirchen Ost"
+"Bommersheim"
+"Oberursel Bahnhof"
+"Oberursel Stadtmitte"
+"Oberursel Altstadt"
+"Lahnstraße"
+"Glöcknerwiese"
+"Kupferhammer"
+"Rosengärtchen"
+"Waldlust"
+"Oberursel-Hohemark"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 8, towards Riedberg"
+FORWARDEND
+BACKWARD
+"U 8, towards Südbahnhof"
+BACKWARDEND
+STATIONS
+"Südbahnhof"
+"Schweizer Platz"
+"Willy-Brandt-Platz"
+"Hauptwache"
+"Eschenheimer Tor"
+"Grüneburgweg"
+"Holzhausenstraße"
+"Miquel-/Adickesallee"
+"Dornbusch"
+"Fritz-Tarnow-Straße"
+"Hügelstraße"
+"Lindenbaum"
+"Weißer Stein"
+"Heddernheim"
+"Zeilweg"
+"Wiesenau"
+"Niederursel"
+"Uni-Campus Riedberg"
+"Riedberg"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 9, towards Nieder-Eschbach"
+FORWARDEND
+BACKWARD
+"U 9, towards Ginnheim"
+BACKWARDEND
+STATIONS
+"Ginnheim"
+"Niddapark"
+"Römerstadt"
+"Nordwestzentrum"
+"Heddernheimer Landstraße"
+"Wiesenau"
+"Niederursel"
+"Uni-Campus Riedberg"
+"Riedberg"
+"Kalbach"
+"Bonames Mitte"
+"Nieder-Eschbach"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 4, towards Enkheim"
+FORWARDEND
+BACKWARD
+"U 4, towards Bockenheimer Warte"
+BACKWARDEND
+STATIONS
+"Bockenheimer Warte"
+"Festhalle/Messe"
+"Hauptbahnhof"
+"Willy-Brandt-Platz"
+"Dom/Römer"
+"Konstablerwache"
+"Merianplatz"
+"Höhenstraße"
+"Bornheim Mitte"
+"Seckbacher Landstraße"
+"Schäfflestraße"
+"Gwinnerstraße"
+"Kruppstraße"
+"Hessen-Center"
+"Enkheim"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 4, towards Seckbacher Landstraße"
+FORWARDEND
+BACKWARD
+"U 4, towards Bockenheimer Warte"
+BACKWARDEND
+STATIONS
+"Bockenheimer Warte"
+"Festhalle/Messe"
+"Hauptbahnhof"
+"Willy-Brandt-Platz"
+"Dom/Römer"
+"Konstablerwache"
+"Merianplatz"
+"Höhenstraße"
+"Bornheim Mitte"
+"Seckbacher Landstraße"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 5, towards Preungesheim"
+FORWARDEND
+BACKWARD
+"U 5, towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Willy-Brandt-Platz"
+"Dom/Römer"
+"Konstablerwache"
+"Musterschule"
+"Glauburgstraße"
+"Deutsche Nationalbibliothek"
+"Hauptfriedhof"
+"Neuer Jüdischer Friedhof"
+"Eckenh. Landstr./Marbachweg"
+"Marbachweg/Sozialzentrum"
+"Gießener Straße"
+"Theobald-Ziegler-Straße"
+"Ronneburgstraße"
+"Sigmund-Freud-Straße"
+"Preungesheim"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 6, towards Ostbahnhof"
+FORWARDEND
+BACKWARD
+"U 6, towards Praunheim Heerstraße"
+BACKWARDEND
+STATIONS
+"Praunheim Heerstraße"
+"Friedhof Westhausen"
+"Stephan-Heise-Straße"
+"Hausener Weg"
+"Fischstein"
+"Industriehof"
+"Kirchplatz"
+"Leipziger Straße"
+"Bockenheimer Warte"
+"Westend"
+"Alte Oper"
+"Hauptwache"
+"Konstablerwache"
+"Zoo"
+"Ostbahnhof"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 6, towards Zoo"
+FORWARDEND
+BACKWARD
+"U 6, towards Praunheim Heerstraße"
+BACKWARDEND
+STATIONS
+"Praunheim Heerstraße"
+"Friedhof Westhausen"
+"Stephan-Heise-Straße"
+"Hausener Weg"
+"Fischstein"
+"Industriehof"
+"Kirchplatz"
+"Leipziger Straße"
+"Bockenheimer Warte"
+"Westend"
+"Alte Oper"
+"Hauptwache"
+"Konstablerwache"
+"Zoo"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"U 7, towards Enkheim"
+FORWARDEND
+BACKWARD
+"U 7, towards Hausen"
+BACKWARDEND
+STATIONS
+"Hausen"
+"Große Nelkenstraße"
+"Industriehof"
+"Kirchplatz"
+"Leipziger Straße"
+"Bockenheimer Warte"
+"Westend"
+"Alte Oper"
+"Hauptwache"
+"Konstablerwache"
+"Zoo"
+"Habsburgerallee"
+"Parlamentsplatz"
+"Eissporthalle"
+"Johanna-Tesch-Platz"
+"Schäfflestraße"
+"Gwinnerstraße"
+"Kruppstraße"
+"Hessen-Center"
+"Enkheim"
+STATIONSEND
+SEGMENTEND
+

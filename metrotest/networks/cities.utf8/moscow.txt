@@ -1,0 +1,646 @@
+# City
+CITY
+CITYNAME
+Moscow
+CITYNAME_END
+CITYCODE
+MSW
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Sokolnicheskaya Line 1, towards Salaryevo"
+FORWARDEND
+BACKWARD
+"Sokolnicheskaya Line 1, towards Bulvar Rokossovskogo"
+BACKWARDEND
+STATIONS
+"Bulvar Rokossovskogo"
+Cherkizovskaya
+"Preobrazhenskaya Ploshchad"
+Sokolniki
+Krasnoselskaya
+Komsomolskaya
+"Krasnye Vorota"
+"Chistye Prudy"
+Lubyanka
+"Okhotny Ryad"
+"Biblioteka Imeni Lenina"
+Kropotkinskaya
+"Park Kultury"
+Frunzenskaya
+"Sportivnaya"
+"Vorobyovy Gory"
+Universitet
+"Prospekt Vernadskogo"
+"Yugo Zapadnaya"
+"Troparyovo"
+"Rumyantsevo"
+"Salaryevo"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Zamoskvoretskaya Line 2, towards Alma-Atinskaya"
+FORWARDEND
+BACKWARD
+"Zamoskvoretskaya Line 2, towards Rechnoy Vokzal"
+BACKWARDEND
+STATIONS
+"Rechnoy Vokzal"
+"Vodny Stadion"
+Voykovskaya
+Sokol
+Aeroport
+Dinamo
+Belorusskaya
+Mayakovskaya
+Tverskaya
+Teatralnaya
+Novokuznetskaya
+Paveletskaya
+Avtozavodskaya
+Tekhnopark
+Kolomenskaya
+Kashirskaya
+Kantemirovskaya
+Tsaritsyno
+Orekhovo
+Domodedovskaya
+Krasnogvardeyskaya
+"Alma-Atinskaya"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Arbatsko-Pokrovskaya Line 3, towards Pyatnitskoye Shosse"
+FORWARDEND
+BACKWARD
+"Arbatsko-Pokrovskaya Line 3, towards Shcholkovskaya"
+BACKWARDEND
+STATIONS
+Shcholkovskaya
+Pervomayskaya
+Izmaylovskaya
+Partizanskaya
+Semyonovskaya
+Elektrozavodskaya
+Baumanskaya
+Kurskaya
+"Ploshchad Revolyutsii"
+Arbatskaya
+Smolenskaya
+Kievskaya
+"Park Pobedy"
+"Slavyansky Bulvar"
+Kuntsevskaya
+Molodyozhnaya
+Krylatskoye
+Strogino
+Myakinino
+Volokolamskaya
+Mitino
+"Pyatnitskoye Shosse"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Filyovskaya Line 4, towards Alexandrovsky Sad"
+FORWARDEND
+BACKWARD
+"Filyovskaya Line 4, towards Kuntsevskaya"
+BACKWARDEND
+STATIONS
+"Kuntsevskaya"
+"Pionerskaya"
+"Filyovsky Park"
+"Bagrationovskaya"
+"Fili"
+"Kutuzovskaya"
+"Studencheskaya"
+"Kievskaya"
+"Smolenskaya"
+"Arbatskaya"
+"Alexandrovsky Sad"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Filyovskaya Line 4, towards Alexandrovsky Sad"
+FORWARDEND
+BACKWARD
+"Filyovskaya Line 4, towards Mezhdunarodnaya"
+BACKWARDEND
+STATIONS
+"Mezhdunarodnaya"
+"Vystavochnaya"
+"Kievskaya"
+"Smolenskaya"
+"Arbatskaya"
+"Alexandrovsky Sad"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Koltsevaya Line 5, clockwise"
+FORWARDEND
+BACKWARD
+"Koltsevaya Line 5, counter-clockwise"
+BACKWARDEND
+STATIONS
+Kievskaya
+Krasnopresnenskaya
+Belorusskaya
+Novoslobodskaya
+"Prospekt Mira"
+Komsomolskaya
+Kurskaya
+Taganskaya
+Paveletskaya
+Dobryninskaya
+Oktyabrskaya
+"Park Kultury"
+Kievskaya
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Kaluzhsko-Rizhskaya Line 6, towards Novoyasenevskaya"
+FORWARDEND
+BACKWARD
+"Kaluzhsko-Rizhskaya Line 6, towards Medvedkovo"
+BACKWARDEND
+STATIONS
+Medvedkovo
+Babushkinskaya
+Sviblovo
+"Botanichesky Sad"
+VDNKh
+Alexeyevskaya
+Rizhskaya
+"Prospekt Mira"
+Sukharevskaya
+Turgenevskaya
+"Kitay-Gorod"
+Tretyakovskaya
+Oktyabrskaya
+Shabolovskaya
+"Leninsky Prospekt"
+Akademicheskaya
+Profsoyuznaya
+"Noviye Cheryomushki"
+Kaluzhskaya
+Belyayevo
+Konkovo
+"Tyoplyi Stan"
+Yasenevo
+Novoyasenevskaya
+STATIONSEND
+SEGMENTEND
+
+
+# acdhirr added spartak 10/2014
+SEGMENT
+FORWARD
+"Tagansko-Krasnopresnenskaya Line 7, towards Kotelniki"
+FORWARDEND
+BACKWARD
+"Tagansko-Krasnopresnenskaya Line 7, towards Planernaya"
+BACKWARDEND
+STATIONS
+Planernaya
+Skhodnenskaya
+Tushinskaya
+"Spartak"
+Shchukinskaya
+"Oktyabrskoye Pole"
+"Polezhayevskaya"
+Begovaya
+"Ulitsa 1905 Goda"
+Barrikadnaya
+Pushkinskaya
+"Kuznetsky Most"
+"Kitay-Gorod"
+Taganskaya
+Proletarskaya
+"Volgogradsky Prospekt"
+Tekstilshchiki
+Kuzminki
+"Ryazansky Prospekt"
+Vykhino
+"Lermontovskiy Prospekt"
+"Zhulebino"
+"Kotelniki"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Kalininskaya Line 8, towards Tretyakovskaya"
+FORWARDEND
+BACKWARD
+"Kalininskaya Line 8, towards Novokosino"
+BACKWARDEND
+STATIONS
+"Novokosino"
+"Novogireevo"
+"Perovo"
+"Shosse Entuziastov"
+"Aviamotornaya"
+"Ploshchad Ilyicha"
+"Marksistskaya"
+"Tretyakovskaya"
+STATIONSEND
+SEGMENTEND
+
+# 3/2014 this is an extension to line 8, built from the other side
+# so now there are two parts line 8, growing together.
+SEGMENT
+FORWARD
+"Kalininskaya Line 8 (West), towards Park Pobedy"
+FORWARDEND
+BACKWARD
+"Kalininskaya Line 8 (West), towards Delovoy Tsentr"
+BACKWARDEND
+STATIONS
+"Delovoy Tsentr" 
+"Park Pobedy"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Serpukhovsko-Timiryazevskaya Line 9, towards Bulvar Dmitriya Donskogo"
+FORWARDEND
+BACKWARD
+"Serpukhovsko-Timiryazevskaya Line 9, towards Altufyevo"
+BACKWARDEND
+STATIONS
+Altufyevo
+Bibirevo
+Otradnoye
+Vladykino
+"Petrovsko-Razumovskaya"
+Timiryazevskaya
+Dmitrovskaya
+Savyolovskaya
+Mendeleyevskaya
+"Tsvetnoy Bulvar"
+Chekhovskaya
+Borovitskaya
+Polyanka
+Serpukhovskaya
+Tulskaya
+Nagatinskaya
+Nagornaya
+"Nakhimovsky Prospekt"
+Sevastopolskaya
+Chertanovskaya
+Yuzhnaya
+Prazhskaya
+"Ulitsa Akademika Yangelya"
+Annino
+"Bulvar Dmitriya Donskogo"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Lyublinskaya Line 10, towards Zyablikovo"
+FORWARDEND
+BACKWARD
+"Lyublinskaya Line 10, towards Petrovsko-Razumovskaya"
+BACKWARDEND
+STATIONS
+"Petrovsko-Razumovskaya"
+"Fonvizinskaya"
+"Butyrskaya"
+"Maryina Roshcha"
+"Dostoyevskaya"
+"Trubnaya"
+"Sretensky Bulvar"
+"Chkalovskaya"
+"Rimskaya"
+"Krestyanskaya Zastava"
+"Dubrovka"
+"Kozhukhovskaya"
+"Pechatniki"
+"Volzhskaya"
+"Lyublino"
+"Bratislavskaya"
+"Maryino"
+"Borisovo"
+"Shipilovskaya"
+"Zyablikovo"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Kakhovskaya Line 11, towards Kakhovskaya"
+FORWARDEND
+BACKWARD
+"Kakhovskaya Line 11, towards Kashirskaya"
+BACKWARDEND
+STATIONS
+Kashirskaya
+Varshavskaya
+Kakhovskaya
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Butovskaya Line 12, towards Buninskaya Alleya"
+FORWARDEND
+BACKWARD
+"Butovskaya Line 12, towards Bittsevsky Park"
+BACKWARDEND
+STATIONS
+"Bittsevsky Park"
+"Lesoparkovaya"
+"Ulitsa Starokachalovskaya"
+"Ulitsa Skobelevskaya"
+"Bulvar Admirala Ushakova"
+"Ulitsa Gorchakova"
+"Buninskaya Alleya"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Moscow Monorail M1, towards Timiryazevskaya"
+FORWARDEND
+BACKWARD
+"Moscow Monorail M1, towards Ulitsa Sergeya Eisensteina"
+BACKWARDEND
+STATIONS
+"Ulitsa Sergeya Eisensteina"
+"Vystavochny Tsentr"
+"Ulitsa Akademika Korolyova"
+"Teletsentr"
+"Ulitsa Milashenkova"
+"Timiryazevskaya"
+STATIONSEND
+SEGMENTEND
+
+
+
+# October 2016 Circle Line 14 -----------------------------------------
+SEGMENT
+FORWARD
+"MCC Line 14, clockwise"
+FORWARDEND
+BACKWARD
+"MCC Line 14, counter-clockwise"
+BACKWARDEND
+STATIONS
+"Okruzhnaya"
+"Vladykino MCC"			# "Vladykino"
+"Botanichesky Sad"
+"Rostokino" 	
+"Belokamennaya" 	
+"Bulvar Rokossovskogo MCC"	# "Bulvar Rokossovskogo"
+"Lokomotiv" 			# 1  Cherkizovskaya
+"Izmaylovo" 			# 3  Partizanskaya (within walking distance)
+"Sokolinaya Gora" 	
+"Shosse Entuziastov"
+"Andronovka" 	
+"Nizhegorodskaya" 	
+"Novokhokhlovskaya" 	
+"Ugreshskaya" 	 		# 7 Volgogradsky Prospekt (within walking distance)
+"Dubrovka"	
+"Avtozavodskaya MCC"	# Avtozavodskaya 
+"ZIL"
+"Verkhnie Kotly"  		# 9  Nagatinskaya (within walking distance)
+"Krymskaya" 	
+"Ploshchad Gagarina" 	# 6  Leninsky Prospekt
+"Luzhniki" 	 			# 1  Sportivnaya (within walking distance)
+"Kutuzovskaya" 	 
+"Delovoy Tsentr" 	 	# 4  Mezhdunarodnaya
+"Shelepikha"	
+"Khoroshyovo" 	 		# 7  Polezhayevskaya (within walking distance)
+"Zorge" 	
+"Panfilovskaya" 	 	# 7  Oktyabrskoye Pole (within walking distance)
+"Streshnevo" 	
+"Baltiyskaya" 	 		# 2  Voykovskaya (within walking distance)
+"Koptevo" 
+"Likhobory"
+STATIONSEND
+SEGMENTEND
+
+
+# MNNs
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Line 1
+#
+MULTI_NAMED_NODE
+"Chistye Prudy"
+Turgenevskaya
+"Sretensky Bulvar"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+Lubyanka
+"Kuznetsky Most"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Okhotny Ryad"
+Teatralnaya
+"Ploshchad Revolyutsii"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Biblioteka Imeni Lenina"
+Borovitskaya
+"Alexandrovsky Sad"
+Arbatskaya
+MULTI_NAMED_NODE_END
+
+# Line 2
+#
+MULTI_NAMED_NODE
+Tverskaya
+Chekhovskaya
+Pushkinskaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+Novokuznetskaya
+Tretyakovskaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Krasnogvardeyskaya"
+"Zyablikovo"
+MULTI_NAMED_NODE_END
+
+# Line 3
+#
+MULTI_NAMED_NODE
+Kurskaya
+Chkalovskaya
+MULTI_NAMED_NODE_END
+
+# MULTI_NAMED_NODE
+# Khmelnitskaya
+# "Kitay-gorod"
+# MULTI_NAMED_NODE_END
+
+# Line 4
+#
+MULTI_NAMED_NODE
+"Delovoy Tsentr" 
+"Vystavochnaya"
+MULTI_NAMED_NODE_END
+
+# Line 5
+#
+MULTI_NAMED_NODE
+Krasnopresnenskaya
+Barrikadnaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+Novoslobodskaya
+Mendeleyevskaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+Taganskaya
+Marksistskaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+Dobryninskaya
+Serpukhovskaya
+MULTI_NAMED_NODE_END
+
+# Line 6: No new
+MULTI_NAMED_NODE
+"Novoyasenevskaya"
+"Bittsevsky Park"
+MULTI_NAMED_NODE_END
+#
+
+# Line 7
+#
+MULTI_NAMED_NODE
+Proletarskaya
+"Krestyanskaya Zastava"
+MULTI_NAMED_NODE_END
+
+# Line 8
+#
+MULTI_NAMED_NODE
+"Ploshchad Ilyicha"
+Rimskaya
+MULTI_NAMED_NODE_END
+
+# Line 9
+#
+MULTI_NAMED_NODE
+"Tsvetnoy Bulvar"
+Trubnaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+Sevastopolskaya
+Kakhovskaya
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Bulvar Dmitriya Donskogo"
+"Ulitsa Starokachalovskaya"
+MULTI_NAMED_NODE_END
+
+# Line 10, 11, L1: no new
+#
+
+MULTI_NAMED_NODE
+"Vystavochny Tsentr"
+"VDNKh"
+MULTI_NAMED_NODE_END
+
+
+# Line 14 (outer circle)
+#
+MULTI_NAMED_NODE
+"Lokomotiv"
+"Cherkizovskaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Izmaylovo"
+"Partizanskaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Ugreshskaya"
+"Volgogradsky Prospekt"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Verkhnie Kotly"
+"Nagatinskaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Ploshchad Gagarina"
+"Leninsky Prospekt"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Luzhniki"
+"Sportivnaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Delovoy Tsentr"
+"Mezhdunarodnaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Khoroshyovo"
+"Polezhayevskaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Panfilovskaya"
+"Oktyabrskoye Pole"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Baltiyskaya"
+"Voykovskaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Avtozavodskaya MCC"
+"Avtozavodskaya"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Bulvar Rokossovskogo MCC"
+"Bulvar Rokossovskogo"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Vladykino MCC"
+"Vladykino"
+MULTI_NAMED_NODE_END
+

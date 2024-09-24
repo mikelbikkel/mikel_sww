@@ -1,0 +1,164 @@
+CITY
+CITYNAME
+Lille
+CITYNAME_END
+CITYCODE
+LIL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 2, towards Saint-Philibert"
+FORWARDEND
+BACKWARD
+"Line 2, towards CH Dron"
+BACKWARDEND
+STATIONS
+"CH Dron"
+"Bourgogne"
+"Pont de Neuville"
+"Phalempins"
+"Colbert"
+"Tourcoing Centre"
+"Tourcoing Sébastopol"
+"Carliers"
+"Mercure"
+"Alsace"
+"Gare Jean-Lebas"
+"Roubaix Eurotéléport"
+"Roubaix Grand-Place"
+"Roubaix Charles-de-Gaulle"
+"Épeule Montesquieu"
+"Croix Mairie"
+"Croix Centre"
+"Wasquehal - Hôtel de Ville"
+"Wasquehal - Pavé de Lille"
+"Jean-Jaurès"
+"Les Prés"
+"Fort de Mons"
+"Mairie-de-Mons"
+"Mons Sarts"
+"Saint-Maurice Pellevoisin"
+"Gare Lille-Europe"
+"Gare Lille-Flandres"
+"Mairie de Lille"
+"Lille Grand-Palais"
+"Porte de Valenciennes"
+"Porte de Douai"
+"Porte d\'Arras"
+"Porte des Postes"
+"Montebello"
+"Cormontaigne"
+"Port de Lille"
+"Bois-Blancs"
+"Canteleu"
+"Lomme Lambersart"
+"Pont-Supérieur"
+"Mitterie"
+"Maison des Enfants"
+"Bourg"
+"Saint-Philibert"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 1, towards 4 Cantons"
+FORWARDEND
+BACKWARD
+"Line 1, towards CHR B Calmette"
+BACKWARDEND
+STATIONS
+"CHR B Calmette"
+"CHR Oscar Lambret"
+"Porte des Postes"
+"Wazemmes"
+"Gambetta"
+"République Beaux-Arts"
+"Rihour"
+"Gare Lille-Flandres"
+"Caulier"
+"Fives"
+"Marbrerie"
+"Hellemmes"
+"Lezennes"
+"Pont de Bois"
+"Villeneuve d\'Ascq Hôtel de Ville"
+"Triolo"
+"Cité Scientifique"
+"4 Cantons"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Tramway ligne R, towards Eurotéléport"
+FORWARDEND
+BACKWARD
+"Tramway ligne R, towards Gare Lille-Flandres"
+BACKWARDEND
+STATIONS
+"Gare Lille-Flandres"
+"Gare Lille-Europe"
+"Romarin"
+"Botanique"
+"Saint-Maur"
+"Buisson"
+"Brossolette"
+"Clemenceau - Hippodrome"
+"Croisé-Laroche"
+"Acacias"
+"Pont de Wasquehal"
+"La Terrasse"
+"Wasquehal - Pavé de Lille"
+"Le Sart"
+"Planche-Épinoy"
+"La Marque"
+"Clinique du Parc"
+"Bol d\'air"
+"Parc Barbieux"
+"Hôpital Victor-Provo"
+"Jean-Moulin"
+"Alfred-Mongy"
+"Roubaix Eurotéléport"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Tramway ligne T, towards Tourcoing"
+FORWARDEND
+BACKWARD
+"Tramway ligne T, towards Gare Lille-Flandres"
+BACKWARDEND
+STATIONS
+"Gare Lille-Flandres"
+"Gare Lille-Europe"
+"Romarin"
+"Botanique"
+"Saint-Maur"
+"Buisson"
+"Brossolette"
+"Clemenceau - Hippodrome"
+"Croisé-Laroche"
+"Foch"
+"Le Quesne"
+"Cerisaie - Centre d\'Affaires"
+"Château Rouge"
+"Cartelot"
+"Grand Cottignies"
+"Triez"
+"Trois Suisses"
+"Faidherbe"
+"Ma Campagne"
+"Pont Hydraulique"
+"Victoire"
+"Tourcoing Centre"
+STATIONSEND
+SEGMENTEND
+

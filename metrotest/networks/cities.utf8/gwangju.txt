@@ -1,0 +1,51 @@
+# Data extracted from http://en.wikipedia.org/wiki/Daejeon_Metropolitan_Subway
+
+# City
+CITY
+CITYNAME
+"Gwangju"
+CITYNAME_END
+CITYCODE
+GWG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Pyeongdong"
+FORWARDEND
+BACKWARD
+"Line 1, towards Nokdong"
+BACKWARDEND
+STATIONS
+"Nokdong"
+"Sotae"
+"Hakdong-Jeungsimsa"
+"Namgwangju"
+"Culture Complex"
+"Geumnamno 4(sa)-ga"
+"Geumnamno 5(o)-ga"
+"Yangdong Market"
+"Dolgogae"
+"Nongseong"
+"Hwajeong"
+"Ssangchon"
+"Uncheon"
+"Sangmu"
+"Kim Daejung Convention Center"
+"Airport"
+"Songjeong Park"
+"Songjeongni"
+"Dosan"
+"Pyeongdong"
+STATIONSEND
+SEGMENTEND
+
+

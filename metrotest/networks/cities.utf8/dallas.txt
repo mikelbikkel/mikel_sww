@@ -1,0 +1,268 @@
+# Data extracted from http://en.wikipedia.org/wiki/Dallas_DART
+# http://www.dart.org/maps/pdfmaps/dartrailsystemmap03dec12.pdf
+
+# City
+CITY
+CITYNAME
+"Dallas"
+CITYNAME_END
+CITYCODE
+# DAL=Dalian! so use DLS here
+DLS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Orange Line (weekdays peak hours only)
+# =============================================================
+LINE
+LINE_NAME
+"Orange line (peak hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Peak hours on weekdays only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 28-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Orange line (peak hours), towards DFW Airport"
+FORWARDEND
+BACKWARD
+"Orange line (peak hours), towards Parker Road"
+BACKWARDEND
+STATIONS
+"Parker Road"
+"Downtown Plano" 	
+"Bush Turnpike" 	
+"Galatyn Park" 	
+"Arapaho Center" 	
+"Spring Valley" 	
+"LBJ/Central" 	
+"Forest Lane" 	
+"Walnut Hill" 	
+"Park Lane" 	
+"Lovers Lane" 	
+"Mockingbird"
+"Cityplace" 	
+"Pearl/Arts District"
+"St. Paul"
+"Akard"
+"West End"
+"Victory"
+"Market Center" 	
+"Southwestern Medical District/Parkland" 	
+"Inwood/Love Center"
+"Burbank"
+"Bachman"
+"University of Dallas" 	
+"Las Colinas Urban Center" 	
+"Irving Convention Center"	
+"North Lake College"
+"Belt Line"
+"DFW Airport"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Orange Line (normal service)
+# =============================================================
+SEGMENT
+FORWARD
+"Orange Line, towards DFW Airport"
+FORWARDEND
+BACKWARD
+"Orange Line, towards LBJ/Central"
+BACKWARDEND
+STATIONS
+"LBJ/Central" 	
+"Forest Lane" 	
+"Walnut Hill" 	
+"Park Lane" 	
+"Lovers Lane" 	
+"Mockingbird"
+"Cityplace" 	
+"Pearl/Arts District"
+"St. Paul"
+"Akard"
+"West End"
+"Victory"
+"Market Center" 	
+"Southwestern Medical District/Parkland" 	
+"Inwood/Love Center"
+"Burbank"
+"Bachman"
+"University of Dallas" 	
+"Las Colinas Urban Center" 	
+"Irving Convention Center"	
+"North Lake College"
+"Belt Line"
+"DFW Airport"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Green Line
+# =============================================================
+SEGMENT
+FORWARD
+"Green Line, towards North Carrollton/Frankford"
+FORWARDEND
+BACKWARD
+"Green Line, towards Buckner"
+BACKWARDEND
+STATIONS
+"Buckner"
+"Lake June" 	
+"Lawnview" 	
+"Hatcher" 	
+"MLK, Jr." 	
+"Fair Park" 	
+"Baylor University Medical Center" 	
+"Deep Ellum Station" 	
+"Pearl/Arts District"
+"St. Paul"
+"Akard" 	
+"West End"
+"Victory"
+"Market Center" 	
+"Southwestern Medical District/Parkland" 	
+"Inwood/Love Center" 	
+"Burbank" 	
+"Bachman"
+"Walnut Hill/Denton" 	
+"Royal Lane" 	
+"Farmers Branch" 	
+"Downtown Carrollton" 	
+"Trinity Mills"
+"North Carrollton/Frankford"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Red Line
+# =============================================================
+SEGMENT
+FORWARD
+"Red Line, towards Westmoreland"
+FORWARDEND
+BACKWARD
+"Red Line, towards Parker Road"
+BACKWARDEND
+STATIONS
+"Parker Road"
+"Downtown Plano" 	
+"Bush Turnpike" 	
+"Galatyn Park" 	
+"Arapaho Center" 	
+"Spring Valley" 	
+"LBJ/Central" 	
+"Forest Lane" 	
+"Walnut Hill" 	
+"Park Lane" 	
+"Lovers Lane" 	
+"Mockingbird"
+"Cityplace"
+"Pearl/Arts District"
+"St. Paul"
+"Akard" 	
+"West End"
+"Union Station"
+"Convention Center" 	
+"Cedars" 	
+"8th & Corinth"
+"Dallas Zoo" 	
+"Tyler/Vernon" 	
+"Hampton" 	
+"Westmoreland" 
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Blue Line
+# =============================================================
+SEGMENT
+FORWARD
+"Blue Line, towards Ledbetter"
+FORWARDEND
+BACKWARD
+"Blue Line, towards Downtown Rowlett"
+BACKWARDEND
+STATIONS
+"Downtown Rowlett"
+"Downtown Garland" 	
+"Forest/Jupiter" 	
+"LBJ/Skillman" 	
+"Lake Highlands" 	
+"White Rock" 	
+"Mockingbird"
+"Cityplace" 	
+"Pearl/Arts District"
+"St. Paul"
+"Akard"
+"West End"
+"Union Station"
+"Convention Center" 	
+"Cedars" 	
+"8th & Corinth"
+"Morrell" 	
+"Illinois" 	
+"Kiest" 	
+"VA Medical Center" 	
+"Ledbetter"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Trinity Railway Express (no service on sundays)
+# =============================================================
+LINE
+LINE_NAME
+"Trinity Railway Express"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"No service on Sundays"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 28-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Trinity Railway Express, towards T&P Station/Fort Worth"
+FORWARDEND
+BACKWARD
+"Trinity Railway Express, towards Union Station"
+BACKWARDEND
+STATIONS
+"Union Station"
+"Victory"
+"Medical/Market Center"
+"Downtown Irving/Heritage Crossing"
+"West Irving Station"
+"CentrePort/DFW Airport"
+"Bell"
+"Richland Hills"
+"Fort Worth Intermodal Transportation Center"
+"T&P Station/Fort Worth"
+STATIONSEND
+SEGMENTEND

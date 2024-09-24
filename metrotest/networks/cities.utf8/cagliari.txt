@@ -1,0 +1,40 @@
+
+# http://it.wikipedia.org/wiki/Metrotranvia_di_Cagliari
+
+# City
+CITY
+CITYNAME
+Cagliari
+CITYNAME_END
+CITYCODE
+CAG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Linea 1
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 1, towards Policlinico"
+FORWARDEND
+BACKWARD
+"Linea 1, towards Piazza Repubblica Monserrato"
+BACKWARDEND
+STATIONS
+"Repubblica"
+"Gennari"
+"Genneruxi"
+"Mercalli"
+"Vesalio"
+"Citta Mercato"
+"Caracalla"
+"Redentore"
+"San Gottardo"
+"Del\'Argine"
+"Policlinico"
+STATIONSEND
+SEGMENTEND

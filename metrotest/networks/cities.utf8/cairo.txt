@@ -1,0 +1,125 @@
+
+# Data extracted from http://pt.wikipedia.org/wiki/Metro_do_Cairo and subsequent pages
+# http://en.wikipedia.org/wiki/List_of_Cairo_metro_stations
+
+# City
+CITY
+CITYNAME
+Cairo
+CITYNAME_END
+CITYCODE
+CAI
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Helwan"
+FORWARDEND
+BACKWARD
+"Line 1, towards New El-Marg"
+BACKWARDEND
+STATIONS
+"New El-Marg"
+"El-Marg"
+"Ezbet El-Nakhl"
+"Ain Shams"
+"El-Matareyya"
+"Helmeyet El-Zaitoun"
+"Hadayeq El-Zaitoun"
+"Saray El-Qobba"
+"Hammamat El-Qobba"
+"Kobri El-Qobba"
+"Manshiet El-Sadr"
+"El-Demerdash"
+"Ghamra"
+"Shuhada (Martyrs)"
+"Orabi"
+"Nasser"
+"Sadat"
+"Saad Zaghloul"
+"Sayyeda Zeinab"
+"El-Malek El-Saleh"
+"Mar Girgis"
+"El-Zahraa"
+"Dar El-Salam"
+"Hadayeq El-Maadi"
+"Maadi"
+"Sakanat El-Maadi"
+"Tora El-Balad"
+"Kozzika"
+"Tora El-Asmant"
+"El-Maasara"
+"Hadayeq Helwan"
+"Wadi Hof"
+"Helwan University"
+"Ain Helwan"
+"Helwan"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line 2
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards El-Mounib"
+FORWARDEND
+BACKWARD
+"Line 2, towards Shobra"
+BACKWARDEND
+STATIONS
+"Shobra"
+"Koliet El-Zeraa"
+"Mezallat"
+"Khalafawy"
+"Sainte Teresa"
+"Road El-Farag"
+"Massara"
+"Shuhada (Martyrs)"
+"Ataba"
+"Naguib"
+"Sadat"
+"Gezira (Opera)"
+"Dokki"
+"Bohooth"
+"Cairo University"
+"Faisal"
+"Giza Railway"
+"Giza Suburbs"
+"Sakiat Mekki"
+"El-Mounib"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 3
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3, towards Al-Ahram"
+FORWARDEND
+BACKWARD
+"Line 3, towards Ataba"
+BACKWARDEND
+STATIONS
+"Ataba"
+"Bab el Shaaria"
+"El Geish"
+"Abdou Pasha"
+"Abbassiya"
+"Cairo Fairground"
+"Stadium"
+"Koleyet El-Banat"
+"Al-Ahram"
+STATIONSEND
+SEGMENTEND
+
+

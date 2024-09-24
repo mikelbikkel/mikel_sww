@@ -1,0 +1,794 @@
+
+# http://en.wikipedia.org/wiki/Beijing_Subway
+# http://www.urbanrail.net/as/beij/beijing.htm
+# http://explorebj.com/subway/pedia/
+
+
+CITY
+CITYNAME
+Beijing
+CITYNAME_END
+CITYCODE
+BIJ
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# -------------------------------------------------------------------------
+# Line 1
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 1, towards Sihui East"
+FORWARDEND
+BACKWARD
+"Line 1, towards Pingguoyuan"
+BACKWARDEND
+STATIONS
+"Pingguoyuan"
+"Gucheng"
+"Bajiao Amusement Park"
+"Babaoshan"
+"Yuquanlu"
+"Wukesong"
+"Wanshoulu"
+"Gongzhufen"
+"Military Museum"
+"Muxidi"
+"Nanlishilu"
+"Fuxingmen"
+"Xidan"
+"Tian\'anmen West"
+"Tian\'anmen East"
+"Wangfujing"
+"Dongdan"
+"Jianguomen"
+"Yong\'anli"
+"Guomao"
+"Dawanglu"
+"Sihui"
+"Sihui East"
+STATIONSEND
+SEGMENTEND
+
+# -------------------------------------------------------------------------
+# Line 2
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 2, inner loop (clockwise)"
+FORWARDEND
+BACKWARD
+"Line 2, outer loop (counter clockwise)"
+BACKWARDEND
+STATIONS
+"Xizhimen"
+"Chegongzhuang"
+"Fuchengmen"
+"Fuxingmen"
+"Changchunjie"
+"Xuanwumen"
+"Hepingmen"
+"Qianmen"
+"Chongwenmen"
+"Beijing Railway Station"
+"Jianguomen"
+"Chaoyangmen"
+"Dongsi Shitiao"
+"Dongzhimen"
+"Yonghegong Lama Temple"
+"Andingmen"
+"Guloudajie"
+"Jishuitan"
+"Xizhimen"
+STATIONSEND
+SEGMENTEND
+
+# -------------------------------------------------------------------------
+# Line 4
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 4 / Daxing Line, towards Tiangongyuan"
+FORWARDEND
+BACKWARD
+"Line 4 / Daxing Line, towards Anheqiao North"
+BACKWARDEND
+STATIONS
+"Anheqiao North"
+"Beigongmen"
+"Xiyuan"
+"Yuanmingyuan Park"
+"East Gate of Peking University"
+"Zhongguancun"
+"Haidianhuangzhuang"
+"Renmin University"
+"Weigongcun"
+"National Library"
+"Beijing Zoo"
+"Xizhimen"
+"Xinjiekou"
+"Ping\'anli"
+"Xisi"
+"Lingjing Hutong"
+"Xidan"
+"Xuanwumen"
+"Caishikou"
+"Taoranting"
+"Beijing South Railway Station"
+"Majiapu"
+"Jiaomen West"
+"Gongyixiqiao"
+"Xingong"
+"Xihongmen"
+"Gaomidian North"
+"Gaomidian South"
+"Zaoyuan"
+"Qingyuanlu"
+"Huangcunxidajie"
+"Huangcun Railway Station"
+"Yihezhuang"
+"Biomedical Base Station"
+"Tiangongyuan"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 4 / Daxing Line, towards Xingong"
+FORWARDEND
+BACKWARD
+"Line 4 / Daxing Line, towards Anheqiao North"
+BACKWARDEND
+STATIONS
+"Anheqiao North"
+"Beigongmen"
+"Xiyuan"
+"Yuanmingyuan Park"
+"East Gate of Peking University"
+"Zhongguancun"
+"Haidianhuangzhuang"
+"Renmin University"
+"Weigongcun"
+"National Library"
+"Beijing Zoo"
+"Xizhimen"
+"Xinjiekou"
+"Ping\'anli"
+"Xisi"
+"Lingjing Hutong"
+"Xidan"
+"Xuanwumen"
+"Caishikou"
+"Taoranting"
+"Beijing South Railway Station"
+"Majiapu"
+"Jiaomen West"
+"Gongyixiqiao"
+"Xingong"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Line 5
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 5, towards Songjiazhuang"
+FORWARDEND
+BACKWARD
+"Line 5, towards Tiantongyuan North"
+BACKWARDEND
+STATIONS
+"Tiantongyuan North"
+"Tiantongyuan"
+"Tiantongyuan South"
+"Lishuiqiao"
+"Lishuiqiao South"
+"Beiyuanlu North"
+"Datunlu East"
+"Huixinxijie Beikou"
+"Huixinxijie Nankou"
+"Hepingxiqiao"
+"Hepingli Beijie"
+"Yonghegong Lama Temple"
+"Beixinqiao"
+"Zhangzizhonglu"
+"Dongsi"
+"Dengshikou"
+"Dongdan"
+"Chongwenmen"
+"Ciqikou"
+"Tiantandongmen"
+"Puhuangyu"
+"Liujiayao"
+"Songjiazhuang"
+STATIONSEND
+SEGMENTEND
+
+# -------------------------------------------------------------------------
+# Line 6
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 6, towards Lucheng"
+FORWARDEND
+BACKWARD
+"Line 6, towards Haidian Wuluju"
+BACKWARDEND
+STATIONS
+"Haidian Wuluju"
+"Cishousi"
+"Huayuanqiao"
+"Baishiqiao South"
+"Erligou"
+"Chegongzhuang West"
+"Chegongzhuang"
+"Ping\'anli"
+"Beihai North"
+"Nanluoguxiang"
+"Dongsi"
+"Chaoyangmen"
+"Dongdaqiao"
+"Hujialou"
+"Jintailu"
+"Shilipu"
+"Qingnianlu"
+"Dalianpo"
+"Huangqu"
+"Changying"
+"Caofang"
+"Wuzixueyuanlu"
+"Tongzhou Beiguan"
+# "Tongyunmen"
+"Beiyunhe West"
+# "Beiyunhe East"
+"Haojiafu"
+"Dongxiayuan"
+"Lucheng"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Line 7
+# -------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Line 7, towards Jiaohuachang"
+FORWARDEND
+BACKWARD
+"Line 7, towards Beijing West Railway Station"
+BACKWARDEND
+STATIONS
+"Beijing West Railway Station"
+"Wanzi"
+"Daguanying"
+"Guang\'anmennei"
+"Caishikou"
+"Hufangqiao"
+"Zhushikou"
+"Qiaowan"
+"Ciqikou"
+"Guangqumennei"
+"Guangqumenwai"
+"Shuangjing"
+"Jiulongshan"
+"Dajiaoting"
+"Baiziwan"
+"Huagong"		
+"Nanlouzizhuang"
+"Happy Valley Scenic Area"
+"Fatou"
+"Shuanghe"
+"Jiaohuachang"
+STATIONSEND
+SEGMENTEND
+
+
+
+# -------------------------------------------------------------------------
+# Line 8
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 8, towards Nanluoguxiang"
+FORWARDEND
+BACKWARD
+"Line 8, towards Zhuxinzhuang"
+BACKWARDEND
+STATIONS
+"Zhuxinzhuang"
+"Yuzhilu"
+"Pingxifu"
+"Huilongguan Dongdajie"
+"Huoying"
+"Yuxin"
+"Xixiaokou"
+"Yongtaizhuang"
+"Lincuiqiao"
+"South Gate of Forest Park"
+"Olympic Green"
+"Olympic Sports Center"
+"Beitucheng"
+"Anhuaqiao"
+"Andelibeijie"
+"Guloudajie"
+"Shichahai"
+"Nanluoguxiang" 
+# "National Art Museum"
+STATIONSEND
+SEGMENTEND
+
+# -------------------------------------------------------------------------
+# Line 9
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 9, towards Guogongzhuang"
+FORWARDEND
+BACKWARD
+"Line 9, towards National Library"
+BACKWARDEND
+STATIONS
+"National Library"
+"Baishiqiao South"
+"Baiduizi"
+"Military Museum"
+"Beijing West Railway Station"
+"Liuliqiao East"
+"Liuliqiao" 	
+"Qilizhuang" 	
+"Fengtai Dongdajie"  
+"Fengtainanlu" 	
+"Keyilu" 	
+"Fengtai Science Park" 	
+"Guogongzhuang"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Line 10
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 10, inner loop (clockwise)"
+FORWARDEND
+BACKWARD
+"Line 10, outer loop (counter clockwise)"
+BACKWARDEND
+STATIONS
+"Xiju"
+"Liuliqiao"
+"Lianhuaqiao"
+"Gongzhufen"
+"Xidiaoyutai"
+"Cishousi"
+"Chedaogou"
+"Changchunqiao"
+"Huoqiying"
+"Bagou"
+"Suzhoujie"
+"Haidianhuangzhuang"
+"Zhichunli"
+"Zhichunlu"
+"Xitucheng"
+"Mudanyuan"
+"Jiandemen"
+"Beitucheng"
+"Anzhenmen"
+"Huixinxijie Nankou"
+"Shaoyaoju"
+"Taiyanggong"
+"Sanyuanqiao"
+"Liangmaqiao"
+"Agricultural Exhibition Center"
+"Tuanjiehu"
+"Hujialou"
+"Jintaixizhao"
+"Guomao"
+"Shuangjing"
+"Jinsong"
+"Panjiayuan"
+"Shilihe"
+"Fenzhongsi"
+"Chengshousi"
+"Songjiazhuang"
+"Shiliuzhuang"
+"Dahongmen"
+"Jiaomen East"
+"Jiaomen West"
+"Caoqiao"
+"Jijiamiao"
+"Shoujingmao"
+"Fengtai Railway Station" 			
+"Niwa"
+"Xiju"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 10 express, towards Songjiazhuang"
+FORWARDEND
+BACKWARD
+"Line 10 express, towards Chedaogou"
+BACKWARDEND
+STATIONS
+"Chedaogou"
+"Changchunqiao"
+"Huoqiying"
+"Bagou"
+"Suzhoujie"
+"Haidianhuangzhuang"
+"Zhichunli"
+"Zhichunlu"
+"Xitucheng"
+"Mudanyuan"
+"Jiandemen"
+"Beitucheng"
+"Anzhenmen"
+"Huixinxijie Nankou"
+"Shaoyaoju"
+"Taiyanggong"
+"Sanyuanqiao"
+"Liangmaqiao"
+"Agricultural Exhibition Center"
+"Tuanjiehu"
+"Hujialou"
+"Jintaixizhao"
+"Guomao"
+"Shuangjing"
+"Jinsong"
+"Panjiayuan"
+"Shilihe"
+"Fenzhongsi"
+"Chengshousi"
+"Songjiazhuang"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Line 13
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 13, towards Dongzhimen"
+FORWARDEND
+BACKWARD
+"Line 13, towards Xizhimen"
+BACKWARDEND
+STATIONS
+"Xizhimen"
+"Dazhongsi"
+"Zhichunlu"
+"Wudaokou"
+"Shangdi"
+"Xi\'erqi"
+"Longze"
+"Huilongguan"
+"Huoying"
+"Lishuiqiao"
+"Beiyuan"
+"Wangjing West"
+"Shaoyaoju"
+"Guangximen"
+"Liufang"
+"Dongzhimen"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Line 14 - SINCE dec 2014 eastern part opened, to be connected someday
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 14 WEST, towards Xiju"
+FORWARDEND
+BACKWARD
+"Line 14 WEST, towards Zhangguozhuang"
+BACKWARDEND
+STATIONS
+"Zhangguozhuang"
+"Garden Expo" 	
+"Dawayao" 	
+"Guozhuangzi" 	
+"Dajing" 	
+"Qilizhuang"
+"Xiju" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 14 EAST, towards Shan\'gezhuang"
+FORWARDEND
+BACKWARD
+"Line 14 EAST, towards Beijing South Railway Station"
+BACKWARDEND
+STATIONS
+"Beijing South Railway Station"
+# "Taoranqiao"
+"Yongdingmenwai"
+"Jingtai"
+"Puhuangyu"
+"Fangzhuang"
+"Shilihe"
+"Beigongda Ximen"
+# "Pingleyuan" 
+"Jiulongshan"
+"Dawanglu"
+# "Hongmiao"
+"Jintailu"
+# "Chaoyang Park" 	
+"Zaoying"
+"Dongfeng Beiqiao"
+"Jiangtai"
+# "Gaojiayuan" 
+"Wangjing South"
+"Futong"
+"Wangjing"
+"Donghuqu"
+"Laiguangying"
+"Shan\'gezhuang"
+STATIONSEND
+SEGMENTEND
+
+
+
+# -------------------------------------------------------------------------
+# Line 15
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Line 15, towards Fengbo"
+FORWARDEND
+BACKWARD
+"Line 15, towards Qinghuadongluxikou"
+BACKWARDEND
+STATIONS
+"Qinghuadongluxikou"
+"Liudaokou"
+"Beishatan"
+"Olympic Green"
+"Anlilu"
+"Datunlu East" 		
+"Guanzhuang"
+"Wangjing West"
+"Wangjing"
+# "Wangjing East"
+"Cuigezhuang"
+"Maquanying"
+"Sunhe"
+"China International Exhibition Center"
+"Hualikan"
+"Houshayu"
+"Nanfaxin" 
+"Shimen"
+"Shunyi"
+"Fengbo"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Batong Line
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Batong line, towards Tuqiao"
+FORWARDEND
+BACKWARD
+"Batong line, towards Sihui"
+BACKWARDEND
+STATIONS
+"Sihui"
+"Sihui East"
+"Gaobeidian"
+"Communication University of China"
+"Shuangqiao"
+"Guanzhuang"
+"Baliqiao"
+"Tongzhou Beiyuan"
+"Guoyuan"
+"Jiukeshu"
+"Liyuan"
+"Linheli"
+"Tuqiao"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Changping Line
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Changping line, towards Changping Xishankou"
+FORWARDEND
+BACKWARD
+"Changping line, towards Xi\'erqi"
+BACKWARDEND
+STATIONS
+"Xi\'erqi"
+"Life Science Park"
+"Zhuxinzhuang"
+"Gonghuacheng"
+"Shahe"
+"Shahe University Park"
+"Nanshao"
+"Beishaowa"
+"Changping Dongguan"
+"Changping"
+"Ming Tombs"
+"Changping Xishankou"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Daxing Line
+# -------------------------------------------------------------------------
+#
+#Toegevoegd aan lijn 4 wegens unificatie door operator
+#SEGMENT
+#FORWARD
+#"Daxing line, towards Tiangongyuan"
+#FORWARDEND
+#BACKWARD
+#"Daxing line, towards Gongyixiqiao"
+#BACKWARDEND
+#STATIONS
+#"Gongyixiqiao"
+#"Xingong"
+#"Xihongmen"
+#"Gaomidian North"
+#"Gaomidian South"
+#"Zaoyuan"
+#"Qingyuanlu"
+#"Huangcunxidajie"
+#"Huangcun Railway Station"
+#"Yihezhuang"
+#"Biomedical Base Station"
+#"Tiangongyuan"
+#STATIONSEND
+#SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Fangshan Line
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Fangshan line, towards Suzhuang"
+FORWARDEND
+BACKWARD
+"Fangshan line, towards Guogongzhuang"
+BACKWARDEND
+STATIONS
+"Guogongzhuang"
+"Dabaotai"
+"Daotian"
+"Changyang"
+"Libafang"
+"Guangyangcheng"
+"Liangxiang University Town North"
+"Liangxiang University Town"
+"Liangxiang University Town West"
+"Liangxiangnanguan"
+"Suzhuang"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Yizhuang Line
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Yizhuang line, towards Ciqu"
+FORWARDEND
+BACKWARD
+"Yizhuang line, towards Songjiazhuang"
+BACKWARDEND
+STATIONS
+"Songjiazhuang"
+"Xiaocun"
+"Xiaohongmen"
+"Jiugong"
+"Yizhuangqiao"
+"Yizhuang Culture Park"
+"Wanyuanjie"
+"Rongjingdongjie"
+"Rongchangdongjie"
+"Tongjinanlu"
+"Jinghailu"
+"Ciqu South"
+"Ciqu"
+#"Yizhuang Railway Station"
+STATIONSEND
+SEGMENTEND
+
+
+# -------------------------------------------------------------------------
+# Airport Express
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Airport express, towards Terminal 2"
+FORWARDEND
+STATIONS
+"Dongzhimen"
+"Sanyuanqiao"
+"Terminal 3"
+"Terminal 2"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Airport express, towards Dongzhimen"
+FORWARDEND
+STATIONS
+"Terminal 2"
+"Sanyuanqiao"
+"Dongzhimen"
+STATIONSEND
+SEGMENTEND
+
+# temporarily until end 2013
+# -------------------------------------------------------------------------
+# Temporary Bus Service
+# -------------------------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Bus Service, towards Military Museum"
+FORWARDEND
+BACKWARD
+"Bus Service, towards Beijing West Railway Station"
+BACKWARDEND
+STATIONS
+"Beijing West Railway Station"
+"Military Museum"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     TRANSFORM Airport express
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Terminal 2"
+TRANSFORM_POINT_END
+BEFORE
+"Airport express, towards Terminal 2"
+BEFORE_END
+AFTER
+"Airport express, towards Dongzhimen"
+AFTER_END
+METRO_TRANSFORM_END

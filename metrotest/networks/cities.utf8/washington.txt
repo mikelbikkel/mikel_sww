@@ -1,0 +1,261 @@
+CITY
+CITYNAME
+Washington
+CITYNAME_END
+CITYCODE
+WAS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Red line, towards Glenmont"
+FORWARDEND
+BACKWARD
+"Red line, towards Shady Grove"
+BACKWARDEND
+STATIONS
+"Shady Grove"
+"Rockville"
+"Twinbrook"
+"White Flint"
+"Grosvenor - Strathmore"
+"Medical Center"
+"Bethesda"
+"Friendship Heights"
+"Tenleytown - AU"
+"Van Ness - UDC"
+"Cleveland Park"
+"Woodley Park - Zoo - Adams Morgan"
+"Dupont Circle"
+"Farragut North"
+"Metro Center"
+"Gallery Place - Chinatown"
+"Judiciary Square"
+"Union Station"
+"New York Avenue - Florida Avenue - Gallaudet University"
+"Rhode Island Avenue - Brentwood"
+"Brookland - CUA"
+"Fort Totten"
+"Takoma"
+"Silver Spring"
+"Forest Glen"
+"Wheaton"
+"Glenmont"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Orange line, towards New Carrollton"
+FORWARDEND
+BACKWARD
+"Orange line, towards Vienna/Fairfax - GMU"
+BACKWARDEND
+STATIONS
+"Vienna/Fairfax - GMU"
+"Dunn Loring - Merrifield"
+"West Falls Church - VT/UVA"
+"East Falls Church"
+"Ballston - MU"
+"Virginia Square"
+"Clarendon"
+"Court House"
+"Rosslyn"
+"Foggy Bottom - GWU"
+"Farragut West"
+"McPherson Square"
+"Metro Center"
+"Federal Triangle"
+"Smithsonian"
+"L\'Enfant Plaza"
+"Federal Center SW"
+"Capitol South"
+"Eastern Market"
+"Potomac Avenue"
+"Stadium - Armory"
+"Minnesota Avenue"
+"Deanwood"
+"Cheverly"
+"Landover"
+"New Carrollton"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line, towards Largo Town Center"
+FORWARDEND
+BACKWARD
+"Blue line, towards Franconia-Springfield"
+BACKWARDEND
+STATIONS
+"Franconia-Springfield"
+"Van Dorn Street"
+"King Street"
+"Braddock Road"
+"Ronald Reagan Washington National Airport"
+"Crystal City"
+"Pentagon City"
+"Pentagon"
+"Arlington Cemetery"
+"Rosslyn"
+"Foggy Bottom - GWU"
+"Farragut West"
+"McPherson Square"
+"Metro Center"
+"Federal Triangle"
+"Smithsonian"
+"L\'Enfant Plaza"
+"Federal Center SW"
+"Capitol South"
+"Eastern Market"
+"Potomac Avenue"
+"Stadium - Armory"
+"Benning Road"
+"Capitol Heights"
+"Addison Road - Seat Pleasant"
+"Morgan Boulevard"
+"Largo Town Center"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Yellow line, towards Mount Vernon Square"
+FORWARDEND
+BACKWARD
+"Yellow line, towards Huntington"
+BACKWARDEND
+STATIONS
+"Huntington"
+"Eisenhower Avenue"
+"King Street"
+"Braddock Road"
+"Ronald Reagan Washington National Airport"
+"Crystal City"
+"Pentagon City"
+"Pentagon"
+"L\'Enfant Plaza"
+"Archives - Navy Memorial - Penn Quarter"
+"Gallery Place - Chinatown"
+"Mount Vernon Square"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Yellow line (off peak), towards Fort Totten"
+FORWARDEND
+BACKWARD
+"Yellow line (off peak), towards Huntington"
+BACKWARDEND
+STATIONS
+"Huntington"
+"Eisenhower Avenue"
+"King Street"
+"Braddock Road"
+"Ronald Reagan Washington National Airport"
+"Crystal City"
+"Pentagon City"
+"Pentagon"
+"L\'Enfant Plaza"
+"Archives - Navy Memorial - Penn Quarter"
+"Gallery Place - Chinatown"
+"Mount Vernon Square"
+"Shaw - Howard University"
+"U Street - Cardozo"
+"Columbia Heights"
+"Georgia Avenue - Petworth"
+"Fort Totten"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Yellow line (off peak)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Yellow Line extension to the Fort Totten station during off-peak hours."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Green line, towards Greenbelt"
+FORWARDEND
+BACKWARD
+"Green line, towards Branch Avenue"
+BACKWARDEND
+STATIONS
+"Branch Avenue"
+"Suitland"
+"Naylor Road"
+"Southern Avenue"
+"Congress Heights"
+"Anacostia"
+"Navy Yard"
+"Waterfront - SEU"
+"L\'Enfant Plaza"
+"Archives - Navy Memorial - Penn Quarter"
+"Gallery Place - Chinatown"
+"Mount Vernon Square"
+"Shaw - Howard University"
+"U Street - Cardozo"
+"Columbia Heights"
+"Georgia Avenue - Petworth"
+"Fort Totten"
+"West Hyattsville"
+"Prince George\'s Plaza"
+"College Park - University of Maryland"
+"Greenbelt"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Silver line, towards Largo Town Center"
+FORWARDEND
+BACKWARD
+"Silver line, towards Wiehle - Reston East"
+BACKWARDEND
+STATIONS
+"Wiehle - Reston East"
+"Spring Hill"
+"Greensboro"
+"Tysons Corner"
+"McLean"
+"East Falls Church"
+"Ballston - MU"
+"Virginia Square"
+"Clarendon"
+"Court House"
+"Rosslyn"
+"Foggy Bottom - GWU"
+"Farragut West"
+"McPherson Square"
+"Metro Center"
+"Federal Triangle"
+"Smithsonian"
+"L\'Enfant Plaza"
+"Federal Center SW"
+"Capitol South"
+"Eastern Market"
+"Potomac Avenue"
+"Stadium - Armory"
+"Benning Road"
+"Capitol Heights"
+"Addison Road - Seat Pleasant"
+"Morgan Boulevard"
+"Largo Town Center"
+STATIONSEND
+SEGMENTEND
+
+

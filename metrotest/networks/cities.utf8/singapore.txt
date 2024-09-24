@@ -1,0 +1,475 @@
+CITY
+CITYNAME
+"Singapore"
+CITYNAME_END
+CITYCODE
+SNG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"North South Line (red), towards Marina South Pier"
+FORWARDEND
+BACKWARD
+"North South Line (red), towards Jurong East"
+BACKWARDEND
+STATIONS
+"Jurong East"
+"Bukit Batok"
+"Bukit Gombak"
+"Choa Chu Kang"
+"Yew Tee"
+"Kranji"
+"Marsiling"
+"Woodlands"
+"Admiralty"
+"Sembawang"
+"Yishun"
+"Khatib"
+"Yio Chu Kang"
+"Ang Mo Kio"
+"Bishan"
+"Braddell"
+"Toa Payoh"
+"Novena"
+"Newton"
+"Orchard"
+"Somerset"
+"Dhoby Ghaut"
+"City Hall"
+"Raffles Place"
+"Marina Bay"
+"Marina South Pier"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"East West Line (green), towards Joo Koon"
+FORWARDEND
+BACKWARD
+"East West Line (green), towards Pasir Ris"
+BACKWARDEND
+STATIONS
+"Pasir Ris"
+"Tampines"
+"Simei"
+"Tanah Merah"
+"Bedok"
+"Kembangan"
+"Eunos"
+"Paya Lebar"
+"Aljunied"
+"Kallang"
+"Lavender"
+"Bugis"
+"City Hall"
+"Raffles Place"
+"Tanjong Pagar"
+"Outram Park"
+"Tiong Bahru"
+"Redhill"
+"Queenstown"
+"Commonwealth"
+"Buona Vista"
+"Dover"
+"Clementi"
+"Jurong East"
+"Chinese Garden"
+"Lakeside"
+"Boon Lay"
+"Pioneer"
+"Joo Koon"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"East West Line (green), towards Tanah Merah"
+FORWARDEND
+BACKWARD
+"East West Line (green), towards Changi Airport"
+BACKWARDEND
+STATIONS
+"Changi Airport"
+"Expo"
+"Tanah Merah"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Circle Line (yellow), towards HarbourFront"
+FORWARDEND
+BACKWARD
+"Circle Line (yellow), towards Dhoby Ghaut"
+BACKWARDEND
+STATIONS
+"Dhoby Ghaut"
+"Bras Basah"
+"Esplanade"
+"Promenade"
+"Nicoll Highway"
+"Stadium"
+"Mountbatten"
+"Dakota"
+"Paya Lebar"
+"MacPherson"
+"Tai Seng"
+"Bartley"
+"Serangoon"
+"Lorong Chuan"
+"Bishan"
+"Marymount"
+"Caldecott"
+# "Bukit Brown"
+"Botanic Gardens"
+"Farrer Road"
+"Holland Village"
+"Buona Vista"
+"one-north"
+"Kent Ridge"
+"Haw Par Villa"
+"Pasir Panjang"
+"Labrador Park"
+"Telok Blangah"
+"HarbourFront"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Circle Line (yellow), towards HarbourFront"
+FORWARDEND
+BACKWARD
+"Circle Line (yellow), towards Marina Bay"
+BACKWARDEND
+STATIONS
+"Marina Bay"
+"Bayfront"
+"Promenade"
+"Nicoll Highway"
+"Stadium"
+"Mountbatten"
+"Dakota"
+"Paya Lebar"
+"MacPherson"
+"Tai Seng"
+"Bartley"
+"Serangoon"
+"Lorong Chuan"
+"Bishan"
+"Marymount"
+"Caldecott"
+# "Bukit Brown"
+"Botanic Gardens"
+"Farrer Road"
+"Holland Village"
+"Buona Vista"
+"one-north"
+"Kent Ridge"
+"Haw Par Villa"
+"Pasir Panjang"
+"Labrador Park"
+"Telok Blangah"
+"HarbourFront"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"North East Line (purple), towards Punggol"
+FORWARDEND
+BACKWARD
+"North East Line (purple), towards HarbourFront"
+BACKWARDEND
+STATIONS
+"HarbourFront"
+"Outram Park"
+"Chinatown"
+"Clarke Quay"
+"Dhoby Ghaut"
+"Little India"
+"Farrer Park"
+"Boon Keng"
+"Potong Pasir"
+"Woodleigh"
+"Serangoon"
+"Kovan"
+"Hougang"
+"Buangkok"
+"Sengkang"
+"Punggol"
+STATIONSEND
+SEGMENTEND
+
+
+# WATCH OUT Bukit Panjang Bi-directional pan-shaped loop!
+
+# LRT Bukit Panjang CCW ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Bukit Panjang LRT, towards Petir"
+FORWARDEND
+STATIONS
+"Choa Chu Kang"
+"South View"
+"Keat Hong"
+"Teck Whye"
+"Phoenix"
+"Bukit Panjang"
+"Petir"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Bukit Panjang LRT, Counterclockwise to Choa Chu Kang"
+FORWARDEND
+STATIONS
+"Petir"
+"Pending"
+"Bangkit"
+"Fajar"
+"Segar"
+"Jelapang"
+"Senja"
+"Bukit Panjang"
+"Phoenix"
+"Teck Whye"
+"Keat Hong"
+"South View"
+"Choa Chu Kang"
+STATIONSEND
+SEGMENTEND
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Petir"
+TRANSFORM_POINT_END
+BEFORE
+"Bukit Panjang LRT, towards Petir"
+BEFORE_END
+AFTER
+"Bukit Panjang LRT, Counterclockwise to Choa Chu Kang"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# LRT Bukit Panjang CW ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Bukit Panjang LRT, towards Senja"
+FORWARDEND
+STATIONS
+"Choa Chu Kang"
+"South View"
+"Keat Hong"
+"Teck Whye"
+"Phoenix"
+"Bukit Panjang"
+"Senja"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Bukit Panjang LRT, Clockwise to Choa Chu Kang"
+FORWARDEND
+STATIONS
+"Senja"
+"Jelapang"
+"Segar"
+"Fajar"
+"Bangkit"
+"Pending"
+"Petir"
+"Bukit Panjang"
+"Phoenix"
+"Teck Whye"
+"Keat Hong"
+"South View"
+"Choa Chu Kang"
+STATIONSEND
+SEGMENTEND
+
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Senja"
+TRANSFORM_POINT_END
+BEFORE
+"Bukit Panjang LRT, towards Senja"
+BEFORE_END
+AFTER
+"Bukit Panjang LRT, Clockwise to Choa Chu Kang"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+# LRT Bukit Panjang 10 Miles Shuttle ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Bukit Panjang LRT C, towards Ten Mile Junction"
+FORWARDEND
+BACKWARD
+"Bukit Panjang LRT C, towards Bukit Panjang"
+BACKWARDEND
+STATIONS
+"Bukit Panjang"
+"Ten Mile Junction"
+STATIONSEND
+SEGMENTEND
+
+
+
+# LRT Sengkang LRT ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Sengkang LRT (east loop), clockwise"
+FORWARDEND
+BACKWARD
+"Sengkang LRT (east loop), counter clockwise"
+BACKWARDEND
+STATIONS
+"Sengkang"
+"Compassvale"
+"Rumbia"
+"Bakau"
+"Kangkar"
+"Ranggung"
+"Sengkang"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Sengkang LRT (west loop), counter clockwise"
+FORWARDEND
+BACKWARD
+"Sengkang LRT (west loop), clockwise"
+BACKWARDEND
+STATIONS
+"Sengkang"
+"Cheng Lim"
+"Farmway"
+"Kupang"
+"Thanggam"
+"Fernvale"
+"Layar"
+"Tongkang"
+"Renjong"
+"Sengkang"
+STATIONSEND
+SEGMENTEND
+
+
+# LRT Punggol LRT ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Punggol LRT (east loop), counter clockwise"
+FORWARDEND
+BACKWARD
+"Punggol LRT (east loop), clockwise"
+BACKWARDEND
+STATIONS
+"Punggol"
+"Cove"
+"Meridian"
+"Coral Edge"
+"Riviera"
+"Kadaloor"
+"Oasis"
+"Damai"
+"Punggol"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Punggol LRT (west loop), counter clockwise"
+FORWARDEND
+BACKWARD
+"Punggol LRT (west loop), clockwise"
+BACKWARDEND
+STATIONS
+"Punggol"
+"Sam Kee"
+# "Teck Lee"
+# "Pungol Point"
+"Samudera"
+"Nibong"
+"Sumang"
+"Soo Teck"
+"Punggol"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# Sentosa Express  ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Sentosa Express, towards Beach"
+FORWARDEND
+BACKWARD
+"Sentosa Express, towards Sentosa"
+BACKWARDEND
+STATIONS
+"Sentosa"
+"Waterfront"
+"Imbiah"
+"Beach"
+STATIONSEND
+SEGMENTEND
+
+
+# DTL Downtown Line phase 2: 2/2016 ------------------------------------------------------
+
+SEGMENT
+FORWARD
+"Downtown Line (blue), towards Chinatown"
+FORWARDEND
+BACKWARD
+"Downtown Line (blue), towards Bukit Panjang"
+BACKWARDEND
+STATIONS
+"Bukit Panjang" # Change for the Bukit Panjang LRT
+"Cashew" 	
+"Hillview" 	
+# "Future Station"
+"Beauty World" 	
+"King Albert Park" 	
+"Sixth Avenue" 	
+"Tan Kah Kee" 	
+"Botanic Gardens"
+"Stevens"
+"Newton"
+"Little India"
+"Rochor"
+"Bugis"
+"Promenade"
+"Bayfront"
+"Downtown"
+"Telok Ayer"
+"Chinatown"
+STATIONSEND
+SEGMENTEND
+
+
+
+MULTI_NAMED_NODE
+"Sentosa"
+"HarbourFront"
+MULTI_NAMED_NODE_END

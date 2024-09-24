@@ -1,0 +1,669 @@
+# Data extracted from http://www.metro.na.it/metro
+# http://it.wikipedia.org/wiki/Trasporti_a_Napoli
+# http://www.eavcampania.it/web/content/scarica-orario-ferroviario
+# http://www.metro.na.it/metro/images/stories/PDF/network_map_metronapoli.pdf
+
+# City
+CITY
+CITYNAME
+"Naples"
+CITYNAME_END
+CITYCODE
+NAP
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1 (Metronapoli)
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 1, towards Piazza Garibaldi"
+FORWARDEND
+BACKWARD
+"Linea 1, towards Piscinola"
+BACKWARDEND
+STATIONS
+"Piscinola"
+"Chiaiano"
+"Frullone - San Rocco"
+"Colli Aminei"
+"Policlinico"
+"Rione Alto"
+"Montedonzelli"
+"Medaglie d\'Oro"
+"Vanvitelli" 
+"Quattro Giornate"
+"Salvator Rosa"
+"Materdei"
+"Museo"
+"Dante"
+"Toledo"
+# "Municipio"
+"Università"
+# "Duomo"
+"Piazza Garibaldi"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     Line 6 (Metronapoli)
+# =============================================================
+LINE
+LINE_NAME
+"Linea 6"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Monday to Friday from 7.30 to 14.30"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Linea 6, towards Mergellina"
+FORWARDEND
+BACKWARD
+"Linea 6, towards Mostra"
+BACKWARDEND
+STATIONS
+"Mostra" # (interchange to the Cumana railway and to the line 2)
+"Augusto"
+"Lala"
+"Mergellina" # interchange to the line 2
+# "Arco Mirelli" (under construction)
+# "San Pasquale" (under construction)
+# "Chiaia" (under construction)
+# "Municipio" (under construction)
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Linea 2 (Trenitalia)
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 2, towards Gianturco"
+FORWARDEND
+BACKWARD
+"Linea 2, towards Pozzuoli Solfatara"
+BACKWARDEND
+STATIONS
+"Pozzuoli Solfatara" 	
+"Bagnoli-Agnano Terme" 	
+"Cavalleggeri Aosta"
+"Campi Flegrei"
+"Piazza Leopardi" 	
+"Mergellina"
+"Piazza Amedeo"
+"Montesanto"
+"Piazza Cavour"
+"Piazza Garibaldi"
+"Gianturco"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/lineacumana.pdf
+# =============================================================
+#     Ferrovia Cumana (SEPSA)
+# =============================================================
+SEGMENT
+FORWARD
+"Cumana, towards Torregaveta"
+FORWARDEND
+BACKWARD
+"Cumana, towards Montesanto"
+BACKWARDEND
+STATIONS
+"Montesanto"
+"Corso Vittorio Emanuele (Cumana)"
+"Fuorigrotta"
+"Mostra"
+"Edenlandia"
+"Agnano"
+"Bagnoli"
+"Dazio"
+"Gerolomini"
+"Cappuccini"
+"Pozzuoli"
+"Cantieri"
+"Arco Felice"
+"Lucrino"
+"Fusaro"
+"Torregaveta"
+STATIONSEND
+SEGMENTEND
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/lineacircumflegrea.pdf
+# sometimes reffered to as line 5 (transport municipal plan only)
+# =============================================================
+#     Ferrovia Circumflegrea (SEPSA)
+# =============================================================
+SEGMENT
+FORWARD
+"Circumflegrea, towards Licola"
+FORWARDEND
+BACKWARD
+"Circumflegrea, towards Montesanto"
+BACKWARDEND
+STATIONS
+"Montesanto"
+"Piave"
+"Soccavo"
+"Traiano"
+"La Trencia"
+"Pianura"
+"Pisani"
+"Quarto Centro"
+"Quarto"
+"Quarto Officina"
+"Grotta del Sole"
+"Licola"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Circumflegrea (Torregaveta)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Morning off-peak service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Circumflegrea (Torregaveta), towards Torregaveta"
+FORWARDEND
+BACKWARD
+"Circumflegrea (Torregaveta), towards Montesanto"
+BACKWARDEND
+STATIONS
+"Montesanto"
+"Piave"
+"Soccavo"
+"Traiano"
+"La Trencia"
+"Pianura"
+"Pisani"
+"Quarto Centro"
+"Quarto"
+"Quarto Officina"
+"Grotta del Sole"
+"Licola"
+"Marina di Licola"
+"Cuma"
+"Lido Fusaro"
+"Torregaveta"
+STATIONSEND
+SEGMENTEND
+
+
+# http://it.wikipedia.org/wiki/Linea_Napoli-Giugliano-Aversa
+# =============================================================
+#     Linea Arcobaleno - Rainbow (MCNE)
+# =============================================================
+SEGMENT
+FORWARD
+"Linea Arcobaleno, towards Aversa"
+FORWARDEND
+BACKWARD
+"Linea Arcobaleno, towards Piscinola"
+BACKWARDEND
+STATIONS
+"Piscinola" 	
+"Mugnano" 		
+# "Melito" stazione in costruzione
+"Giugliano"
+"Aversa Ippodromo" 		
+"Aversa Centro"
+STATIONSEND
+SEGMENTEND
+
+
+
+# http://www.eavcampania.it/web/content/scarica-orario-ferroviario
+# =============================================================
+#     Former Circumvesuviana lines (now EAV)
+# =============================================================
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/Orario%20Napoli%20Sorrento%20con%20Pozzano%20e%20Scraio%20e%20viceversa.pdf
+LINE
+LINE_NAME
+"Ferrovia Torre Annunziata-Sorrento"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"(Circumvesuviana) Check operator info. Some trains may skip some stops."
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Ferrovia Torre Annunziata-Sorrento, towards Sorrento"
+FORWARDEND
+BACKWARD
+"Ferrovia Torre Annunziata-Sorrento, towards Porta Nolana"
+BACKWARDEND
+STATIONS
+"Porta Nolana"
+"Piazza Garibaldi"
+"Via Gianturco"
+"San Giovanni a Teduccio"
+"Barra"
+"S. Maria del Pozzo"
+"San Giorgio a Cremano"
+"Cavalli di Bronzo"
+"Bellavista"
+"Portici Via Libertà"
+"Ercolano Scavi"
+"Ercolano Miglio d\'Oro"
+"Torre del Greco"
+"Via S. Antonio (Torre Del Greco)"
+"Via del Monte"
+"Via dei Monaci"
+"Villa delle Ginestre"
+"Leopardi (Torre del Greco)"
+"Via Viuli"
+"Trecase"
+"Torre Anunziata Oplonti"
+"Pompei S. Villa Misteri"
+"Moregine"
+"Ponte Persica"
+"Pioppaino"
+"Via Nocera"
+"Castellammare di Stabia"
+"Pozzano"
+"Scrajo"
+"Vico Equense"
+"Seiano"
+"Meta"
+"Piano"
+"Sant\'Agnello"
+"Sorrento"
+STATIONSEND
+SEGMENTEND
+
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/sarno_0.pdf
+# sometimes reffered to as line 4 (transport municipal plan only)
+LINE
+LINE_NAME
+"Ferrovia Napoli-Ottaviano-Sarno"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"(Circumvesuviana)"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Ferrovia Napoli-Ottaviano-Sarno, towards Sarno"
+FORWARDEND
+BACKWARD
+"Ferrovia Napoli-Ottaviano-Sarno, towards Porta Nolana"
+BACKWARDEND
+STATIONS
+"Porta Nolana"
+"Piazza Garibaldi"
+"Via Gianturco"
+"San Giovanni a Teduccio"
+"Barra"
+"Off. Ponticelli"
+"Ponticelli"
+"Vesuvio De Meis"
+"Cercola"
+"Pollena"
+"Guindazzi"
+"Madonna dell\'Arco"
+"Sant\'Anastasia"
+"Mercato Vecchio"
+"Somma"
+"Rione Trieste"
+"Ottaviano"
+"San Leonardo"
+"San Giuseppe Vesuviano"
+"Casilli"
+"Terzigno"
+"Flocco"
+"Poggiomarino"
+"Striano"
+"San Valentino"
+"Sarno"
+STATIONSEND
+SEGMENTEND
+
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/poggiomarino_0.pdf
+LINE
+LINE_NAME
+"Ferrovia Napoli-Pompei-Poggiomarino"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"(Circumvesuviana)"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Ferrovia Napoli-Pompei-Poggiomarino, towards Poggiomarino"
+FORWARDEND
+BACKWARD
+"Ferrovia Napoli-Pompei-Poggiomarino, towards Porta Nolana"
+BACKWARDEND
+STATIONS
+"Porta Nolana"
+"Piazza Garibaldi"
+"Via Gianturco"
+"San Giovanni a Teduccio"
+"Barra"
+"S. Maria del Pozzo"
+"San Giorgio a Cremano"
+"Cavalli di Bronzo"
+"Bellavista"
+"Portici Via Libertà"
+"Ercolano Scavi"
+"Ercolano Miglio d\'Oro"
+"Torre del Greco"
+"Via S. Antonio (Torre Del Greco)"
+"Via del Monte"
+"Via dei Monaci"
+"Villa delle Ginestre"
+"Leopardi (Torre del Greco)"
+"Via Viuli"
+"Trecase"
+"Torre Anunziata Oplonti"
+"Boscotrecase"
+"Boscoreale"
+"Pompei Santuario"
+"Scafati"
+"S. Pietro"
+"Cangiani"
+"Poggiomarino" 
+STATIONSEND
+SEGMENTEND
+
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/sangiorgio_0.pdf
+# sometimes reffered to as line 3 (transport municipal plan only)
+LINE
+LINE_NAME
+"Linea Napoli-San Giorgio"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"(Circumvesuviana)"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Linea Napoli-San Giorgio, towards San Giorgio a Cremano"
+FORWARDEND
+BACKWARD
+"Linea Napoli-San Giorgio, towards Porta Nolana"
+BACKWARDEND
+STATIONS
+"Porta Nolana"
+"Piazza Garibaldi"
+"Napoli Centro Direzionale"
+"Poggioreale"
+"Botteghelle"
+"Madonnelle"
+"Argine Palasport"
+"Villa Visconti"
+"Vesuvio De Meis"
+"Bartolo Longo"
+"San Giorgio a Cremano" 
+STATIONSEND
+SEGMENTEND
+
+
+LINE
+LINE_NAME
+"Ferrovia Pomigliano d\'Arco-Acerra"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"(Circumvesuviana) caution: most trains skip stops at Alfa Lancia."
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/baiano_0.pdf
+SEGMENT
+FORWARD
+"Ferrovia Pomigliano d\'Arco-Acerra, towards Acerra"
+FORWARDEND
+BACKWARD
+"Ferrovia Pomigliano d\'Arco-Acerra, towards Porta Nolana"
+BACKWARDEND
+STATIONS
+"Porta Nolana"
+"Piazza Garibaldi"
+"Napoli Centro Direzionale"
+"Poggioreale"
+"Botteghelle"
+"Volla"
+"Salice"
+"Casalnuovo"
+"La Pigna"
+"Talona"
+"Parco Piemonte"
+"Pratola"
+"Pomigliano d\'Arco"
+"Alfa Lancia 2"
+"Alfa Lancia 4"
+"Acerra"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Ferrovia Napoli-Nola-Baiano"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"(Circumvesuviana)"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 29-07-2012"
+LINE_EDIT_END
+LINE_END
+
+# http://www.eavcampania.it/web/sites/default/files/allegati/baiano_0.pdf
+SEGMENT
+FORWARD
+"Ferrovia Napoli-Nola-Baiano, towards Baiano"
+FORWARDEND
+BACKWARD
+"Ferrovia Napoli-Nola-Baiano, towards Porta Nolana"
+BACKWARDEND
+STATIONS
+"Porta Nolana"
+"Piazza Garibaldi"
+"Napoli Centro Direzionale"
+"Poggioreale"
+"Botteghelle"
+"Volla"
+"Salice"
+"Casalnuovo"
+"La Pigna"
+"Talona"
+"Parco Piemonte"
+"Pratola"
+"Pomigliano d\'Arco"
+"Castel Cisterna"
+"Brusciano"
+"De Ruggiero"
+"Vittorio Veneto"
+"Marigliano"
+"San Vitaliano"
+"Scisciano"
+"Saviano"
+"Nola"
+"Cimitile"
+"Camposano"
+"Cicciano"
+"Roccarainola"
+"Avella"
+"Baiano" 
+STATIONSEND
+SEGMENTEND
+
+
+# http://www.metro.na.it/metro/images/stories/PDF/mappaa5_20130606.pdf
+# =============================================================
+#     Funicolare
+# =============================================================
+SEGMENT
+FORWARD
+"Funicolare Centrale, towards Augusteo"
+FORWARDEND
+BACKWARD
+"Funicolare Centrale, towards Piazza Fuga"
+BACKWARDEND
+STATIONS
+"Piazza Fuga"
+"Petraio-Via Palizzi" 	
+"Corso V. Emanuele (Centrale)"
+"Augusteo"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Funicolare Chiaia, towards Parco Margherita"
+FORWARDEND
+BACKWARD
+"Funicolare Chiaia, towards Via Cimarosa"
+BACKWARDEND
+STATIONS
+"Via Cimarosa"
+"Palazzolo-Parco Marcolini"
+"Corso V. Emanuele (Chiaia)"
+"Chiaia-Parco Margherita"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Funicolare Montesanto, towards Morghen"
+FORWARDEND
+BACKWARD
+"Funicolare Montesanto, towards Montesanto"
+BACKWARDEND
+STATIONS
+"Montesanto"
+"Corso V. Emanuele (Montesanto)"
+# "Sant\'Elmo-Viale Raffaello" in progetto
+"Morghen"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Funicolare Mergellina, towards Mergellina"
+FORWARDEND
+BACKWARD
+"Funicolare Mergellina, towards Manzoni"
+BACKWARDEND
+STATIONS
+"Manzoni"
+"Parco Angelina"
+"San Gioacchino"
+"Sant\'Antonio"
+"Mergellina (Funicolare)"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     MNN
+#     See 'integrated System' http://www.metro.na.it/metro/index.php?option=com_content&task=view&id=51&Itemid=63
+# =============================================================
+
+# Line 6-Cumana line connecting passageway
+MULTI_NAMED_NODE
+"Mostra"
+"Campi Flegrei"
+MULTI_NAMED_NODE_END
+
+# Vanvitelli Changeover & Vomero Changeover System
+MULTI_NAMED_NODE
+"Vanvitelli"
+"Via Cimarosa"
+"Morghen"
+"Piazza Fuga"
+MULTI_NAMED_NODE_END
+
+# Museo-Cavour Connecting Passageway
+MULTI_NAMED_NODE
+"Piazza Cavour"
+"Museo"
+MULTI_NAMED_NODE_END
+
+# Parco Margherita Changeover
+MULTI_NAMED_NODE
+"Piazza Amedeo"
+"Chiaia-Parco Margherita"
+MULTI_NAMED_NODE_END
+
+# Need this to connect the mergellina funicolare to the rest of the network
+MULTI_NAMED_NODE
+"Mergellina"
+"Mergellina (Funicolare)"
+MULTI_NAMED_NODE_END

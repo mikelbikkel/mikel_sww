@@ -1,0 +1,50 @@
+20-09-2013:
++ String literals in views: 5.6 issue.
+
+13-09-2013:
++ use schema sww2
+
+27-01-2013:
+add traject_id and stop_sequence to rs_dir_override and rs_dir_no_override
+fix case sensitive typo
+
+26-01-2013:
+split traject and traject_dir.
+
+16-01-2013:
+fix bug in rs_dir_no_override.
+
+15-01-2013:
++ add node_id to rs_network_station.
+
+05-01-2013:
++ add dir_id to rs_seg_directions.
+
+04-01-2013:
++ add override line, endpoint, srvicetype and remark to rs_dir_override.
+
+02-01-2013:
++ add override_dir_id to rs_dir_override
+
+31-12-2012:
++ new structure direction_override and rs_dir_override.
+
+28-12-2012:
+- add view rs_dir_override.
+
+27-12-2012:
+- add sww_mysql_dir_override.sql
+  - new table: direction_override
+
+03-11-2012:
+- rs_landmark_station, rs_landmark, rs_landmark_eel
+  rs_location, rs_location_eel:
+Create a "stack" of views.
+
+02-11-2012:
+- landmark_station:
+remove FK to station.
+
+- rs_landmark, rs_landmark_station, rs_landmark_eel, rs_locations, rs_location_eel:
+filter landmark_stations that refer to non-existing stations.
+filter landmarks without stations.

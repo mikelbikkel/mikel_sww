@@ -1,0 +1,68 @@
+
+# Extracted from http://upload.wikimedia.org/wikipedia/commons/b/b4/Linea_1_del_Metro_de_Santo_Domingo_%28esquema%29.svg
+
+# City
+CITY
+CITYNAME
+"Santo Domingo"
+CITYNAME_END
+CITYCODE
+SDO
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1 towards Centro de los Héroes"
+FORWARDEND
+BACKWARD
+"Line 1 towards Mamá Tingó"
+BACKWARDEND
+STATIONS
+"Mamá Tingó"
+"Gregorio Urbano Gilbert"
+"Gregorio Luperón"
+"José Francisco Peña Gómez"
+"Hermanas Mirabal"
+"Máximo Gómez"
+"Los Taínos"
+"Pedro Livio Cedeño"
+"Manuel Arturo Peña Battle"
+"Juan Pablo Duarte"
+"Juan Bosch"
+"Casandra Damirón"
+"Joaquín Balaguer"
+"Amín Abel"
+"Francisco Alberto Caamaño"
+"Centro de los Héroes"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2 towards Eduardo Brito"
+FORWARDEND
+BACKWARD
+"Line 2 towards María Montez"
+BACKWARDEND
+STATIONS
+"María Montez"
+"Pedro F. Bonó"
+"Francisco G. Billini"
+"Ulises F. Espaillat"
+"Pedro Mir"
+"Freddy Beras Goico"
+"Juan Ulises García"
+"Juan Pablo Duarte"
+"Coronel Rafael Tomás Fernández"
+"Mauricio Báez"
+"Ramón Cáceres"
+"Horacio Vásquez"
+"Manuel de Jesus Abreu Galván"
+"Eduardo Brito"
+STATIONSEND
+SEGMENTEND
+

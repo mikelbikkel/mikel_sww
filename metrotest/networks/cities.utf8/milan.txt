@@ -1,0 +1,428 @@
+
+# http://en.wikipedia.org/wiki/Milan_Metro
+# http://www.atm-mi.it/
+
+# City
+CITY
+CITYNAME
+Milan
+CITYNAME_END
+CITYCODE
+MIL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+
+# =============================================================
+#     Green Line
+# =============================================================
+SEGMENT
+FORWARD
+"Linea M2, towards Gessate"
+FORWARDEND
+BACKWARD
+"Linea M2, towards Abbiategrasso"
+BACKWARDEND
+STATIONS
+"Abbiategrasso"
+"Famagosta"
+"Romolo"
+"Porta Genova"
+"San Agostino"
+"Sant Ambrogio"
+"Cadorna"
+"Lanza"
+"Moscova"
+"Garibaldi"
+"Gioia"
+"Centrale"
+"Caiazzo"
+"Loreto"
+"Piola"
+"Lambrate"
+"Udine"
+"Cimiano"
+"Crescenzago"
+"Cascina Gobba"
+"Vimodrone"
+"Cascina Burrona"
+"Cernusco"
+"Villa Fiorita"
+"Cascina de Pecchi"
+"Bussero"
+"Villa Pompea"
+"Gorgonzola"
+"Cascina Antonietta"
+"Gessate"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M2, towards Cologno Nord"
+FORWARDEND
+BACKWARD
+"Linea M2, towards Abbiategrasso"
+BACKWARDEND
+STATIONS
+"Abbiategrasso"
+"Famagosta"
+"Romolo"
+"Porta Genova"
+"San Agostino"
+"Sant Ambrogio"
+"Cadorna"
+"Lanza"
+"Moscova"
+"Garibaldi"
+"Gioia"
+"Centrale"
+"Caiazzo"
+"Loreto"
+"Piola"
+"Lambrate"
+"Udine"
+"Cimiano"
+"Crescenzago"
+"Cascina Gobba"
+"Cologno Sud"
+"Cologno Centrale"
+"Cologno Nord"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M2, towards Cologno Nord"
+FORWARDEND
+BACKWARD
+"Linea M2, towards Assago"
+BACKWARDEND
+STATIONS
+"Assago Milanofiori Forum"
+"Assago Milanofiori Nord"
+"Famagosta"
+"Romolo"
+"Porta Genova"
+"San Agostino"
+"Sant Ambrogio"
+"Cadorna"
+"Lanza"
+"Moscova"
+"Garibaldi"
+"Gioia"
+"Centrale"
+"Caiazzo"
+"Loreto"
+"Piola"
+"Lambrate"
+"Udine"
+"Cimiano"
+"Crescenzago"
+"Cascina Gobba"
+"Cologno Sud"
+"Cologno Centrale"
+"Cologno Nord"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M2, towards Cascina Gobba"
+FORWARDEND
+BACKWARD
+"Linea M2, towards Famagosta"
+BACKWARDEND
+STATIONS
+"Famagosta"
+"Romolo"
+"Porta Genova"
+"San Agostino"
+"Sant Ambrogio"
+"Cadorna"
+"Lanza"
+"Moscova"
+"Garibaldi"
+"Gioia"
+"Centrale"
+"Caiazzo"
+"Loreto"
+"Piola"
+"Lambrate"
+"Udine"
+"Cimiano"
+"Crescenzago"
+"Cascina Gobba"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M2, towards Cascina Gobba"
+FORWARDEND
+BACKWARD
+"Linea M2, towards Abbiategrasso"
+BACKWARDEND
+STATIONS
+"Abbiategrasso"
+"Famagosta"
+"Romolo"
+"Porta Genova"
+"San Agostino"
+"Sant Ambrogio"
+"Cadorna"
+"Lanza"
+"Moscova"
+"Garibaldi"
+"Gioia"
+"Centrale"
+"Caiazzo"
+"Loreto"
+"Piola"
+"Lambrate"
+"Udine"
+"Cimiano"
+"Crescenzago"
+"Cascina Gobba"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M2, towards Cascina Gobba"
+FORWARDEND
+BACKWARD
+"Linea M2, towards Assago"
+BACKWARDEND
+STATIONS
+"Assago Milanofiori Forum"
+"Assago Milanofiori Nord"
+"Famagosta"
+"Romolo"
+"Porta Genova"
+"San Agostino"
+"Sant Ambrogio"
+"Cadorna"
+"Lanza"
+"Moscova"
+"Garibaldi"
+"Gioia"
+"Centrale"
+"Caiazzo"
+"Loreto"
+"Piola"
+"Lambrate"
+"Udine"
+"Cimiano"
+"Crescenzago"
+"Cascina Gobba"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Yellow Line
+# =============================================================
+SEGMENT
+FORWARD
+"Linea M3, towards San Donato"
+FORWARDEND
+BACKWARD
+"Linea M3, towards Comasina"
+BACKWARDEND
+STATIONS
+"Comasina"
+"Affori FN"
+"Affori Centro"
+"Dergano"
+"Maciachini"
+"Zara"
+"Sondrio"
+"Centrale"
+"Repubblica"
+"Turati"
+"Montenapoleone"
+"Duomo"
+"Missori"
+"Crocetta"
+"Porta Romana"
+"Lodi TIBB"
+"Brenta"
+"Corvetto"
+"Porto di Mare"
+"Rogoredo FS"
+"San Donato"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Red Line
+# =============================================================
+SEGMENT
+FORWARD
+"Linea M1, towards Bisceglie"
+FORWARDEND
+BACKWARD
+"Linea M1, towards Sesto 1 Maggio F.S."
+BACKWARDEND
+STATIONS
+"Sesto 1 Maggio F.S."
+"Sesto Rondò"
+"Sesto Marelli"
+"Villa San Giovanni"
+"Precotto"
+"Gorla"
+"Turro"
+"Rovereto"
+"Pasteur"
+"Loreto"
+"Lima"
+"Porta Venezia"
+"Palestro"
+"San Babila"
+"Duomo"
+"Cordusio"
+"Cairoli"
+"Cadorna"
+"Conciliazione"
+"Pagano"
+"Wagner"
+"De Angeli"
+"Gambara"
+"Bande Nere"
+"Primaticcio"
+"Inganni"
+"Bisceglie"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M1, towards Rho Fiera"
+FORWARDEND
+BACKWARD
+"Linea M1, towards Sesto 1 Maggio F.S."
+BACKWARDEND
+STATIONS
+"Sesto 1 Maggio F.S."
+"Sesto Rondò"
+"Sesto Marelli"
+"Villa San Giovanni"
+"Precotto"
+"Gorla"
+"Turro"
+"Rovereto"
+"Pasteur"
+"Loreto"
+"Lima"
+"Porta Venezia"
+"Palestro"
+"San Babila"
+"Duomo"
+"Cordusio"
+"Cairoli"
+"Cadorna"
+"Conciliazione"
+"Pagano"
+"Buonarroti"
+"Amendola Fiera"
+"Lotto"
+"QT8"
+"Lampugano"
+"Uruguay"
+"Bonola"
+"San Leonardo"
+"Molino Dorino"
+"Pero"
+"Rho Fiera"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Linea M1, towards Pagano"
+FORWARDEND
+BACKWARD
+"Linea M1, towards Sesto 1 Maggio F.S."
+BACKWARDEND
+STATIONS
+"Sesto 1 Maggio F.S."
+"Sesto Rondò"
+"Sesto Marelli"
+"Villa San Giovanni"
+"Precotto"
+"Gorla"
+"Turro"
+"Rovereto"
+"Pasteur"
+"Loreto"
+"Lima"
+"Porta Venezia"
+"Palestro"
+"San Babila"
+"Duomo"
+"Cordusio"
+"Cairoli"
+"Cadorna"
+"Conciliazione"
+"Pagano"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Purple Line
+# =============================================================
+SEGMENT
+FORWARD
+"Linea M5, towards San Siro Stadio"
+FORWARDEND
+BACKWARD
+"Linea M5, towards Bignami"
+BACKWARDEND
+STATIONS
+"Bignami" 		
+"Ponale" 		
+"Bicocca"
+"Ca\' Granda"
+"Istria"
+"Marche" 		
+"Zara"
+"Isola" 
+"Garibaldi"
+"Monumentale"
+"Cenisio"
+"Gerusalemme"
+"Domodossola"
+"Tre Torri"
+"Portello"
+"Lotto"
+"Segesta"
+"San Siro Ippodromo"
+"San Siro Stadio"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Light Rail
+# =============================================================
+SEGMENT
+FORWARD
+"Metro Leggera, towards Cascina Gobba"
+FORWARDEND
+BACKWARD
+"Metro Leggera, towards Ospedale S. Raffaele"
+BACKWARDEND
+STATIONS
+"Ospedale S. Raffaele"
+"Cascina Gobba"
+STATIONSEND
+SEGMENTEND
+

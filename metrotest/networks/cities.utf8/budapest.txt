@@ -1,0 +1,126 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Budapest_Metro
+
+# City
+CITY
+CITYNAME
+Budapest
+CITYNAME_END
+CITYCODE
+BUD
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     M1
+# =============================================================
+SEGMENT
+FORWARD
+"Line M1, towards Mexikói út"
+FORWARDEND
+BACKWARD
+"Line M1, towards Vörösmarty tér"
+BACKWARDEND
+STATIONS
+"Vörösmarty tér"
+"Deák Ferenc tér"
+"Bajcsy-Zsilinszky út"
+"Opera"
+"Oktogon"
+"Vörösmarty utca"
+"Kodály körönd"
+"Bajza utca"
+"Hosök tere"
+"Széchenyi fürdo"
+"Mexikói út"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     M2
+# =============================================================
+SEGMENT
+FORWARD
+"Line M2, towards Ors vezér tere"
+FORWARDEND
+BACKWARD
+"Line M2, towards Déli pályaudvar"
+BACKWARDEND
+STATIONS
+"Déli pályaudvar"
+"Széll Kálmán tér"
+"Batthány tér"
+"Kossuth Lajos tér"
+"Deák Ferenc tér"
+"Astoria"
+"Blaha Lujza tér"
+"Keleti pályaudvar"
+"Puskás Ferenc Stadion"
+"Pillangó utca"
+"Ors vezér tere"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     M3
+# =============================================================
+SEGMENT
+FORWARD
+"Line M3, towards Kobánya Kispest" 
+FORWARDEND
+BACKWARD
+"Line M3, towards Újpest-Központ"
+BACKWARDEND
+STATIONS
+"Újpest-Központ"
+"Újpest-Városkapu"
+"Gyöngyösi útca"
+"Forgách utca"
+"Árpád híd"
+"Dózsa György út"
+"Lehel tér"
+"Nyugati pályaudvar"
+"Arany János utca"
+"Deák Ferenc tér"
+"Ferenciek tere"
+"Kálvin tér"
+"Corvin-negyed"
+"Klinikák"
+"Nagyvárad tér"
+"Népliget"
+"Ecseri út"
+"Pöttyös útca"
+"Határ út"
+"Kobánya-Kispest"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     M4 opened 28 03 2014
+# =============================================================
+SEGMENT
+FORWARD
+"Line M4, towards Keleti pályaudvar" 
+FORWARDEND
+BACKWARD
+"Line M4, towards Kelenföld vasútállomás"
+BACKWARDEND
+STATIONS
+"Kelenföld vasútállomás"
+"Bikás park"
+"Újbuda-központ"
+"Móricz Zsigmond körtér"
+"Szent Gellért tér"
+"Fővám tér"
+"Kálvin tér"
+"Rákóczi tér"
+"II. János Pál pápa tér"
+"Keleti pályaudvar"
+STATIONSEND
+SEGMENTEND
+
+

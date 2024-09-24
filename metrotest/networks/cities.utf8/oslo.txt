@@ -1,0 +1,487 @@
+# Data extracted from http://en.wikipedia.org/wiki/Oslo_subway
+# gecorrigeerd naar laatste stand van zaken aan de hand van http://ruter.no/en/Travel-planner/Network-maps/ 
+# NEW map valid from 09-12-2012
+
+# City
+CITY
+CITYNAME
+OSLO
+CITYNAME_END
+CITYCODE
+OSL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# ================================================
+#
+# Line 4 and 6 combined
+# Stations that are visited twice on a one-way trip are
+# so-called "ring stations".
+# These ring-stations are complex-stations.
+# 
+# ==================================================
+
+# Line info is related to override sections!
+LINE
+LINE_NAME
+"Line 4"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Ring Line"
+LINE_REMARK_END
+LINE_END
+
+LINE
+LINE_NAME
+"Line 6"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Ring Line"
+LINE_REMARK_END
+LINE_END
+
+# From Sognsvann to Bergkrystallen
+# The green (line 6) ring-stations are X::X 2
+# The blue (line 4) and yellow (line 3) ring stations are X::X 1
+# 
+# http://reiseplanlegger.ruter.no/. 
+# Tegen de klok in:
+# Op Car Bernersplass vertrekt lijn 6 to Ringen.
+# Op Sinsen is hij dan lijn 4 to Bergkrystallen geworden. 
+# 
+OVERRIDE_SEGMENT
+FORWARD
+"Line 4 and 6, towards Bergkrystallen"
+FORWARDEND
+OVERRIDE_SECTION
+"Line 6, towards Ringen"
+OVERRIDE_STATIONS
+"Sognsvann"
+"Kringsjå" 
+"Holstein" 
+"Østhorn" 
+"Tåsen"
+"Berg"
+"Ullevål stadion X::X 2" 
+"Forskningsparken X::X 2"
+"Blindern X::X 2"
+"Majorstuen X::X 2"
+"Nationaltheatret X::X 2"
+"Stortinget X::X 2"
+"Jernbanetorget X::X 2"
+"Grønland X::X 2"
+"Tøyen X::X 2"
+"Carl Berners plass"
+OVERRIDE_SECTION_END
+OVERRIDE_SECTION
+"Line 4, towards Bergkrystallen"
+OVERRIDE_STATIONS
+"Sinsen"
+"Storo"
+"Nydalen"
+"Ullevål stadion X::X 1"
+"Forskningsparken X::X 1"
+"Blindern X::X 1"
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1" 
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1" 
+"Grønland X::X 1"
+"Tøyen X::X 1" 
+"Ensjø"
+"Helsfyr"
+"Brynseng"
+"Høyenhall"
+"Manglerud"
+"Ryen"
+"Brattlikollen"
+"Karlsrud"
+"Lambertseter"
+"Munkelia"
+"Bergkrystallen"
+OVERRIDE_SECTION_END
+OVERRIDE_SEGMENT_END
+
+# From Bergkrystallen to Sognsvann 
+# The green (line 6) ring-stations are X::X 2
+# The blue (line 4) and yellow (line 3) ring stations are X::X 1
+#
+# http://reiseplanlegger.ruter.no/. 
+# Met de klok mee:
+# Op Ulleval Stadion vertrekt lijn 4 to Ringen.
+# Op Nydalen is hij dan lijn 6 to Sognsvan geworden. 
+#
+OVERRIDE_SEGMENT
+FORWARD
+"Line 4 and 6, towards Sognsvann"
+FORWARDEND
+OVERRIDE_SECTION
+"Line 4, towards Ringen"
+OVERRIDE_STATIONS
+"Bergkrystallen"
+"Munkelia"
+"Lambertseter"
+"Karlsrud"
+"Brattlikollen"
+"Ryen"
+"Manglerud"
+"Høyenhall"
+"Brynseng"
+"Helsfyr"
+"Ensjø"
+"Tøyen X::X 1" 
+"Grønland X::X 1"
+"Jernbanetorget X::X 1"
+"Stortinget X::X 1"
+"Nationaltheatret X::X 1" 
+"Majorstuen X::X 1"
+"Blindern X::X 1"
+"Forskningsparken X::X 1"
+"Ullevål stadion X::X 1"
+OVERRIDE_SECTION_END
+OVERRIDE_SECTION
+"Line 6, towards Sognsvann"
+OVERRIDE_STATIONS
+"Nydalen"
+"Storo"
+"Sinsen"
+"Carl Berners plass"
+"Tøyen X::X 2"
+"Grønland X::X 2"
+"Jernbanetorget X::X 2"
+"Stortinget X::X 2"
+"Nationaltheatret X::X 2"
+"Majorstuen X::X 2"
+"Blindern X::X 2"
+"Forskningsparken X::X 2"
+"Ullevål stadion X::X 2" 
+"Berg"
+"Tåsen"
+"Østhorn" 
+"Holstein" 
+"Kringsjå" 
+"Sognsvann"
+OVERRIDE_SECTION_END
+OVERRIDE_SEGMENT_END
+
+
+# ================================================
+#
+# Line 3:  Yellow
+# Storo - Mortensrud
+#
+# Stations that are also part of the line 4/6 ring
+# must be complex-stations.
+#
+# ==================================================
+SEGMENT
+FORWARD
+"Line 3, towards Mortensrud"
+FORWARDEND
+BACKWARD
+"Line 3, towards Storo"
+BACKWARDEND
+STATIONS
+"Storo"
+"Nydalen"
+"Ullevål stadion X::X 1" 
+"Forskningsparken X::X 1"
+"Blindern X::X 1"
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1"
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1"
+"Grønland X::X 1"
+"Tøyen X::X 1"
+"Ensjø" 
+"Godlia" 
+"Skøyenåsen"
+"Oppsal"
+"Ulsrud" 
+"Bøler"
+"Bogerud"
+"Skullerud"
+"Mortensrud"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#	Line 1: Purple 
+#	Frognerseteren - Helsfyr
+#	Van Frognerseten naar Helsyr stopt hij niet op Gullerassen. 
+#	Op de terugweg wel.
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Helsfyr"
+FORWARDEND
+STATIONS
+"Frognerseteren"
+"Voksenåsen" 
+"Lillevann"
+"Skogen" 
+"Voksenlia"
+"Holmenkollen" 
+"Besserud"
+"Midtstuen" 
+"Skådalen"
+"Vettakollen" 
+"Gråkammen"
+"Slemdal"
+"Ris"
+"Gaustad"
+"Vinderen" 
+"Steinerud" 
+"Frøen" 
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1"
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1"
+"Grønland X::X 1"
+"Tøyen X::X 1"
+"Ensjø" 
+"Helsfyr" 
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 1, towards Frognerseteren"
+FORWARDEND
+STATIONS
+"Helsfyr" 
+"Ensjø" 
+"Tøyen X::X 1"
+"Grønland X::X 1"
+"Jernbanetorget X::X 1"
+"Stortinget X::X 1"
+"Nationaltheatret X::X 1"
+"Majorstuen X::X 1"
+"Frøen" 
+"Steinerud" 
+"Vinderen" 
+"Gaustad"
+"Ris"
+"Slemdal"
+"Gråkammen"
+"Gulleråsen"
+"Vettakollen" 
+"Skådalen"
+"Midtstuen" 
+"Besserud"
+"Holmenkollen" 
+"Voksenlia"
+"Skogen" 
+"Lillevann"
+"Voksenåsen" 
+"Frognerseteren"
+STATIONSEND
+SEGMENTEND
+
+# ====================================================================
+#	Line 1: Purple 
+#	Frognerseteren -  Ellingsrudåsen
+#	ma-vrijdag 0700 en 1900
+#	Van Frognerseten naar Helsyr stopt hij niet op Gullerassen. 
+#	Op de terugweg wel.
+# =====================================================================
+LINE
+LINE_NAME
+"Line 1 (weekdays)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"monday-friday 7:00-19:00"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 1 (weekdays), towards Ellingsrudåsen"
+FORWARDEND
+STATIONS
+"Frognerseteren"
+"Voksenåsen" 
+"Lillevann"
+"Skogen" 
+"Voksenlia"
+"Holmenkollen" 
+"Besserud"
+"Midtstuen" 
+"Skådalen"
+"Vettakollen" 
+"Gråkammen"
+"Slemdal"
+"Ris"
+"Gaustad"
+"Vinderen" 
+"Steinerud" 
+"Frøen" 
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1"
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1"
+"Grønland X::X 1"
+"Tøyen X::X 1"
+"Ensjø" 
+"Helsfyr" 
+"Brynseng" 
+"Hellerud"
+"Tveita" 
+"Haugerud" 
+"Trosterud" 
+"Lindeberg" 
+"Furuset" 
+"Ellingsrudåsen"	
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 1 (weekdays), towards Frognerseteren"
+FORWARDEND
+STATIONS
+"Ellingsrudåsen"	
+"Furuset" 
+"Lindeberg" 
+"Trosterud" 
+"Haugerud" 
+"Tveita" 
+"Hellerud"
+"Brynseng" 
+"Helsfyr" 
+"Ensjø" 
+"Tøyen X::X 1"
+"Grønland X::X 1"
+"Jernbanetorget X::X 1"
+"Stortinget X::X 1"
+"Nationaltheatret X::X 1"
+"Majorstuen X::X 1"
+"Frøen" 
+"Steinerud" 
+"Vinderen" 
+"Gaustad"
+"Ris"
+"Slemdal"
+"Gråkammen"
+"Gulleråsen"
+"Vettakollen" 
+"Skådalen"
+"Midtstuen" 
+"Besserud"
+"Holmenkollen" 
+"Voksenlia"
+"Skogen" 
+"Lillevann"
+"Voksenåsen" 
+"Frognerseteren"
+STATIONSEND
+SEGMENTEND
+
+
+# ================================================
+#
+#	Line 2: Light Blue 
+#	Ellingsrudåsen- Gjønnes
+#
+# ==================================================
+SEGMENT
+FORWARD
+"Line 2, towards Ellingsrudåsen"
+FORWARDEND
+BACKWARD
+"Line 2, towards Gjønnes"
+BACKWARDEND
+STATIONS
+"Gjønnes"
+"Bekkestua"
+"Ringstabekk"
+"Jar"
+"Bjørnsletta"
+"Åsjordet"
+"Ullernåsen"
+"Montebello"
+"Smestad" 
+"Borgen"
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1"
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1"
+"Grønland X::X 1"
+"Tøyen X::X 1"
+"Ensjø" 
+"Helsfyr" 
+"Brynseng" 
+"Hellerud"
+"Tveita" 
+"Haugerud" 
+"Trosterud" 
+"Lindeberg" 
+"Furuset" 
+"Ellingsrudåsen"
+STATIONSEND
+SEGMENTEND
+
+
+# ==========================================
+#
+#	Line 5: Orange
+#	Østerås - Vestli
+# ==========================================
+SEGMENT
+FORWARD
+"Line 5, towards Vestli"
+FORWARDEND
+BACKWARD
+"Line 5, towards Østerås"
+BACKWARDEND
+STATIONS
+"Østerås" 
+"Lijordet"
+"Eiksmarka"
+"Ekraveien" 
+"Røa"
+"Hovseter"
+"Holmen"
+"Makrellbekken"
+"Smestad"
+"Borgen"
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1"
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1"
+"Grønland X::X 1"
+"Tøyen X::X 1"
+"Carl Berners plass"
+"Hasle"
+"Økern"
+"Risløkka" 
+"Vollebekk"
+"Linderud" 
+"Veitvet" 
+"Rødtvet" 
+"Kalbakken"
+"Ammerud"
+"Grorud"
+"Romsås"
+"Rommen"
+"Stovner"
+"Vestli"
+STATIONSEND
+SEGMENTEND
+
+

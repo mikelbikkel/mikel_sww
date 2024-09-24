@@ -1,0 +1,411 @@
+# http://www.mbta.com/schedules_and_maps/subway/
+
+CITY
+CITYNAME
+Boston
+CITYNAME_END
+CITYCODE
+BOS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Blue Line
+# =============================================================
+SEGMENT
+FORWARD
+"Blue Line, towards Government Center"
+FORWARDEND
+BACKWARD
+"Blue Line, towards Wonderland"
+BACKWARDEND
+STATIONS
+"Wonderland"
+"Revere Beach"
+"Beachmont"
+"Suffolk Downs"
+"Orient Heights"
+"Wood Island"
+"Airport"
+"Maverick"
+"Aquarium"
+"State"
+"Government Center"
+STATIONSEND
+SEGMENTEND
+
+# Bowdoin Station will be closed in the near future (as of 2012) 
+LINE
+LINE_NAME
+"Blue Line (Bowdoin)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"5:15AM to 6:30PM, Monday through Friday, excluding holidays"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Blue Line (Bowdoin), towards Bowdoin"
+FORWARDEND
+BACKWARD
+"Blue Line (Bowdoin), towards Wonderland"
+BACKWARDEND
+STATIONS
+"Wonderland"
+"Revere Beach"
+"Beachmont"
+"Suffolk Downs"
+"Orient Heights"
+"Wood Island"
+"Airport"
+"Maverick"
+"Aquarium"
+"State"
+"Government Center"
+"Bowdoin"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Orange Line
+# =============================================================
+LINE
+LINE_NAME
+"Orange Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Sunday-Thursday in the evenings: shuttle bus between Sullivan Sq. and Oak Grove."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Orange Line, towards Forest Hills"
+FORWARDEND
+BACKWARD
+"Orange Line, towards Oak Grove / Sullivan Square"
+BACKWARDEND
+STATIONS
+"Oak Grove"
+"Malden Center"
+"Wellington"
+"Sullivan Square"
+"Community College"
+"North"
+"Haymarket"
+"State"
+"Downtown Crossing"
+"Chinatown"
+"Tufts Medical Center"
+"Back Bay"
+"Massachusetts Avenue"
+"Ruggles"
+"Roxbury Crossing"
+"Jackson Square"
+"Stony Brook"
+"Green Street"
+"Forest Hills"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Red Line
+# =============================================================
+SEGMENT
+FORWARD
+"Red Line, towards Braintree"
+FORWARDEND
+BACKWARD
+"Red Line, towards Alewife"
+BACKWARDEND
+STATIONS
+"Alewife"
+"Davis"
+"Porter Square"
+"Harvard Square"
+"Central Square"
+"Kendall"
+"Charles/MGH"
+"Park Street"
+"Downtown Crossing"
+"South"
+"Broadway"
+"Andrew"
+"JFK/UMass"
+"North Quincy"
+"Wollaston"
+"Quincy Center"
+"Quincy Adams"
+"Braintree"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Red Line, towards Ashmont"
+FORWARDEND
+BACKWARD
+"Red Line, towards Alewife"
+BACKWARDEND
+STATIONS
+"Alewife"
+"Davis"
+"Porter Square"
+"Harvard Square"
+"Central Square"
+"Kendall"
+"Charles/MGH"
+"Park Street"
+"Downtown Crossing"
+"South"
+"Broadway"
+"Andrew"
+"JFK/UMass"
+"Savin Hill"
+"Fields Corner"
+"Shawmut"
+"Ashmont"
+STATIONSEND
+SEGMENTEND
+
+# Ashmont–Mattapan High Speed Line  
+# Though part of red line uses different vehicles, change at Ashmont.
+LINE
+LINE_NAME
+"Red Line (M-Line)"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Ashmont–Mattapan High Speed Line (Light Rail)"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Red Line (M-Line), towards Mattapan"
+FORWARDEND
+BACKWARD
+"Red Line (M-Line), towards Ashmont"
+BACKWARDEND
+STATIONS
+"Ashmont"
+"Cedar Grove"
+"Butler"
+"Milton"
+"Central Avenue"
+"Valley Road"
+"Capen Street"
+"Mattapan"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Green Line (premetro)
+#     B, C, D and E branches. 
+#     A-Branch out of service since 1969.		
+# =============================================================
+SEGMENT
+FORWARD
+"Green Line (B), towards Boston College"
+FORWARDEND
+BACKWARD
+"Green Line (B), towards Government Center"
+BACKWARDEND
+STATIONS
+"Government Center"
+"Park Street"
+"Boylston Street"
+"Arlington"
+"Copley"
+"Hynes Convention Center"
+"Kenmore"
+"Blandford Street"
+"Boston University East"
+"Boston University Central"
+"Boston University West"
+"St. Paul Street / Commonwealth Avenue"
+"Pleasant Street"
+"Babcock Street"
+"Packards Corner"
+"Harvard Avenue"
+"Griggs Street / Long Avenue"
+"Allston Street"
+"Warren Street"
+"Washington Street"
+"Sutherland Street"
+"Chiswick Road"
+"Chestnut Hill Avenue" # NOT the same as Chestnut Hill!
+"South Street"
+"Boston College"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Green Line (C), towards Cleveland Circle"
+FORWARDEND
+BACKWARD
+"Green Line (C), towards North Station"
+BACKWARDEND
+STATIONS
+"North"
+"Haymarket"
+"Government Center"
+"Park Street"
+"Boylston Street"
+"Arlington"
+"Copley"
+"Hynes Convention Center"
+"Kenmore"
+"St. Marys Street"
+"Hawes Street"
+"Kent Street"
+"St. Paul Street / Beacon Street"
+"Coolidge Corner"
+"Summit Avenue"
+"Brandon Hall"
+"Fairbanks"
+"Washington Square"
+"Tappan Street"
+"Dean Road"
+"Englewood Avenue"
+"Cleveland Circle"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Green Line (D), towards Riverside"
+FORWARDEND
+BACKWARD
+"Green Line (D), towards Government Center"
+BACKWARDEND
+STATIONS
+"Government Center"
+"Park Street"
+"Boylston Street"
+"Arlington"
+"Copley"
+"Hynes Convention Center"
+"Kenmore"
+"Fenway"
+"Longwood"
+"Brookline Village"
+"Brookline Hills"
+"Beaconsfield"
+"Reservoir"
+"Chestnut Hill" # NOT the same as Chestnut Hill Avenue!
+"Newton Centre"
+"Newton Highlands"
+"Eliot"
+"Waban"
+"Woodland"
+"Riverside"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Green Line (E weekdays)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays to/from Heath Street, weekends to/from Brigham Circle."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Green Line (E weekdays), towards Heath Street"
+FORWARDEND
+BACKWARD
+"Green Line (E weekdays), towards Lechmere"
+BACKWARDEND
+STATIONS
+"Lechmere"
+"Science Park"
+"North"
+"Haymarket"
+"Government Center"
+"Park Street"
+"Boylston Street"
+"Arlington"
+"Copley"
+"Prudential"
+"Symphony"
+"Northeastern University"
+"Museum of Fine Arts"
+"Longwood Medical Area"
+"Brigham Circle"
+"Fenwood Road"
+"Mission Park"
+"Riverway"
+"Back of the Hill"
+"Heath Street"
+# 14 more stations to Arborway / Forest Hills taken out of service since 1985
+STATIONSEND
+SEGMENTEND
+
+# Saturday and Sunday, shorter route till Brigham Circle.
+# No partial though since all its stations are always served.
+SEGMENT
+FORWARD
+"Green Line (E), towards Brigham Circle"
+FORWARDEND
+BACKWARD
+"Green Line (E), towards Lechmere"
+BACKWARDEND
+STATIONS
+"Lechmere"
+"Science Park"
+"North"
+"Haymarket"
+"Government Center"
+"Park Street"
+"Boylston Street"
+"Arlington"
+"Copley"
+"Prudential"
+"Symphony"
+"Northeastern University"
+"Museum of Fine Arts"
+"Longwood Medical Area"
+"Brigham Circle"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     MNNs
+# =============================================================
+MULTI_NAMED_NODE
+"Cleveland Circle"
+"Reservoir"
+MULTI_NAMED_NODE_END
+
+# pedestrian tunnel
+MULTI_NAMED_NODE
+"Park Street"
+"Downtown Crossing"
+MULTI_NAMED_NODE_END
+
+

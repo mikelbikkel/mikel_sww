@@ -1,0 +1,733 @@
+# http://en.wikipedia.org/wiki/San_Francisco_Municipal_Railway
+# http://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit
+#
+# insert into eel_noise_words(city_code, noise_word) values ('SFR', 'AND');
+# insert into eel_noise_words(city_code, noise_word) values ('SFR', 'AVENUE');
+#
+CITY
+CITYNAME
+"San Francisco"
+CITYNAME_END
+CITYCODE
+SFR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+#---------------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"F Market & Wharves Line, towards Castro"
+FORWARDEND
+STATIONS
+"Jones and Beach"
+"Mason and Beach"
+"Stockton and Beach"
+"Bay and The Embarcadero"
+"Chestnut and The Embarcadero"
+"Greenwich and The Embarcadero"
+"Green and The Embarcadero"
+"Broadway and the Embarcadero"
+"Washington and the Embarcadero"
+"Ferry Terminal/Market and the Embarcadero"
+"Don Chee Way and Steuart"
+"Main and Drumm"
+"1st and Battery"
+"2nd and Montgomery"
+"3rd and Kearny/Geary"
+"4th and Stockton/Ellis"
+"5th and Powell"
+"6th and Taylor"
+"7th and Jones"
+"8th and Hyde"
+"9th and Larkin"
+"Van Ness Avenue"
+"Haight and Gough"
+"Laguna and Guerrero"
+"Dolores and Duboce"
+"Church and 14th Street"
+"15th and Sanchez"
+"16th and Noe"
+"17th and Castro"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"F Market & Wharves Line, towards Fisherman\'s Wharf / Jones and Beach"
+FORWARDEND
+STATIONS
+"17th and Castro"
+"16th and Noe"
+"15th and Sanchez"
+"Church and 14th Street"
+"Dolores and Duboce"
+"Laguna and Guerrero"
+"Haight and Gough"
+"Van Ness Avenue"
+"9th and Larkin"
+"8th and Hyde"
+"7th and Jones"
+"6th and Taylor"
+"5th and Powell"
+"4th and Stockton/Ellis"
+"3rd and Kearny/Geary"
+"2nd and Montgomery"
+"1st and Battery"
+"Main and Drumm"
+"Don Chee Way and Steuart"
+"Ferry Terminal/Market and the Embarcadero"
+"Washington and the Embarcadero"
+"Broadway and the Embarcadero"
+"Green and The Embarcadero"
+"Greenwich and The Embarcadero"
+"Chestnut and The Embarcadero"
+"Bay and The Embarcadero"
+"Jefferson and The Embarcadero / Pier 39"
+"Powell and Jefferson"
+"Taylor and Jefferson"
+"Jones and Beach"
+STATIONSEND
+SEGMENTEND
+
+
+
+#---------------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Line J (Church), towards Balboa Park"
+FORWARDEND
+BACKWARD
+"Line J (Church), towards Embarcadero"
+BACKWARDEND
+STATIONS
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"Van Ness"
+"Duboce and Church"
+"Church and 14th Street"
+"Church and 16th Street"
+"Church and 18th Street"
+"20th Street (J Line)"
+"Liberty"
+"21st Street"
+"Church and 22nd Street"
+"Church and 24th Street"
+"Church and Clipper"
+"Church and 27th Street"
+"Church and 29th Street"
+"Church and 30th Street"
+"30th Street and Dolores"
+"San Jose and Randall"
+"San Jose and Bosworth"
+"San Jose and Santa Rosa"
+"San Jose and Santa Ynez"
+"San Jose and Ocean"
+"Balboa Park"
+STATIONSEND
+SEGMENTEND
+
+#---------------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Line L (Taraval), towards 46th Avenue and Wawona/Zoo"
+FORWARDEND
+BACKWARD
+"Line L (Taraval), towards Embarcadero"
+BACKWARDEND
+STATIONS
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"Van Ness"
+"Church"
+"Castro"
+"Forest Hill"
+"West Portal"
+"Ulloa and Forest Side"
+"Ulloa and 15th Avenue"
+"Taraval and 17th Avenue"
+"Taraval and 19th Avenue"
+"Taraval and 22nd Avenue"
+"Taraval and 24th Avenue"
+"Taraval and 26th Avenue"
+"Taraval and 28th Avenue"
+"Taraval and 30th Avenue"
+"Taraval and 32nd Avenue"
+"Taraval and 35th Avenue"
+"Taraval and Sunset"
+"Taraval and 40th Avenue"
+"Taraval and 42nd Avenue"
+"Taraval and 44th Avenue"
+"Taraval and 46th Avenue"
+"46th Avenue and Ulloa"
+"46th Avenue and Vicente"
+"46th Avenue and Wawona/Zoo"
+STATIONSEND
+SEGMENTEND
+
+#---------------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Line M (Ocean View), towards San Jose and Geneva"
+FORWARDEND
+BACKWARD
+"Line M (Ocean View), towards Embarcadero"
+BACKWARDEND
+STATIONS
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"Van Ness"
+"Church"
+"Castro"
+"Forest Hill"
+"West Portal"
+"West Portal and 14th Avenue"
+"St. Francis Circle"
+"Ocean"
+"Eucalyptus"
+"Stonestown Galleria"
+"San Francisco State University"
+"19th Avenue and Junipero Serra"
+"Randolph and 19th Avenue"
+"Randolph and Arch"
+"Randolph and Bright"
+"Broad and Orizaba"
+"Broad and Capitol"
+"Broad and Plymouth"
+"San Jose and Farallones"
+"San Jose and Lakeview"
+"San Jose and Mount Vernon"
+"San Jose and Geneva"
+STATIONSEND
+SEGMENTEND
+
+#---------------------------------------------------------------------------------
+SEGMENT
+FORWARD
+"Line N (Judah), towards Judah and La Playa / Ocean Beach"
+FORWARDEND
+BACKWARD
+"Line N (Judah), towards 4th and King / Caltrain Depot"
+BACKWARDEND
+STATIONS
+"4th and King - Caltrain Depot"
+"2nd and King - AT&T Park"
+"Brannan and The Embarcadero"
+"Folsom and The Embarcadero"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"Van Ness"
+"Duboce and Church"
+"Duboce and Noe - Duboce Park"
+"Carl and Cole"
+"Carl and Stanyan"
+"Carl and Willard"
+"Carl and Hillway"
+"Irving and 2nd Avenue - UCSF Parnassus"
+"Irving and 4th Avenue"
+"Irving and 7th Avenue"
+"Irving and 9th Avenue"
+"Judah and 9th Avenue"
+"Judah and 12th Avenue"
+"Judah and Funston"
+"Judah and 16th Avenue"
+"Judah and 19th Avenue"
+"Judah and 23rd Avenue"
+"Judah and 25th Avenue"
+"Judah and 28th Avenue"
+"Judah and 31st Avenue"
+"Judah and 34th Avenue"
+"Judah and Sunset"
+"Judah and 40th Avenue"
+"Judah and 43rd Avenue"
+"Judah and 46th Avenue"
+"Judah and 48th Avenue"
+"Judah and La Playa - Ocean Beach"
+STATIONSEND
+SEGMENTEND
+
+
+#---------------------------------------------------------------------------------
+LINE
+LINE_NAME
+"Line S (Castro Shuttle)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays peak hours only."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line S (Castro Shuttle), towards West Portal"
+FORWARDEND
+BACKWARD
+"Line S (Castro Shuttle), towards 4th and King - Caltrain Depot"
+BACKWARDEND
+STATIONS
+"4th and King - Caltrain Depot"
+"2nd and King - AT&T Park"
+"Brannan and The Embarcadero"
+"Folsom and The Embarcadero"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"Van Ness"
+"Church"
+"Castro"
+"Forest Hill"
+"West Portal"
+STATIONSEND
+SEGMENTEND
+
+
+# Line K and T
+# ________________________________________________________
+#
+# http://en.wikipedia.org/wiki/K_Ingleside
+#
+# At West Portal Station, inbound K trains heading towards downtown change their signs to the T line; 
+# conversely, at Embarcadero Station, T trains heading into downtown change signs to the K line.
+#
+# The trains show the ultimate destination of the spliced lines rather than the intermediate "terminus" 
+# of the individual line.
+#
+# ---------------------------------------------------------------------------------
+LINE
+LINE_NAME
+"Line K/T (Ingleside/Third Street)"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Towards Balboa Park T changes to K at West Portal. Towards Sunnydale K changes to T at Embarcadero."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line K/T (Ingleside/Third Street), towards Sunnydale"
+FORWARDEND
+BACKWARD
+"Line K/T (Ingleside/Third Street), towards Balboa Park"
+BACKWARDEND
+STATIONS
+"Balboa Park"
+"San Jose and Ocean"
+"Ocean and Phelan City College"
+"Ocean and Lee"
+"Ocean and Miramar"
+"Ocean and Jules"
+"Ocean and Victoria"
+"Ocean and Cerritos"
+"Ocean and Aptos"
+"Ocean and San Leandro"
+"Junipero Serra and Ocean"
+"St. Francis Circle"
+"West Portal and 14th Avenue"
+"West Portal"
+# T becomes K towards Balboa Park ^
+"Forest Hill"
+"Castro"
+"Church"
+"Van Ness"
+"Civic Center"
+"Powell"
+"Montgomery"
+"Embarcadero"
+# K becomes T towards Sunnydale v
+"Folsom and The Embarcadero"
+"Brannan and The Embarcadero"
+"2nd and King - AT&T Park"
+"4th and King - Caltrain Depot"
+"Mission Rock"
+"UCSF Mission Bay"
+"Mariposa"
+"20th Street"
+"23rd Street"
+"Marin"
+"Evans"
+"Hudson/Innes"
+"Kirkwood/La Salle"
+"Oakdale/Palou"
+"Revere/Shafter"
+"Williams"
+"Carroll"
+"Gilman/Paul"
+"Le Conte"
+"Arleta"
+"Sunnydale"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     BART 
+# =============================================================
+
+# =============================================================
+#   Red Line  
+#   Richmond -Millbrae 
+#   No evening or sunday service 
+#   Saturdays till Daly 
+# =============================================================
+LINE
+LINE_NAME
+"BART Richmond–Millbrae line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Monday through Saturday, daytime only. Saturday terminates in Daly City."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"BART Richmond–Millbrae line, towards Millbrae"
+FORWARDEND
+BACKWARD
+"BART Richmond–Millbrae line, towards Richmond"
+BACKWARDEND
+STATIONS
+"El Cerrito del Norte"
+"El Cerrito Plaza"
+"North Berkeley"
+"Downtown Berkeley"
+"Ashby"
+"MacArthur"
+"19th Street/Oakland"
+"Oakland City Center/12th Street"
+"West Oakland"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"16th Street Mission"
+"24th Street Mission"
+"Glen Park"
+"Balboa Park"
+"Daly City"
+"Colma"
+"South San Francisco"
+"San Bruno"
+"Millbrae"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"BART Richmond–Millbrae line, towards Daly City"
+FORWARDEND
+BACKWARD
+"BART Richmond–Millbrae line, towards Richmond"
+BACKWARDEND
+STATIONS
+"El Cerrito del Norte"
+"El Cerrito Plaza"
+"North Berkeley"
+"Downtown Berkeley"
+"Ashby"
+"MacArthur"
+"19th Street/Oakland"
+"Oakland City Center/12th Street"
+"West Oakland"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"16th Street Mission"
+"24th Street Mission"
+"Glen Park"
+"Balboa Park"
+"Daly City"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Green Line
+#    Fremont - Daly City
+# =============================================================
+LINE
+LINE_NAME
+"BART Fremont–Daly City line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Monday through Saturday, daytime only."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"BART Fremont–Daly City line, towards Daly City"
+FORWARDEND
+BACKWARD
+"BART Fremont–Daly City line, towards Fremont"
+BACKWARDEND
+STATIONS
+"Fremont"
+"Union City"
+"South Hayward"
+"Hayward"
+"Bay Fair"
+"San Leandro"
+"Coliseum"
+"Fruitvale"
+"Lake Merritt"
+"West Oakland"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"16th Street Mission"
+"24th Street Mission"
+"Glen Park"
+"Balboa Park"
+"Daly City"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#    Yellow Line
+#    Pittsburg/Bay Point- SFO
+# =============================================================
+SEGMENT
+FORWARD
+"BART Pittsburg/Bay Point–SFO line, towards San Francisco International Airport"
+FORWARDEND
+BACKWARD
+"BART Pittsburg/Bay Point–SFO line, towards Pittsburg/Bay Point"
+BACKWARDEND
+STATIONS
+"Pittsburg/Bay Point"
+"Concord"
+"Pleasant Hill / Contra Costa Centre"
+"Walnut Creek"
+"Lafayette"
+"Orinda"
+"Rockridge"
+"MacArthur"
+"19th Street/Oakland"
+"Oakland City Center/12th Street"
+"West Oakland"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"16th Street Mission"
+"24th Street Mission"
+"Glen Park"
+"Balboa Park"
+"Daly City"
+"Colma"
+"South San Francisco"
+"San Bruno"
+"San Francisco International Airport"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"BART Pittsburg/Bay Point–SFO/Millbrae line"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Terminates in Millbrae weekdays after 7pm and all day on weekends and holidays."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"BART Pittsburg/Bay Point–SFO/Millbrae line, towards Millbrae"
+FORWARDEND
+BACKWARD
+"BART Pittsburg/Bay Point–SFO/Millbrae line, towards Pittsburg/Bay Point"
+BACKWARDEND
+STATIONS
+"Pittsburg/Bay Point"
+"North Concord/Martinez"
+"Concord"
+"Pleasant Hill / Contra Costa Centre"
+"Walnut Creek"
+"Lafayette"
+"Orinda"
+"Rockridge"
+"MacArthur"
+"19th Street/Oakland"
+"Oakland City Center/12th Street"
+"West Oakland"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"16th Street Mission"
+"24th Street Mission"
+"Glen Park"
+"Balboa Park"
+"Daly City"
+"Colma"
+"South San Francisco"
+"San Bruno"
+"San Francisco International Airport"
+"Millbrae"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Blue Line
+#    Dublin/Pleasanton - Daly City
+# =============================================================
+SEGMENT
+FORWARD
+"BART Dublin/Pleasanton line, towards Daly City"
+FORWARDEND
+BACKWARD
+"BART Dublin/Pleasanton line, towards Dublin/Pleasanton"
+BACKWARDEND
+STATIONS
+"Dublin/Pleasanton"
+"West Dublin/Pleasanton"
+"Castro Valley"
+"Bay Fair"
+"San Leandro"
+"Coliseum"
+"Fruitvale"
+"Lake Merritt"
+"West Oakland"
+"Embarcadero"
+"Montgomery"
+"Powell"
+"Civic Center"
+"16th Street Mission"
+"24th Street Mission"
+"Glen Park"
+"Balboa Park"
+"Daly City"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    Orange Line
+#    Richmond – Fremont
+# =============================================================
+SEGMENT
+FORWARD
+"BART Richmond-Fremont line, towards Richmond"
+FORWARDEND
+BACKWARD
+"BART Richmond-Fremont line, towards Fremont"
+BACKWARDEND
+STATIONS
+"Fremont"
+"Union City"
+"South Hayward"
+"Hayward"
+"Bay Fair"
+"San Leandro"
+"Coliseum"
+"Fruitvale"
+"Lake Merritt"
+"Oakland City Center/12th Street"
+"19th Street/Oakland"
+"MacArthur"
+"Ashby"
+"Downtown Berkeley"
+"North Berkeley"
+"El Cerrito Plaza"
+"El Cerrito del Norte"
+"Richmond"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#    BART to OAK Airport
+#    11/2014 Peoplemover
+# =============================================================
+LINE
+LINE_NAME
+"BART to OAK Airport"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Also known as the Coliseum–Oakland Int\'l Airport line, an Automated Guideway Transit AKA Peoplemover"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"BART to OAK Airport, towards Oakland International Airport"
+FORWARDEND
+BACKWARD
+"BART to OAK Airport, towards Coliseum"
+BACKWARDEND
+STATIONS
+"Coliseum"
+"Oakland International Airport"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+# =============================================================
+#     MNN
+# =============================================================
+
+MULTI_NAMED_NODE
+"Balboa Park"
+"San Jose and Geneva"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Church"
+"Church and 14th Street"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Van Ness"
+"Van Ness Avenue"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"17th and Castro"
+"Castro"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"San Jose and Bosworth"
+"Glen Park"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"2nd and Montgomery"
+"Montgomery"
+MULTI_NAMED_NODE_END

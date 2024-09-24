@@ -1,0 +1,79 @@
+
+# extracted from http://pl.wikipedia.org/wiki/Metro_berli%C5%84skie and subsequent pages
+
+# TODO
+# U9 (vergeten?)
+
+# REMARKS 
+# S45 as of may 2010 out of service
+# S85 as of may 2010 out of service
+
+#City
+CITY
+CITYNAME
+"Berlin"
+CITYNAME_END
+CITYCODE
+BER
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     U2
+# Vun: station is part of segment: [Pan, Vun, Sch]
+# Van: station is not part of segment: [Pan, Sch]
+# =============================================================
+SEGMENT
+FORWARD
+"rood U2, towards Ruhleben"
+FORWARDEND
+BACKWARD
+"rood U2, towards Pankow"
+BACKWARDEND
+STATIONS
+"Pan"
+"Van"
+"Sch"
+"Ebe"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     S41
+# =============================================================
+SEGMENT
+FORWARD
+"S41, Ringbahn clockwise"
+FORWARDEND
+BACKWARD
+"S42, Ringbahn counter-clockwise"
+BACKWARDEND
+STATIONS
+"Ges"
+"Sch"
+"Pre"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     S9
+# =============================================================
+SEGMENT
+FORWARD
+"S9, towards Blankenburg"
+FORWARDEND
+BACKWARD
+"S9, Flughafen Berlin-Schonefeld"
+BACKWARDEND
+STATIONS
+"Hei"
+"Pan"
+"Sch"
+"Pre"
+STATIONSEND
+SEGMENTEND

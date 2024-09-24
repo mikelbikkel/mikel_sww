@@ -1,0 +1,1657 @@
+# Data extracted from http://en.wikipedia.org/wiki/Seoul_Metropolitan_Subway
+
+# City
+CITY
+CITYNAME
+"Seoul"
+CITYNAME_END
+CITYCODE
+SEO
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Incheon"
+FORWARDEND
+BACKWARD
+"Line 1, towards Soyosan"
+BACKWARDEND
+STATIONS
+"Soyosan"
+"Dongducheon"
+"Bosan"
+"Dongducheonjungang"
+"Jihaeng"
+"Deokjeong"
+"Deokgye"
+"Yangju"
+"Nogyang"
+"Ganeung"
+"Uijeongbu"
+"Hoeryong"
+"Mangwolsa"
+"Dobongsan"
+"Dobong"
+"Banghak"
+"Chang-dong"
+"Nokcheon"
+"Wolgye"
+"Kwangwoon University"
+"Seokgye"
+"Sinimun"
+"Hankuk University of Foreign Studies"
+"Hoegi"
+"Cheongnyangni"
+"Jegi-dong"
+"Sinseol-dong"
+"Dongmyo"
+"Dongdaemun"
+"Jongno 5-ga"
+"Jongno 3-ga"
+"Jonggak"
+"City Hall"
+"Seoul Station"
+"Namyeong"
+"Yongsan"
+"Noryangjin"
+"Daebang"
+"Singil"
+"Yeongdeungpo"
+"Sindorim"
+"Guro"
+"Guil"
+"Gaebong"
+"Oryu-dong"
+"Onsu"
+"Yeokgok"
+"Sosa"
+"Bucheon"
+"Jung-dong"
+"Songnae"
+"Bugae"
+"Bupyeong"
+"Baegun"
+"Dongam"
+"Ganseok"
+"Juan"
+"Dohwa"
+"Jemulpo"
+"Dowon"
+"Dongincheon"
+"Incheon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 - II
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Sinchang"
+FORWARDEND
+BACKWARD
+"Line 1, towards Incheon"
+BACKWARDEND
+STATIONS
+"Incheon"
+"Dongincheon"
+"Dowon"
+"Jemulpo"
+"Dohwa"
+"Juan"
+"Ganseok"
+"Dongam"
+"Baegun"
+"Bupyeong"
+"Bugae"
+"Songnae"
+"Jung-dong"
+"Bucheon"
+"Sosa"
+"Yeokgok"
+"Onsu"
+"Oryu-dong"
+"Gaebong"
+"Guil"
+"Guro"
+"Gasan Digital Complex"
+"Doksan"
+"Geumcheon-gu Office"
+"Seoksu"
+"Gwanak"
+"Anyang"
+"Myeonghak"
+"Geumjeong"
+"Gunpo"
+"Dangjeong"
+"Uiwang"
+"Sungkyunkwan University"
+"Hwaseo"
+"Suwon"
+"Seryu"
+"Byeongjeom"
+"Sema"
+"Osan College"
+"Osan"
+"Jinwi"
+"Songtan"
+"Seojeong-ri"
+"Jije"
+"Pyeongtaek"
+"Seonghwan"
+"Jiksan"
+"Dujeong"
+"Cheonan"
+"Bongmyeong"
+"Ssangyong"
+"Asan"
+"Baebang"
+"Onyangoncheon"
+"Sinchang"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 - III
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Seodongtan"
+FORWARDEND
+BACKWARD
+"Line 1, towards Incheon"
+BACKWARDEND
+STATIONS
+"Incheon"
+"Dongincheon"
+"Dowon"
+"Jemulpo"
+"Dohwa"
+"Juan"
+"Ganseok"
+"Dongam"
+"Baegun"
+"Bupyeong"
+"Bugae"
+"Songnae"
+"Jung-dong"
+"Bucheon"
+"Sosa"
+"Yeokgok"
+"Onsu"
+"Oryu-dong"
+"Gaebong"
+"Guil"
+"Guro"
+"Gasan Digital Complex"
+"Doksan"
+"Geumcheon-gu Office"
+"Seoksu"
+"Gwanak"
+"Anyang"
+"Myeonghak"
+"Geumjeong"
+"Gunpo"
+"Dangjeong"
+"Uiwang"
+"Sungkyunkwan University"
+"Hwaseo"
+"Suwon"
+"Seryu"
+"Byeongjeom"
+"Seodongtan"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 - IV
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Gwangmyeong"
+FORWARDEND
+BACKWARD
+"Line 1, towards Incheon"
+BACKWARDEND
+STATIONS
+"Incheon"
+"Dongincheon"
+"Dowon"
+"Jemulpo"
+"Dohwa"
+"Juan"
+"Ganseok"
+"Dongam"
+"Baegun"
+"Bupyeong"
+"Bugae"
+"Songnae"
+"Jung-dong"
+"Bucheon"
+"Sosa"
+"Yeokgok"
+"Onsu"
+"Oryu-dong"
+"Gaebong"
+"Guil"
+"Guro"
+"Gasan Digital Complex"
+"Doksan"
+"Geumcheon-gu Office"
+"Gwangmyeong"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 1 Express
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1 Express, towards Dongincheon"
+FORWARDEND
+BACKWARD
+"Line 1 Express, towards Yongsan"
+BACKWARDEND
+STATIONS
+"Yongsan"
+"Noryangjin"
+"Daebang"
+"Singil"
+"Yeongdeungpo"
+"Sindorim"
+"Guro"
+"Yeokgok"
+"Bucheon"
+"Songnae"
+"Bupyeong"
+"Dongam"
+"Juan"
+"Dongincheon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 1 Express II
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1 Express, towards Cheonan"
+FORWARDEND
+BACKWARD
+"Line 1 Express, towards Yongsan"
+BACKWARDEND
+STATIONS
+"Yongsan"
+"Noryangjin"
+"Daebang"
+"Singil"
+"Yeongdeungpo"
+"Sindorim"
+"Guro"
+"Gasan Digital Complex"
+"Anyang"
+"Suwon"
+"Byeongjeom"
+"Osan"
+"Seojeong-ri"
+"Pyeongtaek"
+"Seonghwan"
+"Dujeong"
+"Cheonan"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line 1 Express III
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1 Express, towards Cheonan"
+FORWARDEND
+BACKWARD
+"Line 1 Express, towards Seoul Station"
+BACKWARDEND
+STATIONS
+"Seoul Station"
+"Yeongdeungpo"
+"Geumcheon-gu Office"
+"Anyang"
+"Gunpo"
+"Uiwang"
+"Sungkyunkwan University"
+"Suwon"
+"Byeongjeom"
+"Osan"
+"Seojeong-ri"
+"Pyeongtaek"
+"Seonghwan"
+"Dujeong"
+"Cheonan"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 2
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, inner circle (CW)"
+FORWARDEND
+BACKWARD
+"Line 2, outer circle (CCW)"
+BACKWARDEND
+STATIONS
+"City Hall"
+"Euljiro 1-ga"
+"Euljiro 3-ga"
+"Euljiro 4-ga"
+"Dongdaemun History & Culture Park"
+"Sindang"
+"Sangwangsimni"
+"Wangsimni"
+"Hanyang University"
+"Ttukseom"
+"Seongsu"
+"Konkuk University"
+"Guui"
+"Gangbyeon"
+"Jamsillaru"
+"Jamsil"
+"Sincheon"
+"Sports Complex"
+"Samseong"
+"Seolleung"
+"Yeoksam"
+"Gangnam"
+"Seoul Nat\'l. Univ. of Education"
+"Seocho"
+"Bangbae"
+"Sadang"
+"Nakseongdae"
+"Seoul National University"
+"Bongcheon"
+"Sillim"
+"Sindaebang"
+"Guro Digital Complex"
+"Daerim"
+"Sindorim"
+"Mullae"
+"Yeongdeungpo-gu Office"
+"Dangsan"
+"Hapjeong"
+"Hongik University"
+"Sinchon"
+"Ewha Woman\'s University"
+"Ahyeon"
+"Chungjeongno"
+"City Hall"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 2 - II
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Sinseol-dong"
+FORWARDEND
+BACKWARD
+"Line 2, towards City Hall"
+BACKWARDEND
+STATIONS
+"City Hall"
+"Euljiro 1-ga"
+"Euljiro 3-ga"
+"Euljiro 4-ga"
+"Dongdaemun History & Culture Park"
+"Sindang"
+"Sangwangsimni"
+"Wangsimni"
+"Hanyang University"
+"Ttukseom"
+"Seongsu"
+"Yongdap"
+"Sindap"
+"Yongdu"
+"Sinseol-dong"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 2 - III
+# =============================================================
+SEGMENT
+FORWARD
+"Line 2, towards Kkachisan"
+FORWARDEND
+BACKWARD
+"Line 2, towards City Hall"
+BACKWARDEND
+STATIONS
+"City Hall"
+"Euljiro 1-ga"
+"Euljiro 3-ga"
+"Euljiro 4-ga"
+"Dongdaemun History & Culture Park"
+"Sindang"
+"Sangwangsimni"
+"Wangsimni"
+"Hanyang University"
+"Ttukseom"
+"Seongsu"
+"Konkuk University"
+"Guui"
+"Gangbyeon"
+"Jamsillaru"
+"Jamsil"
+"Sincheon"
+"Sports Complex"
+"Samseong"
+"Seolleung"
+"Yeoksam"
+"Gangnam"
+"Seoul Nat\'l. Univ. of Education"
+"Seocho"
+"Bangbae"
+"Sadang"
+"Nakseongdae"
+"Seoul National University"
+"Bongcheon"
+"Sillim"
+"Sindaebang"
+"Guro Digital Complex"
+"Daerim"
+"Sindorim"
+"Dorimcheon"
+"Yangcheon-gu Office"
+"Sinjeongnegeori"
+"Kkachisan"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Line 3
+# =============================================================
+SEGMENT
+FORWARD
+"Line 3, towards Ogeum"
+FORWARDEND
+BACKWARD
+"Line 3, towards Daehwa"
+BACKWARDEND
+STATIONS
+"Daehwa"
+"Juyeop"
+"Jeongbalsan"
+"Madu"
+"Baekseok"
+"Daegok"
+"Hwajeong"
+"Wondang"
+"Samsong"
+"Jichuk"
+"Gupabal"
+"Yeonsinnae"
+"Bulgwang"
+"Nokbeon"
+"Hongje"
+"Muakjae"
+"Dongnimmun"
+"Gyeongbokgung"
+"Anguk"
+"Jongno 3-ga"
+"Euljiro 3-ga"
+"Chungmuro"
+"Dongguk University"
+"Yaksu"
+"Geumho"
+"Oksu"
+"Apgujeong"
+"Sinsa"
+"Jamwon"
+"Express Bus Terminal"
+"Seoul Nat\'l. Univ. of Education"
+"Nambu Bus Terminal"
+"Yangjae"
+"Maebong"
+"Dogok"
+"Daechi"
+"Hangnyeoul"
+"Daecheong"
+"Irwon"
+"Suseo"
+"Garak Market"
+"National Police Hospital"
+"Ogeum"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     Line 4
+# =============================================================
+SEGMENT
+FORWARD
+"Line 4, towards Oido"
+FORWARDEND
+BACKWARD
+"Line 4, towards Danggogae"
+BACKWARDEND
+STATIONS
+"Danggogae"
+"Sanggye"
+"Nowon"
+"Chang-dong"
+"Ssangmun"
+"Suyu"
+"Mia"
+"Miasamgeori"
+"Gireum"
+"Sungshin Women\'s University"
+"Hansung University"
+"Hyehwa"
+"Dongdaemun"
+"Dongdaemun History & Culture Park"
+"Chungmuro"
+"Myeong-dong"
+"Hoehyeon"
+"Seoul Station"
+"Sookmyung Women\'s University"
+"Samgakji"
+"Sinyongsan"
+"Ichon"
+"Dongjak"
+"Chongshin University"
+"Sadang"
+"Namtaeryeong"
+"Seonbawi"
+"Seoul Racecourse Park"
+"Seoul Grand Park"
+"Gwacheon"
+"Government Complex Gwacheon"
+"Indeogwon"
+"Pyeongchon"
+"Beomgye"
+"Geumjeong"
+"Sanbon"
+"Surisan"
+"Daeyami"
+"Banwol"
+"Sangnoksu"
+"Hanyang University at Ansan"
+"Jungang"
+"Gojan"
+"Gongdan"
+"Ansan"
+"Singil Oncheon"
+"Jeongwang"
+"Oido"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+
+
+# =============================================================
+#     Line 5
+# =============================================================
+SEGMENT
+FORWARD
+"Line 5, towards Sangil-dong"
+FORWARDEND
+BACKWARD
+"Line 5, towards Banghwa"
+BACKWARDEND
+STATIONS
+"Banghwa"
+"Gaehwasan"
+"Gimpo International Airport"
+"Songjeong"
+"Magok"
+"Balsan"
+"Ujangsan"
+"Hwagok"
+"Kkachisan"
+"Sinjeong"
+"Mok-dong"
+"Omokgyo"
+"Yangpyeong"
+"Yeongdeungpo-gu Office"
+"Yeongdeungpo Market"
+"Singil"
+"Yeouido"
+"Yeouinaru"
+"Mapo"
+"Gongdeok"
+"Aeogae"
+"Chungjeongno"
+"Seodaemun"
+"Gwanghwamun"
+"Jongno 3-ga"
+"Euljiro 4-ga"
+"Dongdaemun History & Culture Park"
+"Cheonggu"
+"Singeumho"
+"Haengdang"
+"Wangsimni"
+"Majang"
+"Dapsimni"
+"Janghanpyeong"
+"Gunja"
+"Achasan"
+"Gwangnaru"
+"Cheonho"
+"Gangdong"
+"Gil-dong"
+"Gubeundari"
+"Myeongil"
+"Godeok"
+"Sangil-dong"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 5 - II
+# =============================================================
+SEGMENT
+FORWARD
+"Line 5, towards Macheon"
+FORWARDEND
+BACKWARD
+"Line 5, towards Banghwa"
+BACKWARDEND
+STATIONS
+"Banghwa"
+"Gaehwasan"
+"Gimpo International Airport"
+"Songjeong"
+"Magok"
+"Balsan"
+"Ujangsan"
+"Hwagok"
+"Kkachisan"
+"Sinjeong"
+"Mok-dong"
+"Omokgyo"
+"Yangpyeong"
+"Yeongdeungpo-gu Office"
+"Yeongdeungpo Market"
+"Singil"
+"Yeouido"
+"Yeouinaru"
+"Mapo"
+"Gongdeok"
+"Aeogae"
+"Chungjeongno"
+"Seodaemun"
+"Gwanghwamun"
+"Jongno 3-ga"
+"Euljiro 4-ga"
+"Dongdaemun History & Culture Park"
+"Cheonggu"
+"Singeumho"
+"Haengdang"
+"Wangsimni"
+"Majang"
+"Dapsimni"
+"Janghanpyeong"
+"Gunja"
+"Achasan"
+"Gwangnaru"
+"Cheonho"
+"Gangdong"
+"Dunchon-dong"
+"Olympic Park"
+"Bangi"
+"Ogeum"
+"Gaerong"
+"Geoyeo"
+"Macheon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line 6
+# =============================================================
+SEGMENT
+FORWARD
+"Line 6, towards Eungam Loop"
+FORWARDEND
+STATIONS
+"Bonghwasan"
+"Hwarangdae"
+"Taereung"
+"Seokgye"
+"Dolgoji"
+"Sangwolgok"
+"Wolgok"
+"Korea University"
+"Anam"
+"Bomun"
+"Changsin"
+"Dongmyo"
+"Sindang"
+"Cheonggu"
+"Yaksu"
+"Beotigogae"
+"Hangangjin"
+"Itaewon"
+"Noksapyeong"
+"Samgakji"
+"Hyochang Park"
+"Gongdeok"
+"Daeheung"
+"Gwangheungchang"
+"Sangsu"
+"Hapjeong"
+"Mangwon"
+"Mapo-gu Office"
+"World Cup Stadium"
+"Digital Media City"
+"Jeungsan"
+"Saejeol"
+"Eungam"
+"Yeokchon"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 6, towards Bonghwasan"
+FORWARDEND
+STATIONS
+"Yeokchon"
+"Bulgwang"
+"Dokbawi"
+"Yeonsinnae"
+"Gusan"
+"Eungam"
+"Saejeol"
+"Jeungsan"
+"Digital Media City"
+"World Cup Stadium"
+"Mapo-gu Office"
+"Mangwon"
+"Hapjeong"
+"Sangsu"
+"Gwangheungchang"
+"Daeheung"
+"Gongdeok"
+"Hyochang Park"
+"Samgakji"
+"Noksapyeong"
+"Itaewon"
+"Hangangjin"
+"Beotigogae"
+"Yaksu"
+"Cheonggu"
+"Sindang"
+"Dongmyo"
+"Changsin"
+"Bomun"
+"Anam"
+"Korea University"
+"Wolgok"
+"Sangwolgok"
+"Dolgoji"
+"Seokgye"
+"Taereung"
+"Hwarangdae"
+"Bonghwasan"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     TRANSFORM Line 6
+# =============================================================
+METRO_TRANSFORM
+TRANSFORM_POINT
+"Yeokchon"
+TRANSFORM_POINT_END
+BEFORE
+"Line 6, towards Eungam Loop"
+BEFORE_END
+AFTER
+"Line 6, towards Bonghwasan"
+AFTER_END
+METRO_TRANSFORM_END
+
+
+
+# =============================================================
+#     Line 7
+# =============================================================
+SEGMENT
+FORWARD
+"Line 7, towards Onsu"
+FORWARDEND
+BACKWARD
+"Line 7, towards Jangam"
+BACKWARDEND
+STATIONS
+"Jangam"
+"Dobongsan"
+"Suraksan"
+"Madeul"
+"Nowon"
+"Junggye"
+"Hagye"
+"Gongneung"
+"Taereung"
+"Meokgol"
+"Junghwa"
+"Sangbong"
+"Myeonmok"
+"Sagajeong"
+"Yongmasan"
+"Junggok"
+"Gunja"
+"Children\'s Grand Park"
+"Konkuk University"
+"Ttukseom Resort"
+"Cheongdam"
+"Gangnam-gu Office"
+"Hak-dong"
+"Nonhyeon"
+"Banpo"
+"Express Bus Terminal"
+"Naebang"
+"Isu"
+"Namseong"
+"Soongsil University"
+"Sangdo"
+"Jangseungbaegi"
+"Sindaebangsamgeori"
+"Boramae"
+"Sinpung"
+"Daerim"
+"Namguro"
+"Gasan Digital Complex"
+"Cheolsan"
+"Gwangmyeongsageori"
+"Cheonwang"
+"Onsu"
+"Kkachiul"
+"Bucheon Stadium"
+"Chunui"
+"Sinjung-dong"
+"Bucheon City Hall"
+"Sang-dong"
+"Samsan Gymnasium"
+"Gulpocheon"
+"Bupyeong-gu Office"
+STATIONSEND
+SEGMENTEND
+
+
+
+# extension scheduled 01-01-2017
+# =============================================================
+#     Line 8
+# =============================================================
+SEGMENT
+FORWARD
+"Line 8, towards Moran"
+FORWARDEND
+BACKWARD
+"Line 8, towards Amsa"
+BACKWARDEND
+STATIONS
+"Amsa"
+"Cheonho"
+"Gangdong-gu Office"
+"Mongchontoseong"
+"Jamsil"
+"Seokchon"
+"Songpa"
+"Garak Market"
+"Munjeong"
+"Jangji"
+"Bokjeong"
+"Sanseong"
+"Namhansanseong"
+"Dandaeogeori"
+"Sinheung"
+"Sujin"
+"Moran"
+STATIONSEND
+SEGMENTEND
+
+
+
+# extension scheduled 01-01-2013
+# =============================================================
+#     Line 9
+# =============================================================
+SEGMENT
+FORWARD
+"Line 9, towards Sinnonhyeon"
+FORWARDEND
+BACKWARD
+"Line 9, towards Gaehwa"
+BACKWARDEND
+STATIONS
+"Gaehwa"
+"Gimpo International Airport"
+"Airport Market"
+"Sinbanghwa"
+# "Magongnaru"
+"Yangcheon Hyanggyo"
+"Gayang"
+"Jeungmi"
+"Deungchon"
+"Yeomchang"
+"Sinmok-dong"
+"Seonyudo"
+"Dangsan"
+"National Assembly"
+"Yeouido"
+"Saetgang"
+"Noryangjin"
+"Nodeul"
+"Heukseok"
+"Dongjak"
+"Gubanpo"
+"Sinbanpo"
+"Express Bus Terminal"
+"Sapyeong"
+"Sinnonhyeon"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Line 9 Express
+# =============================================================
+SEGMENT
+FORWARD
+"Line 9 Express, towards Sinnonhyeon"
+FORWARDEND
+BACKWARD
+"Line 9 Express, towards Gimpo International Airport"
+BACKWARDEND
+STATIONS
+"Gimpo International Airport"
+"Gayang"
+"Yeomchang"
+"Dangsan"
+"Yeouido"
+"Noryangjin"
+"Dongjak"
+"Express Bus Terminal"
+"Sinnonhyeon"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Bundang Line (Jukjeon)
+# =============================================================
+SEGMENT
+FORWARD
+"Bundang Line, towards Jukjeon"
+FORWARDEND
+BACKWARD
+"Bundang Line, towards Wangsimni"
+BACKWARDEND
+STATIONS
+"Wangsimni"
+"Seoul Forest"
+"Apgujeongrodeo"
+"Gangnam-gu Office"
+"Seonjeongneung"
+"Seolleung"
+"Hanti"
+"Dogok"
+"Guryong"
+"Gaepo-dong"
+"Daemosan"
+"Suseo"
+"Bokjeong"
+"Gachon University"
+"Taepyeong"
+"Moran"
+"Yatap"
+"Imae"
+"Seohyeon"
+"Sunae"
+"Jeongja"
+"Migeum"
+"Ori"
+"Jukjeon"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     Bundang Line (Suwon)
+# =============================================================
+SEGMENT
+FORWARD
+"Bundang Line, towards Suwon"
+FORWARDEND
+BACKWARD
+"Bundang Line, towards Wangsimni"
+BACKWARDEND
+STATIONS
+"Wangsimni"
+"Seoul Forest"
+"Apgujeongrodeo"
+"Gangnam-gu Office"
+"Seonjeongneung"
+"Seolleung"
+"Hanti"
+"Dogok"
+"Guryong"
+"Gaepo-dong"
+"Daemosan"
+"Suseo"
+"Bokjeong"
+"Gachon University"
+"Taepyeong"
+"Moran"
+"Yatap"
+"Imae"
+"Seohyeon"
+"Sunae"
+"Jeongja"
+"Migeum"
+"Ori"
+"Jukjeon"
+"Bojeong"
+"Guseong"
+"Singal"
+"Giheung"
+"Sanggal"
+"Cheongmyeong"
+"Yeongtong"
+"Mangpo"
+"Maetan-Gwonseon"  		
+"Suwon City Hall" 		
+"Maegyo" 		
+"Suwon"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Bundang Line Express
+# =============================================================
+LINE
+LINE_NAME
+"Bundang Line (Express)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays rush hour service"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Bundang Line (Express), towards Suwon"
+FORWARDEND
+BACKWARD
+"Bundang Line (Express), towards Wangsimni"
+BACKWARDEND
+STATIONS
+"Wangsimni"
+"Seoul Forest"
+"Apgujeongrodeo"
+"Gangnam-gu Office"
+"Seonjeongneung"
+"Seolleung"
+"Hanti"
+"Dogok"
+"Guryong"
+"Gaepo-dong"
+"Daemosan"
+"Suseo"
+"Bokjeong"
+"Gachon University"
+"Taepyeong"
+"Moran"
+"Yatap"
+"Imae"
+"Seohyeon"
+"Sunae"
+"Jeongja"
+"Migeum"
+"Ori"
+"Jukjeon"
+"Giheung"
+"Mangpo"
+"Suwon City Hall" 		
+"Suwon"
+STATIONSEND
+SEGMENTEND
+
+
+
+# extension scheduled 2018-01-01
+# =============================================================
+#     Sin Bundang Line (new bundang line)
+# =============================================================
+SEGMENT
+FORWARD
+"Sin Bundang Line, towards Jeongja"
+FORWARDEND
+BACKWARD
+"Sin Bundang Line, towards Gangnam"
+BACKWARDEND
+STATIONS
+"Gangnam"
+"Yangjae"
+"Yangjae Citizen\'s Forest"
+"Cheonggyesan"
+"Pangyo"
+"Jeongja"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Gyeongui - Jungang Line 2014
+# =============================================================
+SEGMENT
+FORWARD
+"Gyeongui-Jungang Line, towards Yongmun"
+FORWARDEND
+BACKWARD
+"Gyeongui-Jungang Line, towards Munsan"
+BACKWARDEND
+STATIONS
+"Munsan"
+"Paju / Doowon Technical College"
+"Wollong"
+"Geumchon"
+"Geumneung"
+"Unjeong"
+"Yadang"
+"Tanhyeon"
+"Ilsan"
+"Pungsan"
+"Baengma"
+"Goksan"
+"Daegok"
+"Neunggok"
+"Haengsin"
+"Gangmae"
+"Hwajeon"
+"Susaek"
+"Digital Media City"
+"Gajwa"
+"Hongik University"
+"Sogang University" # Formerly Seogang
+"Gongdeok"
+# "Hyochang" opens december 2015 - MNN transfer to Hyochang Park Station
+"Yongsan" # connected december 2014 merging the 2 lines 
+"Ichon"
+"Seobinggo"
+"Hannam"
+"Oksu"
+"Eungbong"
+"Wangsimni"
+"Cheongnyangni"
+"Hoegi"
+"Jungnang"
+"Sangbong"
+"Mangu"
+"Yangwon"
+"Guri"
+"Donong"
+"Yangjeong"
+"Deokso"
+"Dosim"
+"Paldang"
+"Ungilsan"
+"Yangsu"
+"Sinwon"
+"Guksu"
+"Asin"
+"Obin"
+"Yangpyeong (Gyeonggi)"
+"Wondeok"
+"Yongmun"
+# "Jipyeong" 2016
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Gyeongui Express Line, towards Yongmun"
+FORWARDEND
+BACKWARD
+"Gyeongui Express Line, towards Munsan"
+BACKWARDEND
+STATIONS
+"Munsan"
+"Geumchon"
+"Geumneung"
+"Tanhyeon"
+"Ilsan"
+"Baengma"
+"Daegok"
+"Haengsin"
+"Digital Media City"
+"Hongik University"
+"Gongdeok"
+# "Hyochang" opens december 2015 - MNN transfer to Hyochang Park Station
+"Yongsan" # connected december 2014 merging the 2 lines 
+"Ichon"
+"Seobinggo"
+"Hannam"
+"Oksu"
+"Eungbong"
+"Wangsimni"
+"Cheongnyangni"
+"Hoegi"
+"Jungnang"
+"Sangbong"
+"Mangu"
+"Yangwon"
+"Guri"
+"Donong"
+"Yangjeong"
+"Deokso"
+"Dosim"
+"Paldang"
+"Ungilsan"
+"Yangsu"
+"Sinwon"
+"Guksu"
+"Asin"
+"Obin"
+"Yangpyeong (Gyeonggi)"
+"Wondeok"
+"Yongmun"
+# "Jipyeong" 2016
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Gyeongui Express Seoul Station Branch, towards Seoul Station"
+FORWARDEND
+BACKWARD
+"Gyeongui Express Seoul Station Branch, towards Munsan"
+BACKWARDEND
+STATIONS
+"Munsan"
+"Geumchon"
+"Unjeong"
+"Ilsan"
+"Baengma"
+"Daegok"
+"Haengsin"
+"Digital Media City"
+"Gajwa"
+"Sinchon Station (Gyeongui)" # NOT the same as line 2 Sinchon!
+"Seoul Station"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Jungang Express Line, towards Yongmun"
+FORWARDEND
+BACKWARD
+"Jungang Express Line, towards Munsan"
+BACKWARDEND
+STATIONS
+"Munsan"
+"Paju / Doowon Technical College"
+"Wollong"
+"Geumchon"
+"Geumneung"
+"Unjeong"
+"Yadang"
+"Tanhyeon"
+"Ilsan"
+"Pungsan"
+"Baengma"
+"Goksan"
+"Daegok"
+"Neunggok"
+"Haengsin"
+"Gangmae"
+"Hwajeon"
+"Susaek"
+"Digital Media City"
+"Gajwa"
+"Hongik University"
+"Sogang University" # Formerly Seogang
+"Gongdeok"
+# "Hyochang" opens december 2015 - MNN transfer to Hyochang Park Station
+"Yongsan" # connected december 2014 merging the 2 lines 
+"Ichon"
+"Oksu"
+"Wangsimni"
+"Cheongnyangni"
+"Hoegi"
+"Sangbong"
+"Guri"
+"Donong"
+"Deokso"
+"Dosim"
+"Yangsu"
+"Yangpyeong (Gyeonggi)"
+"Yongmun"
+# "Jipyeong" 2016
+STATIONSEND
+SEGMENTEND
+
+
+
+
+
+# =============================================================
+#     Gyeongchun Line
+# =============================================================
+
+# NB Showing only metro services! No ITX trains.
+
+SEGMENT
+FORWARD
+"Gyeongchun Line, towards Chuncheon"
+FORWARDEND
+BACKWARD
+"Gyeongchun Line, towards Sangbong"
+BACKWARDEND
+STATIONS
+"Sangbong"
+"Mangu"
+"Sinnae"
+"Galmae"
+"Byeollae"
+"Toegyewon"
+"Sareung"
+"Geumgok"
+"Pyeongnae-Hopyeong"
+"Cheonmasan" # added 12/2013
+"Maseok"
+"Daeseong-ri"
+"Cheongpyeong"
+"Sangcheon"
+"Gapyeong"
+"Gulbongsan"
+"Baegyang-ri"
+"Gangchon"
+"Gimyujeong"
+"Namchuncheon"
+"Chuncheon"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Gyeongchun Line (rush hours)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays rush hour service"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Gyeongchun Line (rush hours), towards Chuncheon"
+FORWARDEND
+BACKWARD
+"Gyeongchun Line (rush hours), towards Kwangwoon University"
+BACKWARDEND
+STATIONS
+"Kwangwoon University"
+"Sangbong"
+"Mangu"
+"Galmae"
+"Byeollae"
+"Toegyewon"
+"Sareung"
+"Geumgok"
+"Pyeongnae-Hopyeong"
+"Cheonmasan" # added 12/2013
+"Maseok"
+"Daeseong-ri"
+"Cheongpyeong"
+"Sangcheon"
+"Gapyeong"
+"Gulbongsan"
+"Baegyang-ri"
+"Gangchon"
+"Gimyujeong"
+"Namchuncheon"
+"Chuncheon"
+STATIONSEND
+SEGMENTEND
+
+
+# extra intermediate stations planned 01-10-2012
+# =============================================================
+#     A'REX - Incheon Int. Airport Railroad
+# =============================================================
+SEGMENT
+FORWARD
+"A\'REX, towards Incheon International Airport"
+FORWARDEND
+BACKWARD
+"A\'REX, towards Seoul Station"
+BACKWARDEND
+STATIONS
+"Seoul Station"
+"Gongdeok"
+"Hongik University"
+"Digital Media City"
+"Gimpo International Airport"
+"Gyeyang"
+"Geomam"
+"Cheongna International City"
+"Unseo"
+"Incheon International Airport Cargo Terminal"
+"Incheon International Airport"
+STATIONSEND
+SEGMENTEND
+
+
+
+# This operator (Incheon Subway) plans two more lines in the future. 
+# =============================================================
+#     Incheon Subway 1
+# =============================================================
+SEGMENT
+FORWARD
+"Incheon Subway 1, towards International Business District"
+FORWARDEND
+BACKWARD
+"Incheon Subway 1, towards Gyeyang"
+BACKWARDEND
+STATIONS
+"Gyeyang"
+"Gyulhyeon"
+"Bakchon"
+"Imhak"
+"Gyesan"
+"Gyeongin National University of Education"
+"Jakjeon"
+"Galsan"
+"Bupyeong-gu Office"
+"Bupyeong Market"
+"Bupyeong"
+"Dongsu"
+"Bupyeongsamgeori"
+"Ganseogogeori"
+"Incheon City Hall"
+"Arts Center"
+"Incheon Bus Terminal"
+"Munhak Sports Complex"
+"Seonhak"
+"Sinyeonsu"
+"Woninjae"
+"Dongchun"
+"Dongmak"
+"Campus Town"
+"Technopark"
+"BIT Zone"
+"University of Incheon"
+"Central Park"
+"International Business District"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     U Line
+# =============================================================
+SEGMENT
+FORWARD
+"U Line, towards Tapseok"
+FORWARDEND
+BACKWARD
+"U Line, towards Balgok"
+BACKWARDEND
+STATIONS
+"Balgok"
+"Hoeryong"
+"Beomgol"
+"Uijeongbu (LRT)"
+"Uijeongbu City Hall"
+"Heungseon"
+"Jungang (Uijeongbu)"
+"Dongo"
+"Saemal"
+"Gyeonggi-do 2nd Gov. Complex"
+"Hyoja"
+"Gonje"
+"Eoryong"
+"Songsan"
+"Tapseok"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Suin Line (connects with Line 4 and Incheon Subway)
+# =============================================================
+# 
+# See http://en.wikipedia.org/wiki/Suin_Line - runs from
+# Oido to Songdo NOT east of Oido, wikipedia is not correct here. 
+#
+SEGMENT
+FORWARD
+"Suin Line, towards Sondo"
+FORWARDEND
+BACKWARD
+"Suin Line, towards Oido"
+BACKWARDEND
+STATIONS
+"Oido" 	
+"Wolgot" 			
+"Soraepogu"
+"Incheon Nonhyeon" 			
+"Hogupo" 			
+"Namdong Induspark" 			
+"Woninjae"
+"Yeonsu" 			
+"Songdo"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Suin Line, towards Sondo"
+FORWARDEND
+BACKWARD
+"Suin Line, towards Oido"
+BACKWARDEND
+STATIONS
+"Oido" 	
+"Wolgot" 			
+"Soraepogu"
+"Incheon Nonhyeon" 			
+"Hogupo" 			
+"Namdong Induspark" 			
+"Woninjae"
+"Yeonsu" 			
+"Songdo"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     Everline (connects with Bundang Line at Giheung)
+# =============================================================
+SEGMENT
+FORWARD
+"Everline, towards Sondo"
+FORWARDEND
+BACKWARD
+"Everline, towards Oido"
+BACKWARDEND
+STATIONS
+"Giheung"
+"Kangnam University"
+"Jiseok"
+"Eojeong"
+"Dongbaek"
+"Chodang"
+"Samga"
+"City Hall-Yongin University"
+"Myongji University"
+"Gimnyangjang"
+"Stadium-Songdam College"
+"Gojin"
+"Bopyeong"
+"Dunjeon"
+"Jeondae-Everland"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     MNN
+# =============================================================
+MULTI_NAMED_NODE
+"Chongshin University"
+"Isu"
+MULTI_NAMED_NODE_END
+
+

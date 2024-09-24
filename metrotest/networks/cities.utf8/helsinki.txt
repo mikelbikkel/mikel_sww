@@ -1,0 +1,67 @@
+
+# Extracted from http://en.wikipedia.org/wiki/List_of_Helsinki_metro_stations
+
+#City
+CITY
+CITYNAME
+Helsinki
+CITYNAME_END
+CITYCODE
+HEL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, towards Vuosaari"
+FORWARDEND
+BACKWARD
+"Main line, towards Ruoholahti"
+BACKWARDEND
+STATIONS
+"Ruoholahti"
+"Kamppi"
+"Rautatientori"
+"Kaisaniemi"
+"Hakaniemi"
+"Sornainen"
+"Kalasatama"
+"Kulosaari"
+"Herttoniemi"
+"Siilitie"
+"Itakeskus"
+"Puotila"
+"Rastila"
+"Vuosaari"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Main line, towards Mellunmaki"
+FORWARDEND
+BACKWARD
+"Main line, towards Ruoholahti"
+BACKWARDEND
+STATIONS
+"Ruoholahti"
+"Kamppi"
+"Rautatientori"
+"Kaisaniemi"
+"Hakaniemi"
+"Sornainen"
+"Kalasatama"
+"Kulosaari"
+"Herttoniemi"
+"Siilitie"
+"Itakeskus"
+"Myllypuro"
+"Kontula"
+"Mellunmaki"
+STATIONSEND
+SEGMENTEND
+
+

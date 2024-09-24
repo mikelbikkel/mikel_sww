@@ -1,0 +1,86 @@
+CITY
+CITYNAME
+"Saint Louis"
+CITYNAME_END
+CITYCODE
+STL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Red line , towards Shiloh-Scott"
+FORWARDEND
+BACKWARD
+"Red line , towards Lambert Airport Main"
+BACKWARDEND
+STATIONS
+"Lambert Airport Main"
+"Lambert Airport East"
+"North Hanley"
+"UMSL North"
+"UMSL South"
+"Rock Road"
+"Wellston"
+"Delmar Loop"
+"Forest Park-DeBaliviere"
+"Central West End"
+"Grand"
+"Union Station"
+"Civic Center"
+"Stadium"
+"8th and Pine"
+"Convention Center"
+"Arch-Laclede\'s Landing"
+"East Riverfront"
+"5th and Missouri"
+"Emerson Park"
+"Jackie Joyner-Kersee Center"
+"Washington Park"
+"Fairview Heights"
+"Memorial Hospital"
+"Swansea"
+"Belleville"
+"College"
+"Shiloh-Scott"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line , towards Fairview Heights"
+FORWARDEND
+BACKWARD
+"Blue line , towards Shrewsbury-Lansdowne I-44"
+BACKWARDEND
+STATIONS
+"Shrewsbury-Lansdowne I-44"
+"Sunnen"
+"Maplewood-Manchester"
+"Brentwood I-64"
+"Richmond Heights"
+"Clayton"
+"Forsyth"
+"University City-Big Bend"
+"Skinker"
+"Forest Park-DeBaliviere"
+"Central West End"
+"Grand"
+"Union Station"
+"Civic Center"
+"Stadium"
+"8th and Pine"
+"Convention Center"
+"Arch-Laclede\'s Landing"
+"East Riverfront"
+"5th and Missouri"
+"Emerson Park"
+"Jackie Joyner-Kersee Center"
+"Washington Park"
+"Fairview Heights"
+STATIONSEND
+SEGMENTEND
+

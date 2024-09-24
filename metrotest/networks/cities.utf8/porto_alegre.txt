@@ -1,0 +1,57 @@
+CITY
+CITYNAME
+"Porto Alegre"
+CITYNAME_END
+CITYCODE
+PRA
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1, towards Mercado"
+FORWARDEND
+BACKWARD
+"Line 1, towards Novo Hamburgo"
+BACKWARDEND
+STATIONS
+"Novo Hamburgo"
+"Fenac"
+"Industrial"
+"Santo Alfonso"
+"Rio dos Sinos"
+"São Leopoldo"
+"Unisinos"
+"Sapucaia"
+"Luiz Pasteur"
+"Esteio"
+"Petrobrás"
+"São Luiz / Ulbra"
+"Mathias Velho"
+"Canoas / La Salle"
+"Fátima"
+"Niterói / UniRitter"
+"Anchieta"
+"Aeroporto"
+"Farrapos"
+"São Pedro"
+"Rodoviária"
+"Mercado"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Aeromovel, towards Terminal 1"
+FORWARDEND
+BACKWARD
+"Aeromovel, towards Aeroporto"
+BACKWARDEND
+STATIONS
+"Aeroporto"
+"Terminal 1"
+STATIONSEND
+SEGMENTEND

@@ -1,0 +1,47 @@
+# Unit test for trajecten.
+CITY
+CITYNAME
+"Berlin"
+CITYNAME_END
+CITYCODE
+BER
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"rood U2, towards Ruhleben"
+FORWARDEND
+BACKWARD
+"rood U2, towards Pankow"
+BACKWARDEND
+STATIONS
+"Pan"
+"Van"
+"Sch"
+"Ebe"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     S41
+# =============================================================
+SEGMENT
+FORWARD
+"S41, towards Ringbahn clockwise"
+FORWARDEND
+STATIONS
+"Ges"
+"Katz"
+"Pre"
+STATIONSEND
+SEGMENTEND
+
+MULTI_NAMED_NODE
+"Van"
+Katz
+MULTI_NAMED_NODE_END

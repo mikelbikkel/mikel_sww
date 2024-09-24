@@ -1,0 +1,2808 @@
+# NYC information is extracted from http://www.mta.info/nyct/service/index.html
+
+# Remarksvelden vullen
+# Naamgeving treinen checken
+
+# Servicetypes:
+# ------------------------------------------------------------------------
+# regular = train rides day time
+# partial = train rides parts of the day such as peak hours or nights only
+# extended = train rides 24 hours
+
+
+CITY
+CITYNAME
+"New York"
+CITYNAME_END
+CITYCODE
+NYC
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     1 Service-OK
+#       Broadway-7 Avenue local
+# =============================================================
+LINE
+LINE_NAME
+"(1) Broadway-7 Avenue Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(1) Broadway-7 Avenue Local, towards South Ferry"
+FORWARDEND
+BACKWARD
+"(1) Broadway-7 Avenue Local, towards Van Cortland Park-242 st."
+BACKWARDEND
+STATIONS
+"Van Cortlandt Park-242 Street / Broadway"
+"238 Street / Broadway"
+"231 Street / Broadway"
+"Marble Hill-225 Street / Broadway"
+"215 Street / 10 Avenue"
+"207 Street / 10 Avenue"
+"Dyckman Street / Nagle Avenue"
+"191 Street / Saint Nicholas Avenue"
+"181 Street / Saint Nicholas Avenue"
+"168 Street-Washington Heights / Broadway"
+"157 Street / Broadway"
+"145 Street / Broadway"
+"137 Street-City College / Broadway"
+"125 Street / Broadway"
+"116 Street-Columbia University / Broadway"
+"Cathedral Parkway (110 Street) / Broadway"
+"103 Street / Broadway"
+"96 Street / Broadway"
+"86 Street / Broadway"
+"79 Street / Broadway"
+"72 Street / Broadway"
+"66 Street-Lincoln Center / Broadway"
+"59 Street-Columbus Circle"
+"50 Street / Broadway"
+"Times Square-42 Street"
+"34 Street-Penn Station / 7 Avenue"
+"28 Street / 7 Avenue"
+"23 Street / 7 Avenue"
+"18 Street / 7 Avenue"
+"14 Street / 7 Avenue"
+"Christopher Street-Sheridan Square / 7 Avenue South"
+"Houston Street / Varick Street"
+"Canal Street / Varick Street"
+"Franklin Street / Varick Street"
+"Chambers Street / West Broadway"
+"Cortlandt Street / West Broadway"
+"Rector Street / Greenwich Street"
+"South Ferry"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     2 Service-OK
+#       Seventh Avenue Express 
+# =============================================================
+LINE
+LINE_NAME
+"(2) Seventh Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(2) Seventh Avenue Express, towards Brooklyn College-Flatbush Av."
+FORWARDEND
+BACKWARD
+"(2) Seventh Avenue Express, towards Wakefield"
+BACKWARDEND
+STATIONS
+"Wakefield-241 Street / White Plains Road"
+"Nereid Avenue / White Plains Road"
+"233 Street / White Plains Road"
+"225 Street / White Plains Road"
+"219 Street / White Plains Road"
+"Gun Hill Road / White Plains Road"
+"Burke Avenue / White Plains Road"
+"Pelham Parkway / White Plains Road"
+"Bronx Park East / White Plains Road"
+"East 180 Street / Morris Park Avenue"
+"West Farms Square-East Tremont Avenue / Boston Road"
+"174 Street / Southern Boulevard"
+"Freeman Street / Southern Boulevard"
+"Simpson Street / Westchester Avenue"
+"Intervale Avenue / Westchester Avenue"
+"Prospect Avenue / Westchester Avenue"
+"Jackson Avenue / Westchester Avenue"
+"3 Avenue-149 Street"
+"149 Street-Grand Concourse"
+"135 Street / Lenox Avenue"
+"125 Street / Lenox Avenue"
+"116 Street / Lenox Avenue"
+"Central Park North (110 Street) / Lenox Avenue"
+"96 Street / Broadway"
+"72 Street / Broadway"
+"Times Square-42 Street"
+"34 Street-Penn Station / 7 Avenue"
+"14 Street / 7 Avenue"
+"Chambers Street / West Broadway"
+"Park Place / Broadway"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / William Street"
+"Clark Street / Henry Street"
+"Court Street / Borough Hall"
+"Hoyt Street / Fulton Mall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Bergen Street / Flatbush Avenue"
+"Grand Army Plaza / Flatbush Avenue"
+"Eastern Parkway-Brooklyn Museum"
+"Franklin Avenue-Botanic Garden"
+"President Street / Nostrand Avenue"
+"Sterling Street / Nostrand Avenue"
+"Winthrop Street / Nostrand Avenue"
+"Church Avenue / Nostrand Avenue"
+"Beverly Road / Nostrand Avenue"
+"Newkirk Avenue / Nostrand Avenue"
+"Flatbush Avenue-Brooklyn College / Nostrand Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     2 Service late night -OK
+#       Seventh Avenue Express Night Service
+# =============================================================
+LINE
+LINE_NAME
+"(2) Seventh Avenue Express (late night)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Late night service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(2) Seventh Avenue Express (late night), towards Brooklyn College-Flatbush Av."
+FORWARDEND
+BACKWARD
+"(2) Seventh Avenue Express (late night), towards Wakefield"
+BACKWARDEND
+STATIONS
+"Wakefield-241 Street / White Plains Road"
+"Nereid Avenue / White Plains Road"
+"233 Street / White Plains Road"
+"225 Street / White Plains Road"
+"219 Street / White Plains Road"
+"Gun Hill Road / White Plains Road"
+"Burke Avenue / White Plains Road"
+"Pelham Parkway / White Plains Road"
+"Bronx Park East / White Plains Road"
+"East 180 Street / Morris Park Avenue"
+"West Farms Square-East Tremont Avenue / Boston Road"
+"174 Street / Southern Boulevard"
+"Freeman Street / Southern Boulevard"
+"Simpson Street / Westchester Avenue"
+"Intervale Avenue / Westchester Avenue"
+"Prospect Avenue / Westchester Avenue"
+"Jackson Avenue / Westchester Avenue"
+"3 Avenue-149 Street"
+"149 Street-Grand Concourse"
+"135 Street / Lenox Avenue"
+"125 Street / Lenox Avenue"
+"116 Street / Lenox Avenue"
+"Central Park North (110 Street) / Lenox Avenue"
+"96 Street / Broadway"
+"86 Street / Broadway"
+"79 Street / Broadway"
+"72 Street / Broadway"
+"66 Street-Lincoln Center / Broadway"
+"59 Street-Columbus Circle"
+"50 Street / Broadway"
+"Times Square-42 Street"
+"34 Street-Penn Station / 7 Avenue"
+"28 Street / 7 Avenue"
+"23 Street / 7 Avenue"
+"18 Street / 7 Avenue"
+"14 Street / 7 Avenue"
+"Christopher Street-Sheridan Square / 7 Avenue"
+"Houston Street / Varick Street"
+"Canal Street / Varick Street"
+"Franklin Street / Varick Street"
+"Chambers Street / West Broadway"
+"Park Place / Broadway"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / William Street"
+"Clark Street / Henry Street"
+"Court Street / Borough Hall"
+"Hoyt Street / Fulton Mall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Bergen Street / Flatbush Avenue"
+"Grand Army Plaza / Flatbush Avenue"
+"Eastern Parkway-Brooklyn Museum"
+"Franklin Avenue-Botanic Garden"
+"President Street / Nostrand Avenue"
+"Sterling Street / Nostrand Avenue"
+"Winthrop Street / Nostrand Avenue"
+"Church Avenue / Nostrand Avenue"
+"Beverly Road / Nostrand Avenue"
+"Newkirk Avenue / Nostrand Avenue"
+"Flatbush Avenue-Brooklyn College / Nostrand Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     3 Service 24 hour -OK
+#       Seventh Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(3) Seventh Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(3) Seventh Avenue Express, towards Times Square"
+FORWARDEND
+BACKWARD
+"(3) Seventh Avenue Express, towards Harlem-148 st."
+BACKWARDEND
+STATIONS
+"Harlem-148 Street / 7 Avenue"
+"145 Street / Lenox Avenue"
+"135 Street / Lenox Avenue"
+"125 Street / Lenox Avenue"
+"116 Street / Lenox Avenue"
+"Central Park North (110 Street) / Lenox Avenue"
+"96 Street / Broadway"
+"72 Street / Broadway"
+"Times Square-42 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     3 Service daytime - OK
+#       Seventh Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(3) Seventh Avenue Express (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"runs 06:00 - 23:30"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(3) Seventh Avenue Express (daytime), towards New Lots Av."
+FORWARDEND
+BACKWARD
+"(3) Seventh Avenue Express (daytime), towards Harlem-148 st."
+BACKWARDEND
+STATIONS
+"Harlem-148 Street / 7 Avenue"
+"145 Street / Lenox Avenue"
+"135 Street / Lenox Avenue"
+"125 Street / Lenox Avenue"
+"116 Street / Lenox Avenue"
+"Central Park North (110 Street) / Lenox Avenue"
+"96 Street / Broadway"
+"72 Street / Broadway"
+"Times Square-42 Street"
+"34 Street-Penn Station / 7 Avenue"
+"14 Street / 7 Avenue"
+"Chambers Street / West Broadway"
+"Park Place / Broadway"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / William Street"
+"Clark Street / Henry Street"
+"Court Street / Borough Hall"
+"Hoyt Street / Fulton Mall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Bergen Street / Flatbush Avenue"
+"Grand Army Plaza / Flatbush Avenue"
+"Eastern Parkway-Brooklyn Museum"
+"Franklin Avenue-Botanic Garden"
+"Nostrand Avenue / Eastern Parkway"
+"Kingston Avenue / Eastern Parkway"
+"Crown Heights-Utica Avenue / Eastern Parkway"
+"Sutter Avenue-Rutland Road / East 98 Street"
+"Saratoga Avenue / Livonia Avenue"
+"Rockaway Avenue / Livonia Avenue"
+"Junius Street / Livonia Avenue"
+"Pennsylvania Avenue / Livonia Avenue"
+"Van Siclen Avenue / Livonia Avenue"
+"New Lots Avenue / Livonia Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     4 Service NIGHT ONLY -OK
+#       Lexington Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(4) Lexington Avenue Express (late night)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"late night service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(4) Lexington Avenue Express (late night), towards New Lots Av."
+FORWARDEND
+BACKWARD
+"(4) Lexington Avenue Express (late night), towards Woodlawn"
+BACKWARDEND
+STATIONS
+"Woodlawn / Jerome Avenue"
+"Mosholu Parkway / Jerome Avenue"
+"Bedford Park Boulevard-Lehman College / Jerome Avenue"
+"Kingsbridge Road / Jerome Avenue"
+"Fordham Road / Jerome Avenue"
+"183 Street / Jerome Avenue"
+"Burnside Avenue / Jerome Avenue"
+"176 Street / Jerome Avenue"
+"Mt Eden Avenue / Jerome Avenue"
+"170 Street / Jerome Avenue"
+"167 Street / River Avenue"
+"161 Street-Yankee Stadium / River Avenue"
+"149 Street-Grand Concourse"
+"138 Street / Grand Concourse"
+"125 Street / Lexington Avenue"
+"116 Street / Lexington Avenue"
+"110 Street / Lexington Avenue"
+"103 Street / Lexington Avenue"
+"96 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"77 Street / Lexington Avenue"
+"68 Street-Hunter College / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"51 Street / Lexington Avenue"
+"Grand Central-42 Street"
+"33 Street / Park Avenue South"
+"28 Street / Park Avenue South"
+"23 Street / Park Avenue South"
+"14 Street / Union Square"
+"Astor Place / 4 Avenue"
+"Bleecker Street / Lafayette Street"
+"Spring Street / Lafayette Street"
+"Canal Street / Lafayette Street"
+"Brooklyn Bridge-City Hall / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / Broadway"
+"Bowling Green / Broadway"
+"Court Street / Borough Hall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Bergen Street / Flatbush Avenue"
+"Grand Army Plaza / Flatbush Avenue"
+"Eastern Parkway-Brooklyn Museum"
+"Franklin Avenue-Botanic Garden"
+"Nostrand Avenue / Eastern Parkway"
+"Kingston Avenue / Eastern Parkway"
+"Crown Heights-Utica Avenue / Eastern Parkway"
+"Sutter Avenue-Rutland Road / East 98 Street"
+"Saratoga Avenue / Livonia Avenue"
+"Rockaway Avenue / Livonia Avenue"
+"Junius Street / Livonia Avenue"
+"Pennsylvania Avenue / Livonia Avenue"
+"Van Siclen Avenue / Livonia Avenue"
+"New Lots Avenue / Livonia Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     4 Service Non Rushhours-OK              
+#       Lexington Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(4) Lexington Avenue Express (non rush hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"non rush hours only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(4) Lexington Avenue Express (non rush hours), towards Crown Heights-Utica Avenue"
+FORWARDEND
+BACKWARD
+"(4) Lexington Avenue Express (non rush hours), towards Woodlawn"
+BACKWARDEND
+STATIONS
+"Woodlawn / Jerome Avenue"
+"Mosholu Parkway / Jerome Avenue"
+"Bedford Park Boulevard-Lehman College / Jerome Avenue"
+"Kingsbridge Road / Jerome Avenue"
+"Fordham Road / Jerome Avenue"
+"183 Street / Jerome Avenue"
+"Burnside Avenue / Jerome Avenue"
+"176 Street / Jerome Avenue"
+"Mt Eden Avenue / Jerome Avenue"
+"170 Street / Jerome Avenue"
+"167 Street / River Avenue"
+"161 Street-Yankee Stadium / River Avenue"
+"149 Street-Grand Concourse"
+"138 Street / Grand Concourse"
+"125 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"Grand Central-42 Street"
+"14 Street / Union Square"
+"Brooklyn Bridge-City Hall / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / Broadway"
+"Bowling Green / Broadway"
+"Court Street / Borough Hall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Franklin Avenue-Botanic Garden"
+"Crown Heights-Utica Avenue / Eastern Parkway"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     4 Service 24 HOUR -OK          
+#       Lexington Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(4) Lexington Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(4) Lexington Avenue Express, towards Crown Heights-Utica Avenue / Eastern Parkway."
+FORWARDEND
+BACKWARD
+"(4) Lexington Avenue Express, towards Woodlawn"
+BACKWARDEND
+STATIONS
+"Woodlawn / Jerome Avenue"
+"Mosholu Parkway / Jerome Avenue"
+"Bedford Park Boulevard-Lehman College / Jerome Avenue"
+"Kingsbridge Road / Jerome Avenue"
+"Fordham Road / Jerome Avenue"
+"183 Street / Jerome Avenue"
+"Burnside Avenue / Jerome Avenue"
+"167 Street / River Avenue"
+"161 Street-Yankee Stadium / River Avenue"
+"149 Street-Grand Concourse"
+"125 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"Grand Central-42 Street"
+"14 Street / Union Square"
+"Brooklyn Bridge-City Hall / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / Broadway"
+"Bowling Green / Broadway"
+"Court Street / Borough Hall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Franklin Avenue-Botanic Garden"
+"Crown Heights-Utica Avenue / Eastern Parkway"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     5 Service Daytime-OK
+#       Lexington Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(5) Lexington Avenue Express (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(5) Lexington Avenue Express (daytime), towards Flatbush Avenue-Brooklyn College / Nostrand Avenue"
+FORWARDEND
+BACKWARD
+"(5) Lexington Avenue Express (daytime), towards Eastchester-Dyre Avenue"
+BACKWARDEND
+STATIONS
+"Eastchester-Dyre Avenue / 233 Street"
+"Baychester Avenue / Tillotson Avenue"
+"Gun Hill Road / Seymour Avenue"
+"Pelham Parkway / Williamsbridge Road"
+"Morris Park / Esplanade"
+"East 180 Street / Morris Park Avenue"
+"West Farms Square-East Tremont Avenue / Boston Road"
+"174 Street / Southern Boulevard"
+"Freeman Street / Southern Boulevard"
+"Simpson Street / Westchester Avenue"
+"Intervale Avenue / Westchester Avenue"
+"Prospect Avenue / Westchester Avenue"
+"Jackson Avenue / Westchester Avenue"
+"3 Avenue-149 Street"
+"149 Street-Grand Concourse"
+"138 Street / Grand Concourse"
+"125 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"Grand Central-42 Street"
+"14 Street / Union Square"
+"Brooklyn Bridge-City Hall / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / Broadway"
+"Bowling Green / Broadway"
+"Court Street / Borough Hall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Franklin Avenue-Botanic Garden"
+"President Street / Nostrand Avenue"
+"Sterling Street / Nostrand Avenue"
+"Winthrop Street / Nostrand Avenue"
+"Church Avenue / Nostrand Avenue"
+"Beverly Road / Nostrand Avenue"
+"Newkirk Avenue / Nostrand Avenue"
+"Flatbush Avenue-Brooklyn College / Nostrand Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     5 Service RUSHHOURS DIAMOND-OK
+#       Lexington Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(5) Lexington Avenue Express (rush hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"rush hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(5) Lexington Avenue Express (rush hours), towards Flatbush Avenue-Brooklyn College"
+FORWARDEND
+BACKWARD
+"(5) Lexington Avenue Express (rush hours), towards Nereid Avenue"
+BACKWARDEND
+STATIONS
+"Nereid Avenue / White Plains Road"
+"233 Street / White Plains Road"
+"225 Street / White Plains Road"
+"219 Street / White Plains Road"
+"Gun Hill Road / White Plains Road"
+"Burke Avenue / White Plains Road"
+"Allerton Avenue White Plains Road"
+"Pelham Parkway / White Plains Road"
+"Bronx Park East / White Plains Road"
+"East 180 Street / Morris Park Avenue"
+"West Farms Square-East Tremont Avenue / Boston Road"
+"174 Street / Southern Boulevard"
+"Freeman Street / Southern Boulevard"
+"Simpson Street / Westchester Avenue"
+"Intervale Avenue / Westchester Avenue"
+"Prospect Avenue / Westchester Avenue"
+"Jackson Avenue / Westchester Avenue"
+"3 Avenue-149 Street"
+"149 Street-Grand Concourse"
+"138 Street / Grand Concourse"
+"125 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"Grand Central-42 Street"
+"14 Street / Union Square"
+"Brooklyn Bridge-City Hall / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Wall Street / Broadway"
+"Bowling Green / Broadway"
+"Court Street / Borough Hall"
+"Nevins Street / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"Franklin Avenue-Botanic Garden"
+"President Street / Nostrand Avenue"
+"Sterling Street / Nostrand Avenue"
+"Winthrop Street / Nostrand Avenue"
+"Church Avenue / Nostrand Avenue"
+"Beverly Road / Nostrand Avenue"
+"Newkirk Avenue / Nostrand Avenue"
+"Flatbush Avenue-Brooklyn College / Nostrand Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+# =============================================================
+#     5 Service 24 Hour -OK
+#       Lexington Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(5) Lexington Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(5) Lexington Avenue Express, towards East 180 st-Morris Park Avenue"
+FORWARDEND
+BACKWARD
+"(5) Lexington Avenue Express, towards Eastchester-Dyre AV."
+BACKWARDEND
+STATIONS
+"Eastchester-Dyre Avenue / 233 Street"
+"Baychester Avenue / Tillotson Avenue"
+"Gun Hill Road / Seymour Avenue"
+"Pelham Parkway / Williamsbridge Road"
+"Morris Park / Esplanade"
+"East 180 Street / Morris Park Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     6 Service 24 Hour -OK
+#       Lexington Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(6) Lexington Avenue Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(6) Lexington Avenue Local, towards Brooklyn Bridge-City Hall / Centre Street "
+FORWARDEND
+BACKWARD
+"(6) Lexington Avenue Local, towards Pelham Bay Park / Bruckner Expressway"
+BACKWARDEND
+STATIONS
+"Pelham Bay Park / Bruckner Expressway"
+"Buhre Avenue / Westchester Avenue"
+"Middletown Road / Westchester Avenue"
+"Westchester Square-East Tremont Avenue / Westchester Avenue"
+"Zerega Avenue / Westchester Avenue"
+"Castle Hill Avenue / Westchester Avenue"
+"Parkchester / Westchester Avenue"
+"Saint Lawrence Avenue / Westchester Avenue"
+"Morrison-Sound View Avenues / Westchester Avenue"
+"Elder Avenue / Westchester Avenue"
+"Whitlock Avenue / Westchester Avenue"
+"Hunts Point Avenue / Southern Boulevard"
+"Longwood Avenue / Southern Boulevard"
+"East 149 Street / Southern Boulevard"
+"East 143 Street-Saint Mary\'s Street / Southern Boulevard"
+"Cypress Avenue / East 138 Street"
+"Brook Avenue / East 138 Street"
+"3 Avenue-138 Street"
+"125 Street / Lexington Avenue"
+"116 Street / Lexington Avenue"
+"110 Street / Lexington Avenue"
+"103 Street / Lexington Avenue"
+"96 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"77 Street / Lexington Avenue"
+"68 Street-Hunter College / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"51 Street / Lexington Avenue"
+"Grand Central-42 Street"
+"33 Street / Park Avenue South"
+"28 Street / Park Avenue South"
+"23 Street / Park Avenue South"
+"14 Street / Union Square"
+"Astor Place / 4 Avenue"
+"Bleecker Street / Lafayette Street"
+"Spring Street / Lafayette Street"
+"Canal Street / Lafayette Street"
+"Brooklyn Bridge-City Hall / Centre Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     6 Express Service-OK
+#       Lexington Avenue Local Pelham Express
+#       Rushhours only in peak direction
+# =============================================================
+LINE
+LINE_NAME
+"(6) Lexington Avenue Local Pelham Express"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays, peak direction only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(6) Lexington Avenue Local Pelham Express, towards Brooklyn Bridge-City Hall"
+FORWARDEND
+BACKWARD
+"(6) Lexington Avenue Local Pelham Express, towards Pelham Bay Park"
+BACKWARDEND
+STATIONS
+"Pelham Bay Park / Bruckner Expressway"
+"Buhre Avenue / Westchester Avenue"
+"Middletown Road / Westchester Avenue"
+"Westchester Square-East Tremont Avenue / Westchester Avenue"
+"Zerega Avenue / Westchester Avenue"
+"Castle Hill Avenue / Westchester Avenue"
+"Parkchester / Westchester Avenue"
+"Hunts Point Avenue / Southern Boulevard"
+"3 Avenue-138 Street"
+"125 Street / Lexington Avenue"
+"116 Street / Lexington Avenue"
+"110 Street / Lexington Avenue"
+"103 Street / Lexington Avenue"
+"96 Street / Lexington Avenue"
+"86 Street / Lexington Avenue"
+"77 Street / Lexington Avenue"
+"68 Street-Hunter College / Lexington Avenue"
+"Lexington Avenue / 59 Street"
+"51 Street / Lexington Avenue"
+"Grand Central-42 Street"
+"33 Street / Park Avenue South"
+"28 Street / Park Avenue South"
+"23 Street / Park Avenue South"
+"14 Street / Union Square"
+"Astor Place / 4 Avenue"
+"Bleecker Street / Lafayette Street"
+"Spring Street / Lafayette Street"
+"Canal Street / Lafayette Street"
+"Brooklyn Bridge-City Hall / Centre Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     7 Service 24 Hour -OK
+#       Flushing Local
+# =============================================================
+LINE
+LINE_NAME
+"(7) Flushing Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(7) Flushing Local, towards Times Square-42 Street"
+FORWARDEND
+BACKWARD
+"(7) Flushing Local, towards Flushing-Main Street"
+BACKWARDEND
+STATIONS
+"Flushing-Main Street / Roosevelt Avenue"
+"Mets-Willets Point"
+"111 Street / Roosevelt Avenue"
+"103 Street-Corona Plaza / Roosevelt Avenue"
+"Junction Boulevard / Roosevelt Avenue"
+"90 Street-Elmhurst Avenue / Roosevelt Avenue"
+"82 Street-Jackson Heights / Roosevelt Avenue"
+"74 Street-Broadway / Roosevelt Avenue"
+"69 Street / Roosevelt Avenue"
+"Woodside-61 Street / Roosevelt Avenue"
+"52 Street / Roosevelt Avenue"
+"46 Street / Queens Boulevard"
+"40 Street / Queens Boulevard"
+"33 Street / Queens Boulevard"
+"Queensboro Plaza / Queensboro Bridge"
+"45 Road / Court House Square"
+"Hunters Point Avenue / 49 Avenue / 21 Street"
+"Vernon Boulevard-Jackson Avenue"
+"Grand Central-42 Street"
+"5 Avenue-Bryant Park / 42 Street"
+"Times Square-42 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     7 Flushing Express-OK
+#       Rushhours only
+# =============================================================
+LINE
+LINE_NAME
+"(7) Flushing Express"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays, peak direction only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(7) Flushing Express, towards Times Square-42 Street"
+FORWARDEND
+BACKWARD
+"(7) Flushing Express, towards Flushing-Main Street"
+BACKWARDEND
+STATIONS
+"Flushing-Main Street / Roosevelt Avenue"
+"Mets-Willets Point"
+"Junction Boulevard / Roosevelt Avenue"
+"Woodside-61 Street / Roosevelt Avenue"
+"Queensboro Plaza / Queensboro Bridge"
+"45 Road / Court House Square"
+"Hunters Point Avenue / 49 Avenue / 21 Street"
+"Vernon Boulevard-Jackson Avenue"
+"Grand Central-42 Street"
+"5 Avenue-Bryant Park / 42 Street"
+"Times Square-42 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     A Service-OK
+#       8 AVENUE EXPRESS
+# =============================================================
+LINE
+LINE_NAME
+"(A) 8 Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(A) 8 Avenue Express, towards Far Rockaway-Mott Avenue"
+FORWARDEND
+BACKWARD
+"(A) 8 Avenue Express, towards Inwood-207 Street"
+BACKWARDEND
+STATIONS
+"Inwood-207 Street / Broadway"
+"Dyckman Street / Broadway"
+"190 Street / Fort Washington Avenue"
+"181 Street / Fort Washington Avenue"
+"175 Street / Fort Washington Avenue"
+"168 Street-Washington Heights / Broadway"
+"145 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"59 Street-Columbus Circle"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Canal Street / 6 Avenue"
+"Chambers Street / Church Street"
+"Fulton Street / Broadway-Nassau Street"
+"High Street / Cadman Plaza East"
+"Jay Street-Borough Hall / Fulton Mall"
+"Hoyt Street-Schermerhorn Street"
+"Nostrand Avenue / Fulton Street"
+"Utica Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Euclid Avenue / Pitkin Avenue"
+"Grant Avenue / Pitkin Avenue"
+"80 Street / Liberty Avenue"
+"88 Street / Liberty Avenue"
+"Rockaway Boulevard / Liberty Avenue"
+"Aqueduct-North Conduit Avenue"
+"Howard Beach-JFK Airport / 159 Avenue"
+"Broad Channel"
+"Beach 67 Street / Rockaway Freeway"
+"Beach 60 Street / Rockaway Freeway"
+"Beach 44 Street / Rockaway Freeway"
+"Beach 36 Street / Rockaway Freeway"
+"Beach 25 Street / Rockaway Freeway"
+"Far Rockaway-Mott Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     A Service NIGHT only -OK
+#       8 AVENUE EXPRESS
+# =============================================================
+LINE
+LINE_NAME
+"(A) 8 Avenue Express (late night)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"late night service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(A) 8 Avenue Express (late night), towards Far Rockaway-Mott Avenue"
+FORWARDEND
+BACKWARD
+"(A) 8 Avenue Express (late night), towards Inwood-207 Street"
+BACKWARDEND
+STATIONS
+"Inwood-207 Street / Broadway"
+"Dyckman Street / Broadway"
+"190 Street / Fort Washington Avenue"
+"181 Street / Fort Washington Avenue"
+"175 Street / Fort Washington Avenue"
+"168 Street-Washington Heights / Broadway"
+"163 Street-Amsterdam Avenue / Saint Nicholas Avenue"
+"155 Street / Saint Nicholas Avenue"
+"145 Street / Saint Nicholas Avenue"
+"135 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"116 Street / 8 Avenue"
+"Cathedral Parkway (110 Street) / Central Park West"
+"103 Street / Central Park West"
+"96 Street / Central Park West"
+"86 Street / Central Park West"
+"81 Street-Museum of Natural History / Central Park West"
+"72 Street / Central Park West"
+"59 Street-Columbus Circle"
+"50 Street / 8 Avenue"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"23 Street / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Spring Street / 6 Avenue"
+"Canal Street / 6 Avenue"
+"Chambers Street / Church Street"
+"Fulton Street / Broadway-Nassau Street"
+"High Street / Cadman Plaza East"
+"Jay Street-Borough Hall / Fulton Mall"
+"Hoyt Street-Schermerhorn Street"
+"Lafayette Avenue / Fulton Street"
+"Clinton-Washington Avenues / Fulton Street"
+"Franklin Avenue / Fulton Street"
+"Nostrand Avenue / Fulton Street"
+"Kingston-Throop Avenues / Fulton Street"
+"Utica Avenue / Fulton Street"
+"Ralph Avenue / Fulton Street"
+"Rockaway Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Liberty Avenue / Pennsylvania Avenue"
+"Van Siclen Avenue / Pitkin Avenue"
+"Shepherd Avenue / Pitkin Avenue"
+"Euclid Avenue / Pitkin Avenue"
+"Grant Avenue / Pitkin Avenue"
+"80 Street / Liberty Avenue"
+"88 Street / Liberty Avenue"
+"Rockaway Boulevard / Liberty Avenue"
+"Aqueduct-North Conduit Avenue"
+"Howard Beach-JFK Airport / 159 Avenue"
+"Broad Channel"
+"Beach 67 Street / Rockaway Freeway"
+"Beach 60 Street / Rockaway Freeway"
+"Beach 44 Street / Rockaway Freeway"
+"Beach 36 Street / Rockaway Freeway"
+"Beach 25 Street / Rockaway Freeway"
+"Far Rockaway-Mott Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     A Service Daytime -OK
+#       8 AVENUE EXPRESS
+# =============================================================
+LINE
+LINE_NAME
+"(A) 8 Avenue Express (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(A) 8 Avenue Express (daytime), towards Ozone Park-Lefferts Boulevard"
+FORWARDEND
+BACKWARD
+"(A) 8 Avenue Express (daytime), towards Inwood-207 Street"
+BACKWARDEND
+STATIONS
+"Inwood-207 Street / Broadway"
+"Dyckman Street / Broadway"
+"190 Street / Fort Washington Avenue"
+"181 Street / Fort Washington Avenue"
+"175 Street / Fort Washington Avenue"
+"168 Street-Washington Heights / Broadway"
+"145 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"59 Street-Columbus Circle"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Canal Street / 6 Avenue"
+"Chambers Street / Church Street"
+"Fulton Street / Broadway-Nassau Street"
+"High Street / Cadman Plaza East"
+"Jay Street-Borough Hall / Fulton Mall"
+"Hoyt Street-Schermerhorn Street"
+"Nostrand Avenue / Fulton Street"
+"Utica Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Euclid Avenue / Pitkin Avenue"
+"Grant Avenue / Pitkin Avenue"
+"80 Street / Liberty Avenue"
+"88 Street / Liberty Avenue"
+"Rockaway Boulevard / Liberty Avenue"
+"104 Street / Liberty Avenue"
+"111 Street / Liberty Avenue"
+"Ozone Park-Lefferts Boulevard / Liberty Avenue"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     A Service RUSH HOURS-OK
+#       8 AVENUE EXPRESS
+# =============================================================
+LINE
+LINE_NAME
+"(A) 8 Avenue Express (rush hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"rush hour service peak direction only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(A) 8 Avenue Express (rush hours), towards Rockaway Park"
+FORWARDEND
+BACKWARD
+"(A) 8 Avenue Express (rush hours), towards Inwood-207 Street"
+BACKWARDEND
+STATIONS
+"Inwood-207 Street / Broadway"
+"Dyckman Street / Broadway"
+"190 Street / Fort Washington Avenue"
+"181 Street / Fort Washington Avenue"
+"175 Street / Fort Washington Avenue"
+"168 Street-Washington Heights / Broadway"
+"145 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"59 Street-Columbus Circle"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Canal Street / 6 Avenue"
+"Chambers Street / Church Street"
+"Fulton Street / Broadway-Nassau Street"
+"High Street / Cadman Plaza East"
+"Jay Street-Borough Hall / Fulton Mall"
+"Hoyt Street-Schermerhorn Street"
+"Nostrand Avenue / Fulton Street"
+"Utica Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Euclid Avenue / Pitkin Avenue"
+"Grant Avenue / Pitkin Avenue"
+"80 Street / Liberty Avenue"
+"88 Street / Liberty Avenue"
+"Rockaway Boulevard / Liberty Avenue"
+"Aqueduct-North Conduit Avenue"
+"Howard Beach-JFK Airport / 159 Avenue"
+"Broad Channel"
+"Beach 90 Street / Rockaway Freeway"
+"Beach 98 Street / Rockaway Freeway"
+"Beach 105 Street / Rockaway Freeway"
+"Rockaway Park / Beach 116 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     B Service Daytime only 0600-2300-OK
+#       Central Park West Local / 6 Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(B) Central Park West Local / 6 Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service 0600 - 2300"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(B) Central Park West Local / 6 Avenue Express, towards Brighton Beach"
+FORWARDEND
+BACKWARD
+"(B) Central Park West Local / 6 Avenue Express, towards 145 Street"
+BACKWARDEND
+STATIONS
+"145 Street / Saint Nicholas Avenue"
+"135 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"116 Street / 8 Avenue"
+"Cathedral Parkway (110 Street) / Central Park West"
+"103 Street / Central Park West"
+"96 Street / Central Park West"
+"86 Street / Central Park West"
+"81 Street-Museum of Natural History / Central Park West"
+"72 Street / Central Park West"
+"59 Street-Columbus Circle"
+"7 Avenue / 53 Street"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Grand Street / Chrystie Street"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"7 Avenue / Flatbush Avenue"
+"Prospect Park / Empire Boulevard / Flatbush Avenue"
+"Parkside Avenue / Ocean Avenue"
+"Church Avenue / East 18 Street"
+"Beverley Road / East 16 Street"
+"Cortelyou Road / East 16 Street"
+"Newkirk Avenue / East 16 Street"
+"Avenue H / East 16 Street"
+"Avenue J / East 16 Street"
+"Avenue M / East 16 Street"
+"Kings Highway / East 16 Street"
+"Avenue U / East 16 Street"
+"Neck Road / East 16 Street"
+"Sheepshead Bay / East 16 Street"
+"Brighton Beach / Brighton 6 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     B Service Rush hours-OK
+# =============================================================
+LINE
+LINE_NAME
+"(B) Central Park West Local / 6 Avenue Express (rush hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"rush hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(B) Central Park West Local / 6 Avenue Express (rush hours), towards Brighton Beach"
+FORWARDEND
+BACKWARD
+"(B) Central Park West Local / 6 Avenue Express (rush hours), towards Bedford Park Boulevard"
+BACKWARDEND
+STATIONS
+"Bedford Park Boulevard / Grand Concourse"
+"Kingsbridge Road / Grand Concourse"
+"Fordham Road / Grand Concourse"
+"182-183 Streets / Grand Concourse"
+"Tremont Avenue / Grand Concourse"
+"174-175 Streets / Grand Concourse"
+"170 Street / Grand Concourse"
+"167 Street / Grand Concourse"
+"161 Street-Yankee Stadium / River Avenue"
+"155 Street / 8 Avenue"
+"145 Street / Saint Nicholas Avenue"
+"135 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"116 Street / 8 Avenue"
+"Cathedral Parkway (110 Street) / Central Park West"
+"103 Street / Central Park West"
+"96 Street / Central Park West"
+"86 Street / Central Park West"
+"81 Street-Museum of Natural History / Central Park West"
+"72 Street / Central Park West"
+"59 Street-Columbus Circle"
+"7 Avenue / 53 Street"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Grand Street / Chrystie Street"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"7 Avenue / Flatbush Avenue"
+"Prospect Park / Empire Boulevard / Flatbush Avenue"
+"Parkside Avenue / Ocean Avenue"
+"Church Avenue / East 18 Street"
+"Beverley Road / East 16 Street"
+"Cortelyou Road / East 16 Street"
+"Newkirk Avenue / East 16 Street"
+"Avenue H / East 16 Street"
+"Avenue J / East 16 Street"
+"Avenue M / East 16 Street"
+"Kings Highway / East 16 Street"
+"Avenue U / East 16 Street"
+"Neck Road / East 16 Street"
+"Sheepshead Bay / East 16 Street"
+"Brighton Beach / Brighton 6 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     C Service Daytime only-OK
+# =============================================================
+LINE
+LINE_NAME
+"(C) 8 Avenue Local"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(C) 8 Avenue Local, towards Euclid Avenue"
+FORWARDEND
+BACKWARD
+"(C) 8 Avenue Local, towards Washington Heights-168 St"
+BACKWARDEND
+STATIONS
+"168 Street-Washington Heights / Broadway"
+"163 Street-Amsterdam Avenue / Saint Nicholas Avenue"
+"155 Street / Saint Nicholas Avenue"
+"145 Street / Saint Nicholas Avenue"
+"135 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"116 Street / 8 Avenue"
+"Cathedral Parkway (110 Street) / Central Park West"
+"103 Street / Central Park West"
+"96 Street / Central Park West"
+"86 Street / Central Park West"
+"81 Street-Museum of Natural History / Central Park West"
+"72 Street / Central Park West"
+"59 Street-Columbus Circle"
+"50 Street / 8 Avenue"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"23 Street / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Spring Street / 6 Avenue"
+"Canal Street / 6 Avenue"
+"Chambers Street / Church Street"
+"Fulton Street / Broadway-Nassau Street"
+"High Street / Cadman Plaza East"
+"Jay Street-Borough Hall / Fulton Mall"
+"Hoyt Street-Schermerhorn Street"
+"Lafayette Avenue / Fulton Street"
+"Clinton-Washington Avenues / Fulton Street"
+"Franklin Avenue / Fulton Street"
+"Nostrand Avenue / Fulton Street"
+"Kingston-Throop Avenues / Fulton Street"
+"Utica Avenue / Fulton Street"
+"Ralph Avenue / Fulton Street"
+"Rockaway Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Liberty Avenue / Pennsylvania Avenue"
+"Van Siclen Avenue / Pitkin Avenue"
+"Shepherd Avenue / Pitkin Avenue"
+"Euclid Avenue / Pitkin Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     D Service 24 Hour Service-OK
+#       6 Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(D) 6 Avenue Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(D) 6 Avenue Express, towards Coney Island-Stillwell Avenue"
+FORWARDEND
+BACKWARD
+"(D) 6 Avenue Express, towards 205 Street / Bainbridge Avenue"
+BACKWARDEND
+STATIONS
+"205 Street / Bainbridge Avenue"
+"Bedford Park Boulevard / Grand Concourse"
+"Kingsbridge Road / Grand Concourse"
+"Fordham Road / Grand Concourse"
+"Tremont Avenue / Grand Concourse"
+"145 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"59 Street-Columbus Circle"
+"7 Avenue / 53 Street"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Grand Street / Chrystie Street"
+"Atlantic Avenue-Pacific Street / 4 Avenue"
+"36 Street / 4 Avenue"
+"9 Avenue / 39 Street"
+"Fort Hamilton Parkway / New Utrecht Avenue"
+"50 Street / New Utrecht Avenue"
+"55 Street / New Utrecht Avenue"
+"New Utrecht Avenue / 62 Street"
+"71 Street / New Utrecht Avenue"
+"79 Street / New Utrecht Avenue"
+"18 Avenue / New Utrecht Avenue"
+"20 Avenue / 86 Street"
+"Bay Parkway / 86 Street"
+"25 Avenue / 86 Street"
+"Bay 50 Street / Stillwell Avenue"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     D Service NON-Rush Hours-OK
+#       6 Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(D) 6 Avenue Express (non-rush hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"non-rush hours only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(D) 6 Avenue Express (non-rush hours), towards Coney Island-Stillwell Avenue"
+FORWARDEND
+BACKWARD
+"(D) 6 Avenue Express (non-rush hours), towards 205 Street / Bainbridge Avenue"
+BACKWARDEND
+STATIONS
+"205 Street / Bainbridge Avenue"
+"Bedford Park Boulevard / Grand Concourse"
+"Kingsbridge Road / Grand Concourse"
+"Fordham Road / Grand Concourse"
+"182-183 Streets / Grand Concourse"
+"Tremont Avenue / Grand Concourse"
+"174-175 Streets / Grand Concourse"
+"170 Street / Grand Concourse"
+"167 Street / Grand Concourse"
+"161 Street-Yankee Stadium / River Avenue"
+"155 Street / 8 Avenue"
+"145 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"59 Street-Columbus Circle"
+"7 Avenue / 53 Street"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Grand Street / Chrystie Street"
+"Atlantic Avenue-Pacific Street / 4 Avenue"
+"36 Street / 4 Avenue"
+"9 Avenue / 39 Street"
+"Fort Hamilton Parkway / New Utrecht Avenue"
+"50 Street / New Utrecht Avenue"
+"55 Street / New Utrecht Avenue"
+"New Utrecht Avenue / 62 Street"
+"71 Street / New Utrecht Avenue"
+"79 Street / New Utrecht Avenue"
+"18 Avenue / New Utrecht Avenue"
+"20 Avenue / 86 Street"
+"Bay Parkway / 86 Street"
+"25 Avenue / 86 Street"
+"Bay 50 Street / Stillwell Avenue"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     D Service Night only Service-OK
+#       6 Avenue Express
+# =============================================================
+LINE
+LINE_NAME
+"(D) 6 Avenue Express (late night)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"late night service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(D) 6 Avenue Express (late night), towards Coney Island-Stillwell Avenue"
+FORWARDEND
+BACKWARD
+"(D) 6 Avenue Express (late night), towards 205 Street / Bainbridge Avenue"
+BACKWARDEND
+STATIONS
+"205 Street / Bainbridge Avenue"
+"Bedford Park Boulevard / Grand Concourse"
+"Kingsbridge Road / Grand Concourse"
+"Fordham Road / Grand Concourse"
+"182-183 Streets / Grand Concourse"
+"Tremont Avenue / Grand Concourse"
+"174-175 Streets / Grand Concourse"
+"170 Street / Grand Concourse"
+"167 Street / Grand Concourse"
+"161 Street-Yankee Stadium / River Avenue"
+"155 Street / 8 Avenue"
+"145 Street / Saint Nicholas Avenue"
+"125 Street / Saint Nicholas Avenue"
+"59 Street-Columbus Circle"
+"7 Avenue / 53 Street"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Grand Street / Chrystie Street"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue-Pacific Street / 4 Avenue"
+"Union Street / 4 Avenue"
+"4 Avenue / 9 Street"
+"Prospect Avenue / 4 Avenue"
+"25 Street / 4 Avenue"
+"36 Street / 4 Avenue"
+"9 Avenue / 39 Street"
+"Fort Hamilton Parkway / New Utrecht Avenue"
+"50 Street / New Utrecht Avenue"
+"55 Street / New Utrecht Avenue"
+"New Utrecht Avenue / 62 Street"
+"71 Street / New Utrecht Avenue"
+"79 Street / New Utrecht Avenue"
+"18 Avenue / New Utrecht Avenue"
+"20 Avenue / 86 Street"
+"Bay Parkway / 86 Street"
+"25 Avenue / 86 Street"
+"Bay 50 Street / Stillwell Avenue"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     E Service Daytime Regular OK
+#       8 Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(E) 8 Avenue Local (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(E) 8 Avenue Local (daytime), towards World Trade Center / Church Street"
+FORWARDEND
+BACKWARD
+"(E) 8 Avenue Local (daytime), towards Jamaica Center-Parsons"
+BACKWARDEND
+STATIONS
+"Jamaica Center-Parsons / Archer"
+"Sutphin Boulevard / Archer Avenue / JFK Airport"
+"Jamaica-Van Wyck / Queens Boulevard"
+"Briarwood / Van Wyck Boulevard / Main Street"
+"Kew Gardens-Union Turnpike / Queens Boulevard"
+"75 Avenue / Queens Boulevard"
+"Forest Hills-71 Avenue / Queens Boulevard"
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"Queens Plaza / Queens Boulevard"
+"23 Street-Ely Avenue / 44 Drive"
+"Lexington Avenue / 53 Street"
+"5 Avenue / 53 Street"
+"7 Avenue / 53 Street"
+"50 Street / 8 Avenue"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"23 Street / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Spring Street / 6 Avenue"
+"Canal Street / 6 Avenue"
+"World Trade Center / Church Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     E Service 24 Hour Regular OK
+#       8 Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(E) 8 Avenue Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(E) 8 Avenue Local, towards World Trade Center / Church Street"
+FORWARDEND
+BACKWARD
+"(E) 8 Avenue Local, towards Jamaica Center-Parsons"
+BACKWARDEND
+STATIONS
+"Jamaica Center-Parsons / Archer"
+"Sutphin Boulevard / Archer Avenue / JFK Airport"
+"Jamaica-Van Wyck / Queens Boulevard"
+"Kew Gardens-Union Turnpike / Queens Boulevard"
+"Forest Hills-71 Avenue / Queens Boulevard"
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"Queens Plaza / Queens Boulevard"
+"23 Street-Ely Avenue / 44 Drive"
+"Lexington Avenue / 53 Street"
+"5 Avenue / 53 Street"
+"7 Avenue / 53 Street"
+"50 Street / 8 Avenue"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"23 Street / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Spring Street / 6 Avenue"
+"Canal Street / 6 Avenue"
+"World Trade Center / Church Street"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     E Service NIGHT SERVICE OK
+#       8 Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(E) 8 Avenue Local (late night)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"late night service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(E) 8 Avenue Local (late night), towards World Trade Center / Church Street"
+FORWARDEND
+BACKWARD
+"(E) 8 Avenue Local (late night), towards Jamaica Center-Parsons"
+BACKWARDEND
+STATIONS
+"Jamaica Center-Parsons / Archer"
+"Sutphin Boulevard / Archer Avenue / JFK Airport"
+"Jamaica-Van Wyck / Queens Boulevard"
+"Briarwood / Van Wyck Boulevard / Main Street"
+"Kew Gardens-Union Turnpike / Queens Boulevard"
+"75 Avenue / Queens Boulevard"
+"Forest Hills-71 Avenue / Queens Boulevard"
+"67 Avenue / Queens Boulevard"
+"63 Drive / Rego Park / Queens Boulevard"
+"Woodhaven Boulevard / Queens Boulevard"
+"Grand Avenue / Newtown / Queens Boulevard"
+"Elmhurst Avenue / Broadway"
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"65 Street / Broadway"
+"Northern Boulevard / Broadway"
+"46 Street / Broadway"
+"Steinway Street / Broadway"
+"36 Street / Northern Boulevard"
+"Queens Plaza / Queens Boulevard"
+"23 Street-Ely Avenue / 44 Drive"
+"Lexington Avenue / 53 Street"
+"5 Avenue / 53 Street"
+"7 Avenue / 53 Street"
+"50 Street / 8 Avenue"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+"34 Street-Penn Station / 8 Avenue"
+"23 Street / 8 Avenue"
+"14 Street / 8 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Spring Street / 6 Avenue"
+"Canal Street / 6 Avenue"
+"World Trade Center / Church Street"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     F Service 24 Hour -OK
+#       6 Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(F) 6 Avenue Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(F) 6 Avenue Local, towards Coney Island-Stillwell Avenue"
+FORWARDEND
+BACKWARD
+"(F) 6 Avenue Local, towards Jamaica-179 Street"
+BACKWARDEND
+STATIONS
+"Jamaica-179 Street / Hillside Avenue"
+"169 Street / Hillside Avenue"
+"Parsons Boulevard / Hillside Avenue"
+"Sutphin Boulevard / Hillside Avenue"
+"Briarwood / Van Wyck Boulevard / Main Street"
+"Kew Gardens-Union Turnpike / Queens Boulevard"
+"75 Avenue / Queens Boulevard"
+"Forest Hills-71 Avenue / Queens Boulevard"
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"21 Street-Queensbridge / 41 Avenue"
+"Roosevelt Island"
+"Lexington Avenue / 63 Street"
+"57 Street / 6 Avenue"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"23 Street / 6 Avenue"
+"14 Street / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Lower East Side-2 Avenue / Houston Street"
+"Essex Street / Delancey Street"
+"East Broadway / Canal Street-Rutgers Street"
+"York Street / Jay Street"
+"Jay Street-Borough Hall / Fulton Mall"
+"Bergen Street / Smith Street"
+"Carroll Street / Smith Street"
+"Smith-9 Streets"
+"4 Avenue / 9 Street"
+"7 Avenue / 9 Street"
+"15 Street-Prospect Park / Prospect Park West"
+"Fort Hamilton Parkway / Prospect Avenue"
+"Church Avenue / McDonald Avenue"
+"Ditmas Avenue / McDonald Avenue"
+"18 Avenue / McDonald Avenue"
+"Avenue I / McDonald Avenue"
+"Bay Parkway / McDonald Avenue"
+"Avenue N / McDonald Avenue"
+"Avenue P / McDonald Avenue"
+"Kings Highway / McDonald Avenue"
+"Avenue U / McDonald Avenue"
+"Avenue X / McDonald Avenue"
+"Neptune Avenue / West 6 Street"
+"West 8 Street-New York Aquarium / Surf Avenue"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     G Service 24 Hour OK
+#       Brooklyn-Queens Crosstown Local
+# =============================================================
+LINE
+LINE_NAME
+"(G) Brooklyn-Queens Crosstown Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(G) Brooklyn-Queens Crosstown Local, towards Church Avenue"
+FORWARDEND
+BACKWARD
+"(G) Brooklyn-Queens Crosstown Local, towards Long Island City-Court Square"
+BACKWARDEND
+STATIONS
+"Long Island City-Court Square / 45 Road"
+"21 Street / Jackson Avenue"
+"Greenpoint Avenue / Manhattan Avenue"
+"Nassau Avenue / Manhattan Avenue"
+"Metropolitan Avenue / Grand Street"
+"Broadway / Union Avenue"
+"Flushing Avenue / Marcy Avenue"
+"Myrtle-Willoughby Avenues / Marcy Avenue"
+"Bedford-Nostrand Avenues / Lafayette Avenue"
+"Classon Avenue / Lafayette Avenue"
+"Clinton-Washington Avenues / Lafayette Avenue"
+"Lafayette Avenue / Fulton Street"
+"Hoyt Street-Schermerhorn Street"
+"Bergen Street / Smith Street"
+"Carroll Street / Smith Street"
+"Smith-9 Streets"
+"4 Avenue / 9 Street"
+"7 Avenue / 9 Street"
+"15 Street-Prospect Park / Prospect Park West"
+"Fort Hamilton Parkway / Prospect Avenue"
+"Church Avenue / McDonald Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     J Service 24 Hour -OK
+#       Nassau Street Express
+# =============================================================
+LINE
+LINE_NAME
+"(J) Nassau Street Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(J) Nassau Street Express, towards Jamaica Center-Parsons"
+FORWARDEND
+BACKWARD
+"(J) Nassau Street Express, towards Chambers Street"
+BACKWARDEND
+STATIONS
+"Jamaica Center-Parsons / Archer "
+"Sutphin Boulevard / Archer Avenue / JFK Airport"
+"111 Street / Jamaica Avenue"
+"Woodhaven Boulevard / Jamaica Avenue"
+"85 Street-Forest Parkway / Jamaica Avenue"
+"Cypress Hills / Jamaica Avenue"
+"Crescent Street / Fulton Street"
+"Cleveland Street / Fulton Street"
+"Van Siclen Avenue / Fulton Street"
+"Alabama Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Halsey Street / Broadway"
+"Kosciuszko Street / Broadway"
+"Myrtle Avenue / Broadway"
+"Marcy Avenue / Broadway"
+"Essex Street / Delancey Street"
+"Bowery / Delancey Street"
+"Canal Street / Centre Street"
+"Chambers Street / Centre Street"
+STATIONSEND
+SEGMENTEND
+
+# =============================================================
+#     J Service non rush hours OK
+#       Nassau Street Express
+# =============================================================
+LINE
+LINE_NAME
+"(J) Nassau Street Express (non rush hours)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"non rush hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(J) Nassau Street Express (non rush hours), towards Broad Street"
+FORWARDEND
+BACKWARD
+"(J) Nassau Street Express (non rush hours), towards Jamaica Center-Parsons"
+BACKWARDEND
+STATIONS
+"Jamaica Center-Parsons / Archer"
+"Sutphin Boulevard / Archer Avenue / JFK Airport"
+"121 Street / Jamaica Avenue"
+"111 Street / Jamaica Avenue"
+"104 Street / Jamaica Avenue"
+"Woodhaven Boulevard / Jamaica Avenue"
+"85 Street-Forest Parkway / Jamaica Avenue"
+"75 Street / Jamaica Avenue"
+"Cypress Hills / Jamaica Avenue"
+"Crescent Street / Fulton Street"
+"Norwood Avenue / Fulton Street"
+"Cleveland Street / Fulton Street"
+"Van Siclen Avenue / Fulton Street"
+"Alabama Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Chauncey Street / Broadway"
+"Halsey Street / Broadway"
+"Gates Avenue / Broadway"
+"Kosciuszko Street / Broadway"
+"Myrtle Avenue / Broadway"
+"Flushing Avenue / Broadway"
+"Lorimer Street / Broadway"
+"Hewes Street / Broadway"
+"Marcy Avenue / Broadway"
+"Essex Street / Delancey Street"
+"Bowery / Delancey Street"
+"Canal Street / Centre Street"
+"Chambers Street / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Broad Street / Wall Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     L Service 24 Hour OK
+#       14 Street Canarsie Local
+# =============================================================
+LINE
+LINE_NAME
+"(L) 14 Street Canarsie Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(L) 14 Street Canarsie Local, towards Canarsie-Rockaway Parkway"
+FORWARDEND
+BACKWARD
+"(L) 14 Street Canarsie Local, towards 14 Street / 8 Avenue"
+BACKWARDEND
+STATIONS
+"14 Street / 8 Avenue"
+"14 Street / 6 Avenue"
+"14 Street / Union Square"
+"3 Avenue / 14 Street"
+"1 Avenue / 14 Street"
+"Bedford Avenue / North 7 Street"
+"Lorimer Street / Metropolitan Avenue"
+"Graham Avenue / Metropolitan Avenue"
+"Grand Street / Bushwick Avenue"
+"Montrose Avenue / Bushwick Avenue"
+"Morgan Avenue / Harrison Place"
+"Jefferson Street / Wyckoff Avenue"
+"DeKalb Avenue / Wyckoff Avenue"
+"Myrtle-Wyckoff Avenues / Wyckoff Avenue"
+"Halsey Street / Wyckoff Avenue"
+"Wilson Avenue / Moffat Street"
+"Bushwick Avenue-Aberdeen Street"
+"Broadway Junction / Fulton Street"
+"Atlantic Avenue / Snediker Avenue / Van Sinderen Avenue"
+"Sutter Avenue / Van Sinderen Avenue"
+"Livonia Avenue / Van Sinderen Avenue"
+"New Lots Avenue / Van Sinderen Avenue"
+"East 105 Street / Turnbull Avenue"
+"Canarsie-Rockaway Parkway / Glenwood Road"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     M Service 24 Hour OK
+#       Queens Blvd-6 Av-Myrtle Av Local
+# =============================================================
+LINE
+LINE_NAME
+"(M) Queens Blvd-6 Av-Myrtle Av Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(M) Queens Blvd-6 Av-Myrtle Av Local, towards Middle Village-Metropolitan Avenue"
+FORWARDEND
+BACKWARD
+"(M) Queens Blvd-6 Av-Myrtle Av Local, towards Myrtle Avenue"
+BACKWARDEND
+STATIONS
+"Myrtle Avenue / Broadway"
+"Central Avenue / Myrtle Avenue"
+"Knickerbocker Avenue / Myrtle Avenue"
+"Myrtle-Wyckoff Avenues / Myrtle Avenue"
+"Seneca Avenue / Palmetto Street"
+"Forest Avenue / 67 Avenue"
+"Fresh Pond Road / 67 Avenue"
+"Middle Village-Metropolitan Avenue / 67 Street"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     M Service DAYTIME ONLY OK
+#       (M) Queens Blvd - 6 Av - Myrtle Av Local
+# =============================================================
+LINE
+LINE_NAME
+"(M) Queens Blvd-6 Av-Myrtle Av Local (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(M) Queens Blvd-6 Av-Myrtle Av Local (daytime), towards Middle Village-Metropolitan Avenue"
+FORWARDEND
+BACKWARD
+"(M) Queens Blvd-6 Av-Myrtle Av Local (daytime), towards Forest Hills-71 Avenue"
+BACKWARDEND
+STATIONS
+"Forest Hills-71 Avenue / Queens Boulevard"
+"67 Avenue / Queens Boulevard"
+"63 Drive / Rego Park / Queens Boulevard"
+"Woodhaven Boulevard / Queens Boulevard"
+"Grand Avenue / Newtown / Queens Boulevard"
+"Elmhurst Avenue / Broadway"
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"65 Street / Broadway"
+"Northern Boulevard / Broadway"
+"46 Street / Broadway"
+"Steinway Street / Broadway"
+"36 Street / Northern Boulevard"
+"Queens Plaza / Queens Boulevard"
+"23 Street-Ely Avenue / 44 Drive"
+"Lexington Avenue / 53 Street"
+"5 Avenue / 53 Street"
+"47-50 Streets-Rockefeller Center / 6 Avenue"
+"42 Street-Bryant Park / 6 Avenue"
+"34 Street-Herald Square / 6 Avenue"
+"23 Street / 6 Avenue"
+"14 Street / 6 Avenue"
+"West 4 Street / Washington Square / 6 Avenue"
+"Broadway-Lafayette Street / Houston Street"
+"Essex Street / Delancey Street"
+"Marcy Avenue / Broadway"
+"Hewes Street / Broadway"
+"Lorimer Street / Broadway"
+"Flushing Avenue / Broadway"
+"Myrtle Avenue / Broadway"
+"Central Avenue / Myrtle Avenue"
+"Knickerbocker Avenue / Myrtle Avenue"
+"Myrtle-Wyckoff Avenues / Myrtle Avenue"
+"Seneca Avenue / Palmetto Street"
+"Forest Avenue / 67 Avenue"
+"Fresh Pond Road / 67 Avenue"
+"Middle Village-Metropolitan Avenue / 67 Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     N Service 24 Hour OK
+#       Broadway Local
+# =============================================================
+LINE
+LINE_NAME
+"(N) Broadway Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(N) Broadway Local, towards Coney Island-Stillwell"
+FORWARDEND
+BACKWARD
+"(N) Broadway Local, towards Astoria-Ditmars Boulevard"
+BACKWARDEND
+STATIONS
+"Astoria-Ditmars Boulevard / 31 Street"
+"Astoria Boulevard / 31 Street"
+"30 Avenue / 31 Street"
+"Broadway / 31 Street"
+"36 Avenue / 31 Street"
+"39 Avenue / 31 Street"
+"Queensboro Plaza / Bridge Plaza"
+"Lexington Avenue / 59 Street"
+"5 Avenue / 59 Street"
+"57 Street / 7 Avenue"
+"49 Street / 7 Avenue"
+"Times Square-42 Street"
+"34 Street-Herald Square / Broadway"
+"28 Street / Broadway"
+"23 Street / Broadway"
+"14 Street / Union Square"
+"8 Street-New York University / Broadway"
+"Prince Street / Broadway"
+"Canal Street / Broadway"
+"Atlantic Avenue-Pacific Street / 4 Avenue"
+"36 Street / 4 Avenue"
+"59 Street / 4 Avenue"
+"8 Avenue / 62 Street"
+"Fort Hamilton Parkway / 62 Street"
+"New Utrecht Avenue / 62 Street"
+"18 Avenue / 64 Street"
+"20 Avenue / 64 Street"
+"Bay Parkway / West 7 Street"
+"Kings Highway / West 7 Street"
+"Avenue U / West 7 Street"
+"86 Street / West 7 Street"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     N Service NIGHT SERVICE OK
+#       Broadway Local
+# =============================================================
+LINE
+LINE_NAME
+"(N) Broadway Local (late night)"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"late night service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(N) Broadway Local (late night), towards Coney Island-Stillwell"
+FORWARDEND
+BACKWARD
+"(N) Broadway Local (late night), towards Astoria-Ditmars Boulevard"
+BACKWARDEND
+STATIONS
+"Astoria-Ditmars Boulevard / 31 Street"
+"Astoria Boulevard / 31 Street"
+"30 Avenue / 31 Street"
+"Broadway / 31 Street"
+"36 Avenue / 31 Street"
+"39 Avenue / 31 Street"
+"Queensboro Plaza / Bridge Plaza"
+"Lexington Avenue / 59 Street"
+"5 Avenue / 59 Street"
+"57 Street / 7 Avenue"
+"49 Street / 7 Avenue"
+"Times Square-42 Street"
+"34 Street-Herald Square / Broadway"
+"28 Street / Broadway"
+"23 Street / Broadway"
+"14 Street / Union Square"
+"8 Street-New York University / Broadway"
+"Prince Street / Broadway"
+"Canal Street / Broadway"
+"Court Street / Borough Hall"
+"Lawrence Street-MetroTech / Willoughby Street"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue-Pacific Street / 4 Avenue"
+"Union Street / 4 Avenue"
+"4 Avenue / 9 Street"
+"Prospect Avenue / 4 Avenue"
+"25 Street / 4 Avenue"
+"36 Street / 4 Avenue"
+"45 Street / 4 Avenue"
+"53 Street / 4 Avenue"
+"59 Street / 4 Avenue"
+"8 Avenue / 62 Street"
+"Fort Hamilton Parkway / 62 Street"
+"New Utrecht Avenue / 62 Street"
+"18 Avenue / 64 Street"
+"20 Avenue / 64 Street"
+"Bay Parkway / West 7 Street"
+"Kings Highway / West 7 Street"
+"Avenue U / West 7 Street"
+"86 Street / West 7 Street"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Q Service DAYTIME ONLY OK
+#       Broadway Express
+# =============================================================
+LINE
+LINE_NAME
+"(Q) Broadway Express (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(Q) Broadway Express (daytime), towards Coney Island-Stillwell Avenue"
+FORWARDEND
+BACKWARD
+"(Q) Broadway Express (daytime), towards Astoria-Ditmars Boulevard"
+BACKWARDEND
+STATIONS
+"Astoria-Ditmars Boulevard / 31 Street"
+"Astoria Boulevard / 31 Street"
+"30 Avenue / 31 Street"
+"Broadway / 31 Street"
+"36 Avenue / 31 Street"
+"39 Avenue / 31 Street"
+"Queensboro Plaza / Bridge Plaza"
+"Lexington Avenue / 59 Street"
+"5 Avenue / 59 Street"
+"57 Street / 7 Avenue"
+"49 Street / 7 Avenue"
+"Times Square-42 Street"
+"34 Street-Herald Square / Broadway"
+"14 Street / Union Square"
+"Canal Street / Broadway"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"7 Avenue / Flatbush Avenue"
+"Prospect Park / Empire Boulevard / Flatbush Avenue"
+"Parkside Avenue / Ocean Avenue"
+"Church Avenue / East 18 Street"
+"Beverley Road / East 16 Street"
+"Cortelyou Road / East 16 Street"
+"Newkirk Avenue / East 16 Street"
+"Avenue H / East 16 Street" 
+"Avenue J / East 16 Street"
+"Avenue M / East 16 Street"
+"Kings Highway / East 16 Street"
+"Avenue U / East 16 Street"
+"Neck Road / East 16 Street"
+"Sheepshead Bay / East 16 Street"
+"Brighton Beach / Brighton 6 Street"
+"Ocean Parkway / Brighton Beach Avenue"
+"West 8 Street-New York Aquarium / Surf Avenue"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Q Service 24 Hour OK
+#       Broadway Express
+# =============================================================
+LINE
+LINE_NAME
+"(Q) Broadway Express"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(Q) Broadway Express, towards Coney Island-Stillwell Avenue"
+FORWARDEND
+BACKWARD
+"(Q) Broadway Express, towards 57 Street / 7 Avenue"
+BACKWARDEND
+STATIONS
+"57 Street / 7 Avenue"
+"Times Square-42 Street"
+"34 Street-Herald Square / Broadway"
+"14 Street / Union Square"
+"Canal Street / Broadway"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue / Flatbush Avenue"
+"7 Avenue / Flatbush Avenue"
+"Prospect Park / Empire Boulevard / Flatbush Avenue"
+"Parkside Avenue / Ocean Avenue"
+"Church Avenue / East 18 Street"
+"Beverley Road / East 16 Street"
+"Cortelyou Road / East 16 Street"
+"Newkirk Avenue / East 16 Street"
+"Avenue H / East 16 Street" 
+"Avenue J / East 16 Street"
+"Avenue M / East 16 Street"
+"Kings Highway / East 16 Street"
+"Avenue U / East 16 Street"
+"Neck Road / East 16 Street"
+"Sheepshead Bay / East 16 Street"
+"Brighton Beach / Brighton 6 Street"
+"Ocean Parkway / Brighton Beach Avenue"
+"West 8 Street-New York Aquarium / Surf Avenue"
+"Coney Island / Stillwell Avenue / Surf Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     R Service DAYTIME ONLY OK
+#       Queens Blvd-Broadway-4 Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(R) Queens Blvd-Broadway-4 Avenue Local (daytime)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(R) Queens Blvd-Broadway-4 Avenue Local (daytime), towards Bay Ridge-95 Street"
+FORWARDEND
+BACKWARD
+"(R) Queens Blvd-Broadway-4 Avenue Local (daytime), towards Forest Hills-71 Avenue"
+BACKWARDEND
+STATIONS
+"Forest Hills-71 Avenue / Queens Boulevard"
+"67 Avenue / Queens Boulevard"
+"63 Drive / Rego Park / Queens Boulevard"
+"Woodhaven Boulevard / Queens Boulevard"
+"Grand Avenue / Newtown / Queens Boulevard"
+"Elmhurst Avenue / Broadway"
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"65 Street / Broadway"
+"Northern Boulevard / Broadway"
+"46 Street / Broadway"
+"Steinway Street / Broadway"
+"36 Street / Northern Boulevard"
+"Queens Plaza / Queens Boulevard"
+"Lexington Avenue / 59 Street"
+"5 Avenue / 59 Street"
+"57 Street / 7 Avenue"
+"49 Street / 7 Avenue"
+"Times Square-42 Street"
+"34 Street-Herald Square / Broadway"
+"28 Street / Broadway"
+"23 Street / Broadway"
+"14 Street / Union Square"
+"8 Street-New York University / Broadway"
+"Prince Street / Broadway"
+"Canal Street / Broadway"
+"City Hall / Broadway"
+"Cortlandt Street Church Street"
+"Rector Street / Trinity Place"
+"Whitehall Street-South Ferry / Water Street"
+"Court Street / Borough Hall"
+"Lawrence Street-MetroTech / Willoughby Street"
+"DeKalb Avenue / Flatbush Avenue"
+"Atlantic Avenue-Pacific Street / 4 Avenue"
+"Union Street / 4 Avenue"
+"4 Avenue / 9 Street"
+"Prospect Avenue / 4 Avenue"
+"25 Street / 4 Avenue"
+"36 Street / 4 Avenue"
+"45 Street / 4 Avenue"
+"53 Street / 4 Avenue"
+"59 Street / 4 Avenue"
+"Bay Ridge Avenue / 4 Avenue"
+"77 Street / 4 Avenue"
+"86 Street / 4 Avenue"
+"Bay Ridge-95 Street / 4 Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     R Service 24 Hour -OK
+#       Queens Boulevard / Broadway / 4 Avenue Local
+# =============================================================
+LINE
+LINE_NAME
+"(R) Queens Blvd-Broadway-4 Avenue Local"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(R) Queens Blvd-Broadway-4 Avenue Local, towards Bay Ridge-95 Street"
+FORWARDEND
+BACKWARD
+"(R) Queens Blvd-Broadway-4 Avenue Local, towards 36 Street / 4 Avenue"
+BACKWARDEND
+STATIONS
+"36 Street / 4 Avenue"
+"45 Street / 4 Avenue"
+"53 Street / 4 Avenue"
+"59 Street / 4 Avenue"
+"Bay Ridge Avenue / 4 Avenue"
+"77 Street / 4 Avenue"
+"86 Street / 4 Avenue"
+"Bay Ridge-95 Street / 4 Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     S Service DAYTIME ONLY OK
+#       42 Street Shuttle
+# =============================================================
+LINE
+LINE_NAME
+"(S) 42 Street Shuttle"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"daytime service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(S) 42 Street Shuttle, towards Grand Central"
+FORWARDEND
+BACKWARD
+"(S) 42 Street Shuttle, towards Times Square"
+BACKWARDEND
+STATIONS
+"Times Square-42 Street"
+"Grand Central-42 Street"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S Service 24 Hour -OK
+#       Franklin Avenue Shuttle
+# =============================================================
+LINE
+LINE_NAME
+"(S) Franklin Avenue Shuttle"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(S) Franklin Avenue Shuttle, towards Prospect Park"
+FORWARDEND
+BACKWARD
+"(S) Franklin Avenue Shuttle, towards Franklin Avenue / Fulton Street"
+BACKWARDEND
+SERVICETYPE
+EXTENDED
+SERVICETYPEEND
+STATIONS
+"Franklin Avenue / Fulton Street"
+"Park Place / Franklin Avenue / Classon Avenue"
+"Botanic Garden / Eastern Parkway"
+"Prospect Park / Empire Boulevard / Flatbush Avenue"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     S Service 24 Hour -OK
+#       Queens
+# =============================================================
+LINE
+LINE_NAME
+"(S) Queens"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(S) Queens, towards Rockaway Park"
+FORWARDEND
+BACKWARD
+"(S) Queens, towards Broad Channel"
+BACKWARDEND
+SERVICETYPE
+EXTENDED
+SERVICETYPEEND
+STATIONS
+"Broad Channel"
+"Beach 90 Street / Rockaway Freeway"
+"Beach 98 Street / Rockaway Freeway"
+"Beach 105 Street / Rockaway Freeway"
+"Rockaway Park / Beach 116 Street"
+STATIONSEND
+SEGMENTEND
+
+
+
+# =============================================================
+#     Z Service ONE WAY RUSH HOURS ONLY OK
+#       Nassau Street Express
+# =============================================================
+LINE
+LINE_NAME
+"(Z) Nassau Street Express"
+LINE_NAME_END
+SERVICETYPE
+partial
+SERVICETYPEEND
+LINE_REMARK
+"rush hours, peak direction only"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 16-12-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"(Z) Nassau Street Express, towards Broad Street"
+FORWARDEND
+BACKWARD
+"(Z) Nassau Street Express, towards Jamaica Center-Parsons"
+BACKWARDEND
+STATIONS
+"Jamaica Center-Parsons / Archer"
+"Sutphin Boulevard / Archer Avenue / JFK Airport"
+"121 Street / Jamaica Avenue"
+"104 Street / Jamaica Avenue"
+"Woodhaven Boulevard / Jamaica Avenue"
+"75 Street / Jamaica Avenue"
+"Crescent Street / Fulton Street"
+"Norwood Avenue / Fulton Street"
+"Van Siclen Avenue / Fulton Street"
+"Broadway Junction / Fulton Street"
+"Chauncey Street / Broadway"
+"Gates Avenue / Broadway"
+"Myrtle Avenue / Broadway"
+"Marcy Avenue / Broadway"
+"Essex Street / Delancey Street"
+"Bowery / Delancey Street"
+"Canal Street / Centre Street"
+"Chambers Street / Centre Street"
+"Fulton Street / Broadway-Nassau Street"
+"Broad Street / Wall Street"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#		MULTI NAMED NODES
+#		please below this line
+# =============================================================
+MULTI_NAMED_NODE
+"Times Square-42 Street"
+"42 Street-Port Authority Bus Terminal / 8 Avenue"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"23 Street-Ely Avenue / 44 Drive"
+"45 Road / Court House Square"
+"Long Island City-Court Square / 45 Road"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Jackson Heights / Roosevelt Avenue / Broadway"
+"74 Street-Broadway / Roosevelt Avenue"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Whitehall Street-South Ferry / Water Street"
+"South Ferry"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Bleecker Street / Lafayette Street"
+"Broadway-Lafayette Street / Houston Street"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"14 Street / 6 Avenue"
+"14 Street / 7 Avenue"
+MULTI_NAMED_NODE_END

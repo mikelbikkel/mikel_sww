@@ -1,0 +1,155 @@
+# City
+CITY
+CITYNAME
+Amsterdam
+CITYNAME_END
+CITYCODE
+AMS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Lijn 50, richting Gein"
+FORWARDEND
+BACKWARD
+"Lijn 50, richting Isolatorweg"
+BACKWARDEND
+STATIONS
+Isolatorweg
+Sloterdijk
+"De Vlugtlaan"
+"Jan van Galenstraat"
+Potsjesweg
+Lelylaan
+Hemstedelaan
+"Henk Sneevlietweg"
+Amstelveenseweg
+"Zuid WTC"
+"Station RAI"
+Overamstel
+"Van der Madeweg"
+Duivendrecht
+"Strandvliet Arena"
+Bijlmer
+Bullewijk
+Holendrecht
+Reigersbos
+Gein
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Lijn 51, richting Westwijk"
+FORWARDEND
+BACKWARD
+"Lijn 51, richting Centraal Station"
+BACKWARDEND
+STATIONS
+"Centraal Station"
+Nieuwmarkt
+Waterlooplein
+Weesperplein
+Wibautstraat
+Amstel
+Spaklerweg
+Overamstel
+"Station RAI"
+"Zuid WTC"
+"De Boelelaan VU"
+"Aj Ernststraat"
+"Van Boshuizenstraat"
+Uilenstede
+Kronenburg
+Zonnestein
+Onderuit
+Oranjebaan
+"Amstelveen Centrum"
+Oudekerkerlaan
+Sportlaan
+Marne
+Gondel
+Meent
+Brink
+Poortwachter
+Spinerrij
+Sacharovlaan
+Westwijk
+STATIONSEND
+SEGMENTEND
+
+# SEGMENT
+# FORWARD
+# "Lijn 52, richting Zuid WTC"
+# FORWARDEND
+# BACKWARD
+# "Lijn 52, richting Buikslotermeerplein"
+# BACKWARDEND
+# STATIONS
+# Buikslotermeerplein
+# "Van Hasseltweg"
+# "Centraal Station"
+# Rokin
+# Vijzelgracht
+# Ceintuurbaan
+# "RAI Europaplein"
+# "Zuid WTC"
+# STATIONSEND
+# SEGMENTEND
+
+SEGMENT
+FORWARD
+"Lijn 53, richting Gaasperplas"
+FORWARDEND
+BACKWARD
+"Lijn 53, richting Centraal Station"
+BACKWARDEND
+STATIONS
+"Centraal Station"
+Nieuwmarkt
+Waterlooplein
+Weesperplein
+Wibautstraat
+Amstel
+Spaklerweg
+"Van der Madeweg"
+Venserpolder
+"Diemen Zuid"
+"Verrijn Stuartweg"
+Ganzenhoef
+Kraaiennest
+Gaasperplas
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Lijn 54, richting Gein"
+FORWARDEND
+BACKWARD
+"Lijn 54, richting Centraal Station"
+BACKWARDEND
+STATIONS
+"Centraal Station"
+Nieuwmarkt
+Waterlooplein
+Weesperplein
+Wibautstraat
+Amstel
+Spaklerweg
+"Van der Madeweg"
+Duivendrecht
+"Strandvliet Arena"
+Bijlmer
+Bullewijk
+Holendrecht
+Reigersbos
+Gein
+STATIONSEND
+SEGMENTEND
+
+

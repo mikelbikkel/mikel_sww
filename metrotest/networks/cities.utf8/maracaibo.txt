@@ -1,0 +1,39 @@
+# Data extracted from	http://nl.wikipedia.org/wiki/Metro_van_Maracaibo 
+# http://www.urbanrail.net/am/mara/maracaibo.htm
+
+# City
+CITY
+CITYNAME
+Maracaibo
+CITYNAME_END
+CITYCODE
+MCB
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line L1
+#     Centre to southwest
+# =============================================================
+SEGMENT
+FORWARD
+"Line L1, towards Libertador"
+FORWARDEND
+BACKWARD
+"Line L1 towards Altos de La Vanega"
+BACKWARDEND
+STATIONS
+"Altos de La Vanega"
+"El Varillal"
+"El Guayabal"
+"Sabaneta"
+"Urdaneta"
+"Libertador"
+STATIONSEND
+SEGMENTEND
+
+

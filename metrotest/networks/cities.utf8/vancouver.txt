@@ -1,0 +1,131 @@
+CITY
+CITYNAME
+Vancouver
+CITYNAME_END
+CITYCODE
+VAN
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Expo line, towards King George"
+FORWARDEND
+BACKWARD
+"Expo line, towards Waterfront"
+BACKWARDEND
+STATIONS
+"Waterfront"
+"Burrard"
+"Granville"
+"Stadium-Chinatown"
+"Main Street-Science World"
+"Commercial-Broadway"
+"Nanaimo"
+"29th Avenue"
+"Joyce-Collingwood"
+"Patterson"
+"Metrotown"
+"Royal Oak"
+"Edmonds"
+"22nd Street"
+"New Westminster"
+"Columbia"
+"Scott Road"
+"Gateway"
+"Surrey Central"
+"King George"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Millenium line, towards VCC Clark"
+FORWARDEND
+BACKWARD
+"Millenium line, towards Waterfront"
+BACKWARDEND
+STATIONS
+"Waterfront"
+"Burrard"
+"Granville"
+"Stadium-Chinatown"
+"Main Street-Science World"
+"Commercial-Broadway"
+"Nanaimo"
+"29th Avenue"
+"Joyce-Collingwood"
+"Patterson"
+"Metrotown"
+"Royal Oak"
+"Edmonds"
+"22nd Street"
+"New Westminster"
+"Columbia"
+"Sapperton"
+"Braid"
+"Lougheed Town Centre"
+"Production Way-University"
+"Lake City Way"
+"Sperling-Burnaby Lake"
+"Holdorn"
+"Brentwood Town Centre"
+"Gilmore"
+"Rupert"
+"Renfrew"
+"Commercial-Broadway"
+"VCC Clark"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Canada line, towards YVR-Airport"
+FORWARDEND
+BACKWARD
+"Canada line, towards Waterfront"
+BACKWARDEND
+STATIONS
+"Waterfront"
+"Vancouver City Centre"
+"Yaletown-Roundhouse"
+"Olympic Village"
+"Broadway-City Hall"
+"King Edward"
+"Oakridge-41st Avenue"
+"Langara-49th Avenue"
+"Marine Drive"
+"Bridgeport"
+"Templeton"
+"Sea Island Centre"
+"YVR-Airport"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Canada line, towards Richmond - Brighouse"
+FORWARDEND
+BACKWARD
+"Canada line, towards Waterfront"
+BACKWARDEND
+STATIONS
+"Waterfront"
+"Vancouver City Centre"
+"Yaletown-Roundhouse"
+"Olympic Village"
+"Broadway-City Hall"
+"King Edward"
+"Oakridge-41st Avenue"
+"Langara-49th Avenue"
+"Marine Drive"
+"Bridgeport"
+"Aberdeen"
+"Lansdowne"
+"Richmond - Brighouse"
+STATIONSEND
+SEGMENTEND
+

@@ -1,0 +1,103 @@
+# http://www.urbanrail.net/as/tr/bursa/bursa.htm
+# http://mic-ro.com/metro/metrocity.html?city=Bursa
+CITY
+CITYNAME
+Bursa
+CITYNAME_END
+CITYCODE
+BUR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# http://www.burulas.com.tr/tren-hareket-saatleri.aspx
+SEGMENT
+FORWARD
+"Line 2, towards Kestel"
+FORWARDEND
+BACKWARD
+"Line 2, towards Üniversite"
+BACKWARDEND
+STATIONS
+"Üniversite"
+"Yüzüncüyıl"
+"Batıkent"
+"Özlüce"
+"Ertuğrul"
+"Altınşehir"
+"Küçük Sanayi"
+"Ataevler"
+"Beşevler"
+"Fatih Sultan Mehmet"
+"Nilüfer"
+"Acemler"
+"Paşa Çiftliği"
+"Sırameşeler"
+"Kültürpark"
+"Paşaçiftliği"
+"Sırameşeler"
+"Kültürpark"
+"Merinos"
+"Osmangazi"
+"Şehreküstü"
+"Demirtaşpaşa"
+"Gökdere"
+"Davutdede"
+"Duaçınarı"
+"Yüksek İhtisas Hastanesi"
+"Arabayatağı"
+"Mimar Sinan / O.Gazi Üniversitesi"
+"Hacivat"
+"Şirinevler"
+"Otosansit"
+"Cumalikizik"
+"Gürsu"
+"Kestel"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 1, towards Kestel"
+FORWARDEND
+BACKWARD
+"Line 1, towards Emek"
+BACKWARDEND
+STATIONS
+"Emek"
+"Korupark"
+"Organize Sanayi"
+"Hamitler-Fethiye"
+"Bağlarbaşı-Esentepe"
+"İhsaniye"
+"Karaman"
+"Acemler"
+"Paşa Çiftliği"
+"Sırameşeler"
+"Kültürpark"
+"Paşaçiftliği"
+"Sırameşeler"
+"Kültürpark"
+"Merinos"
+"Osmangazi"
+"Şehreküstü"
+"Demirtaşpaşa"
+"Gökdere"
+"Davutdede"
+"Duaçınarı"
+"Yüksek İhtisas Hastanesi"
+"Arabayatağı"
+"Mimar Sinan / O.Gazi Üniversitesi"
+"Hacivat"
+"Şirinevler"
+"Otosansit"
+"Cumalikizik"
+"Gürsu"
+"Kestel"
+STATIONSEND
+SEGMENTEND
+

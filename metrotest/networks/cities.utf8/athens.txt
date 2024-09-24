@@ -1,0 +1,202 @@
+
+# Athens
+# city code = ANT!
+
+# City
+CITY
+CITYNAME
+Athens
+CITYNAME_END
+CITYCODE
+ANT
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     1 Green Line
+# =============================================================
+
+LINE
+LINE_NAME
+"Line 1 (Green)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"Athens-Piraeus Electric Railways"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 18-02-2010"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 1 (Green), towards Kifissia"
+FORWARDEND
+BACKWARD
+"Line 1 (Green), towards Piraeus"
+BACKWARDEND
+STATIONS
+"Piraeus"
+"Faliro"
+"Moschato"
+"Kallithea"
+"Tavros"
+"Petralona"
+"Thission"
+"Monastiraki"
+"Omonoia"
+"Victoria"
+"Attiki"
+"Agios Nikolaos"
+"Kato Patissia"
+"Agios Eleftherios"
+"Ano Patissia"
+"Perissos"
+"Pefkakia"
+"Nea Ionia"
+"Iraklio"
+"Eirini"
+"Nerantziotissa"
+"Maroussi"
+"KAT"
+"Kifissia"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     2 Red Line
+# =============================================================
+
+LINE
+LINE_NAME
+"Line 2 (Red)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"Attiko Metro Etaireia Leitourgias S.A."
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 25-05-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 2 (Red), towards Elliniko"
+FORWARDEND
+BACKWARD
+"Line 2 (Red), towards Anthoupoli"
+BACKWARDEND
+STATIONS
+"Anthoupoli"
+"Peristeri"
+"Aghios Antonios"
+"Sepolia"
+"Attiki"
+"Larissa"
+"Metaxourgio"
+"Omonoia"
+"Panepistimio"
+"Syntagma"
+"Akropoli"
+"Syngrou-Fix"
+"Neos Kosmos"
+"Aghios Ioannis"
+"Daphni"
+"Aghios Dimitrios/Alexandros Panagoulis"
+"Ilioupol"
+"Alimos"
+"Argyroupoli"
+"Elliniko"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     3 Blue Line
+# =============================================================
+
+LINE
+LINE_NAME
+"Line 3 (Blue)"
+LINE_NAME_END
+SERVICETYPE
+regular
+SERVICETYPEEND
+LINE_REMARK
+"Attiko Metro Etaireia Leitourgias S.A."
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 25-05-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line 3 (Blue), towards Doukissis Plakentias"
+FORWARDEND
+BACKWARD
+"Line 3 (Blue), towards Agia Marina"
+BACKWARDEND
+STATIONS
+"Agia Marina"
+"Egaleo"
+"Eleonas"
+"Kerameikos"
+"Monastiraki"
+"Syntagma"
+"Evangelismos"
+"Megaro Moussikis"
+"Ambelokipi"
+"Panormou"
+"Katehaki"
+"Ethniki Amyna"
+"Holargos"
+"Nomismatokopio"
+"Aghia Paraskevi"
+"Halandri"
+"Doukissis Plakentias"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3 (Blue), towards Airport Eleftherios Venizelos"
+FORWARDEND
+BACKWARD
+"Line 3 (Blue), towards Egaleo"
+BACKWARDEND
+STATIONS
+"Egaleo"
+"Eleonas"
+"Kerameikos"
+"Monastiraki"
+"Syntagma"
+"Evangelismos"
+"Megaro Moussikis"
+"Ambelokipi"
+"Panormou"
+"Katehaki"
+"Ethniki Amyna"
+"Holargos"
+"Nomismatokopio"
+"Aghia Paraskevi"
+"Halandri"
+"Doukissis Plakentias"
+"Pallini"
+"Paiania-Kantza"
+"Koropi"
+"Airport Eleftherios Venizelos"
+STATIONSEND
+SEGMENTEND
+

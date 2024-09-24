@@ -1,0 +1,240 @@
+CITY
+CITYNAME
+Caracas
+CITYNAME_END
+CITYCODE
+CAR
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line 1 (Orange), towards Palo Verde"
+FORWARDEND
+BACKWARD
+"Line 1 (Orange), towards Propatria"
+BACKWARDEND
+STATIONS
+"Propatria"
+"Pérez Bonalde"
+"Plaza Sucre"
+"Gato Negro"
+"Agua Salud"
+"Caño Amarillo"
+"Capitolio"
+"La Hoyada"
+"Parque Carabobo"
+"Bellas Artes"
+"Colegio de Ingenieros"
+"Plaza Venezuela"
+"Sabana Grande"
+"Chacaíto"
+"Chacao"
+"Altamira"
+"Parque del Este"
+"Los Dos Caminos"
+"Los Cortijos"
+"La California"
+"Petare"
+"Palo Verde"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2 (Green), towards Zoológico"
+FORWARDEND
+BACKWARD
+"Line 2 (Green), towards El Silencio"
+BACKWARDEND
+STATIONS
+"El Silencio"
+"Capuchinos"
+"Maternidad"
+"Artigas"
+"La Paz"
+"La Yaguara"
+"Carapita"
+"Antímano"
+"Mamera"
+"Caricuao"
+"Zoológico"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 2 (Green), towards Las Adjuntas"
+FORWARDEND
+BACKWARD
+"Line 2 (Green), towards El Silencio"
+BACKWARDEND
+STATIONS
+"El Silencio"
+"Capuchinos"
+"Maternidad"
+"Artigas"
+"La Paz"
+"La Yaguara"
+"Carapita"
+"Antímano"
+"Mamera"
+"Ruiz Pineda"
+"Las Adjuntas"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 3 (Blue), towards La Rinconada"
+FORWARDEND
+BACKWARD
+"Line 3 (Blue), towards Plaza Venezuela"
+BACKWARDEND
+STATIONS
+"Plaza Venezuela"
+"Ciudad Universitaria"
+"Los Símbolos"
+"La Bandera"
+"El Valle"
+"Los Jardines"
+"Coche"
+"Mercado"
+"La Rinconada"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line 4 (Red), towards Zona Rental"
+FORWARDEND
+BACKWARD
+"Line 4 (Red), towards Capuchinos"
+BACKWARDEND
+STATIONS
+"Capuchinos"
+"Teatros"
+"Nuevo Circo"
+"Parque Central"
+"Zona Rental"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line 5 (Purple), towards Bello Monte"
+FORWARDEND
+BACKWARD
+"Line 5 (Purple), towards Zona Rental"
+BACKWARDEND
+STATIONS
+"Zona Rental"
+"Bello Monte"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+SEGMENT
+FORWARD
+"Metro de Los Teques 1, towards Alí Primera"
+FORWARDEND
+BACKWARD
+"Metro de Los Teques 1, towards Las Adjuntas"
+BACKWARDEND
+STATIONS
+"Las Adjuntas"
+"Ayacucho"
+"Alí Primera"
+STATIONSEND
+SEGMENTEND
+
+# Opened december 2013
+SEGMENT
+FORWARD
+"Metro de Los Teques 2, towards Independencia"
+FORWARDEND
+BACKWARD
+"Metro de Los Teques 2, towards Alí Primera"
+BACKWARDEND
+STATIONS
+"Alí Primera"
+"Guaicaipuro"
+"Independencia"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Metrocable de San Agustín, towards Parque Central"
+FORWARDEND
+BACKWARD
+"Metrocable de San Agustín, towards San Agustín"
+BACKWARDEND
+STATIONS
+"San Agustín"
+"El Manguito"
+"La Ceiba"
+"Hornos de Cal"
+"Parque Central (Metrocable)"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Metrocable de Mariche, towards Mariche"
+FORWARDEND
+BACKWARD
+"Metrocable de Mariche, towards Palo Verde"
+BACKWARDEND
+STATIONS
+"Palo Verde (Metrocable)"
+"Mariche"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Metrocable de La Dolorita, towards La Dolorita"
+FORWARDEND
+BACKWARD
+"Metrocable de La Dolorita, towards Palo Verde"
+BACKWARDEND
+STATIONS
+"Palo Verde (Metrocable)"
+"Guaicoco"
+"La Dolorita"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+MULTI_NAMED_NODE
+"El Silencio"
+"Capitolio"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Plaza Venezuela"
+"Zona Rental"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Parque Central"
+"Parque Central (Metrocable)"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Palo Verde"
+"Palo Verde (Metrocable)"
+MULTI_NAMED_NODE_END
+
+
+# End of file

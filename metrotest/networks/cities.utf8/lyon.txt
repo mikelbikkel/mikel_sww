@@ -1,0 +1,127 @@
+CITY
+CITYNAME
+Lyon
+CITYNAME_END
+CITYCODE
+LYN
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line A (red), towards Vaulx-en-Velin La Soie"
+FORWARDEND
+BACKWARD
+"Line A (red), towards Perrache"
+BACKWARDEND
+STATIONS
+"Perrache"
+"Ampère - Victor Hugo"
+"Bellecour"
+"Cordeliers"
+"Hôtel de Ville - Louis Pradel"
+"Foch"
+"Masséna"
+"Charpennes - Charles Hernu"
+"République - Villeurbanne"
+"Gratte-Ciel"
+"Flachet"
+"Cusset"
+"Laurent Bonnevay"
+"Vaulx-en-Velin La Soie"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line B (blue), towards Gare d\'Oullins"
+FORWARDEND
+BACKWARD
+"Line B (blue), towards Charpennes - Charles Hernu"
+BACKWARDEND
+STATIONS
+"Charpennes - Charles Hernu"
+"Brotteaux"
+"Gare Part-Dieu - Vivier Merle"
+"Place Guichard - Bourse du Travail"
+"Saxe-Gambetta"
+"Jean Macé"
+"Place Jean Jaurès"
+"Debourg"
+"Stade de Gerland"
+"Gare d\'Oullins"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line C (orange), towards Cuire"
+FORWARDEND
+BACKWARD
+"Line C (orange), towards Hôtel de Ville - Louis Pradel"
+BACKWARDEND
+STATIONS
+"Hôtel de Ville - Louis Pradel"
+"Croix-Paquet"
+"Croix-Rousse"
+"Hénon"
+"Cuire"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line D (green), towards Gare de Vénissieux"
+FORWARDEND
+BACKWARD
+"Line D (green), towards Gare de Vaise"
+BACKWARDEND
+STATIONS
+"Gare de Vaise"
+"Valmy"
+"Gorge de Loup"
+"Vieux Lyon - Cathédrale St.Jean"
+"Bellecour"
+"Guillotière - Gabriel Péri"
+"Saxe-Gambetta"
+"Garibaldi"
+"Sans-Souci"
+"Monplaisir-Lumière"
+"Grange-Blanche"
+"Laënnec"
+"Mermoz-Pinel"
+"Parilly"
+"Gare de Vénissieux"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Funicular F, towards Fourvière"
+FORWARDEND
+BACKWARD
+"Funicular F, towards Vieux Lyon - Cathédrale St.Jean"
+BACKWARDEND
+STATIONS
+"Vieux Lyon - Cathédrale St.Jean"
+"Fourvière"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Funicular SJ, towards Saint-Just"
+FORWARDEND
+BACKWARD
+"Funicular F, towards Vieux Lyon - Cathédrale St.Jean"
+BACKWARDEND
+STATIONS
+"Vieux Lyon - Cathédrale St.Jean"
+"Théatres romains"
+"Saint-Just"
+STATIONSEND
+SEGMENTEND
+

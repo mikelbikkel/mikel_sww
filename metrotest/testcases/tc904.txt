@@ -1,0 +1,46 @@
+# City
+CITY
+CITYNAME
+TEST_TC_904
+CITYNAME_END
+CITYCODE
+904
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# D and E: different stations.
+#                  <----D<-----
+# A<---->B<------>C             F<------>G
+#                  ---->E----->
+#
+SEGMENT
+FORWARD
+"Main line, towards G"
+FORWARDEND
+STATIONS
+A
+B
+C
+E
+F
+G
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Main line, towards A"
+FORWARDEND
+STATIONS
+G
+F
+D
+C
+B
+A
+STATIONSEND
+SEGMENTEND
+

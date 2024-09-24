@@ -1,0 +1,159 @@
+CITY
+CITYNAME
+Toulouse
+CITYNAME_END
+CITYCODE
+TOU
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line A (red), towards Balma - Gramont"
+FORWARDEND
+BACKWARD
+"Line A (red), towards Mirail - Basso-Cambo"
+BACKWARDEND
+STATIONS
+"Mirail - Basso-Cambo"
+"Bellefontaine"
+"Reynerie"
+"Mirail - Université"
+"Bagatelle"
+"Mermoz"
+"Fontaine-Lestang"
+"Arènes"
+"Patte-d\'Oie"
+"Saint-Cyprien - République"
+"Esquirol"
+"Capitole"
+"Jean-Jaurès"
+"Marengo"
+"Jolimont"
+"Roseraie"
+"Argoulets"
+"Balma - Gramont"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line B (yellow), towards Ramonville"
+FORWARDEND
+BACKWARD
+"Line B (yellow), towards Borderouge"
+BACKWARDEND
+STATIONS
+"Borderouge"
+"Trois-Cocus"
+"La Vache"
+"Barrière-de-Paris"
+"Minimes"
+"Canal-du-Midi"
+"Compans-Caffarelli"
+"Jeanne-d\'Arc"
+"Jean-Jaurès"
+"François-Verdier"
+"Carmes"
+"Palais-de-Justice"
+"Saint-Michel"
+"Empalot"
+"Saint-Agne"
+"Saouzelong"
+"Rangueil"
+"Faculté-de-Pharmacie"
+"Université-Paul-Sabatier"
+"Ramonville"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ligne C, towards Colomiers-Gare-SNCF"
+FORWARDEND
+BACKWARD
+"Ligne C, towards Toulouse-Saint-Cyprien-Arènes"
+BACKWARDEND
+STATIONS
+"Toulouse-Saint-Cyprien-Arènes"
+"Le TOEC"
+"Lardenne"
+"Saint-Martin-du-Touch"
+"Ramassiers"
+"Colomiers-Gare-SNCF"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line T1, towards Aéroconstellation"
+FORWARDEND
+BACKWARD
+"Line T1, towards Palais-de-Justice"
+BACKWARDEND
+STATIONS
+"Palais-de-Justice"
+"Ile du Ramier"
+"Fer à Cheval"
+"Av. Muret M. Cavaillé"
+"Croix de Pierre"
+"Déodat de Séverac"
+"Arènes"
+"Zénith" 		
+"Cartoucherie" 	
+"Casselardit" 	
+"Purpan"
+"Arènes-Romaines" 		
+"Ancely" 	
+"Servanty-Airbus" 	
+"Guyenne-Berry" 		
+"Pasteur-Mairie-de-Blagnac" 		
+"Place-du-Relais" 	
+"Odyssud-Ritouret" 		
+"Patinoire-Barradels" 		
+"Grand-Noble" 		
+"Place-Georges-Brassens" 	
+"Andromède-Lycée"
+"Beauzelle"	
+"Aéroconstellation"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line T2, towards Aéroport"
+FORWARDEND
+BACKWARD
+"Line T2, towards Palais-de-Justice"
+BACKWARDEND
+STATIONS
+"Palais-de-Justice"
+"Ile du Ramier"
+"Fer à Cheval"
+"Av. Muret M. Cavaillé"
+"Croix de Pierre"
+"Déodat de Séverac"
+"Arènes"
+"Zénith" 		
+"Cartoucherie" 	
+"Casselardit" 	
+"Purpan"
+"Arènes-Romaines" 		
+"Ancely" 	
+"Nadot"
+"Daurat"
+"Aéroport"
+STATIONSEND
+SEGMENTEND
+
+
+MULTI_NAMED_NODE
+"Toulouse-Saint-Cyprien-Arènes"
+"Arènes"
+MULTI_NAMED_NODE_END
+
+

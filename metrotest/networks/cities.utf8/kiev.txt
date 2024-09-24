@@ -1,0 +1,136 @@
+
+# Data extracted from http://nl.wikipedia.org/wiki/Metro_van_Kiev, checked a.d.h.v. kaart
+
+# City
+CITY
+CITYNAME
+KIEV
+CITYNAME_END
+CITYCODE
+KIV
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#          Svjatosjynsko-Brovarska Line
+# =============================================================
+SEGMENT
+FORWARD
+"1 Svjatosjynsko-Brovarska Line, towards Lisova"
+FORWARDEND
+BACKWARD
+"1 Svjatosjynsko-Brovarska Line, towards Akademmistetsjko"
+BACKWARDEND
+STATIONS
+"Akademmistechko"
+"Zhytomyrska"
+"Sviatoshyn"
+"Nyvky"
+"Beresteiska"
+"Shuliavska"
+"Politekhnichnyi Instytut"
+"Vokzalna"
+"Universytet"
+"Teatralna"
+"Khreschatyk"
+"Arsenalna"
+"Dnipro"
+"Hidropark"
+"Livoberezhna"
+"Darnytsia"
+"Chernihivska"
+"Lisova"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     Line No.2
+#     Kurenivsko-Chervonoarmiyska Line 
+# =============================================================
+SEGMENT
+FORWARD
+"2 Kurenivsko-Chervonoarmiyska Line, towards Teremky"
+FORWARDEND
+BACKWARD
+"2 Kurenivsko-Chervonoarmiyska Line, towards Herojiv Dnipra"
+BACKWARDEND
+STATIONS
+"Heroiv Dnipra"
+"Minska"
+"Obolon"
+"Petrivka"
+"Tarasa Shevchenka"
+"Kontraktova Ploscha"
+"Poshtova Plosjcha"
+"Maidan Nezalezhnosti"
+"Ploscha Lva Tolstoho"
+"Olimpiiska"
+"Palats Ukraina"
+"Lybidska"
+"Demiivska"
+"Holosiivska"
+"Vasylkivska"
+"Vystavkovyi Tsentr"
+"Ipodrom"
+"Teremky"
+STATIONSEND
+SEGMENTEND		
+
+
+# =============================================================
+#     Line No.3
+#     Syretsko-Petsjerska Line 
+# =============================================================
+SEGMENT
+FORWARD
+"3 Syretsko-Petsjerska Line, towards Chervony Khutir"
+FORWARDEND
+BACKWARD
+"3 Syretsko-Petsjerska Line, towards Syrets"
+BACKWARDEND
+STATIONS
+"Syrets"
+"Dorohozhychi"
+"Lukianivska"
+"Zoloti Vorota"
+"Palats Sportu"
+"Klovska"
+"Pecherska"
+"Druzhby Narodiv"
+"Vydubychi"
+"Slavutych"
+"Osokorky"
+"Pozniaky"
+"Kharkivska"
+"Vyrlytsia"
+"Boryspilska"
+"Chervony Khutir"
+STATIONSEND
+SEGMENTEND		
+
+
+
+# =============================================================
+#     MNNs
+# =============================================================
+
+MULTI_NAMED_NODE
+"Teatralna"
+"Zoloti Vorota"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Maidan Nezalezhnosti"
+"Khreschatyk"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Palats Sportu"
+"Ploscha Lva Tolstoho"
+MULTI_NAMED_NODE_END
+

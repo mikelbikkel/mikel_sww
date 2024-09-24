@@ -1,0 +1,584 @@
+
+CITY
+CITYNAME
+Munich
+CITYNAME_END
+CITYCODE
+MUN
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# ==========================================================
+#	U1
+# ==========================================================
+SEGMENT
+FORWARD
+"U1, towards Mangfallplatz"
+FORWARDEND
+BACKWARD
+"U1, towards Olympia-Einkaufszentrum"
+BACKWARDEND
+STATIONS
+"Olympia-Einkaufszentrum"
+"Georg-Brauchle-Ring"
+"Westfriedhof"
+"Gern"
+"Rotkreuzplatz"
+"Maillingerstraße"
+"Stiglmaierplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz"
+"Candidplatz"
+"Wettersteinplatz"
+"St.-Quirin-Platz"
+"Mangfallplatz"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U1, towards Sendlinger Tor"
+FORWARDEND
+BACKWARD
+"U1, towards Westfriedhof"
+BACKWARDEND
+STATIONS
+"Westfriedhof"
+"Gern"
+"Rotkreuzplatz"
+"Maillingerstraße"
+"Stiglmaierplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+STATIONSEND
+SEGMENTEND
+
+
+# ==========================================================
+#	U2
+# ==========================================================
+SEGMENT
+FORWARD
+"U2, towards Messestadt Ost"
+FORWARDEND
+BACKWARD
+"U2, towards Feldmoching"
+BACKWARDEND
+STATIONS
+"Feldmoching"
+"Hasenbergl"
+"Dülferstraße"
+"Harthof"
+"Am Hart"
+"Frankfurter Ring"
+"Milbertshofen"
+"Scheidplatz"
+"Hohenzollernplatz"
+"Josephsplatz"
+"Theresienstraße"
+"Königsplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz"
+"Silberhornstraße"
+"Untersbergstraße"
+"Giesing"
+"Karl-Preis-Platz"
+"Innsbrucker Ring"
+"Josephsburg"
+"Kreillerstraße"
+"Trudering"
+"Moosfeld"
+"Messestadt West"
+"Messestadt Ost"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U2, towards Innsbrucker Ring"
+FORWARDEND
+BACKWARD
+"U2, towards Dülferstraße"
+BACKWARDEND
+STATIONS
+"Dülferstraße"
+"Harthof"
+"Am Hart"
+"Frankfurter Ring"
+"Milbertshofen"
+"Scheidplatz"
+"Hohenzollernplatz"
+"Josephsplatz"
+"Theresienstraße"
+"Königsplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz"
+"Silberhornstraße"
+"Untersbergstraße"
+"Giesing"
+"Karl-Preis-Platz"
+"Innsbrucker Ring"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U2, towards Messestadt Ost"
+FORWARDEND
+BACKWARD
+"U2, towards Harthof"
+BACKWARDEND
+STATIONS
+"Harthof"
+"Am Hart"
+"Frankfurter Ring"
+"Milbertshofen"
+"Scheidplatz"
+"Hohenzollernplatz"
+"Josephsplatz"
+"Theresienstraße"
+"Königsplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz"
+"Silberhornstraße"
+"Untersbergstraße"
+"Giesing"
+"Karl-Preis-Platz"
+"Innsbrucker Ring"
+"Josephsburg"
+"Kreillerstraße"
+"Trudering"
+"Moosfeld"
+"Messestadt West"
+"Messestadt Ost"
+STATIONSEND
+SEGMENTEND
+
+# partial, but runs on a line that is always served by other U2's 
+# so no need to specify as such
+SEGMENT
+FORWARD
+"U2, towards Kolumbusplatz"
+FORWARDEND
+BACKWARD
+"U2, towards Milbertshofen"
+BACKWARDEND
+STATIONS
+"Milbertshofen"
+"Scheidplatz"
+"Hohenzollernplatz"
+"Josephsplatz"
+"Theresienstraße"
+"Königsplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ==========================================================
+#	U3
+# ==========================================================
+SEGMENT
+FORWARD
+"U3, towards Fürstenried West"
+FORWARDEND
+BACKWARD
+"U3, towards Moosach"
+BACKWARDEND
+STATIONS
+"Moosach"
+"Moosacher St.-Martins-Platz"
+"Olympia-Einkaufszentrum"
+"Oberwiesenfeld"
+"Olympiazentrum"
+"Petuelring"
+"Scheidplatz"
+"Bonner Platz"
+"Münchner Freiheit"
+"Giselastraße"
+"Universität"
+"Odeonsplatz"
+"Marienplatz"
+"Sendlinger Tor"
+"Goetheplatz"
+"Poccistraße"
+"Implerstraße"
+"Brudermühlstraße"
+"Thalkirchen"
+"Obersendling"
+"Aidenbachstraße"
+"Machtlfinger Straße"
+"Forstenrieder Allee"
+"Basler Straße"
+"Fürstenried West"
+STATIONSEND
+SEGMENTEND
+
+# Partial Monntag bis Donnerstag, but runs on a line that is always served by other U2's 
+# so no need to specify as such
+SEGMENT
+FORWARD
+"U3, towards Thalkirchen"
+FORWARDEND
+BACKWARD
+"U3, towards Olympiazentrum"
+BACKWARDEND
+STATIONS
+"Olympiazentrum"
+"Petuelring"
+"Scheidplatz"
+"Bonner Platz"
+"Münchner Freiheit"
+"Giselastraße"
+"Universität"
+"Odeonsplatz"
+"Marienplatz"
+"Sendlinger Tor"
+"Goetheplatz"
+"Poccistraße"
+"Implerstraße"
+"Brudermühlstraße"
+"Thalkirchen"
+STATIONSEND
+SEGMENTEND
+
+# Partial Monntag bis Donnerstag, but runs on a line that is always served by other U2's 
+# so no need to specify as such
+SEGMENT
+FORWARD
+"U3, towards Fürstenried West"
+FORWARDEND
+BACKWARD
+"U3, towards Olympiazentrum"
+BACKWARDEND
+STATIONS
+"Olympiazentrum"
+"Petuelring"
+"Scheidplatz"
+"Bonner Platz"
+"Münchner Freiheit"
+"Giselastraße"
+"Universität"
+"Odeonsplatz"
+"Marienplatz"
+"Sendlinger Tor"
+"Goetheplatz"
+"Poccistraße"
+"Implerstraße"
+"Brudermühlstraße"
+"Thalkirchen"
+"Obersendling"
+"Aidenbachstraße"
+"Machtlfinger Straße"
+"Forstenrieder Allee"
+"Basler Straße"
+"Fürstenried West"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"U3, towards Fürstenried West"
+FORWARDEND
+BACKWARD
+"U3, towards Münchner Freiheit"
+BACKWARDEND
+STATIONS
+"Münchner Freiheit"
+"Giselastraße"
+"Universität"
+"Odeonsplatz"
+"Marienplatz"
+"Sendlinger Tor"
+"Goetheplatz"
+"Poccistraße"
+"Implerstraße"
+"Brudermühlstraße"
+"Thalkirchen"
+"Obersendling"
+"Aidenbachstraße"
+"Machtlfinger Straße"
+"Forstenrieder Allee"
+"Basler Straße"
+"Fürstenried West"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ==========================================================
+#	U4
+# ==========================================================
+SEGMENT
+FORWARD
+"U4, towards Arabellapark"
+FORWARDEND
+BACKWARD
+"U4, towards Theresienwiese"
+BACKWARDEND
+STATIONS
+"Theresienwiese"
+"Hauptbahnhof"
+"Karlsplatz (Stachus)"
+"Odeonsplatz"
+"Lehel"
+"Max-Weber-Platz"
+"Prinzregentenplatz"
+"Böhmerwaldplatz"
+"Richard-Strauss-Straße"
+"Arabellapark"
+STATIONSEND
+SEGMENTEND
+
+# partial: early mornings and Friday afternoon (forget about it) on schooldays, and evenings. 
+LINE
+LINE_NAME
+"U4 (Westendstraße)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays in the morning and evenings."
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"U4 (Westendstraße), towards Arabellapark"
+FORWARDEND
+BACKWARD
+"U4 (Westendstraße), towards Westendstraße"
+BACKWARDEND
+STATIONS
+"Westendstraße"
+"Heimeranplatz"
+"Schwanthalerhöhe"
+"Theresienwiese"
+"Hauptbahnhof"
+"Karlsplatz (Stachus)"
+"Odeonsplatz"
+"Lehel"
+"Max-Weber-Platz"
+"Prinzregentenplatz"
+"Böhmerwaldplatz"
+"Richard-Strauss-Straße"
+"Arabellapark"
+STATIONSEND
+SEGMENTEND
+
+# partial: evening schedule 
+LINE
+LINE_NAME
+"U4 (evening)"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Evenings every day"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"U4 (evening), towards Arabellapark"
+FORWARDEND
+BACKWARD
+"U4 (evening), towards Lehel"
+BACKWARDEND
+STATIONS
+"Lehel"
+"Max-Weber-Platz"
+"Prinzregentenplatz"
+"Böhmerwaldplatz"
+"Richard-Strauss-Straße"
+"Arabellapark"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ==========================================================
+#	U5
+# ==========================================================
+SEGMENT
+FORWARD
+"U5, towards Neuperlach Süd"
+FORWARDEND
+BACKWARD
+"U5, towards Laimer Platz"
+BACKWARDEND
+STATIONS
+"Laimer Platz"
+"Friedenheimer Straße"
+"Westendstraße"
+"Heimeranplatz"
+"Schwanthalerhöhe"
+"Theresienwiese"
+"Hauptbahnhof"
+"Karlsplatz (Stachus)"
+"Odeonsplatz"
+"Lehel"
+"Max-Weber-Platz"
+"Ostbahnhof"
+"Innsbrucker Ring"
+"Michaelibad"
+"Quiddestraße"
+"Neuperlach Zentrum"
+"Therese-Giehse-Allee"
+"Neuperlach Süd"
+STATIONSEND
+SEGMENTEND
+
+
+
+# ==========================================================
+#	U6
+# ==========================================================
+SEGMENT
+FORWARD
+"U6, towards Klinikum Großhadern"
+FORWARDEND
+BACKWARD
+"U6, towards Garching-Forschungszentrum"
+BACKWARDEND
+STATIONS
+"Garching-Forschungszentrum"
+"Garching"
+"Garching-Hochbrück"
+"Fröttmaning"
+"Kieferngarten"
+"Freimann"
+"Studentenstadt"
+"Alte Heide"
+"Nordfriedhof"
+"Dietlindenstraße"
+"Münchner Freiheit"
+"Giselastraße"
+"Universität"
+"Odeonsplatz"
+"Marienplatz"
+"Sendlinger Tor"
+"Goetheplatz"
+"Poccistraße"
+"Implerstraße"
+"Harras"
+"Partnachplatz"
+"Westpark"
+"Holzapfelkreuth"
+"Haderner Stern"
+"Großhadern"
+"Klinikum Großhadern"
+STATIONSEND
+SEGMENTEND
+
+# partial, but runs on a line that is always served by other U6's 
+# so no need to specify as such
+SEGMENT
+FORWARD
+"U6, towards Harras"
+FORWARDEND
+BACKWARD
+"U6, towards Münchner Freiheit"
+BACKWARDEND
+STATIONS
+"Münchner Freiheit"
+"Giselastraße"
+"Universität"
+"Odeonsplatz"
+"Marienplatz"
+"Sendlinger Tor"
+"Goetheplatz"
+"Poccistraße"
+"Implerstraße"
+"Harras"
+STATIONSEND
+SEGMENTEND
+
+
+# ==========================================================
+#	U7
+# ==========================================================
+LINE
+LINE_NAME
+"U7"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Weekdays morning rush hour only"
+LINE_REMARK_END
+LINE_END
+
+# partial weekday mornings only
+SEGMENT
+FORWARD
+"U7, towards Neuperlach Zentrum"
+FORWARDEND
+BACKWARD
+"U7, towards Westfriedhof"
+BACKWARDEND
+STATIONS
+"Westfriedhof"
+"Gern"
+"Rotkreuzplatz"
+"Maillingerstraße"
+"Stiglmaierplatz"
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz" 
+"Silberhornstraße" 
+"Untersbergstraße" 
+"Giesing"
+"Karl-Preis-Platz" 
+"Innsbrucker Ring"
+"Michaelibad"
+"Quiddestraße"
+"Neuperlach Zentrum"
+STATIONSEND
+SEGMENTEND
+
+# partial weekday mornings only
+SEGMENT
+FORWARD
+"U7, towards Neuperlach Zentrum"
+FORWARDEND
+BACKWARD
+"U7, towards Hauptbahnhof"
+BACKWARDEND
+STATIONS
+"Hauptbahnhof"
+"Sendlinger Tor"
+"Fraunhoferstraße"
+"Kolumbusplatz" 
+"Silberhornstraße" 
+"Untersbergstraße" 
+"Giesing"
+"Karl-Preis-Platz" 
+"Innsbrucker Ring"
+"Michaelibad"
+"Quiddestraße"
+"Neuperlach Zentrum"
+STATIONSEND
+SEGMENTEND
+
+
+

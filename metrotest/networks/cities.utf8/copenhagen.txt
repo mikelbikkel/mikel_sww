@@ -1,0 +1,107 @@
+
+# http://da.wikipedia.org/wiki/K%C3%B8benhavns_Metro
+# Copenhagen has 24 hour services! (driverless trains)
+
+CITY
+CITYNAME
+"Copenhagen"
+CITYNAME_END
+CITYCODE
+COP
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     M1 
+# =============================================================
+LINE
+LINE_NAME
+"M1"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 13-01-2011"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"M1, towards Vestamager"
+FORWARDEND
+BACKWARD
+"M1, towards Vanløse"
+BACKWARDEND
+STATIONS
+"Vanløse"
+"Flintholm"
+"Lindevang"
+"Fasanvej"
+"Frederiksberg"
+"Forum"
+"Nørreport"
+"Kongens Nytorv"
+"Christianshavn"
+"Islands Brygge"
+"DR Byen"
+"Sundby"
+"Bella Center"
+"Ørestad"
+"Vestamager"
+STATIONSEND
+SEGMENTEND
+
+
+# =============================================================
+#     M2 
+# =============================================================
+LINE
+LINE_NAME
+"M2"
+LINE_NAME_END
+SERVICETYPE
+extended
+SERVICETYPEEND
+LINE_REMARK
+"24 hour service"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 13-01-2011"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"M2, towards Lufthavnen"
+FORWARDEND
+BACKWARD
+"M2, towards Vanløse"
+BACKWARDEND
+STATIONS
+"Vanløse"
+"Flintholm"
+"Lindevang"
+"Fasanvej"
+"Frederiksberg"
+"Forum"
+"Nørreport"
+"Kongens Nytorv"
+"Christianshavn"
+"Amagerbro"
+"Lergravsparken"
+"Øresund"
+"Amager Strand"
+"Femøren"
+"Kastrup"
+"Lufthavnen"
+STATIONSEND
+SEGMENTEND
+
+

@@ -1,0 +1,76 @@
+# http://www.urbanrail.net/eu/fr/rouen/rouen-tram.htm
+# http://mic-ro.com/metro/metrocity.html?city=Rouen
+# http://www.tcar.fr/
+# http://en.wikipedia.org/wiki/Rouen_tramway
+CITY
+CITYNAME
+Rouen
+CITYNAME_END
+CITYCODE
+ROU
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Ligne Technopôle, towards Technopôle"
+FORWARDEND
+BACKWARD
+"Ligne Technopôle, towards Boulingrin"
+BACKWARDEND
+STATIONS
+"Boulingrin"
+"Beauvoisine"
+"Gare-Rue Verte"
+"Palais de Justice"
+"Théâtre des Arts"
+"Joffre-Mutualité"
+"Saint-Sever"
+"Europe"
+"Honoré de Balzac"
+"Voltaire"
+"Garibaldi"
+"Hôtel de Ville de Sotteville"
+"14-Juillet"
+"Jean Zay"
+"Toit Familial"
+"Champ de Courses"
+"Ernest Renan"
+"Le Parc"
+"Maryse Bastié"
+"Technopôle"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Ligne Georges Braque, towards Georges Braque"
+FORWARDEND
+BACKWARD
+"Ligne Georges Braque, towards Boulingrin"
+BACKWARDEND
+STATIONS
+"Boulingrin"
+"Beauvoisine"
+"Gare-Rue Verte"
+"Palais de Justice"
+"Théâtre des Arts"
+"Joffre-Mutualité"
+"Saint-Sever"
+"Avenue de Caen"
+"Jean Jaurès"
+"François Truffaut"
+"Place du 8 Mai"
+"Saint-Julien"
+"Charles de Gaulle"
+"Provinces"
+"J.F. Kennedy"
+"Léon Blum"
+"Paul Cézanne"
+"Georges Braque"
+STATIONSEND
+SEGMENTEND
+

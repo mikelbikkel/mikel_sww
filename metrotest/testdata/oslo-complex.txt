@@ -1,0 +1,144 @@
+# Data extracted from http://en.wikipedia.org/wiki/Oslo_subway
+# gecorrigeerd naar laatste stand van zaken aan de hand van http://ruter.no/en/Travel-planner/Network-maps/ 
+# NEW map valid from 09-12-2012
+
+# City
+CITY
+CITYNAME
+OSLO
+CITYNAME_END
+CITYCODE
+OSL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# ================================================
+#
+# Line 3:  Yellow
+# Storo - Mortensrud
+#
+# Stations that are shalso part of the line 4/6 ring
+# must be complex-stations.
+#
+# ==================================================
+SEGMENT
+FORWARD
+"Line 3, towards Mortensrud"
+FORWARDEND
+BACKWARD
+"Line 3, towards Storo"
+BACKWARDEND
+STATIONS
+"Storo"
+"Nydalen"
+"Ullevål stadion X::X 1" 
+"Forskningsparken X::X 1"
+"Blindern X::X 1"
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1"
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1"
+"Grønland X::X 1"
+"Tøyen X::X 1"
+"Ensjø" 
+"Godlia" 
+"Mortensrud"
+STATIONSEND
+SEGMENTEND
+
+# ================================================
+#
+# Line 4 and 6 combined
+# Stations that are visited twice on a one-way trip are
+# so-called "ring stations".
+# These ring-stations are complex-stations.
+# ==================================================
+
+# From Sognsvann to Bergkrystallen
+# The green (line 6) ring-stations are X::X 2
+# The blue (line 4) and yellow (line 3) ring stations are X::X 1
+SEGMENT
+FORWARD
+"Line 4 and 6, towards Bergkrystallen"
+FORWARDEND
+STATIONS
+# line 6, towards Ringen - start direction override
+"Sognsvann"
+"Berg"
+"Ullevål stadion X::X 2" 
+"Forskningsparken X::X 2"
+"Blindern X::X 2"
+"Majorstuen X::X 2"
+"Nationaltheatret X::X 2"
+"Stortinget X::X 2"
+"Jernbanetorget X::X 2"
+"Grønland X::X 2"
+"Tøyen X::X 2"
+"Carl Berners plass"
+# line 6, towards Ringen - end direction override
+# line 4, towards Bergkrystallen - start direction override
+"Sinsen"
+"Storo"
+"Nydalen"
+"Ullevål stadion X::X 1"
+"Forskningsparken X::X 1"
+"Blindern X::X 1"
+"Majorstuen X::X 1"
+"Nationaltheatret X::X 1" 
+"Stortinget X::X 1"
+"Jernbanetorget X::X 1" 
+"Grønland X::X 1"
+"Tøyen X::X 1" 
+"Ensjø"
+"Ryen"
+"Bergkrystallen"
+# line 4, towards Bergkrystallen - end direction override
+STATIONSEND
+SEGMENTEND
+
+# From Bergkrystallen to Sognsvann 
+# The green (line 6) ring-stations are X::X 2
+# The blue (line 4) and yellow (line 3) ring stations are X::X 1
+SEGMENT
+FORWARD
+"Line 4 and 6, towards Sognsvann"
+FORWARDEND
+STATIONS
+# line 4, towards Ringen - start direction override
+"Bergkrystallen"
+"Ryen"
+"Ensjø"
+"Tøyen X::X 1" 
+"Grønland X::X 1"
+"Jernbanetorget X::X 1"
+"Stortinget X::X 1"
+"Nationaltheatret X::X 1" 
+"Majorstuen X::X 1"
+"Blindern X::X 1"
+"Forskningsparken X::X 1"
+"Ullevål stadion X::X 1"
+# line 4, towards Ringen - end direction override
+# line 6, towards Sognsvann - start direction override
+"Nydalen"
+"Storo"
+"Sinsen"
+"Carl Berners plass"
+"Tøyen X::X 2"
+"Grønland X::X 2"
+"Jernbanetorget X::X 2"
+"Stortinget X::X 2"
+"Nationaltheatret X::X 2"
+"Majorstuen X::X 2"
+"Blindern X::X 2"
+"Forskningsparken X::X 2"
+"Ullevål stadion X::X 2" 
+"Berg"
+"Sognsvann"
+# line 6, towards Sognsvann - end direction override
+STATIONSEND
+SEGMENTEND
+
+

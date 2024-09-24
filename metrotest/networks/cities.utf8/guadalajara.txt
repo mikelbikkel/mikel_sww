@@ -1,0 +1,63 @@
+CITY
+CITYNAME
+Guadalajara
+CITYNAME_END
+CITYCODE
+GDL
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Línea 1, towards Periférico Sur"
+FORWARDEND
+BACKWARD
+"Línea 1, towards Periférico Norte"
+BACKWARDEND
+STATIONS
+"Periférico Norte"
+"Dermatológico"
+"Atemajac"
+"División del Norte"
+"Ávila Camacho"
+"Mezquitán"
+"Refugio"
+"Juárez"
+"Mexicaltzingo"
+"Washington"
+"Santa Filomena"
+"Unidad Deportiva"
+"Urdaneta"
+"18 de Marzo"
+"Isla Raza"
+"Patria"
+"España"
+"Santuario Mártires de Cristo Rey"
+"Periférico Sur"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Línea 2, towards Tetlán"
+FORWARDEND
+BACKWARD
+"Línea 2, towards Juárez"
+BACKWARDEND
+STATIONS
+"Juárez"
+"Plaza Universidad"
+"San Juan de Dios"
+"Belisario Domínguez"
+"Oblatos"
+"Cristóbal de Oñate"
+"San Andrés"
+"San Jacinto"
+"La Aurora"
+"Tetlán"
+STATIONSEND
+SEGMENTEND
+

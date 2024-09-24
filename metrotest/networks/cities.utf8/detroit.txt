@@ -1,0 +1,34 @@
+CITY
+CITYNAME
+Detroit
+CITYNAME_END
+CITYCODE
+DET
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, counter clockwise"
+FORWARDEND
+STATIONS
+"Broadway"
+"Grand Circus Park"
+"Times Square"
+"Michigan Avenue"
+"Fort/Cass"
+"Cobo Center"
+"Joe Louis Arena"
+"Financial District"
+"Millender Center"
+"Renaissance Center"
+"Bricktown"
+"Greektown"
+"Cadillac Center"
+"Broadway"
+STATIONSEND
+SEGMENTEND
+

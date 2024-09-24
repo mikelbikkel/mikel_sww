@@ -1,0 +1,43 @@
+
+# Data extracted from http://nl.wikipedia.org/wiki/Metro_van_Glasgow
+
+# City
+CITY
+CITYNAME
+Glasgow
+CITYNAME_END
+CITYCODE
+GLS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Main line, clockwise"
+FORWARDEND
+BACKWARD
+"Main line, counter clockwise"
+BACKWARDEND
+STATIONS
+"Hillhead"
+"Kelvinbridge"
+"St. George Cross"
+"Cowcaddens"
+"Buchanan Street"
+"St. Enoch"
+"Bridge Street"
+"West Street"
+"Shields Road"
+"Kinning Park"
+"Cessnock"
+"Ibrox"
+"Govan"
+"Partick"
+"Kelvinhall"
+"Hillhead"
+STATIONSEND
+SEGMENTEND
+

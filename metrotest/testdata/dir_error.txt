@@ -1,0 +1,28 @@
+CITY
+CITYNAME
+"testcity"
+CITYNAME_END
+CITYCODE
+TCY
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     U2
+# =============================================================
+SEGMENT
+FORWARD
+"rood U2, test"
+FORWARDEND
+STATIONS
+"Pan"
+"Van"
+"Sch"
+"Ebe"
+STATIONSEND
+SEGMENTEND
+

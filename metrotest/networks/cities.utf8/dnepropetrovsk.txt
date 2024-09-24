@@ -1,0 +1,37 @@
+
+# Data extracted from http://en.wikipedia.org/wiki/Dnipropetrovsk_Metro
+
+# City
+CITY
+CITYNAME
+"Dnepropetrovsk"
+CITYNAME_END
+CITYCODE
+DNE
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#       Line No.1 
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Vokzalna"
+FORWARDEND
+BACKWARD
+"Line 1, towards Komunarivska"
+BACKWARDEND
+STATIONS
+"Komunarivska"
+"Prospekt Svobody"
+"Zavodska"
+"Metalurhiv"
+"Metrobudivnykiv"
+"Vokzalna"
+STATIONSEND
+SEGMENTEND
+
+

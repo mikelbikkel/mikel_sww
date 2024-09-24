@@ -1,0 +1,64 @@
+CITY
+CITYNAME
+Edmonton
+CITYNAME_END
+CITYCODE
+EDM
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Capital line, towards Century Park"
+FORWARDEND
+BACKWARD
+"Capital line, towards Clareview"
+BACKWARDEND
+STATIONS
+"Clareview"
+"Belvedere"
+"Coliseum"
+"Stadium"
+"Churchill"
+"Central"
+"Bay/Enterprise Square"
+"Corona"
+"Grandin/Government Centre"
+"University"
+"Health Sciences/Jubilee"
+"McKernan/Belgravia"
+"South Campus/Fort Edmonton Park"
+"Southgate"
+"Century Park"
+STATIONSEND
+SEGMENTEND
+
+# opened september 6th 2015
+SEGMENT
+FORWARD
+"Metro line, towards Health Sciences/Jubilee"
+FORWARDEND
+BACKWARD
+"Metro line, towards NAIT Station"
+BACKWARDEND
+STATIONS
+"NAIT"
+"Kingsway/Royal Alex"
+"MacEwan"
+"Churchill"
+"Central"
+"Bay/Enterprise Square"
+"Corona"
+"Grandin/Government Centre"
+"University"
+"Health Sciences/Jubilee"
+STATIONSEND
+SEGMENTEND
+
+
+
+
+

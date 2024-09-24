@@ -1,0 +1,45 @@
+CITY
+CITYNAME
+"Jacksonville"
+CITYNAME_END
+CITYCODE
+JCK
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Skyway, towards Convention Center"
+FORWARDEND
+BACKWARD
+"Skyway, towards Rosa L. Parks/FCCJ"
+BACKWARDEND
+STATIONS
+"Rosa L. Parks/FCCJ"
+"Hemming Plaza"
+"Central"
+"Jefferson"
+"Convention Center"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Skyway, towards Kings Avenue"
+FORWARDEND
+BACKWARD
+"Skyway, towards Rosa L. Parks/FCCJ"
+BACKWARDEND
+STATIONS
+"Rosa L. Parks/FCCJ"
+"Hemming Plaza"
+"Central"
+"San Marco"
+"Riverplace"
+"Kings Avenue"
+STATIONSEND
+SEGMENTEND
+

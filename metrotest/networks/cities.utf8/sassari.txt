@@ -1,0 +1,37 @@
+
+# http://it.wikipedia.org/wiki/Metrotranvia_di_Sassari
+
+# City
+CITY
+CITYNAME
+Sassari
+CITYNAME_END
+CITYCODE
+SAS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# =============================================================
+#     Linea 1
+# =============================================================
+SEGMENT
+FORWARD
+"Linea 1, towards Emiciclo Garibaldi"
+FORWARDEND
+BACKWARD
+"Linea 1, towards Santa Maria di Pisa"
+BACKWARDEND
+STATIONS
+"Santa Maria di Pisa"
+"Stazione F.S."
+"Porta Utzeri"
+"Sant\'Anna"
+"Cliniche Universitarie"
+"Viale Italia"
+"Piazza Marconi"
+"Emiciclo Garibaldi"
+STATIONSEND
+SEGMENTEND

@@ -1,0 +1,53 @@
+# Data extracted from http://en.wikipedia.org/wiki/Daejeon_Metropolitan_Subway
+
+# City
+CITY
+CITYNAME
+"Daejeon"
+CITYNAME_END
+CITYCODE
+DJN
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+
+# =============================================================
+#     Line 1
+# =============================================================
+SEGMENT
+FORWARD
+"Line 1, towards Banseok"
+FORWARDEND
+BACKWARD
+"Line 1, towards Panam"
+BACKWARDEND
+STATIONS
+"Panam"
+"Sinheung"
+"Daedong"
+"Daejeon"
+"Jungangno"
+"Jung-gu Office"
+"Seodaejeon Negeori"
+"Oryong"
+"Yongmun"
+"Tanbang"
+"City Hall"
+"Government Complex Daejeon"
+"Galma"
+"Wolpyeong"
+"Gapcheon"
+"Yuseong Spa"
+"Guam"
+"National Cemetery"
+"Worldcup Stadium"
+"Noeun"
+"Jijok"
+"Banseok"
+STATIONSEND
+SEGMENTEND
+
+

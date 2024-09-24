@@ -1,0 +1,57 @@
+# City
+CITY
+CITYNAME
+TEST_TC_903
+CITYNAME_END
+CITYCODE
+903
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# D and E: multi named node.
+#                  <----D<-----
+# A<---->B<------>C             F<------>G
+#                  ---->E----->
+#
+SEGMENT
+FORWARD
+"Main line, towards G"
+FORWARDEND
+STATIONS
+A
+B
+C
+E
+F
+G
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Main line, towards A"
+FORWARDEND
+STATIONS
+G
+F
+D
+C
+B
+A
+STATIONSEND
+SEGMENTEND
+
+# actually two stations on the same line, each serving one direction
+# 
+#       D 
+# <-----o----------
+# --------o------->
+#         E
+#  
+MULTI_NAMED_NODE
+D
+E
+MULTI_NAMED_NODE_END

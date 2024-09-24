@@ -1,0 +1,241 @@
+# City
+CITY
+CITYNAME
+Bangkok
+CITYNAME_END
+CITYCODE
+BNG
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# --------------------------------------------------------------------------
+# MRT Blue line
+# --------------------------------------------------------------------------
+LINE
+LINE_NAME
+"Blue Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"A.k.a. MRT Chaloem Ratchamongkhon Line"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 22-10-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Blue Line, towards Hua Lamphong"
+FORWARDEND
+BACKWARD
+"Blue Line, towards Bang Sue"
+BACKWARDEND
+STATIONS
+"Bang Sue"
+"Kamphaeng Phet"
+"Chatuchak Park"
+"Phahon Yothin"
+"Lat Phrao"
+"Ratchadaphisek"
+"Sutthisan"
+"Huai Khwang"
+"Thailand Cultural Centre"
+"Phra Ram 9"
+"Phetchaburi"
+"Sukhumvit"
+"Queen Sirikit Centre"
+"Khlong Toei"
+"Lumphini"
+"Si Lom"
+"Sam Yan"
+"Hua Lamphong"
+STATIONSEND
+SEGMENTEND
+
+
+# --------------------------------------------------------------------------
+#  Sukhumvit BTS Skytrain
+# --------------------------------------------------------------------------
+LINE
+LINE_NAME
+"Sukhumvit Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"BTS Skytrain"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 22-10-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Sukhumvit Line, towards Bearing"
+FORWARDEND
+BACKWARD
+"Sukhumvit Line, towards Mo Chit"
+BACKWARDEND
+STATIONS
+"Mo Chit"
+"Saphan Khwai"
+"Ari"
+"Sanam Pao"
+"Victory Monument"
+"Phaya Thai"
+"Ratchathewi"
+"Siam"
+"Chit Lom"
+"Phloen Chit"
+"Nana"
+"Asok"
+"Phrom Phong"
+"Thong Lo"
+"Ekkamai"
+"Phra Khanong"
+"On Nut"
+"Bang Chak"
+"Punnawithi"
+"Udom Suk"
+"Bang Na"
+"Bearing"
+STATIONSEND
+SEGMENTEND
+
+
+# --------------------------------------------------------------------------
+#  Silom BTS Skytrain
+# --------------------------------------------------------------------------
+LINE
+LINE_NAME
+"Silom Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"BTS Skytrain"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 22-10-2012"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Silom Line, towards Bang Wa"
+FORWARDEND
+BACKWARD
+"Silom Line, towards National Stadium"
+BACKWARDEND
+STATIONS
+"National Stadium"
+"Siam"
+"Ratchadamri"
+"Sala Daeng"
+"Chong Nonsi"
+# "Sueksa Witthaya" #planned
+"Surasak"
+"Saphan Taksin"
+"Krung Thonburi"
+"Wongwian Yai"
+"Pho Nimit"
+"Talat Phlu"
+"Wutthakat"
+"Bang Wa"
+STATIONSEND
+SEGMENTEND
+
+
+
+# --------------------------------------------------------------------------
+#  Suvarnabhumi Airport Rail Link City Line AND Express
+# --------------------------------------------------------------------------
+LINE
+LINE_NAME
+"Airport City Line"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Suvarnabhumi Airport Rail Link"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 6-12-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Airport City Line, towards Phaya Thai"
+FORWARDEND
+BACKWARD
+"Airport City Line, towards Suvarnabhumi Airport"
+BACKWARDEND
+STATIONS
+"Suvarnabhumi Airport"
+"Lat Krabang"
+"Ban Thap Chang"
+"Hua Mak"
+"Ramkhamhaeng"
+"Makkasan (City Air Terminal)"
+"Ratchaprarop"
+"Phaya Thai"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Airport Express"
+LINE_NAME_END
+SERVICETYPE
+REGULAR
+SERVICETYPEEND
+LINE_REMARK
+"Suvarnabhumi Airport Rail Link"
+LINE_REMARK_END
+LINE_EDIT
+"acdhirr 6-12-2013"
+LINE_EDIT_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Airport Express, towards Phaya Thai"
+FORWARDEND
+BACKWARD
+"Airport Express, towards Suvarnabhumi Airport"
+BACKWARDEND
+STATIONS
+"Suvarnabhumi Airport"
+"Makkasan (City Air Terminal)"
+"Phaya Thai"
+STATIONSEND
+SEGMENTEND
+
+
+# --------------------------------------------------------------------------
+#  MNNs
+# --------------------------------------------------------------------------
+MULTI_NAMED_NODE
+"Sala Daeng"
+"Si Lom"
+MULTI_NAMED_NODE_END
+
+MULTI_NAMED_NODE
+"Chatuchak Park"
+"Mo Chit"
+MULTI_NAMED_NODE_END
+
+
+
+

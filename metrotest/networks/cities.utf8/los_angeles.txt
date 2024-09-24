@@ -1,0 +1,242 @@
+# http://www.metro.net/riding/maps/
+
+CITY
+CITYNAME
+"Los Angeles"
+CITYNAME_END
+CITYCODE
+LAS
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+# -----------------------------------------------------------------
+# Red Line
+# -----------------------------------------------------------------
+SEGMENT
+FORWARD
+"Red line, towards North Hollywood"
+FORWARDEND
+BACKWARD
+"Red line, towards Union Station"
+BACKWARDEND
+STATIONS
+"Union Station"
+"Civic Center"
+"Pershing Square"
+"7th Street/Metro Center"
+"Westlake/MacArthur Park"
+"Wilshire/Vermont"
+"Vermont/Beverly"
+"Vermont/Santa Monica"
+"Vermont/Sunset"
+"Hollywood/Western"
+"Hollywood/Vine"
+"Hollywood/Highland"
+"Universal City"
+"North Hollywood"
+STATIONSEND
+SEGMENTEND
+
+# -----------------------------------------------------------------
+# Purple Line
+# -----------------------------------------------------------------
+SEGMENT
+FORWARD
+"Purple line, towards Wilshire/Western"
+FORWARDEND
+BACKWARD
+"Purple line, towards Union Station"
+BACKWARDEND
+STATIONS
+"Union Station"
+"Civic Center"
+"Pershing Square"
+"7th Street/Metro Center"
+"Westlake/MacArthur Park"
+"Wilshire/Vermont"
+"Wilshire/Normandie"
+"Wilshire/Western"
+STATIONSEND
+SEGMENTEND
+
+# -----------------------------------------------------------------
+# Blue Line
+# -----------------------------------------------------------------
+SEGMENT
+FORWARD
+"Blue line, towards Long Beach Transit Mall"
+FORWARDEND
+STATIONS
+"7th Street/Metro Center"
+"Pico"
+"Grand"
+"San Pedro St"
+"Washington"
+"Vernon"
+"Slauson"
+"Florence"
+"Firestone"
+"103rd St/Watts Towers"
+"Willowbrook"
+"Compton"
+"Artesia"
+"Del Amo"
+"Wardlow"
+"Willow St"
+"Pacific Coast Highway"
+"Anaheim St"
+"5th St"
+"1st St"
+"Transit Mall"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Blue line, towards 7th St/Metro Center"
+FORWARDEND
+STATIONS
+"Transit Mall"
+"Pacific Avenue"
+"Anaheim St"
+"Pacific Coast Highway"
+"Willow St"
+"Wardlow"
+"Del Amo"
+"Artesia"
+"Compton"
+"Willowbrook"
+"103rd St/Watts Towers"
+"Firestone"
+"Florence"
+"Slauson"
+"Vernon"
+"Washington"
+"San Pedro St"
+"Grand"
+"Pico"
+"7th Street/Metro Center"
+STATIONSEND
+SEGMENTEND
+
+# Partial, but covers a section of the line which is always served so no need to define as PARTIAL
+SEGMENT
+FORWARD
+"Blue line, towards Willow Street"
+FORWARDEND
+BACKWARD
+"Blue line, towards 7th Street/Metro Center"
+BACKWARDEND
+STATIONS
+"7th Street/Metro Center"
+"Pico"
+"Grand"
+"San Pedro St"
+"Washington"
+"Vernon"
+"Slauson"
+"Florence"
+"Firestone"
+"103rd St/Watts Towers"
+"Willowbrook"
+"Compton"
+"Artesia"
+"Del Amo"
+"Wardlow"
+"Willow St"
+STATIONSEND
+SEGMENTEND
+
+# -----------------------------------------------------------------
+# Green Line
+# -----------------------------------------------------------------
+SEGMENT
+FORWARD
+"Green line, towards Norwalk"
+FORWARDEND
+BACKWARD
+"Green line, towards Redondo Beach"
+BACKWARDEND
+STATIONS
+"Redondo Beach"
+"Douglas"
+"El Segundo"
+"Mariposa"
+"Aviation/LAX"
+"Hawthorne"
+"Crenshaw"
+"Vermont"
+"Harbor Freeway"
+"Avalon"
+"Willowbrook"
+"Long Beach"
+"Lakewood"
+"Norwalk"
+STATIONSEND
+SEGMENTEND
+
+# -----------------------------------------------------------------
+# Gold Line
+# -----------------------------------------------------------------
+SEGMENT
+FORWARD
+"Gold line, towards Sierra Madre Villa"
+FORWARDEND
+BACKWARD
+"Gold line, towards Atlantic"
+BACKWARDEND
+STATIONS
+"Atlantic"
+"East L.A. Civic Center"
+"Maravilla"
+"Indiana"
+"Soto"
+"Mariachi Plaza"
+"Pico/Aliso" #NOT to be confused with Pico station downtown LA!
+"Little Tokyo/Arts District"
+"Union Station"
+"Chinatown"
+"Lincoln/Cypress"
+"Heritage Square"
+"Southwest Museum"
+"Highland Park"
+"South Pasadena"
+"Fillmore"
+"Del Mar"
+"Memorial Park"
+"Lake"
+"Allen"
+"Sierra Madre Villa"
+STATIONSEND
+SEGMENTEND
+
+# -----------------------------------------------------------------
+# Expo Line
+# -----------------------------------------------------------------
+SEGMENT
+FORWARD
+"Expo line, towards Culver City"
+FORWARDEND
+BACKWARD
+"Expo line, towards 7th St/Metro Center"
+BACKWARDEND
+STATIONS
+"7th Street/Metro Center"
+"Pico"
+"23rd St"
+"Jefferson/USC"
+"Expo Park/USC"
+"Expo/Vermont"
+"Expo/Western"
+"Expo/Crenshaw"
+"Farmdale"
+"Expo/La Brea"
+"La Cienega/Jefferson"
+"Culver City"
+STATIONSEND
+SEGMENTEND
+
+

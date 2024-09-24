@@ -1,0 +1,328 @@
+# City
+CITY
+CITYNAME
+Oporto
+CITYNAME_END
+CITYCODE
+PRT
+CITYCODE_END
+LINETYPE
+METRO
+LINETYPE_END
+CITYEND
+
+SEGMENT
+FORWARD
+"Line A, towards Estádio do Dragão"
+FORWARDEND
+BACKWARD
+"Line A, towards Senhor de Matosinhos"
+BACKWARDEND
+STATIONS
+"Senhor de Matosinhos"
+"Mercado"
+"Brito Capelo"
+"Matosinhos Sul"
+"Matosinhos Câmara"
+"Parque de Real"
+"Pedro Hispano"
+"Estádio do Mar"
+"Vasco da Gama"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+"Estádio do Dragão"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line A, towards Trindade"
+FORWARDEND
+BACKWARD
+"Line A, towards Senhor de Matosinhos"
+BACKWARDEND
+STATIONS
+"Senhor de Matosinhos"
+"Mercado"
+"Brito Capelo"
+"Matosinhos Sul"
+"Matosinhos Câmara"
+"Parque de Real"
+"Pedro Hispano"
+"Estádio do Mar"
+"Vasco da Gama"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line B, towards Estádio do Dragão"
+FORWARDEND
+BACKWARD
+"Line B, towards Póvoa de Varzim"
+BACKWARDEND
+STATIONS
+"Póvoa de Varzim"
+"São Brás"
+"Portas Fronhas"
+"Alto de Pêga"
+"Vila do Conde"
+"Santa Clara"
+"Azurara"
+"Árvore"
+"Varziela"
+"Espaço Natureza"
+"Mindelo"
+"Modivas Centro"
+"Modivas Sul"
+"Vilar de Pinheiro"
+"Lidador"
+"Pedras Rubras"
+"Verdes"
+"Crestins"
+"Esposade"
+"Custóias"
+"Fonte do Cuco"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+"Estádio do Dragão"
+STATIONSEND
+SEGMENTEND
+
+LINE
+LINE_NAME
+"Line B Expresso"
+LINE_NAME_END
+SERVICETYPE
+PARTIAL
+SERVICETYPEEND
+LINE_REMARK
+"Express service, does not stop at all stations"
+LINE_REMARK_END
+LINE_END
+
+SEGMENT
+FORWARD
+"Line B Expresso, towards Estádio do Dragão"
+FORWARDEND
+BACKWARD
+"Line B Expresso, towards Póvoa de Varzim"
+BACKWARDEND
+STATIONS
+"Póvoa de Varzim"
+"Portas Fronhas"
+"Vila do Conde"
+"Varziela"
+"Mindelo"
+"Pedras Rubras"
+"Verdes"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+"Estádio do Dragão"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line C, towards Campanhã"
+FORWARDEND
+BACKWARD
+"Line C, towards ISMAI"
+BACKWARDEND
+STATIONS
+"ISMAI"
+"Castêlo da Maia"
+"Mandim"
+"Zona Industrial"
+"Fórum Maia"
+"Parque Maia"
+"Custió"
+"Araújo"
+"Pias"
+"Cândido dos Reis"
+"Fonte do Cuco"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line C, towards Campanhã"
+FORWARDEND
+BACKWARD
+"Line C, towards Fórum Maia"
+BACKWARDEND
+STATIONS
+"Fórum Maia"
+"Parque Maia"
+"Custió"
+"Araújo"
+"Pias"
+"Cândido dos Reis"
+"Fonte do Cuco"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+STATIONSEND
+SEGMENTEND
+
+
+SEGMENT
+FORWARD
+"Line D, towards Hospital de São João"
+FORWARDEND
+BACKWARD
+"Line D, towards Santo Ovidio"
+BACKWARDEND
+STATIONS
+"Santo Ovidio"
+"Dom João II"
+"João de Deus"
+"Câmara de Gaia"
+"General Torres"
+"Jardim do Morro"
+"São Bento"
+"Aliados"
+"Trindade"
+"Faria Guimarães"
+"Marquês"
+"Combatentes"
+"Salgueiros"
+"Pólo Universitário"
+"IPO"
+"Hospital de São João"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line E, towards Estádio do Dragão"
+FORWARDEND
+BACKWARD
+"Line E, towards Aeroporto"
+BACKWARDEND
+STATIONS
+"Aeroporto"
+"Botica"
+"Verdes"
+"Crestins"
+"Esposade"
+"Custóias"
+"Fonte do Cuco"
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+"Estádio do Dragão"
+STATIONSEND
+SEGMENTEND
+
+SEGMENT
+FORWARD
+"Line F, towards Fânzeres"
+FORWARDEND
+BACKWARD
+"Line F, towards Senhora da Hora"
+BACKWARDEND
+STATIONS
+"Senhora da Hora"
+"Sete Bicas"
+"Viso"
+"Ramalde"
+"Francos"
+"Casa da Música"
+"Carolina Michaëlis"
+"Lapa"
+"Trindade"
+"Bolhão"
+"Campo 24 de Agosto"
+"Heroísmo"
+"Campanhã"
+"Estádio do Dragão"
+"Contumil"
+"Nasoni"
+"Nau Vitória"
+"Levada"
+"Rio Tinto"
+"Campainha" 
+"Baguim"
+"Carreira"
+"Venda Nova"
+"Fânzeres"
+STATIONSEND
+SEGMENTEND
