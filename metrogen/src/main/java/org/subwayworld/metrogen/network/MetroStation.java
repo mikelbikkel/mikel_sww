@@ -16,7 +16,7 @@
  */
 package org.subwayworld.metrogen.network;
 
-import org.mikel.dbwrapper.DestinationTable;
+// import org.mikel.dbwrapper.DestinationTable;
 import org.mikel.dbwrapper.PrimaryKey;
 import org.mikel.dbwrapper.SourceColumn;
 import org.subwayworld.metrogen.MetroException;
@@ -56,7 +56,7 @@ import org.subwayworld.metrogen.MetroException;
  * <p>
  * 
  */
-@DestinationTable("station")
+// @DestinationTable("station")
 public class MetroStation {
 
   /**

@@ -16,13 +16,13 @@
  */
 package org.subwayworld.metrogen.network;
 
-import org.mikel.dbwrapper.DestinationTable;
+// import org.mikel.dbwrapper.DestinationTable;
 import org.mikel.dbwrapper.PrimaryKey;
 import org.mikel.dbwrapper.SourceColumn;
 import org.subwayworld.metrogen.MetroException;
 import org.subwayworld.metrogen.input.UTFHandler;
 
-@DestinationTable("city")
+// @DestinationTable("city")
 public class MetroCity {
 
   /**

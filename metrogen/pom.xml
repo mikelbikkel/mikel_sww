@@ -35,11 +35,7 @@
       <version>9.4.1212.jre7</version>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>org.mikel</groupId>
-      <artifactId>dbwrapper</artifactId>
-      <version>1.0.0</version>
-    </dependency>
+
   </dependencies>
 
   <build>
