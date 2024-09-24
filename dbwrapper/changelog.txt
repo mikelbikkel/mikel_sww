@@ -1,0 +1,15 @@
+2018-07-16:
++ add TestWrapException.
++ Extend unit test: 
+  + test writing and reading of Date value.
+  + test Rabo date formatter.
+
+2018-06-19:
++ upgrade to jdk 1.8
++ upgrade to postgresql jdbc driver: 42.2.2
+
+2018-06-18:
++ version 1.1.0-SNAPSHOT
+
+2017-06-27:
++ version 1.0.0
