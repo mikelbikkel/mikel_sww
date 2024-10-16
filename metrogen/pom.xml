@@ -49,11 +49,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
+        <version>3.13.0</version>
         <configuration>
-          <!-- The diamond operator requires 1.7 -->
+          <release>8</release>
+          <!-- The diamond operator requires 1.7 
           <source>1.8</source>
-          <target>1.8</target>
+          <target>1.8</target> -->
         </configuration>
       </plugin>
       <plugin>
