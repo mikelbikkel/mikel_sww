@@ -20,7 +20,7 @@ package org.subwayworld.metrogen;
 import java.util.Set;
 
 import org.junit.Test;
-import org.subwayworld.metrogen.MetroException;
+//import org.subwayworld.metrogen.MetroException;
 import org.subwayworld.metrogen.network.MetroSegment;
 import org.subwayworld.metrogen.split.SegmentSplitter;
 

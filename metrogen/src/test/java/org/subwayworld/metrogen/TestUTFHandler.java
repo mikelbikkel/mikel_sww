@@ -18,7 +18,7 @@
 package org.subwayworld.metrogen;
 
 import org.junit.Test;
-import org.subwayworld.metrogen.MetroException;
+//import org.subwayworld.metrogen.MetroException;
 import org.subwayworld.metrogen.input.UTFHandler;
 
 import junit.framework.TestCase;

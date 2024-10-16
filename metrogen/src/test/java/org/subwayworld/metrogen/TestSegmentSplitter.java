@@ -22,7 +22,7 @@ import java.util.Set;
 import junit.framework.TestCase;
 
 import org.junit.Test;
-import org.subwayworld.metrogen.MetroException;
+//import org.subwayworld.metrogen.MetroException;
 import org.subwayworld.metrogen.network.MetroDirection;
 import org.subwayworld.metrogen.network.MetroSegment;
 import org.subwayworld.metrogen.split.SegmentSplitter;

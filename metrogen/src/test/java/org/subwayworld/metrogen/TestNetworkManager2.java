@@ -22,7 +22,7 @@ import java.util.Set;
 import junit.framework.TestCase;
 
 import org.junit.Test;
-import org.subwayworld.metrogen.NetworkManager2;
+//import org.subwayworld.metrogen.NetworkManager2;
 import org.subwayworld.metrogen.network.MetroSegment;
 
 public class TestNetworkManager2 extends TestCase {
