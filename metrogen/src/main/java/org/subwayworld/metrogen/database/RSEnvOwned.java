@@ -56,7 +56,7 @@ class RSEnvOwned implements RSEnv {
     try {
       // The newInstance() call is a work around for some
       // broken Java implementations
-      Class.forName(drivername).newInstance();
+      Class.forName(drivername).getDeclaredConstructor().newInstance();
       if (null == username) {
         m_con = DriverManager.getConnection(url);
       } else {
