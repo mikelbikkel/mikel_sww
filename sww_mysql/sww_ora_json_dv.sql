@@ -20,7 +20,32 @@ select row_to_json(c) from continent c;
 
 select c.continent_id, c.description, ct.city_id
 from continent c
-     join city on ct.continent_id = c.continent_id
+     join city ct on ct.continent_id = c.continent_id
+;
+
+select to_jsonb(tmp) - 'continent_id'
+from
+(
+select c.continent_id, c.description, ct.city_id
+from continent c
+     join city ct on ct.continent_id = c.continent_id
+) tmp;
+
+select json_agg(to_jsonb(tmp) - 'continent_id')
+from
+(
+select c.continent_id, c.description, ct.city_id
+from continent c
+     join city ct on ct.continent_id = c.continent_id
+) tmp;
+
+select con.continent_id, json_agg(cities order by city_id desc)
+from continent con
+     join
+     (select ct.continent_id, ct.city_id, ct.description city_name
+      from   city ct) cities
+	 on con.continent_id = cities.continent_id
+group by con.continent_id
 ;
 
 select con.continent_id, json_agg(cities order by city_id desc)
