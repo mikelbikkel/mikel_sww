@@ -158,6 +158,8 @@ class DBUpdate {
       m_env.execStmt(sqltext);
     }
 
+    String qry = "insert into station(station_id, description, city_id, node_id, local_name) values (?, ?, ?, ?, ?)";
+
     m_env.insertBatch(m_data.stats);
   }
 

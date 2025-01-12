@@ -1,3 +1,10 @@
++ [2025-01-10] remove org.subwayworld.metrogen.database?
+  Classes not referenced in the project.
+
+- [2025-01-10] DBUpdate.insertStations: gebruikt annotations en DBEnv.insetBatch.
+  Beter weer weghalen. Beetje ingewikkeld.
+  Vervangen door aanpak zoals bij insertDirections.
+
 + Add support to set Enum fields when loading data from the database.
   +[2017-04-28] xlate string value from database into enum constant.
 
